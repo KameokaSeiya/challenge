@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<CommandDefinitions>
+
+  <!-- ******************* -->
+  <!-- SmartObject Command -->
+  <!-- ******************* -->
+  <CommandDefinition Id="CalloutCommand">
+    <Tooltip>
+      <ExpandedContent ToolClip="ToolClip/tooltip_annotation.png">
+        <TextBlock _LCLZId="lclzCallout" _LCLZText="Drop the pin onto a component and enter text to add an associated 3D annotation."/>
+      </ExpandedContent>
+    </Tooltip>
+  </CommandDefinition>
+
+</CommandDefinitions>

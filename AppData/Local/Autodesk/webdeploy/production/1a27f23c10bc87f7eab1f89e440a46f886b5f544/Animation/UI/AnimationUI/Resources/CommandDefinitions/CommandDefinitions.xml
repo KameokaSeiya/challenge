@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<CommandDefinitions>
+  <EnvironmentDefinition Id="Publisher3DEnvironment">
+    <Tooltip>
+      <ExpandedContent ToolClip="ToolClip/animation_workspace.png">
+        <TextBlock _LCLZId="lclzAnimationWorkspaceTitle" _LCLZText="Creates animations of how the design should be operated or assembled."/>
+        <TextBlock/>        
+      </ExpandedContent>
+    </Tooltip>
+  </EnvironmentDefinition>
+  <!--New Storyboard-->
+  <CommandDefinition Id="PublisherCreateStoryboardCommand">
+    <Tooltip>
+      <ExpandedContent ToolClip="ToolClip/tooltip_new_storyboard.png">
+        <TextBlock _LCLZId="lclzNewStoryboard" _LCLZText="Create an additional Storyboard tab, which creates a new timeline."/>
+      </ExpandedContent>
+    </Tooltip>
+  </CommandDefinition>
+  
+  <!--Transform Components-->
+  <CommandDefinition Id="PublisherMoveComponentsCommand" HotKey="m">
+    <Tooltip>
+      <ExpandedContent ToolClip="ToolClip/tooltip_transform_components.png">
+        <TextBlock _LCLZId="lclzPublisherComponents" _LCLZText="Select the components to move then specify the distance and/or angle to move them in space. These movements will be captured on the timeline to create an animation of the movement."/>
+      </ExpandedContent>
+    </Tooltip>
+  </CommandDefinition>
+
+  <!--Restore Home-->
+  <CommandDefinition Id="PublisherRestoreHomeCommand">
+    <Tooltip>
+      <ExpandedContent ToolClip="ToolClip/tooltip_restore_home.png">
+        <TextBlock _LCLZId="lclzPublisherRestoreHome" _LCLZText="Automatically moves the component back to its original home location, as defined in the Design Workspace."/>
+      </ExpandedContent>
+    </Tooltip>
+  </CommandDefinition>
+
+  <!--Auto Explode: One Level-->
+  <CommandDefinition Id="PublisherExplodeDirectChildrenCommand">
+    <Tooltip>
+      <ExpandedContent ToolClip="ToolClip/tooltip_explode_one_level.png">
+        <TextBlock _LCLZId="lclzPublisherExplodeDirectChildren" _LCLZText="Explode the first level children components of the assembly."/>
+      </ExpandedContent>
+    </Tooltip>
+  </CommandDefinition>
+
+  <!--Auto Explode: All Levels-->
+  <CommandDefinition Id="PublisherExplodeAllPartsCommand" HotKey="u">
+    <Tooltip>
+      <ExpandedContent ToolClip="ToolClip/tooltip_explode_all.png">
+        <TextBlock _LCLZId="lclzPublisherExplodeAllParts" _LCLZText="Explode all levels of the assembly, down to the lowest leaf parts for a complete exploded view."/>
+      </ExpandedContent>
+    </Tooltip>
+  </CommandDefinition>
+
+  <!--Manual Explode-->
+  <CommandDefinition Id="PublisherManualExplodeCommand" HotKey="e">
+    <Tooltip>
+      <ExpandedContent ToolClip="ToolClip/tooltip_manual_explode.png">
+        <TextBlock _LCLZId="lclzPublisherManualExplode" _LCLZText="Manually select components and define the axis they should explode along."/>
+      </ExpandedContent>
+    </Tooltip>
+  </CommandDefinition>
+
+  <!--Show / Hide-->
+  <CommandDefinition Id="PublisherVisibilityToggleCmd">
+    <Tooltip>
+      <ExpandedContent ToolClip="ToolClip/tooltip_show_hide.png">
+        <TextBlock _LCLZId="lclzPublisherVisibility" _LCLZText="Turn on or off the visibility of components in the scene instantly or fade over a duration of time."/>
+      </ExpandedContent>
+    </Tooltip>
+  </CommandDefinition>
+
+  <!--Appearance-->
+  <CommandDefinition Id="PublisherAppearanceCommand">
+    <Tooltip>
+      <ExpandedContent ToolClip="ToolClip/appearance_materials.png">
+        <TextBlock _LCLZId="lclzPublisherAppearance1" _LCLZText="The appearance affects the color of bodies, components, and faces. Appearances override the color assigned from the physical material. Appearances do not affect engineering properties."/>
+        <TextBlock/>
+        <TextBlock _LCLZId="lclzPublisherAppearance2" _LCLZText="Drag the appearance from the dialog to the body, component, or face."/>
+      </ExpandedContent>
+    </Tooltip>
+  </CommandDefinition>
+
+  <!--View-->
+  <CommandDefinition Id="PublisherToggleCameraRecordingCmd" HotKey="c">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzPublisherToggleCameraRecording" _LCLZText="Toggle Camera Recording on or off. Toggling the view off allows non-recorded scene navigation."/>
+      </ExpandedContent>
+    </Tooltip>
+  </CommandDefinition>
+
+  <!--Publish-->
+  <CommandDefinition Id="ExportVideoCommand" HotKey="p">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzExportVideo" _LCLZText="Publish animation to video file format."/>
+      </ExpandedContent>
+    </Tooltip>
+  </CommandDefinition>
+
+  <CommandDefinition Id="PublisherNewDrawingDocumentCommand">
+    <TipsAndTricks MoreInfo="DRAWINGS-CREATE-FROM-ANIMATION-CMD">
+      <Title _LCLZId="lclzPublisherNewDrawingDocumentCommandTipsTitle" _LCLZText="Create Drawing Information"/>
+      <Tips _LCLZId="lclzPublisherNewDrawingDocumentCommandTips" _LCLZText="Standard and Units cannot be changed once a drawing is created. Sheet size, however, can be adjusted at any time in Sheet Settings. "/>
+      <Description _LCLZId="lclzPublisherNewDrawingDocumentCommandTipsDesc" _LCLZText="For more control over drawing defaults, make adjustments in Preferences in your User Name drop-down in the top right. "/>
+    </TipsAndTricks>
+  </CommandDefinition>
+  
+</CommandDefinitions>

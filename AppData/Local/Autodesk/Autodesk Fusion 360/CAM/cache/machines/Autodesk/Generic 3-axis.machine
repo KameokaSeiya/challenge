@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<machine xmlns="http://www.hsmworks.com/xml/2009/machine" uuid="877B27A3-D955-4C2E-95C2-65218FDE81D3" version="1.0">
+  <description>Generic 3-axis</description>
+  <model />
+  <vendor>Autodesk</vendor>
+  <coolant options="FLOOD" />
+  <axis actuator="linear" axis="1 0 0" coordinate="0" id="X" link="table" />
+  <axis actuator="linear" axis="0 1 0" coordinate="1" id="Y" link="table" />
+  <axis actuator="linear" axis="0 0 1" coordinate="2" id="Z" link="table" />
+</machine>

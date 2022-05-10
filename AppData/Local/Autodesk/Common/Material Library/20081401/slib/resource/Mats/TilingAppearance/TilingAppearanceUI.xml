@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" ?>
+<!DOCTYPE adsui SYSTEM "../../ui.dtd">
+<adsui version="2.0">
+  <PageInfo>
+    <Title>
+      TilingAppearance
+    </Title>
+  </PageInfo>
+  <Fields>
+    <StackPanel id="tiling"
+                label="Tiling"
+                orientation="Vertical"
+                expanded="true">
+      <Integer id="base_material_index"
+         label="Base Material Index"
+         tooltip="Base Material Index."/>
+      <Float id="vertices"
+         label="Vertices"
+         tooltip="Vertices."/>
+      <ChooseList id="random_offset_mode"
+                  label="Random Offset Mode"
+                  labelid="random_offset_mode_label"
+                  tooltip="TODO.">
+        <Choice id="offset_none" label="None"/>
+        <Choice id="offset_within" label="Within"/>
+        <Choice id="offset_any" label="Any"/>
+      </ChooseList>
+      <ChooseList id="random_rotation_mode"
+                  label="Random Rotation Mode"
+                  labelid="random_rotation_mode_label"
+                  tooltip="TODO.">
+        <Choice id="rotation_none" label="None"/>
+        <Choice id="rotation_90degree" label="90 degree"/>
+        <Choice id="rotation_180degree" label="180 degree"/>
+        <Choice id="rotation_any" label="Any"/>
+      </ChooseList>
+    </StackPanel>
+  </Fields>
+</adsui>
+

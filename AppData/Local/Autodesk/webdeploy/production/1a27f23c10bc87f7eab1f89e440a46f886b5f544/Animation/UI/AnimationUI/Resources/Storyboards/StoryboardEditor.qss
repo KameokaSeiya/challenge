@@ -1,0 +1,407 @@
+/*StoryboardEditor -> StoryboardTitlebarPanel -> StoryboardsBar -> StoryboardTab*/
+#StoryboardTitlebarPanel {
+  background-color: rgb(242, 242, 242);
+}
+#StoryboardTab {
+	color: #3C3C3C;
+	background-color: transparent;
+	padding-left: 2px;
+  	padding-right: 2px;
+  	border-bottom: 2px solid rgb(242, 242, 242);
+	}
+	
+#StoryboardTab[hover="true"] {
+	color: #808080;
+	}
+
+#StoryboardTab[active="true"] {
+	color: #0696D7;
+	background-color: transparent;
+	border: 0px solid #cccccc;
+	padding-left: 2px;
+  	padding-right: 2px;
+  	border-bottom: 2px solid rgb(6, 150, 215);
+	}
+
+#StoryboardTab[selected="true"] {
+	color: #0696D7;
+	}
+
+#StoryboardTab[cut="true"] {
+	color: rgb(100, 144, 181, 50);
+	background-color: rgb(145, 145, 145, 50);
+	}
+
+#StoryboardTab[cutActive="true"] {
+	color: rgb(100, 144, 181, 50);
+	background-color: rgb(250, 250, 250, 50);
+	}
+
+/*StoryboardEditor -> StoryboardTitlebarPanel -> StoryboardsBar -> StoryboardTab -> MoreStoryboards*/
+#MoreStoryboards {
+	background-image: url(MoreStoryboards.png);
+	background-repeat: no-repeat;
+	border-top: 2px solid #0696d7;
+	}
+
+/*StoryboardEditor -> StoryboardTitlebarPanel -> StoryboardsBar -> NewStoryboard*/
+#NewStoryboard {
+	background-color: transparent;
+	border: 0px;
+	}
+  
+/*StoryboardEditor -> StoryboardTitlebarPanel -> StoryboardsBar -> AllStoryboards*/
+#AllStoryboards {
+	background-color: rgb(242, 242, 242);
+	border: 0px;
+	border-radius: 5px;
+	}
+
+/*StoryboardEditor -> StoryboardTitlebarPanel -> StoryboardsBar -> StoryboardTipWindow*/
+#StoryboardTipWindow {
+	background-color: rgb(242, 242, 242);
+	}
+
+/*StoryboardEditor -> StoryboardTitlebarPanel -> StoryboardsBar -> NameEditor*/
+/*StoryboardEditor -> SequencesPanel -> NameEditor*/
+#NameEditor {
+	background-color: rgb(255, 255, 255);
+	border: 1px solid #0696D7;
+	}
+
+/*StoryboardEditor -> StoryboardTitlebarPanel -> ToolsBar*/
+#ToolsBar {
+	border: 0px;
+}
+
+/*StoryboardEditor -> StoryboardTitlebarPanel -> ToolsBar -> ToolsSeparator*/
+#ToolsSeparator {
+	background-image: url(Separator.png);
+	background-repeat: no-repeat;
+	}
+  
+#ToolsSeparatorSmall {
+	background-image: url(SeparatorSmall.png);
+	background-repeat: no-repeat;
+	} 
+
+/*StoryboardEditor -> SequencesPanel -> TimelinePanel*/
+#TimelinePanel {
+	background-color: #ffffff;
+	}
+
+/*StoryboardEditor -> SequencesPanel -> SequenceEntryContainer*/
+#SequenceEntryContainer {
+	background-color: rgb(250, 250, 250, 204);
+	border: 1px solid rgb(231, 240, 250);
+	}
+
+/*ActionEditor*/
+
+QTreeView::branch:has-children:!has-siblings:closed, QTreeView::branch:closed:has-children:has-siblings {
+    border-image: none;
+    image: url(branch-closed.png);
+}
+QTreeView::branch:open:has-children:!has-siblings, QTreeView::branch:open:has-children:has-siblings  {
+    border-image: none;
+    image: url(branch-open.png);
+}
+QTreeView::item {
+    height: 22px;
+}
+
+#ActionEditor {
+	border: 0px;
+	}
+
+/*ActionEditor -> ActionTitlebarPanel*/
+#ActionTitlebarPanel {
+	background-color: #a4a4a4;
+	border: 1px solid #6f6f6f;
+	border-bottom: 0px;
+	color: #fff
+	}
+
+#ActionTitle {
+	color: #fff
+	}
+
+/*ActionEditor -> ActionTitlebarPanel -> ToolsSeparator*/
+#ToolsSeparator {
+	background-image: url(Separator.png);
+	background-repeat: no-repeat;
+	}
+
+/*ActionEditor -> ActorPanel*/
+#ActorPanel {
+	background-color: rgb(250, 250, 250, 204);
+	border-left: 1px solid #6f6f6f;
+	border-top: 0px;
+	}
+
+/*ActionEditor -> ActorPanel -> ActorsTree*/
+#ActorsTree {
+	background-color: rgba(250, 250, 250, 204);
+	border-left: 0px;
+	border-right: 0px;
+	border-top: 1px solid rgb(155, 155, 155);
+	border-bottom: 0px;
+	}
+  
+#ActorsTree::item:hover {
+   background-color: rgba(86, 136, 180, 64);
+ }
+
+#ActorsTree::item:selected {
+  background-color: rgba(86, 136, 180, 128);
+ }
+
+
+/*ActionEditor -> ScratchZone*/
+#ScratchZone {
+	background-color: rgba(250, 250, 250, 204);
+  	border-left: 1px solid rgb(225, 225, 225);
+	border-right: 1px solid rgb(225, 225, 225);
+	border-top: 0px;
+	border-bottom: 0px;
+	}
+
+#ScratchZone:hover {
+	background-color: #0696D7;
+  	border-left: 1px solid #0696D7;
+	border-right: 1px solid #0696D7;
+	border-top: 0px;
+	border-bottom: 0px;
+	}
+
+#ScratchZone[selected="true"] {
+	background-color: #0696D7;
+  	border-left: 1px solid #0696D7;
+	border-right: 1px solid #0696D7;
+	border-top: 0px;
+	border-bottom: 0px;
+	}
+
+/*ActionEditor -> ActionPanel*/
+#ActionPanel {
+	background-color: rgb(250, 250, 250, 102);
+	border: 0px;
+	}
+
+/*ActionEditor -> ActionPanel -> UnpreviewAreaCover*/
+#UnhighlightAreaCover {
+	background-color: rgb(100, 100, 100, 50);
+	border: 0px;
+	}
+
+/*ActionEditor -> ActionPanel -> ScrubberToolTip*/
+#ScrubberToolTip {
+	background-color: rgb(255, 255, 255);
+	border: 0px;
+	}
+
+/*ActionEditor -> ActionPanel -> TimelinePanelArea*/
+#TimelinePanelArea {
+	background-color: transparent;
+	border: 0px;
+	}
+
+/*ActionEditor -> ActionPanel -> ActionsContainerArea*/
+#ActionsContainerArea {
+	background-color: rgb(250, 250, 250, 102);
+	border-top: 1px solid rgb(155, 155, 155);
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 0px;
+	}
+
+#ActionsContainer {
+	background-color: rgb(250, 250, 250, 102);
+	}
+
+/*ActionEditor -> ActionPanel -> ActionsContainerArea -> ActionSequenceItem*/
+#ActionSequenceItem {
+	border-top : 0px;
+	border-bottom : 1px solid rgb(155, 155, 155);
+	}
+	
+#ActionSequenceItem[selected="true"] {
+	background-color: rgb(228, 238, 251);
+	border-top : 0px;
+	border-bottom : 1px solid rgb(155, 155, 155);
+	}
+
+/* Style for Component Visibility action */
+#PublisherComponentVisibilityActionItem[isInstant="false"] {
+	background-color: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0, stop: 0 rgba(215, 215, 215), stop: 1 rgba(253, 234, 176));
+	border: 1px dashed rgb(69, 113, 160);
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+	}
+   
+#PublisherComponentVisibilityActionItem[selected="true"] {
+	background-color: rgb(86, 136, 180);
+	border: 1px solid rgb(43, 62, 99);
+	}
+
+#PublisherComponentVisibilityActionItem:hover {
+	background-color: rgb(180, 207, 240, 204);
+	border: 1px solid rgb(116, 151, 220);
+	}
+  
+#PublisherComponentVisibilityOffActionItem[isInstant="false"] {
+	background-color: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0, stop: 0 rgba(253, 234, 176), stop: 1 rgba(215, 215, 215));
+	border: 1px dashed rgb(69, 113, 160);
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+	}
+
+#PublisherComponentVisibilityOffActionItem:hover {
+	background-color: rgb(180, 207, 240, 204);
+	border: 1px solid rgb(116, 151, 220);
+	}
+
+#PublisherComponentVisibilityOffActionItem[selected="true"] {
+	background-color: rgb(86, 136, 180);
+	border: 1px solid rgb(43, 62, 99);
+	}
+
+#ActionItem {
+	background-color: rgb(156, 186, 221);
+	border: 1px solid rgb(69, 113, 160);
+	}
+
+#ActionItem:hover {
+	background-color: rgb(180, 207, 240, 204);
+	border: 1px solid rgb(69, 113, 160);
+	}
+
+#ActionItem[selected="true"] {
+	background-color: rgb(86, 136, 180);
+	border: 1px solid rgb(43, 62, 99);
+	}
+
+#CameraActionItem {
+  background-color: rgb(156, 186, 221);
+	border: 1px solid rgb(69, 113, 160);
+  }
+  
+#CameraActionItem:hover {
+	background-color: rgb(180, 207, 240, 204);
+	border: 1px solid rgb(116, 151, 220);
+	}
+
+#CameraActionItem[selected="true"] {
+	background-color: rgb(86, 136, 180);
+	border: 1px solid rgb(43, 62, 99);
+	}
+  
+#MotionPathActionItem {
+  background-color: rgb(156, 186, 221);
+	border: 1px solid rgb(69, 113, 160);
+  }
+  
+#MotionPathActionItem:hover {
+	background-color: rgb(180, 207, 240, 204);
+	border: 1px solid rgb(116, 151, 220);
+	}
+
+#MotionPathActionItem[selected="true"] {
+	background-color: rgb(86, 136, 180);
+	border: 1px solid rgb(43, 62, 99);
+	}
+  
+#RotationActionItem {
+  background-color: rgb(156, 186, 221);
+	border: 1px solid rgb(69, 113, 160);
+  }
+#RotationActionItem:hover {
+	background-color: rgb(180, 207, 240, 204);
+	border: 1px solid rgb(116, 151, 220);
+	}
+
+#RotationActionItem[selected="true"] {
+	background-color: rgb(86, 136, 180);
+	border: 1px solid rgb(43, 62, 99);
+	}
+  
+#GroupedActionItem {
+	background-color: rgb(156, 186, 221);
+	border: 1px solid rgb(69, 113, 160);
+	}
+
+#GroupedActionItem:hover {
+	background-color: rgb(180, 207, 240, 204);
+	border: 1px solid rgb(116, 151, 220);
+	}
+
+#GroupedActionItem[selected="true"] {
+	background-color: rgb(86, 136, 180);
+	border: 1px solid rgb(43, 62, 99);
+	}
+
+#SizeControler {
+	background-image: url(playbarbg_bg.png);
+	margin-top: 0px;
+    }
+
+#ApplicationSettings {
+	background-color: rgb(230, 230, 230);
+	border: 1px solid rgb(210, 210, 210);
+    }
+
+#LayoutTool {
+	margin-top: 4px;
+	}
+
+#LayoutTool[active="true"] {
+	background-color: #0696D7;
+	border: 1px solid #0696D7;
+	margin-top: 4px;
+	}
+
+#HorizontalLine {
+	background-image: url(HorizontalLine.png);
+	}
+	
+/* Style for SmartObject Visibility action */
+#SmartObjectVisibilityActionItem[selected="true"] {
+	background-color: rgb(105, 139, 205);
+	border: 1px solid rgb(43, 62, 99);
+	}
+
+#SmartObjectVisibilityActionItem:hover {
+	background-color: rgb(127, 170, 224);
+	border: 1px solid rgb(116, 151, 220);
+	}
+	
+#SmartObjectVisibilityOffActionItem:hover {
+	background-color: rgb(127, 170, 224);
+	border: 1px solid rgb(116, 151, 220);
+	}
+
+#SmartObjectVisibilityOffActionItem[selected="true"] {
+	background-color: rgb(105, 139, 205);
+	border: 1px solid rgb(43, 62, 99);
+	}
+
+QSlider::handle:horizontal {
+	 background-image: url(slider.png);
+	 background-repeat: no-repeat;
+     width: 18px;
+	 border-top: 2px solid rgba(0, 0, 0, 0);
+	 }
+
+QSlider::handle:horizontal:hover {
+	 background-image: url(slider-hover.png);
+	 background-repeat: no-repeat;
+     width: 18px;
+	 }
+
+#StoryboardInfo {
+	border-image: url(sub-storyboard-indicator.png) 25% repeat;;
+	border-top: 21px solid transparent;
+	background-color: transparent;
+	color: #7f7f7f;
+    }
+    

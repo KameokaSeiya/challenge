@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HUDs>
+
+  <HUD Id="CalloutCommand">
+    <!--<Button Id="infoLink" Text="Link" />-->
+    <!--<Button Id="infoProperty" Text="Insert Properties" />
+    <Button Id="infoImage" Text="Insert Image" />-->
+    <Button Id="infoOK" Text="OK" />
+    <Button Id="infoCancel" Text="Cancel" />
+  </HUD>
+  
+  <HUD Id="CalloutEditCommand">
+    <!--<Button Id="infoLink" Text="Link" />-->
+    <!--<Button Id="infoProperty" Text="Insert Properties" />
+    <Button Id="infoImage" Text="Insert Image" />-->
+    <Button Id="infoOK" Text="OK" />
+    <Button Id="infoCancel" Text="Cancel" />
+  </HUD>
+ 
+</HUDs>

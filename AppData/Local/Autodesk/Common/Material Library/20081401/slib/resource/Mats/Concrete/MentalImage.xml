@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<implementation render="MentalImage">
+      <language name="MentalRaySL" version="3.6"/>
+      <api name="MentalRay" version="3.6"/>
+      <root_bindings name="root"/>
+
+      <bindings target="texture file" name="broom_curved">
+        <map_interface source="broom_curved" destination="filename"/>
+      </bindings>
+
+      <bindings target="texture file" name="broom_straight">
+        <map_interface source="broom_straight" destination="filename"/>
+      </bindings>
+
+      <bindings target="shader" name="root">
+        <desc val="external.dependency/Simple_Concrete_Mtl_BroomStraight_pattern.jpg|external.dependency/Simple_Concrete_Mtl_BroomCurved_pattern.jpg|mi.phenomenon/include/adsk_Mtl_Concrete.mi" tag="adsk_Mtl_Concrete_V2"/>
+
+		<map_interface source="concrete_color_by_object" destination="m.color_by_object"/>
+        <map_interface source="concrete_color" destination="m.diffuse_color"/>
+        <map_interface source="concrete_finish" destination="m.type"/>
+        <map_interface source="concrete_bump_map" destination="m.bump_map"/>
+		<map_interface source="concrete_bump_amount" destination="m.bump_amount"/>
+        <map_interface source="concrete_sealant" destination="m.application"/>
+        <map_interface source="concrete_brightmode" destination="m.brightness_var"/>
+        <map_interface source="concrete_bm_map" destination="m.brightness_var_map"/>
+		<map_interface source="common_Tint_toggle" destination="m.tint_enable"/>
+		<map_interface source="common_Tint_color" destination="m.tint_color"/>
+        <map_bindings source="broom_curved" destination="t.broomcurved_tex"/>
+        <map_bindings source="broom_straight" destination="t.broomstraight_tex"/>
+        <map_interface source="uv_channel" destination="u.uv_channel"/>
+        <map_interface source="scale" destination="u.scale"/>
+        <map_interface source="mode" destination="mode"/>
+        <map_interface source="concrete_ao_on" destination="o.ao_on"/>
+        <map_interface source="concrete_ao_samples" destination="o.ao_samples"/>
+        <map_interface source="concrete_ao_distance" destination="o.ao_distance"/>
+        <map_interface source="concrete_ao_details" destination="o.ao_do_details"/>
+        <map_interface source="concrete_roundcorners_on" destination="o.roundcorners_on"/>
+        <map_interface source="concrete_roundcorners_radius" destination="o.roundcorners_radius"/>
+        <map_interface source="concrete_roundcorners_allow_different_materials" destination="o.roundcorners_allow_different_materials"/>
+        <map_interface source="reflection_glossy_samples" destination="p.reflection_glossy_samples"/>
+        <map_interface source="concrete_refl_depth" destination="p.refl_depth"/>
+      </bindings>
+      
+    </implementation>

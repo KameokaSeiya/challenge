@@ -1,0 +1,46 @@
+
+<CIP>
+<FeatureLevel>Feature Level 5_0</FeatureLevel>
+<DeviceName>Intel(R) UHD Graphics</DeviceName>
+<DeviceID>39745:2</DeviceID>
+<Driver>C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_4de65d949492707a\igdumdim64.dll,C:\WINDOWS\System32\DriverSto:27.20.100.9664</Driver>
+<API>DirectX 11.000000</API>
+<VendorID>8086</VendorID>
+<ShortIndex>FALSE</ShortIndex>
+<MaxVertexIndex>33554432</MaxVertexIndex>
+<MaxPrimitives>2147483647</MaxPrimitives>
+<MaxStreams>32</MaxStreams>
+<MaxTexcoords>32</MaxTexcoords>
+<MaxClipPlanes>8</MaxClipPlanes>
+<MaxTargets>8</MaxTargets>
+<MaxUAVs>8</MaxUAVs>
+<TargetsDifferentFormats>TRUE</TargetsDifferentFormats>
+<MaxMultiSampleCount>8</MaxMultiSampleCount>
+<VertexShader_Version>5.000000</VertexShader_Version>
+<VertexShader_Instructions>65535</VertexShader_Instructions>
+<VertexShader_Textures>128</VertexShader_Textures>
+<VertexShader_ConstSlots>14</VertexShader_ConstSlots>
+<VertexShader_ConstsPerSlot>4096</VertexShader_ConstsPerSlot>
+<GeometryShader_Version>5.000000</GeometryShader_Version>
+<GeometryShader_Instructions>65535</GeometryShader_Instructions>
+<GeometryShader_Textures>128</GeometryShader_Textures>
+<GeometryShader_ConstSlots>14</GeometryShader_ConstSlots>
+<GeometryShader_ConstsPerSlot>4096</GeometryShader_ConstsPerSlot>
+<PixelShader_Version>5.000000</PixelShader_Version>
+<PixelShader_Instructions>65535</PixelShader_Instructions>
+<PixelShader_Textures>128</PixelShader_Textures>
+<PixelShader_ConstSlots>14</PixelShader_ConstSlots>
+<PixelShader_ConstsPerSlot>4096</PixelShader_ConstsPerSlot>
+<NormalTexture_MaxWidth>16384</NormalTexture_MaxWidth>
+<NormalTexture_MaxHeight>16384</NormalTexture_MaxHeight>
+<NormalTexture_MaxDepth>2048</NormalTexture_MaxDepth>
+<NormalTexture_NonPowOfTwoSize>TRUE</NormalTexture_NonPowOfTwoSize>
+<CubeTexture_MaxWidth>16384</CubeTexture_MaxWidth>
+<CubeTexture_MaxHeight>16384</CubeTexture_MaxHeight>
+<CubeTexture_MaxDepth>1</CubeTexture_MaxDepth>
+<CubeTexture_NonPowOfTwoSize>TRUE</CubeTexture_NonPowOfTwoSize>
+<VolumeTexture_MaxWidth>2048</VolumeTexture_MaxWidth>
+<VolumeTexture_MaxHeight>2048</VolumeTexture_MaxHeight>
+<VolumeTexture_MaxDepth>2048</VolumeTexture_MaxDepth>
+<VolumeTexture_NonPowOfTwoSize>TRUE</VolumeTexture_NonPowOfTwoSize>
+</CIP>

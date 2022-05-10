@@ -1,0 +1,14 @@
+<?xml version="1.0"?>  
+   <implementation render="MentalImage">
+      <language name="MentalRaySL" version="3.6"/>
+      <api name="MentalRay" version="3.6"/>
+      <root_bindings name="root"/>
+      <bindings target="texture file" name="BitmapTexture">
+        <map_interface source="hemispherical_Bitmap" destination="filename"/>
+      </bindings>
+      <bindings target="shader" name="root">
+        <desc val="mi.phenomenon/include/adsk_Map_Hemispherical_Bitmap.mi" tag="adsk_Map_Hemispherical_Bitmap_V2"/>
+        <map_bindings source="BitmapTexture" destination="m.Bitmap"/>
+        <map_interface source="hemispherical_RGBAmount" destination="m.RGBAmount"/>
+      </bindings>
+   </implementation>

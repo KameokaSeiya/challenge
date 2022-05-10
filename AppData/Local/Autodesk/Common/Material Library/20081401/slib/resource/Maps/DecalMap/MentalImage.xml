@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+    <implementation render="MentalImage">
+      <language name="MentalRaySL" version="3.6"/>
+      <api name="MentalRay" version="3.6"/>
+      <root_bindings name="root"/>
+      <operator function="SymbolIDOp" name="GetUVID">
+        <map_interface source="decalmap_MapChannel" destination="StringEntry"/>
+      </operator>
+      <operator function="DegreeToRadian" name="DegreeToRadian">
+        <map_interface source="decalmap_WAngle" destination="X"/>
+      </operator>
+      <bindings target="texture file" name="BitmapTexture">
+        <map_interface source="decalmap_Bitmap" destination="filename"/>
+      </bindings>
+      <bindings target="shader" name="root">
+        <desc val="shaders/adsk_Utility_Shaders.mi" tag="adsk_bitmap"/>
+        <map_bindings source="BitmapTexture" destination="m.Bitmap"/>
+        <map_interface source="decalmap_RGBAmount" destination="m.RGBAmount"/>
+        <map_interface source="decalmap_Filtering" destination="a.Filtering"/>
+        <map_interface source="decalmap_Blur" destination="a.Blur"/>
+        <map_interface source="decalmap_Invert" destination="a.Invert"/>
+
+        <map_interface source="decalmap_UOffset" destination="u.UOffset"/>
+        <map_interface source="decalmap_VOffset" destination="u.VOffset"/>
+        <map_interface source="decalmap_UWrap" destination="u.UWrap"/>
+        <map_interface source="decalmap_VWrap" destination="u.VWrap"/>
+        <map_interface source="decalmap_UMirror" destination="u.UMirror"/>
+        <map_interface source="decalmap_VMirror" destination="u.VMirror"/>
+        
+        <map_interface source="decalmap_UVScale" destination="u.UScale"/>
+        <map_interface source="decalmap_UVScale" destination="u.VScale"/>
+
+        <map_operator source="GetUVID" destination="u.MapChannel"/>
+        <map_operator source="DegreeToRadian" destination="u.WAngle"/>
+      </bindings>
+    </implementation>

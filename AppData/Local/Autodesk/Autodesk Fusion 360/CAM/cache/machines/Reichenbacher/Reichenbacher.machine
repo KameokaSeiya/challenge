@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<machine xmlns="http://www.hsmworks.com/xml/2009/machine" uuid="0ADBC6F9-369D-4FB1-B514-27F55C1D8A69" version="1.0">
+  <vendor>Reichenbacher</vendor>
+  <model>Reichenbacher</model>
+  <coolant options="FLOOD" />
+  <axis actuator="linear" axis="1 0 0" coordinate="0" id="X" link="table" />
+  <axis actuator="linear" axis="0 1 0" coordinate="1" id="Y" link="table" />
+  <axis actuator="linear" axis="0 0 1" coordinate="2" id="Z" link="table" />
+  <axis actuator="rotational" axis="0 1 0" coordinate="1" id="U" link="head" range="-180 180" />
+  <axis actuator="rotational" axis="0 0 1" coordinate="2" id="V" link="table" range="-99999 99999" />
+</machine>

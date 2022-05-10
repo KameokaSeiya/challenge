@@ -1,0 +1,289 @@
+20220503T171601 I  .2100 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/NMachineSpecificOptions.xml successfully		ThreadID: 2100, Function: Ns::OptionGroup::load, Line: 622
+20220503T171601 I  .2100 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/NMachineSpecificOptions.xml successfully		ThreadID: 2100, Function: Ns::OptionGroup::load, Line: 622
+20220503T171602 I  .2100 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/NMachineSpecificOptions.xml successfully		ThreadID: 2100, Function: Ns::OptionGroup::load, Line: 622
+20220503T171602 I  .2100 Version : 2.0.11894
+20220503T171602 I  .2100 UTC offset : 9
+20220503T171602 I  .2100 Loading configuration from:C:/Users/seiya/AppData/Local/Autodesk/webdeploy/production/1a27f23c10bc87f7eab1f89e440a46f886b5f544/Fusion 360.server.config
+20220503T171602 I  .2100 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/TYK7JMNJL5YB/NGlobalOptions.xml successfully		ThreadID: 2100, Function: Ns::OptionGroup::load, Line: 622
+20220503T171603 I  .2100 PROXY: WindowsProxyOptionId set to Automatic
+20220503T171603 W  .2100 PROXY: failed to query IE proxy configuration - ﾂプﾂδ債キﾂシﾂの篠ｩﾂ督ｮﾂ構ﾂ青ｬ URL ﾂつｪﾂ個ｩﾂつつｩﾂり�慊つｹﾂわ｣逸ｵつｵﾂつｽﾂ。
+
+20220503T171603 I  .2100 PROXY: proxy server set to DIRECT
+20220503T171605 I  .2100 GET 200 https://ui-dls360.autodesk.com/fusion/version.txt - workflow: attempt:0 requestId: dt=1.82
+20220503T171605 I  .2100 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/TYK7JMNJL5YB/NGlobalOptions.xml successfully		ThreadID: 2100, Function: Ns::OptionGroup::load, Line: 622
+20220503T171605 I  .2100 SLM: device id = 57621587-3832-60f7-3c59-94c9040a3885
+20220503T171605 I  .2100 SLM: Initialized
+20220503T171605 I  .2100 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/TYK7JMNJL5YB/NGlobalOptions.xml successfully		ThreadID: 2100, Function: Ns::OptionGroup::load, Line: 622
+20220503T171605 I  .2100 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/NMachineSpecificOptions.xml successfully		ThreadID: 2100, Function: Ns::OptionGroup::load, Line: 622
+20220503T171605 I  .2100 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/TYK7JMNJL5YB/NGlobalOptions.xml successfully		ThreadID: 2100, Function: Ns::OptionGroup::load, Line: 622
+20220503T171605 I  .2100 WorkflowTrackManager Initialized with:0 items
+20220503T171605 I  .2100 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/NMachineSpecificOptions.xml successfully		ThreadID: 2100, Function: Ns::OptionGroup::load, Line: 622
+20220503T171605 I  23164 Disk capacity: 242,895MB Disk free: 97,143MB Percentage free: 39 UIThread: no Time: 0.00034s
+20220503T171605 I  .2100 ADP - b44875fd-fac9-470b-9348-396a5d1d5285
+20220503T171605 I  .2100 AnalyticItemCounts Initialized with:0 items
+20220503T171605 I  .2100 	searchAndLoad exec path: C:/Users/seiya/AppData/Local/Autodesk/webdeploy/production/1a27f23c10bc87f7eab1f89e440a46f886b5f544/Fusion360.exe
+20220503T171605 I  .2100 SYNHUB: Loading config files in directory C:/Users/seiya/AppData/Roaming/Autodesk/Synergy
+
+20220503T171605 I  .2100 SYNHUB: Loading config file C:/Users/seiya/AppData/Roaming/Autodesk/Synergy/NLauncher.syncfg
+
+20220503T171607 I  17860 LaunchDarkly client initialization process is finished successfully!		ThreadID: 17860, Function: Ns::LDCSDKWrapper::initLDCallback, Line: 336
+20220503T171607 I  22488 LD CSDK for type Global was initialized with a total time of 0.000006 seconds		ThreadID: 22488, Function: Ns::CSDKLDFeatureFlagsManager::getFlagValue, Line: 137
+20220503T171607 I  .2100 Load Feature Toggle Xml:C:/Users/seiya/AppData/Local/Autodesk/webdeploy/production/1a27f23c10bc87f7eab1f89e440a46f886b5f544/Fusion/Server/Fusion/Resources/FeatureToggle/FeatureToggle.xml
+20220503T171607 I  .2100 Live update: start update check.
+20220503T171607 I   3268 Live update: Skip the first Etag check
+20220503T171607 I   3268 Live update: Start update process in Streamer side.
+20220503T171608 I  .2100 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/TYK7JMNJL5YB/NGlobalOptions.xml successfully		ThreadID: 2100, Function: Ns::OptionGroup::load, Line: 622
+20220503T171608 I  .2100 Load Feature Toggle Xml:C:/Users/seiya/AppData/Local/Autodesk/webdeploy/production/1a27f23c10bc87f7eab1f89e440a46f886b5f544/FusionDoc/Server/FusionDoc/Resources/FeatureToggle/FeatureToggle.xml
+20220503T171609 I  .2100 C:\Users\seiya\AppData\Local\Autodesk\webdeploy\production\1a27f23c10bc87f7eab1f89e440a46f886b5f544\Applications\Simulation\SimCommon10.dll		ThreadID: 2100, Function: DllMain, Line: 22
+20220503T171609 I  .2100 Process attach		ThreadID: 2100, Function: DllMain, Line: 23
+20220503T171609 I  .2100 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/NMachineSpecificOptions.xml successfully		ThreadID: 2100, Function: Ns::OptionGroup::load, Line: 622
+20220503T171610 I  .2100 C:\Users\seiya\AppData\Local\Autodesk\webdeploy\production\1a27f23c10bc87f7eab1f89e440a46f886b5f544\Applications\CAM360\SimIdealizations10.dll		ThreadID: 2100, Function: DllMain, Line: 16
+20220503T171610 I  .2100 Process attach		ThreadID: 2100, Function: DllMain, Line: 17
+20220503T171610 I  .2100 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/TYK7JMNJL5YB/NGlobalOptions.xml successfully		ThreadID: 2100, Function: Ns::OptionGroup::load, Line: 622
+20220503T171610 I  .2100 Libeagle app mode: Hosted		ThreadID: 2100, Function: void __cdecl Application::cEagleAppPrivate::Init(void), Line: 236
+20220503T171612 I  .2100 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/TYK7JMNJL5YB/electronoptiongroup_eagle.rc successfully		ThreadID: 2100, Function: Ns::OptionGroup::load, Line: 622
+20220503T171613 I  .2100 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/TYK7JMNJL5YB/NGlobalOptions.xml successfully		ThreadID: 2100, Function: Ns::OptionGroup::load, Line: 622
+20220503T171613 I  .2100 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/TYK7JMNJL5YB/NGlobalOptions.xml successfully		ThreadID: 2100, Function: Ns::OptionGroup::load, Line: 622
+20220503T171613 I  .2100 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/TYK7JMNJL5YB/NGlobalOptions.xml successfully		ThreadID: 2100, Function: Ns::OptionGroup::load, Line: 622
+20220503T171613 I  .2100 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/TYK7JMNJL5YB/NGlobalOptions.xml successfully		ThreadID: 2100, Function: Ns::OptionGroup::load, Line: 622
+20220503T171613 I  .2100 Toolbar loader: Stopping...
+20220503T171613 I  .2100 Toolbar loader: Stopped
+20220503T171613 I  .2100 ***startSession: BEGIN
+20220503T171613 I  .2100 getEntitlement
+20220503T171613 I  .2100 authenticate:begin
+20220503T171613 I  .2100 login start
+20220503T171613 I  .2100 Going to load toolbar customizations files		ThreadID: 2100, Function: Nu::ToolbarManager::loadCustomization, Line: 465
+20220503T171613 I  .2100 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/TYK7JMNJL5YB/NGlobalOptions.xml successfully		ThreadID: 2100, Function: Ns::OptionGroup::load, Line: 622
+20220503T171613 I  .2100 Completed loading toolbar customizations files		ThreadID: 2100, Function: Nu::ToolbarManager::loadCustomization, Line: 467
+20220503T171613 I  .2100 AnalyticItemCounts Terminating with:0 items
+20220503T171613 I  .2100 AnalyticItemCounts Initialized with:0 items
+20220503T171613 I  .2100 WorkflowTrackManager Terminating with:0 items
+20220503T171613 I  .2100 WorkflowTrackManager Initialized with:0 items
+20220503T171613 I  .2100 ADP - optIn: 1 prompted: 1
+20220503T171613 I  22896 Workflow start: /v1/licenses 1-6270e4cd-0aa6852908b9442fb90e6863
+20220503T171613 I  .2100 login end 0
+20220503T171613 I   6204 Autosave background thread started with saveTime: 5
+20220503T171613 I  22488 LaunchDarkly client initialization process is not finished successfully!		ThreadID: 22488, Function: Ns::LDCSDKWrapper::initLDCallback, Line: 340
+20220503T171613 I  .2100 GET 200 https://js.prd.fusionapi.autodesk.com/fusion360-runtime-config/config.json - workflow:HTTPClient attempt:0 requestId:f360_HTTPClient__1-6270e4cd-e0ee3bbb56c54b8b90435139 dt=0.38
+20220503T171613 I  .2100 SLM: Enabled (Production)
+20220503T171613 I  .2100 SLM: Start session deviceId=57621587-3832-60f7-3c59-94c9040a3885 deviceName=DESKTOP-EAOHTBR
+20220503T171613 I  .2100 Workflow start: SLM_startSession 1-6270e4cd-b164b23ba0164a4ba3020092
+20220503T171614 I  10644 GET 200 https://metering.autodesk.com/api/accounts/v1/TYK7JMNJL5YB - workflow:HTTPClient attempt:0 requestId:f360_HTTPClient__1-6270e4cd-67de9453fb6f421c87baf323 dt=0.87
+20220503T171614 I  17860 LaunchDarkly client initialization process is finished successfully!		ThreadID: 17860, Function: Ns::LDCSDKWrapper::initLDCallback, Line: 336
+20220503T171614 I  22488 LD CSDK for type Nonhub was initialized with a total time of 0.786608 seconds		ThreadID: 22488, Function: Ns::CSDKLDFeatureFlagsManager::getFlagValue, Line: 137
+20220503T171614 I  22488 LD CSDK for type Nonhub was initialized with a total time of 0.000003 seconds		ThreadID: 22488, Function: Ns::CSDKLDFeatureFlagsManager::getFlagValue, Line: 137
+20220503T171614 I  .2100 POST 200 https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions - workflow:SLM_startSession attempt:0 requestId:f360_SLM_startSession__1-6270e4cd-b164b23ba0164a4ba3020092 dt=0.90
+20220503T171614 I  .2100 SLM: session = 88674579
+20220503T171614 I  .2100 [CFS] Stopping uploader threads.
+20220503T171614 I  .2100 [CFS] Reading C:/Users/seiya/AppData/Local/Autodesk/Autodesk Fusion 360/TYK7JMNJL5YB/W.login/UploadQueuedFileList.xml
+20220503T171615 I  .2100 [Missing-Content-Repair] Skipped
+20220503T171615 I  22896 POST 200 https://api.v3license.access.clic.autodesk.com/v1/licenses - workflow:/v1/licenses attempt:0 requestId:f360_/v1/licenses__1-6270e4cd-0aa6852908b9442fb90e6863 dt=1.50
+20220503T171615 I  22896 Workflow start: /v1/license-check 1-6270e4ce-7a3d586635b440db8e6310ea
+20220503T171615 I  10644 GET 200 https://frv.ui-dls360.autodesk.com/api/v1/checkAccess - workflow:HTTPClient attempt:0 requestId:f360_HTTPClient__1-6270e4ce-74962572fe394802818906dd dt=1.11
+20220503T171615 I  .2100 GET 200 https://login.autodesk360.com/login/api/system/info - workflow:HTTPClient attempt:0 requestId:f360_HTTPClient__1-6270e4ce-b5e6f49310cf4303a88ae22f dt=0.59
+20220503T171615 I  .2100 BrowserCache file size: 2388 KB, "C:\Users\seiya\AppData\Local\Autodesk\Autodesk Fusion 360\TYK7JMNJL5YB/NsCloudBrowserCache_myms522.dat"
+20220503T171615 I  .2100 BrowserCache: number of thumbnails: 123
+20220503T171615 I  .2100 License reauthz -3257:55:50 exp -2561:55:50 
+20220503T171615 I  .2100 Workflow start: /v1/licenses 1-6270e4cf-cc8e595eb27847fba22db11d
+20220503T171616 I  22896 POST 200 https://api.v3license.access.clic.autodesk.com/v1/license-check - workflow:/v1/license-check attempt:0 requestId:f360_/v1/license-check__1-6270e4ce-7a3d586635b440db8e6310ea dt=1.30
+20220503T171618 I  .2100 POST 200 https://api.v3license.access.clic.autodesk.com/v1/licenses - workflow:/v1/licenses attempt:0 requestId:f360_/v1/licenses__1-6270e4cf-cc8e595eb27847fba22db11d dt=2.89
+20220503T171618 I  .2100 Messaging: ipm=0 commercial=0 startup=0 daysLeft=0 multiseat=0
+20220503T171618 I   8076 Workflow start: GEP 1-6270e4d2-6d69125b55314864bae0e928
+20220503T171618 I  .2100 authenticate:end
+20220503T171618 I  .2100 succesfully authenticated
+20220503T171618 I  .2100 TOSS accepted
+20220503T171618 I  .2100 Hub type: personal
+20220503T171618 I  .2100 CheckingEntitlements
+20220503T171618 I  .2100  UserType: Student EntitlementType: Subscription
+20220503T171618 I  .2100 Entitlement changed
+20220503T171619 I   8076 GET 200 https://accounts.autodesk.com/api/profile/education/v1/user/TYK7JMNJL5YB?format=json&oauth_consumer_key=b8670f04-9acc-4ad0-8bcc-a21ba95bec91&oauth_nonce=b2848b4b274f4fcb9d0698e1ea793dc2&oauth_signature=u8a%2BnIWMoKDL0SxUUMfZft18%2FoA%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1651565778&oauth_token=ByNyJzvLiqSuuZ6VA%2FyMtQwurjs%3D&oauth_version=1.0&trialinfo=all - workflow:GEP attempt:0 requestId:f360_GEP__1-6270e4d2-6d69125b55314864bae0e928 dt=0.62
+20220503T171619 I  .2100 Hub  hasAPersonalSite=0, hasTeamHub=1, eHubStatus=0, isEntitled=1
+20220503T171619 I  14540 Workflow start: get_teamhub_preferences 1-6270e4d3-9185117eca474466b262d235
+20220503T171619 I  22488 GET 200 https://login.autodesk360.com/login/api/preferences/guid - workflow:HTTPClient attempt:0 requestId:f360_HTTPClient__1-6270e4d3-43b2dedb8cab4933b0eb9e9e dt=0.43
+20220503T171619 I  10172 GET 200 https://myms522.autodesk360.com/login/rest/facade/corporateInviteSettings - workflow:HTTPClient attempt:0 requestId:f360_HTTPClient__1-6270e4d3-c4bf9d24b630461f86b0bc5f dt=0.56
+20220503T171620 E  23428 Network failed request - response NOT OK:
+URI:https://developer.api.autodesk.com/fhq/v1/spaces?type=FLC&fusionId=urn:adsk.fusion:scope:53a992d1-b8ce-4468-a2d9-10f60a0b71e5
+...X-Request-ID: ContentBrowser(d44c8afd-88b5-4237-aecb-eeb83126cc2e)_GET_FLC_URN_GET_FLC_URN 
+...response: HTTP/1.1 404 Not Found
+Connection: keep-alive
+Content-Length: 375
+Content-Type: application/json
+Date: Tue, 03 May 2022 08:16:20 GMT
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Request-ID: ContentBrowser(d44c8afd-88b5-4237-aecb-eeb83126cc2e)_GET_FLC_URN_GET_FLC_URN
+X-XSS-Protection: 1; mode=block
+
+{"requestId":"ContentBrowser(d44c8afd-88b5-4237-aecb-eeb83126cc2e)_GET_FLC_URN_GET_FLC_URN","httpStatus":404,"detailedMessage":"Not able to find any SPACE with given search parameters","errors":[{"type":"errors","code":"FHQ-404","message":"Not able to find any SPACE with given search parameters","links":{"self":"https://developer.api.autodesk.com/fhq/v1/errors/FHQ-404"}}]}		ThreadID: 23428, Function: void __cdecl Ns::Network::ReqUtils::logRequestError(const class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > &,class std::shared_ptr<class Ns::Network::Request>), Line: 322
+20220503T171620 W  .2100 FHQService: failed to get FLC URN, response code: 
+20220503T171621 I  14540 GET 200 https://developer.api.autodesk.com/symphonydm/v2/hubs/myms522/preferences - workflow:get_teamhub_preferences attempt:0 requestId:f360_get_teamhub_preferences_get_teamhub_preferences_1-6270e4d3-9185117eca474466b262d235 dt=1.87
+20220503T171621 I  22488 LaunchDarkly client initialization process is not finished successfully!		ThreadID: 22488, Function: Ns::LDCSDKWrapper::initLDCallback, Line: 340
+20220503T171621 I  17860 LaunchDarkly client initialization process is finished successfully!		ThreadID: 17860, Function: Ns::LDCSDKWrapper::initLDCallback, Line: 336
+20220503T171622 W  17444 FremontJsMonitor/resuscitateFremontJs: FremontJsLib server is not running. Will start process and establish connection.
+20220503T171622 E  17444 QProcess::setProcessChannelMode is set to be QProcess::ForwardedChannels
+20220503T171622 I  .2100 Migrate Options
+20220503T171622 I  .2100 Load Cloud Options
+20220503T171623 I  17444 PIMJsService/onConnect: Connected to FremontJsLib.
+20220503T171623 D   3312 FremontJsClient: Starting response handler thread.
+20220503T171623 D  17444 PIMLocalService/emit: PIMLocalService:__initialize message sent ...
+20220503T171623 D  17444 PIMDrawingService/emit: PIMDrawingService:__initialize message sent ...
+20220503T171623 I   3312 FremontJs/syncStatus: Sync Started
+20220503T171623 W   3312 FremontJsClient: Can't find callback for request id ac7018c8-81fd-4318-9d38-a9fec715fe16
+20220503T171625 I   3312 FremontJs/syncStatus: Sync Completed
+20220503T171625 W   3312 FremontJsClient: Can't find callback for request id a2267f8a-cbca-43db-a3f4-b3244fb77c51
+20220503T171625 W   3312 PIMJsService/syncServerOptions: Set FremontJsLib server options successfully.
+20220503T171625 W   3312 PIMJsDrawingService/syncServerOptions: Set FremontJsLib server drawing options successfully.
+20220503T171625 D  20908 PIMLocalService/emit: PIMLocalService:setProxy message sent ...
+20220503T171625 I   3312 PIMJsService/sendProxySettings: Set proxy settings successfully
+20220503T171630 I  .2100 Reloaded option files: C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/TYK7JMNJL5YB/NGlobalOptions.xml
+20220503T171630 I  .2100 ***startSession: END
+20220503T171630 I  .2100 Graphics Card: Intel(R) UHD Graphics, Rating: Yellow, Workarounds: 4 
+20220503T171630 I  .2100 OGS Device: VirtualDeviceDx11
+20220503T171632 I  .2100 			Running Add-In Name:100KGarages Path:C:/Users/seiya/AppData/Local/Autodesk/webdeploy/production/1a27f23c10bc87f7eab1f89e440a46f886b5f544/Api/InternalAddins/100KGarages/100KGarages.py Internal:1
+20220503T171632 I  .2100 			Running Add-In Name:ElectronicsPackageGenerator Path:C:/Users/seiya/AppData/Local/Autodesk/webdeploy/production/1a27f23c10bc87f7eab1f89e440a46f886b5f544/Api/InternalAddins/ElectronicsPackageGenerator/ElectronicsPackageGenerator.py Internal:1
+20220503T171633 I  .2100 			Running Add-In Name:parts4cad Path:C:/Users/seiya/AppData/Local/Autodesk/webdeploy/production/1a27f23c10bc87f7eab1f89e440a46f886b5f544/Api/InternalAddins/parts4cad/parts4cad.py Internal:1
+20220503T171633 I  .2100 			Running Add-In Name:traceparts Path:C:/Users/seiya/AppData/Local/Autodesk/webdeploy/production/1a27f23c10bc87f7eab1f89e440a46f886b5f544/Api/InternalAddins/traceparts/traceparts.py Internal:1
+20220503T171633 I  .2100 Local cache scan: 0.0197188 seconds, 0 items
+20220503T171633 I  .2100 Operating System Detected: Windows 10 Home 21H2 x86_64 (22000.613)
+20220503T171633 I  14096 DownloadManager::started
+20220503T171633 I  .2100 savingVersionLaunched		ThreadID: 2100, Function: Nu::WhatsNewBannerCmdDef::applicationReady, Line: 93
+20220503T171633 I  .2100 last version: 2.0.11894		ThreadID: 2100, Function: Nu::UIApplication::saveVersionLaunched, Line: 85
+20220503T171633 I  .2100 current version: 2.0.11894		ThreadID: 2100, Function: Nu::UIApplication::saveVersionLaunched, Line: 86
+20220503T171635 D  .2100 PIMLocalService/emit: PIMLocalService:documentCreated message sent ...
+20220503T171635 D   3312 PIMMgr/sendDocumentCreatedEvent: sendDocumentCreatedEvent response: 
+{}
+20220503T171636 I  .2100 JSManager - extracted archive to C:\Users\seiya\AppData\Local\Temp\Neutron\4005073e-eaa3-44e7-add5-1bcce0e6a615
+20220503T171636 I  .2100 Dashboard Size: initial size: width 100 height 30
+20220503T171636 I  .2100 Dashboard Size: use parent size: width 402 height 647
+20220503T171637 I  .2100 Dashboard Size parent area - width 402 height: 647
+20220503T171637 I  .2100 Dashboard Size createWebControl parent area - width 402 height: 647
+20220503T171637 I  .2100 GET 200 https://myms522.autodesk360.com/login/api/hubs/myms522/preferences/fusion.implicit.reservation.enabledForHub - workflow:HTTPClient attempt:0 requestId:f360_HTTPClient__1-6270e4e5-978aca19da7d4407a9a0ff9b dt=0.48
+20220503T171639 I  .2100 JSManager - extracted archive to C:\Users\seiya\AppData\Local\Temp\Neutron\e239118c-e1a2-4d5f-9694-f91caa883a72
+20220503T171639 I  .2100 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/NMachineSpecificOptions.xml successfully		ThreadID: 2100, Function: Ns::OptionGroup::load, Line: 622
+20220503T171640 D  21380 FremontJsMonitor/resuscitateFremontJs: FremontJsLib is healthy.
+20220503T171640 D  21380 PIMLocalService/emit: PIMLocalService:__initialize message sent ...
+20220503T171640 D  21380 PIMDrawingService/emit: PIMDrawingService:__initialize message sent ...
+20220503T171640 D  21380 PIMLocalService/emit: PIMLocalService:featureFlagsDownloaded message sent ...
+20220503T171640 W   3312 PIMJsService/syncServerOptions: Set FremontJsLib server options successfully.
+20220503T171640 D  22776 PIMLocalService/emit: PIMLocalService:setProxy message sent ...
+20220503T171640 W   3312 PIMJsDrawingService/syncServerOptions: Set FremontJsLib server drawing options successfully.
+20220503T171640 D   3312 PIMMgr/sendFeatureFlagsDownloadedEvent: sendFeatureFlagsDownloadedEvent response: 
+{"spaceCollectionId":"co.s4fDOyZlSN6LGIyAnhVy3A","state":"Global state: Enabled\nJournal reordering Enabled\nHub id co.s4fDOyZlSN6LGIyAnhVy3A: Hub State Ok\nffBrep: false\nffCompVer: true\nffMeCacheCommands: false\nffProperties: true\nffWrite: true"}
+20220503T171640 I   3312 PIMJsService/sendProxySettings: Set proxy settings successfully
+20220503T171640 I  .2100 Tool library url: file:///C:/Users/seiya/AppData/Local/Autodesk/webdeploy/production/1a27f23c10bc87f7eab1f89e440a46f886b5f544/Applications/CAM360/tool-library/index.html?language=ja-JP&serverType=FUSION_DESKTOP
+
+20220503T171641 I  .2100 ServicesHealthStatus: Health Status changed from unknown to operational
+20220503T171641 I  .2100 Live update: Start pending updates check.
+20220503T171641 I  .2100 Live update: Update is in progress.
+20220503T171641 I  22804 POST 200 https://metering.autodesk.com/api/price/v1/TYK7JMNJL5YB/fusion360additiveext?format=json - workflow:HTTPClient attempt:0 requestId:f360_HTTPClient__1-6270e4e8-888362f48fb34899aa551be8 dt=0.43
+20220503T171641 I  11788 POST 200 https://metering.autodesk.com/api/price/v1/TYK7JMNJL5YB/fusion360additivesim?format=json - workflow:HTTPClient attempt:0 requestId:f360_HTTPClient__1-6270e4e8-de62bfd6869c4625a07c880f dt=0.43
+20220503T171641 I  24084 POST 200 https://metering.autodesk.com/api/price/v1/TYK7JMNJL5YB/fusion360manufacturingext?format=json - workflow:HTTPClient attempt:0 requestId:f360_HTTPClient__1-6270e4e8-0bc54df054fa46a795d1e3c1 dt=0.44
+20220503T171641 I  23972 POST 200 https://metering.autodesk.com/api/price/v1/TYK7JMNJL5YB/fusion360nestingext?format=json - workflow:HTTPClient attempt:0 requestId:f360_HTTPClient__1-6270e4e8-5a19ec8ca6dc4b6fb5b9df14 dt=0.44
+20220503T171641 I  .2100 Saved option file: C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/NMachineSpecificOptions.xml
+20220503T171641 I  .2100 OfflineFileCache: update g^[FdPCGCKTB`H		ThreadID: 2100, Function: _updateTimeBomb, Line: 166
+20220503T171641 D  .2100 Entered into Online mode result: 1
+20220503T171641 I  .2100 Collaboration setSingleUserHub: From MultiUserHub To MultiUserHub
+20220503T171642 I  .2100 Cloud Libraries: User has no access to create Assets project.
+20220503T171642 I  .2100 EvergageWrapper:networkOk changed to:1
+20220503T171642 I   6100 Workflow start: messaging 1-6270e4e9-90835ccff8de46e69e228b67
+20220503T171642 I  23428 Local render: Sync to cloud started. Checking for jobs to sync.
+20220503T171642 I  23428 Local render: Quit syncing to cloud. No more jobs in queue.
+20220503T171642 I  .2100 Circuit Breaker FusionDM : Reset to Closed
+20220503T171642 I  .2100 Circuit Breaker A360 : Reset to Closed
+20220503T171642 I  .2100 Circuit Breaker OSS : Reset to Closed
+20220503T171642 I  .2100 Circuit Breaker WIP : Reset to Closed
+20220503T171642 I  .2100 OnlineStatus OnlineUI online
+20220503T171642 I  25740 WIPService::getLineages lineages array is empty. This may be normal.
+20220503T171643 I  .2100 (total 40.371s diff 40.371s) 	PERF: DashboardReady 40.3709s (time from start), version: 2.0.11894
+20220503T171643 I  15908 GET 200 https://metering.autodesk.com/api/accounts/v1/TYK7JMNJL5YB - workflow:HTTPClient attempt:0 requestId:f360_HTTPClient__1-6270e4e9-bbb1499d71e4402ca5e93dc0 dt=0.87
+20220503T171643 I  16564 GET 200 https://developer.api.autodesk.com/fusiondm/v3/collaborations - workflow:collaborator attempt:0 requestId:f360_collaborator_CollaborationMetadataService_getMetadata_1-6270e4e9-5816f275d88c451b919f37f0 dt=1.51
+20220503T171644 I  .2100 : urlChanged: file:///C:/Users/seiya/AppData/Local/Autodesk/webdeploy/production/1a27f23c10bc87f7eab1f89e440a46f886b5f544/FusionCDEHostApps/team-switcher/index.html?locale=ja-JP
+20220503T171644 I  16324 PushNotification using new pub nub
+20220503T171644 I  19368 Workflow start: WIPRequest7 1-6270e4eb-4b2d8096d052461a9310321a
+20220503T171644 I   6100 POST 200 https://api.v3license.access.clic.autodesk.com/v1/messaging - workflow:messaging attempt:0 requestId:f360_messaging__1-6270e4e9-90835ccff8de46e69e228b67 dt=2.45
+20220503T171644 I   6100 Messaging: ipm=1 commercial=0 startup=0 daysLeft=0 multiseat=0
+20220503T171644 I  .2100 (total 42.147s diff 1.776s) 	PERF: ModelingReady
+20220503T171644 I  .2100 CDE Log: {"message":"fetchTeams","level":"INFO"}
+20220503T171644 I  .2100 "fetchTeams"
+20220503T171645 I  .2100 : loadFinished: 
+20220503T171645 I  .2100 CDE Log: {"message":"fetchTeams","level":"INFO"}
+20220503T171645 I  .2100 "fetchTeams"
+20220503T171645 E  23428 Network failed request - response OK, bad contains error:
+{
+	"headers":	{
+		"api-version":	"9.21.0.5cf9cdfdd1",
+		"csrf-cookie-name":	"a360_csrf_cookie",
+		"request-id":	"ContentBrowser(d44c8afd-88b5-4237-aecb-eeb83126cc2e)__d8f27d48-601f-4c33-825c-0a2c6427e613",
+		"served-at":	"1651565803900",
+		"served-by":	"https://www.autodesk.com/fusion-team",
+		"time-taken":	"0"
+	},
+	"error":	{
+		"id":	"MESSAGE_NOT_AUTHORISED",
+		"message":	"You don't have required permission to access this resource",
+		"messageKey":	"MESSAGE_NOT_AUTHORISED"
+	}
+}
+URI:https://myms522.autodesk360.com/communities/api/projects/20210224386399401/members?startIndex=0&count=100&mode=all&showApprovals=true
+...X-Request-ID: ContentBrowser(d44c8afd-88b5-4237-aecb-eeb83126cc2e)__d8f27d48-601f-4c33-825c-0a2c6427e613 
+...response: HTTP/1.1 200 OK
+Access-Control-Expose-Headers: Timing-Diagnostics
+Cache-Control: no-cache, no-transform, must-revalidate
+Connection: keep-alive
+Content-Length: 447
+Content-Type: application/json;charset=UTF-8
+Date: Tue, 03 May 2022 08:16:43 GMT
+Expires: 0
+P3P: CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT"
+Pragma: no-cache
+Server: nginx
+Set-Cookie: JSESSIONID=AAF0F04CA868749F3347FE902C156F76; Path=/communities; Secure; HttpOnly
+Timing-Diagnostics: STUB(26-18), CACHE(47-18), DB_COUT(1-0), DB(2-2), DB_CIN(1-1), TOTAL(77-26)
+X-Request-ID: ContentBrowser(d44c8afd-88b5-4237-aecb-eeb83126cc2e)__d8f27d48-601f-4c33-825c-0a2c6427e613
+X-XSS-Protection: 0
+
+		ThreadID: 23428, Function: void __cdecl Ns::Network::ReqUtils::logRequestError(const class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > &,class std::shared_ptr<class Ns::Network::Request>), Line: 322
+20220503T171645 I  19368 GET 200 https://developer.api.autodesk.com/wipdata-serv/storage/v3/system - workflow:WIPRequest7 attempt:0 requestId:f360_WIPRequest7__1-6270e4eb-4b2d8096d052461a9310321a dt=0.96
+20220503T171645 I urn:adsk.objects:os.object:fusion.prefs.login/TYK7JMNJL5YB_notificationsTEST.json 20 15 187 20
+20220503T171645 I 1651565803741 1651565804724 5242880 8 16 5000 urn:adsk.objects:os.object:fusion.prefs.login/TYK7JMNJL5YB_notificationsTEST.json 20 200 
+20220503T171647 I  19368 GET 200 https://notifications.prd.fusionapi.autodesk.com/v1/channel/a360prod%3Agroup%3A95503139 - workflow:PushNotificationManager attempt:0 requestId:f360_PushNotificationManager__1-6270e4ec-5dde9bcddecb42d998fc0f86 dt=2.03
+20220503T171647 I  19368 PushNotification got channel:gFPEWVHJDcgvcaYBHF9IFzDpyyM=
+20220503T171647 I  19368 PushNotification starting channelName:a360prod:group:95503139 subscriberType:groupSubscription ChannelId:gFPEWVHJDcgvcaYBHF9IFzDpyyM=
+20220503T171647 D  .2100 Unexpected command type: evergage
+20220503T171647 D  .2100 Unexpected command type: evergage
+20220503T171650 I  18756 POST 200 https://developer.api.autodesk.com/fusiondm/v3/collaborations - workflow:collaborator attempt:0 requestId:f360_collaborator_getCollaborators_refreshInUseBy_1-6270e4ef-b769821ad00140a89ec2564c dt=2.08
+20220503T171653 D  .2100 PIMLocalService/emit: PIMLocalService:preDocumentClose message sent ...
+20220503T171653 D   3312 PIMMgr/sendDocumentPreCloseEvent: sendDocumentPreCloseEvent response: 
+{}
+20220503T171653 I  .2100 Executing exit command
+20220503T171653 I  .2100 Running deferred session release tasks
+20220503T171653 D  .2100 PIMLocalService/emit: PIMLocalService:documentClosed message sent ...
+20220503T171653 D  12560 PIMLocalService/emit: PIMLocalService:assetClosing message sent ...
+20220503T171654 I  .2100 Signal shutdown to script manager
+20220503T171654 D   3312 PIMMgr/sendDocumentClosedEvent: sendDocumentClosedEvent response: 
+{}
+20220503T171654 I  .2100 Script manager shut down done
+20220503T171654 I  .2100 Exit now
+20220503T171654 I  .2100 Workflow start: SLM_closeSession 1-6270e4f5-9ad2a5367f334e8ca6c52de8
+20220503T171655 I  .2100 DELETE 200 https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/88674579 - workflow:SLM_closeSession attempt:0 requestId:f360_SLM_closeSession__1-6270e4f5-9ad2a5367f334e8ca6c52de8 dt=1.20
+20220503T171655 I  .2100 SLM: session cleared
+20220503T171655 I  .2100 Start QTApplication::exit
+20220503T171655 I  .2100 Done QTApplication::exit
+20220503T171655 I  .2100 Exit command end
+20220503T171655 I  .2100 fireApplicationClosing: 1
+20220503T171655 I  .2100 fireApplicationClosing: done
+20220503T171655 I  .2100 SYNHUB: Finalizing SynHub.
+
+20220503T171655 I  .2100 SYNHUB: ...done finalizing SynHub.
+
+20220503T171658 I  14096 DownloadManager::stopped
+20220503T171658 I  .2100 [CFS] Stopping uploader threads.
+20220503T171658 I  .2100 Deleting files that are older than 15 days from the cache
+20220503T171658 I  .2100 [CFS] Clearing cached folders
+20220503T171658 I  .2100 OfflineFileCache: update g^[FdPCGCKTBaN		ThreadID: 2100, Function: _updateTimeBomb, Line: 166
+20220503T171659 I  .2100 SLM: Shutdown
+20220503T171659 I  .2100 fireApplicationClosing: 2
+20220503T171659 I  .2100 fireApplicationClosing: done
+20220503T171659 I  .2100 AnalyticItemCounts Terminating with:0 items
+20220503T171659 I  .2100 WorkflowTrackManager Terminating with:0 items

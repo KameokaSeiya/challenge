@@ -59,3 +59,18 @@ $git push -u origin main
 git push -u origin main
 git init
 git init
+git init
+git remote add origin https://github.com/KameokaSeiya/mysite.git
+git remote -v
+git branch -M main
+git push -u origin main
+git branch -M main
+git push -u origin main
+git branch
+git remote add origin https://github.com/KameokaSeiya/mysite.git
+git remote -v
+git branch -m master main
+git branch -M main
+git push -u origin main
+git commit -m 'commit'
+git init

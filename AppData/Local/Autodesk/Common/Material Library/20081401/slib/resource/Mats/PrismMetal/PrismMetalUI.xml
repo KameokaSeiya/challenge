@@ -1,0 +1,104 @@
+<?xml version="1.0" ?>
+<!DOCTYPE adsui SYSTEM "../../ui.dtd">
+<adsui version="2.0">
+  <PageInfo>
+    <Title>
+      Metal
+    </Title>
+  </PageInfo>
+  <Fields>
+    <StackPanel id="asset_information" 
+                label="Information" 
+                orientation="Vertical" 
+                expanded="false">
+      <AssetName id="asset_name"
+                 label="Name"/>
+      <AssetDescription id="asset_description"
+                        label="Description"/>
+      <AssetKeywords id="asset_keywords"
+                     label="Keywords"/>
+      <AssetType id="asset_type"
+                 label="Type"/>
+      <AssetSource id="asset_source"
+                   label="Source"/>
+      <AssetVersion id="asset_version"
+                    label="Version"/>
+      <AssetTexturePaths id="asset_texture_paths"
+                         label="Texture Paths"/>
+    </StackPanel>
+
+    <StackPanel id="metal_f0"
+                label="Parameters"
+                labelid="metal_f0_panel_label"
+                orientation="Vertical" expanded="true">
+      <MappableColor id="metal_f0"
+                     label="Color"
+                     noprocedural="1"
+                     tooltip="The color of the metal surface and its highlights. This also corresponds to the amount of light reflected at the perpendicular direction.">
+      </MappableColor>
+      <MappableFloat id="surface_roughness"
+                 label="Roughness"
+                 aspercentage="0"
+                 noprocedural="1"
+                 min="0.0" max="1.0" precision="2"
+                 tooltip="The surface finish of the material, specifying the size of microscopic imperfections. When zero, the whole surface is a perfect mirror. Larger values tend towards more diffuse (rough) appearance and larger highlights. Use together with Anisotropy to obtain a brushed finish effect."/>
+    </StackPanel>
+    <StackPanel id="surface_normal"
+                label="Relief Pattern (Bump)"
+                labelid="surface_bump_panel_label"
+                orientation="Vertical" expanded="false" checkbox="true">
+      <MappableFloat id="surface_normal"
+                     label="Image"
+                     labelid="surface_bump_map_label"
+                     nosinglevalue="true"
+                     noprocedural="1"
+                     usebumpmap="1"
+                     tooltip="Bump defines larger-scale features than what you can achieve with the Roughness parameter, like dents, cracks, grooves etc. Apply an image where those features are defined, with white corresponding to peaks and black to valleys."/>
+    </StackPanel>
+    <StackPanel id="surface_cutout"
+                label="Cutout" 
+                labelid="surface_cutout_panel_label"
+                orientation="Vertical" expanded="false" checkbox="true">
+      <MappableFloat id="surface_cutout"
+                     nosinglevalue="true"
+                     label="Image"
+                     noprocedural="1"
+                     tooltip="Cutout defines holes in the surface with an image map. The holes will have no thickness or depth so it is generally suitable for thin elements such as sheets of metal."/>
+    </StackPanel>
+    <StackPanel id="surface_anisotropy"
+                label="Advanced Highlight Controls"
+                labelid="surface_anisotropy_panel_label"
+                orientation="Vertical" expanded="false">
+      <MappableFloat id="surface_anisotropy"
+                     label="Anisotropy"
+                     labelid="surface_normal_anisotropy_label"
+                     noprocedural="1"
+                     aspercentage="0"
+                     min="0" max="1.0" precision="2"
+                     forcenumeric="slider"
+                     tooltip="Controls the shape of the highlights on the surface by making them elliptical rather than circular. Used together with Roughness, Anisotropy can simulate highlights seen on brushed materials."/>
+      <MappableFloat id="surface_rotation"
+                     label="Orientation"
+                     labelid="surface_orientation_label"
+                     noprocedural="1"
+                     aspercentage="0"
+                     asangle="1"
+                     min="0.0" max="180.0"
+                     forcenumeric="slider"
+                     tooltip="Determines the orientation of highlights. This has no effect if Anisotropy Amount is set to 0. Used with a texture map. For example, you can recreate woven materials where the direction of the highlights are perpendicular to each other."/>
+      <MappableColor id="surface_albedo"
+                     label="Color"
+                     labelid="surface_albedo_label"
+                     noprocedural="1"
+                     tooltip="Determines the color (or the weight) of the specular highlights of the material. Generally, this parameter should be set to a white color for physical correctness, but can be changed for artistic purposes.">
+      </MappableColor>
+      <ChooseList id="surface_ndf_type"
+                  label="Shape"
+                  labelid="surface_ndf_type_label"
+                  tooltip="Determines the underlying equation used to calculate reflections and highlights on the material. The Long Falloff will produce highlights that appear smoother while the Short Falloff will produce highlights that appear sharper.">
+        <Choice id="surface_ndf_beckmann" label="Short Falloff"/>
+        <Choice id="surface_ndf_ggx" label="Long Falloff"/>
+      </ChooseList>
+    </StackPanel>
+  </Fields>
+</adsui>

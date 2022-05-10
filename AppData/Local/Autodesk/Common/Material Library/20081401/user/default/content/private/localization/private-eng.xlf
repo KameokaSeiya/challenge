@@ -1,0 +1,2207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="eng" target-language="eng" datatype="FBX">
+    <body>
+      <trans-unit id="Additional_Color_Noise_label">
+        <source>Additional Color Noise</source>
+        <target>Additional Color Noise</target>
+      </trans-unit>
+      <trans-unit id="Additional_Color_Noise_label:tooltip">
+        <source>Enables random color variations.</source>
+        <target>Enables random color variations.</target>
+      </trans-unit>
+      <trans-unit id="Additional_Growth_Noise_label">
+        <source>Additional Growth Noise</source>
+        <target>Additional Growth Noise</target>
+      </trans-unit>
+      <trans-unit id="Additional_Growth_Noise_label:tooltip">
+        <source>Enables fibers random distortion.</source>
+        <target>Enables fibers random distortion.</target>
+      </trans-unit>
+      <trans-unit id="AssetLibID:uilabel">
+        <source>AssetLibID</source>
+        <target>AssetLibID</target>
+      </trans-unit>
+      <trans-unit id="Bump Map.">
+        <source>Bump Map.</source>
+        <target>Bump Map.</target>
+      </trans-unit>
+      <trans-unit id="BumpMap">
+        <source>BumpMap</source>
+        <target>BumpMap</target>
+      </trans-unit>
+      <trans-unit id="BumpMapSchema_localname:Bump Texture">
+        <source>Bump Texture</source>
+        <target>Bump Texture</target>
+      </trans-unit>
+      <trans-unit id="BumpMapSchema_localtype:Texture">
+        <source>Texture</source>
+        <target>Texture</target>
+      </trans-unit>
+      <trans-unit id="ColorLabel">
+        <source>Color</source>
+        <target>Color</target>
+      </trans-unit>
+      <trans-unit id="ColorVariationsLabel">
+        <source>Color Variations</source>
+        <target>Color Variations</target>
+      </trans-unit>
+      <trans-unit id="Default">
+        <source>Default</source>
+        <target>Default</target>
+      </trans-unit>
+      <trans-unit id="DetailsLabel">
+        <source>Details</source>
+        <target>Details</target>
+      </trans-unit>
+      <trans-unit id="Earlywood_Roughness_label">
+        <source>Earlywood Roughness</source>
+        <target>Earlywood Roughness</target>
+      </trans-unit>
+      <trans-unit id="Earlywood_Roughness_label:tooltip">
+        <source>Enables separate roughness for Earlywood.</source>
+        <target>Enables separate roughness for Earlywood.</target>
+      </trans-unit>
+      <trans-unit id="Earlywood_label">
+        <source>Earlywood</source>
+        <target>Earlywood</target>
+      </trans-unit>
+      <trans-unit id="Earlywood_label:tooltip">
+        <source>Enables ring growth Earlywood color variations</source>
+        <target>Enables ring growth Earlywood color variations</target>
+      </trans-unit>
+      <trans-unit id="EarywoodLabel">
+        <source>Earlywood</source>
+        <target>Earlywood</target>
+      </trans-unit>
+      <trans-unit id="EarywoodLabel:tooltip">
+        <source>Earlywood color.</source>
+        <target>Earlywood color.</target>
+      </trans-unit>
+      <trans-unit id="ExchangeGUID:uilabel">
+        <source>ExchangeGUID</source>
+        <target>ExchangeGUID</target>
+      </trans-unit>
+      <trans-unit id="Fiber_Highlights_label">
+        <source>Fiber Highlights</source>
+        <target>Fiber Highlights</target>
+      </trans-unit>
+      <trans-unit id="Fiber_Highlights_label:tooltip">
+        <source>Enables random highlights color variations.</source>
+        <target>Enables random highlights color variations.</target>
+      </trans-unit>
+      <trans-unit id="GrowthLabel">
+        <source>Growth</source>
+        <target>Growth</target>
+      </trans-unit>
+      <trans-unit id="GrowthVariationsLabel">
+        <source>Growth Variations</source>
+        <target>Growth Variations</target>
+      </trans-unit>
+      <trans-unit id="Image Based Lighting.">
+        <source>Image Based Lighting.</source>
+        <target>Image Based Lighting.</target>
+      </trans-unit>
+      <trans-unit id="LatewoodExponentLabel">
+        <source>Latewood Exponent</source>
+        <target>Latewood Exponent</target>
+      </trans-unit>
+      <trans-unit id="LatewoodExponentLabel:tooltip">
+        <source>Latewood color as a power of the Earlywood color(1.0 = same, &lt; 1.0 = lighter, &gt; 1.0 = darker).</source>
+        <target>Latewood color as a power of the Earlywood color(1.0 = same, &lt; 1.0 = lighter, &gt; 1.0 = darker).</target>
+      </trans-unit>
+      <trans-unit id="Latewood_label">
+        <source>Latewood</source>
+        <target>Latewood</target>
+      </trans-unit>
+      <trans-unit id="Latewood_label:tooltip">
+        <source>Enables ring growth Latewood color variations</source>
+        <target>Enables ring growth Latewood color variations</target>
+      </trans-unit>
+      <trans-unit id="Materials">
+        <source>Materials</source>
+        <target>Materials</target>
+      </trans-unit>
+      <trans-unit id="Pores_label">
+        <source>Pores</source>
+        <target>Pores</target>
+      </trans-unit>
+      <trans-unit id="Pores_label:tooltip">
+        <source>Enables pores.</source>
+        <target>Enables pores.</target>
+      </trans-unit>
+      <trans-unit id="Preview material on a advanced material surface.">
+        <source>Preview material on a advanced material surface.</source>
+        <target>Preview material on a advanced material surface.</target>
+      </trans-unit>
+      <trans-unit id="Prism Glazing material.">
+        <source>Prism Glazing material.</source>
+        <target>Prism Glazing material.</target>
+      </trans-unit>
+      <trans-unit id="Prism layered material.">
+        <source>Prism layered material.</source>
+        <target>Prism layered material.</target>
+      </trans-unit>
+      <trans-unit id="Prism metal material.">
+        <source>Prism metal material.</source>
+        <target>Prism metal material.</target>
+      </trans-unit>
+      <trans-unit id="Prism opaque material.">
+        <source>Prism opaque material.</source>
+        <target>Prism opaque material.</target>
+      </trans-unit>
+      <trans-unit id="Prism transparent material.">
+        <source>Prism transparent material.</source>
+        <target>Prism transparent material.</target>
+      </trans-unit>
+      <trans-unit id="Prism wood material.">
+        <source>Prism wood material.</source>
+        <target>Prism wood material.</target>
+      </trans-unit>
+      <trans-unit id="PrismGlazing">
+        <source>PrismGlazing</source>
+        <target>Prism Glazing</target>
+      </trans-unit>
+      <trans-unit id="PrismGlazingSchema_localname:Glazing">
+        <source>Glazing</source>
+        <target>Glazing</target>
+      </trans-unit>
+      <trans-unit id="PrismGlazingSchema_localtype:Appearance">
+        <source>Appearance</source>
+        <target>Appearance</target>
+      </trans-unit>
+      <trans-unit id="PrismIBL">
+        <source>PrismIBL</source>
+        <target>PrismIBL</target>
+      </trans-unit>
+      <trans-unit id="PrismIBLSchema_localname:IBL">
+        <source>IBL</source>
+        <target>IBL</target>
+      </trans-unit>
+      <trans-unit id="PrismIBLSchema_localtype:Environment">
+        <source>Environment</source>
+        <target>Environment</target>
+      </trans-unit>
+      <trans-unit id="PrismLayered">
+        <source>PrismLayered</source>
+        <target>Prism Layered</target>
+      </trans-unit>
+      <trans-unit id="PrismLayeredSchema_localname:Layered">
+        <source>Layered</source>
+        <target>Layered</target>
+      </trans-unit>
+      <trans-unit id="PrismLayeredSchema_localtype:Appearance">
+        <source>Appearance</source>
+        <target>Appearance</target>
+      </trans-unit>
+      <trans-unit id="PrismMetal">
+        <source>PrismMetal</source>
+        <target>Prism Metal</target>
+      </trans-unit>
+      <trans-unit id="PrismMetalSchema_localname:Metal">
+        <source>Metal</source>
+        <target>Metal</target>
+      </trans-unit>
+      <trans-unit id="PrismMetalSchema_localtype:Appearance">
+        <source>Appearance</source>
+        <target>Appearance</target>
+      </trans-unit>
+      <trans-unit id="PrismOpaque">
+        <source>PrismOpaque</source>
+        <target>Prism Opaque</target>
+      </trans-unit>
+      <trans-unit id="PrismOpaqueSchema_localname:Opaque">
+        <source>Opaque</source>
+        <target>Opaque</target>
+      </trans-unit>
+      <trans-unit id="PrismOpaqueSchema_localtype:Appearance">
+        <source>Appearance</source>
+        <target>Appearance</target>
+      </trans-unit>
+      <trans-unit id="PrismTransparent">
+        <source>PrismTransparent</source>
+        <target>Prism Transparent</target>
+      </trans-unit>
+      <trans-unit id="PrismTransparentSchema_localname:Transparent">
+        <source>Transparent</source>
+        <target>Transparent</target>
+      </trans-unit>
+      <trans-unit id="PrismTransparentSchema_localtype:Appearance">
+        <source>Appearance</source>
+        <target>Appearance</target>
+      </trans-unit>
+      <trans-unit id="PrismWood">
+        <source>PrismWood</source>
+        <target>Prism Wood</target>
+      </trans-unit>
+      <trans-unit id="PrismWoodSchema_localname:Wood">
+        <source>Wood</source>
+        <target>Wood</target>
+      </trans-unit>
+      <trans-unit id="PrismWoodSchema_localtype:Appearance">
+        <source>Appearance</source>
+        <target>Appearance</target>
+      </trans-unit>
+      <trans-unit id="Rays_label">
+        <source>Rays</source>
+        <target>Rays</target>
+      </trans-unit>
+      <trans-unit id="Rays_label:tooltip">
+        <source>Enables rays.</source>
+        <target>Enables rays.</target>
+      </trans-unit>
+      <trans-unit id="RingThicknessLabel">
+        <source>Ring Thickness</source>
+        <target>Ring Thickness</target>
+      </trans-unit>
+      <trans-unit id="RingThicknessLabel:tooltip">
+        <source>Thickness of a single growth ring.</source>
+        <target>Thickness of a single growth ring.</target>
+      </trans-unit>
+      <trans-unit id="Ring_Thickness_label">
+        <source>Ring Thickness</source>
+        <target>Ring Thickness</target>
+      </trans-unit>
+      <trans-unit id="Ring_Thickness_label:tooltip">
+        <source>Enables ring growth thickness variations.</source>
+        <target>Enables ring growth thickness variations.</target>
+      </trans-unit>
+      <trans-unit id="Rings_Bump_label">
+        <source>Rings Bump</source>
+        <target>Rings Bump</target>
+      </trans-unit>
+      <trans-unit id="Rings_Bump_label:tooltip">
+        <source>Enables bump based on growth ring.</source>
+        <target>Enables bump based on growth ring.</target>
+      </trans-unit>
+      <trans-unit id="Scene:uilabel">
+        <source>Scene</source>
+        <target>Scene</target>
+      </trans-unit>
+      <trans-unit id="Settings:uilabel">
+        <source>Settings</source>
+        <target>Settings</target>
+      </trans-unit>
+      <trans-unit id="ShadingLabel">
+        <source>Shading</source>
+        <target>Shading</target>
+      </trans-unit>
+      <trans-unit id="Swatch Scene.">
+        <source>Swatch Scene.</source>
+        <target>Swatch Scene.</target>
+      </trans-unit>
+      <trans-unit id="Swatch-Torus">
+        <source>Swatch-Torus</source>
+        <target>Torus</target>
+      </trans-unit>
+      <trans-unit id="SwatchScene">
+        <source>SwatchScene</source>
+        <target>Swatch Scene</target>
+      </trans-unit>
+      <trans-unit id="SwatchSceneSchema_localname:Swatch Scene">
+        <source>Swatch Scene</source>
+        <target>Swatch Scene</target>
+      </trans-unit>
+      <trans-unit id="SwatchSceneSchema_localtype:Swatch Scene">
+        <source>Swatch Scene</source>
+        <target>Swatch Scene</target>
+      </trans-unit>
+      <trans-unit id="Tile material.">
+        <source>Tile material.</source>
+        <target>Tile material.</target>
+      </trans-unit>
+      <trans-unit id="TilingAppearance">
+        <source>TilingAppearance</source>
+        <target>TilingAppearance</target>
+      </trans-unit>
+      <trans-unit id="TilingAppearance.">
+        <source>TilingAppearance.</source>
+        <target>TilingAppearance.</target>
+      </trans-unit>
+      <trans-unit id="TilingAppearanceSchema_localname:TilingAppearance">
+        <source>TilingAppearance</source>
+        <target>TilingAppearance</target>
+      </trans-unit>
+      <trans-unit id="TilingAppearanceSchema_localtype:Appearance">
+        <source>Appearance</source>
+        <target>Appearance</target>
+      </trans-unit>
+      <trans-unit id="TilingPattern">
+        <source>TilingPattern</source>
+        <target>Tile</target>
+      </trans-unit>
+      <trans-unit id="TilingPatternSchema_localname:TilingPattern">
+        <source>TilingPattern</source>
+        <target>Tile</target>
+      </trans-unit>
+      <trans-unit id="TilingPatternSchema_localtype:Appearance">
+        <source>Appearance</source>
+        <target>Appearance</target>
+      </trans-unit>
+      <trans-unit id="Uncategorized">
+        <source>Uncategorized</source>
+        <target>Uncategorized</target>
+      </trans-unit>
+      <trans-unit id="Unified Bitmap.">
+        <source>Unified Bitmap.</source>
+        <target>Unified Bitmap.</target>
+      </trans-unit>
+      <trans-unit id="UnifiedBitmap">
+        <source>UnifiedBitmap</source>
+        <target>UnifiedBitmap</target>
+      </trans-unit>
+      <trans-unit id="UnifiedBitmapSchema_localname:Bitmap Texture">
+        <source>Bitmap Texture</source>
+        <target>Bitmap Texture</target>
+      </trans-unit>
+      <trans-unit id="UnifiedBitmapSchema_localtype:Texture">
+        <source>Texture</source>
+        <target>Texture</target>
+      </trans-unit>
+      <trans-unit id="Vertical_Lumps_label">
+        <source>Vertical Lumps</source>
+        <target>Vertical Lumps</target>
+      </trans-unit>
+      <trans-unit id="Vertical_Lumps_label:tooltip">
+        <source>Enables vertical cyclic radial distortions.</source>
+        <target>Enables vertical cyclic radial distortions.</target>
+      </trans-unit>
+      <trans-unit id="Wood_curly_distortion_enable_label">
+        <source>Fiber Highlight Distortion</source>
+        <target>Fiber Highlight Distortion</target>
+      </trans-unit>
+      <trans-unit id="Wood_curly_distortion_enable_label:tooltip">
+        <source>Enable distortion for wood secondary curly highlight.</source>
+        <target>Enable distortion for wood secondary curly highlight.</target>
+      </trans-unit>
+      <trans-unit id="asset_description">
+        <source>Description</source>
+        <target>Description</target>
+      </trans-unit>
+      <trans-unit id="asset_information">
+        <source>Information</source>
+        <target>Information</target>
+      </trans-unit>
+      <trans-unit id="asset_keywords">
+        <source>Keywords</source>
+        <target>Keywords</target>
+      </trans-unit>
+      <trans-unit id="asset_name">
+        <source>Name</source>
+        <target>Name</target>
+      </trans-unit>
+      <trans-unit id="asset_source">
+        <source>Source</source>
+        <target>Source</target>
+      </trans-unit>
+      <trans-unit id="asset_texture_paths">
+        <source>Texture Paths</source>
+        <target>Texture Paths</target>
+      </trans-unit>
+      <trans-unit id="asset_type">
+        <source>Type</source>
+        <target>Type</target>
+      </trans-unit>
+      <trans-unit id="asset_version">
+        <source>Version</source>
+        <target>Version</target>
+      </trans-unit>
+      <trans-unit id="assignment">
+        <source>Appearance Assignment</source>
+        <target>Appearance Assignment</target>
+      </trans-unit>
+      <trans-unit id="base_highlights_group_label">
+        <source>Base Highlights</source>
+        <target>Base Highlights</target>
+      </trans-unit>
+      <trans-unit id="base_material_index">
+        <source>Base Material Index</source>
+        <target>Base Material Index</target>
+      </trans-unit>
+      <trans-unit id="base_material_index:tooltip">
+        <source>Base Material Index.</source>
+        <target>Base Material Index.</target>
+      </trans-unit>
+      <trans-unit id="base_material_index:uilabel">
+        <source>Base Material Index</source>
+        <target>Base Material Index</target>
+      </trans-unit>
+      <trans-unit id="base_materials:uilabel">
+        <source>Base Materials</source>
+        <target>Base Materials</target>
+      </trans-unit>
+      <trans-unit id="bumpmap_Bitmap">
+        <source>Source</source>
+        <target>Source</target>
+      </trans-unit>
+      <trans-unit id="bumpmap_Bitmap:uilabel">
+        <source>Source</source>
+        <target>Source</target>
+      </trans-unit>
+      <trans-unit id="bumpmap_Bitmap_type_label">
+        <source>Data Type</source>
+        <target>Data Type</target>
+      </trans-unit>
+      <trans-unit id="bumpmap_Bitmap_type_label:tooltip">
+        <source>Defines the type of image used to create the Relief (Bump) effect. The amplitude of the bump effect will be controlled by the Depth parameter in the Scale group.</source>
+        <target>Defines the type of image used to create the Relief (Bump) effect. The amplitude of the bump effect will be controlled by the Depth parameter in the Scale group.</target>
+      </trans-unit>
+      <trans-unit id="bumpmap_Bitmap_urn:uilabel">
+        <source>URN</source>
+        <target>URN</target>
+      </trans-unit>
+      <trans-unit id="bumpmap_Depth">
+        <target></target>
+      </trans-unit>
+      <trans-unit id="bumpmap_Depth:rightlabel">
+        <source>Depth</source>
+        <target>Depth</target>
+      </trans-unit>
+      <trans-unit id="bumpmap_Depth:tooltip">
+        <source>Depth Amount will specify the distance between valleys and peaks of the bump effect.</source>
+        <target>Depth Amount will specify the distance between valleys and peaks of the bump effect.</target>
+      </trans-unit>
+      <trans-unit id="bumpmap_Depth:uilabel">
+        <source>Amount</source>
+        <target>Amount</target>
+      </trans-unit>
+      <trans-unit id="bumpmap_NormalScale:uilabel">
+        <source>Amount</source>
+        <target>Amount</target>
+      </trans-unit>
+      <trans-unit id="bumpmap_Type:bumpmap_height_map">
+        <source>Height Map</source>
+        <target>Height Map</target>
+      </trans-unit>
+      <trans-unit id="bumpmap_Type:bumpmap_normal_map">
+        <source>Normal Map</source>
+        <target>Normal Map</target>
+      </trans-unit>
+      <trans-unit id="bumpmap_Type:uilabel">
+        <source>Bump Type</source>
+        <target>Bump Type</target>
+      </trans-unit>
+      <trans-unit id="bumpmap_advanced_group">
+        <source>Advanced</source>
+        <target>Advanced</target>
+      </trans-unit>
+      <trans-unit id="bumpmap_height_map">
+        <source>Height Map</source>
+        <target>Height Map</target>
+      </trans-unit>
+      <trans-unit id="bumpmap_normal_map">
+        <source>Normal Map</source>
+        <target>Normal Map</target>
+      </trans-unit>
+      <trans-unit id="bumpmap_position_group">
+        <source>Position</source>
+        <target>Position</target>
+      </trans-unit>
+      <trans-unit id="bumpmap_repeat_group">
+        <source>Repeat</source>
+        <target>Repeat</target>
+      </trans-unit>
+      <trans-unit id="bumpmap_scale_group">
+        <source>Scale</source>
+        <target>Scale</target>
+      </trans-unit>
+      <trans-unit id="bumpmap_transforms_group">
+        <source>Transforms</source>
+        <target>Transforms</target>
+      </trans-unit>
+      <trans-unit id="center_angle:uilabel">
+        <source>Angle specifying direction towards image center</source>
+        <target>Angle specifying direction towards image center</target>
+      </trans-unit>
+      <trans-unit id="common_Shared_Asset:common_independent">
+        <source>Independent</source>
+        <target>Independent</target>
+      </trans-unit>
+      <trans-unit id="common_Shared_Asset:common_shared">
+        <source>Shared</source>
+        <target>Shared</target>
+      </trans-unit>
+      <trans-unit id="common_Shared_Asset:uilabel">
+        <source>Sharing</source>
+        <target>Sharing</target>
+      </trans-unit>
+      <trans-unit id="common_Tint_color:uilabel">
+        <source>Tint Color</source>
+        <target>Tint Color</target>
+      </trans-unit>
+      <trans-unit id="common_Tint_toggle:uilabel">
+        <source>Tint</source>
+        <target>Tint</target>
+      </trans-unit>
+      <trans-unit id="edge_rounding">
+        <source>Edge Rounding</source>
+        <target>Edge Rounding</target>
+      </trans-unit>
+      <trans-unit id="environments">
+        <source>environments</source>
+        <target>environments</target>
+      </trans-unit>
+      <trans-unit id="glazing">
+        <source>glazing</source>
+        <target>glazing</target>
+      </trans-unit>
+      <trans-unit id="glazing_backface_culling">
+        <source>Backface Culling</source>
+        <target>Backface Culling</target>
+      </trans-unit>
+      <trans-unit id="glazing_backface_culling:tooltip">
+        <source>When backface culling is enabled, only the front side of the material will reflect or transmit light. The back side will be completely transparent. This setting should be enabled for all solid models. Disable only when using thin mesh geometry.</source>
+        <target>When backface culling is enabled, only the front side of the material will reflect or transmit light. The back side will be completely transparent. This setting should be enabled for all solid models. Disable only when using thin mesh geometry.</target>
+      </trans-unit>
+      <trans-unit id="glazing_backface_culling:uilabel">
+        <source>Backface culling</source>
+        <target>Backface culling</target>
+      </trans-unit>
+      <trans-unit id="glazing_f0">
+        <source>Reflective Color</source>
+        <target>Reflective Color</target>
+      </trans-unit>
+      <trans-unit id="glazing_f0:tooltip">
+        <source>The color of reflections from the material and its highlights. This also corresponds to the amount of light reflected at the perpendicular direction.</source>
+        <target>The color of reflections from the material and its highlights. This also corresponds to the amount of light reflected at the perpendicular direction.</target>
+      </trans-unit>
+      <trans-unit id="glazing_f0:uilabel">
+        <source>Reflectance</source>
+        <target>Reflectance</target>
+      </trans-unit>
+      <trans-unit id="glazing_f0_urn:uilabel">
+        <source>URN</source>
+        <target>URN</target>
+      </trans-unit>
+      <trans-unit id="glazing_transmission_color">
+        <source>Transmissive Color</source>
+        <target>Transmissive Color</target>
+      </trans-unit>
+      <trans-unit id="glazing_transmission_color:tooltip">
+        <source>The color of the light transmitted through the material. A dark color will create a material that is more opaque than a bright color.</source>
+        <target>The color of the light transmitted through the material. A dark color will create a material that is more opaque than a bright color.</target>
+      </trans-unit>
+      <trans-unit id="glazing_transmission_color:uilabel">
+        <source>Transmissive color</source>
+        <target>Transmissive color</target>
+      </trans-unit>
+      <trans-unit id="glazing_transmission_color_urn:uilabel">
+        <source>URN</source>
+        <target>URN</target>
+      </trans-unit>
+      <trans-unit id="glazing_transmission_panel_label">
+        <source>Glazing</source>
+        <target>Glazing</target>
+      </trans-unit>
+      <trans-unit id="glazing_transmission_roughness">
+        <source>Transmissive Roughness</source>
+        <target>Transmissive Roughness</target>
+      </trans-unit>
+      <trans-unit id="glazing_transmission_roughness:tooltip">
+        <source>The surface finish of the material used for transmission, specifying the size of microscopic imperfections. When zero, the whole surface is a perfect mirror. Larger values tend towards more diffuse (rough) appearance and larger highlights. Use together with Anisotropy to obtain a brushed finish effect.</source>
+        <target>The surface finish of the material used for transmission, specifying the size of microscopic imperfections. When zero, the whole surface is a perfect mirror. Larger values tend towards more diffuse (rough) appearance and larger highlights. Use together with Anisotropy to obtain a brushed finish effect.</target>
+      </trans-unit>
+      <trans-unit id="glazing_transmission_roughness:uilabel">
+        <source>Transmissive roughness</source>
+        <target>Transmissive roughness</target>
+      </trans-unit>
+      <trans-unit id="glazing_transmission_roughness_urn:uilabel">
+        <source>URN</source>
+        <target>URN</target>
+      </trans-unit>
+      <trans-unit id="grout_material:uilabel">
+        <source>Grout Material</source>
+        <target>Grout Material</target>
+      </trans-unit>
+      <trans-unit id="illuminance:uilabel">
+        <source>Target illuminance of upper hemisphere in lux</source>
+        <target>Target illuminance of upper hemisphere in lux</target>
+      </trans-unit>
+      <trans-unit id="image:uilabel">
+        <source>URI of the EXR or HDR file</source>
+        <target>URI of the EXR or HDR file</target>
+      </trans-unit>
+      <trans-unit id="image_urn:uilabel">
+        <source>URN</source>
+        <target>URN</target>
+      </trans-unit>
+      <trans-unit id="inset_size">
+        <source>Grout/Mortar Width</source>
+        <target>Grout/Mortar Width</target>
+      </trans-unit>
+      <trans-unit id="inset_size:tooltip">
+        <source>Controls the size of the grout/mortar between the tiles.</source>
+        <target>Controls the size of the grout/mortar between the tiles.</target>
+      </trans-unit>
+      <trans-unit id="inset_size:uilabel">
+        <source>Inset Size</source>
+        <target>Inset Size</target>
+      </trans-unit>
+      <trans-unit id="interior_model:uilabel">
+        <source>Material Type</source>
+        <target>Material Type</target>
+      </trans-unit>
+      <trans-unit id="layered">
+        <source>layered</source>
+        <target>layered</target>
+      </trans-unit>
+      <trans-unit id="layered_anisotropy:uilabel">
+        <source>Anisotropy</source>
+        <target>Anisotropy</target>
+      </trans-unit>
+      <trans-unit id="layered_anisotropy_label">
+        <source>Anisotropy</source>
+        <target>Anisotropy</target>
+      </trans-unit>
+      <trans-unit id="layered_anisotropy_label:tooltip">
+        <source>Controls the shape of the highlights on the surface by making them elliptical rather than circular. Used together with Roughness, Anisotropy can simulate highlights seen on brushed materials.</source>
+        <target>Controls the shape of the highlights on the surface by making them elliptical rather than circular. Used together with Roughness, Anisotropy can simulate highlights seen on brushed materials.</target>
+      </trans-unit>
+      <trans-unit id="layered_anisotropy_panel_label">
+        <source>Advanced Controls</source>
+        <target>Advanced Controls</target>
+      </trans-unit>
+      <trans-unit id="layered_anisotropy_urn:uilabel">
+        <source>URN</source>
+        <target>URN</target>
+      </trans-unit>
+      <trans-unit id="layered_bottom_f0">
+        <source>Color</source>
+        <target>Color</target>
+      </trans-unit>
+      <trans-unit id="layered_bottom_f0:tooltip">
+        <source>The color of a secondary highlight produced by reflection off of the base coat.</source>
+        <target>The color of a secondary highlight produced by reflection off of the base coat.</target>
+      </trans-unit>
+      <trans-unit id="layered_bottom_f0:uilabel">
+        <source>Color</source>
+        <target>Color</target>
+      </trans-unit>
+      <trans-unit id="layered_bottom_f0_urn:uilabel">
+        <source>URN</source>
+        <target>URN</target>
+      </trans-unit>
+      <trans-unit id="layered_diffuse:uilabel">
+        <source>Color</source>
+        <target>Color</target>
+      </trans-unit>
+      <trans-unit id="layered_diffuse_color_label">
+        <source>Diffuse Color</source>
+        <target>Diffuse Color</target>
+      </trans-unit>
+      <trans-unit id="layered_diffuse_color_label:tooltip">
+        <source>The color of light diffusely scattered by the base coat into the scene (diffuse reflectance).</source>
+        <target>The color of light diffusely scattered by the base coat into the scene (diffuse reflectance).</target>
+      </trans-unit>
+      <trans-unit id="layered_diffuse_panel_label">
+        <source>Base Color</source>
+        <target>Base Color</target>
+      </trans-unit>
+      <trans-unit id="layered_diffuse_urn:uilabel">
+        <source>URN</source>
+        <target>URN</target>
+      </trans-unit>
+      <trans-unit id="layered_f0:uilabel">
+        <source>Clearcoat reflectance</source>
+        <target>Clearcoat reflectance</target>
+      </trans-unit>
+      <trans-unit id="layered_f0_label">
+        <source>Reflectance</source>
+        <target>Reflectance</target>
+      </trans-unit>
+      <trans-unit id="layered_f0_label:tooltip">
+        <source>Reflectance expresses how much light is reflected from the surface in a mirror-like fashion (specular reflectance), when looking at the surface perpendicularly. Note that the material will always show a high specular reflectance when looked at grazing angles (Fresnel’s effect).</source>
+        <target>Reflectance expresses how much light is reflected from the surface in a mirror-like fashion (specular reflectance), when looking at the surface perpendicularly. Note that the material will always show a high specular reflectance when looked at grazing angles (Fresnel’s effect).</target>
+      </trans-unit>
+      <trans-unit id="layered_f0_urn:uilabel">
+        <source>URN</source>
+        <target>URN</target>
+      </trans-unit>
+      <trans-unit id="layered_fraction:uilabel">
+        <source>Fraction</source>
+        <target>Fraction</target>
+      </trans-unit>
+      <trans-unit id="layered_fraction_label">
+        <source>Weight</source>
+        <target>Weight</target>
+      </trans-unit>
+      <trans-unit id="layered_fraction_label:tooltip">
+        <source>Determines the intensity of the highlight from the base coat. A value of 0 will eliminate the effect of the Base Highlights and the material will have only Diffuse Color. A value of 1.0 will eliminate the effect of Diffuse Color and and only the Base Highlight will be visible.</source>
+        <target>Determines the intensity of the highlight from the base coat. A value of 0 will eliminate the effect of the Base Highlights and the material will have only Diffuse Color. A value of 1.0 will eliminate the effect of Diffuse Color and and only the Base Highlight will be visible.</target>
+      </trans-unit>
+      <trans-unit id="layered_fraction_urn:uilabel">
+        <source>URN</source>
+        <target>URN</target>
+      </trans-unit>
+      <trans-unit id="layered_ndf_beckmann">
+        <source>Short Falloff</source>
+        <target>Short Falloff</target>
+      </trans-unit>
+      <trans-unit id="layered_ndf_ggx">
+        <source>Long Falloff</source>
+        <target>Long Falloff</target>
+      </trans-unit>
+      <trans-unit id="layered_ndf_type:layered_ndf_beckmann">
+        <source>BECKMANN</source>
+        <target>BECKMANN</target>
+      </trans-unit>
+      <trans-unit id="layered_ndf_type:layered_ndf_ggx">
+        <source>GGX</source>
+        <target>GGX</target>
+      </trans-unit>
+      <trans-unit id="layered_ndf_type:uilabel">
+        <source>NDF</source>
+        <target>NDF</target>
+      </trans-unit>
+      <trans-unit id="layered_ndf_type_label">
+        <source>Shape</source>
+        <target>Shape</target>
+      </trans-unit>
+      <trans-unit id="layered_ndf_type_label:tooltip">
+        <source>Determines the underlying equation used to calculate reflections and highlights on the material. The Long Falloff will produce highlights that appear smoother while the Short Falloff will produce highlights that appear sharper.</source>
+        <target>Determines the underlying equation used to calculate reflections and highlights on the material. The Long Falloff will produce highlights that appear smoother while the Short Falloff will produce highlights that appear sharper.</target>
+      </trans-unit>
+      <trans-unit id="layered_normal:uilabel">
+        <source>Image</source>
+        <target>Image</target>
+      </trans-unit>
+      <trans-unit id="layered_normal_map_label">
+        <source>Image</source>
+        <target>Image</target>
+      </trans-unit>
+      <trans-unit id="layered_normal_map_label:tooltip">
+        <source>Bump defines larger-scale features than what you can achieve with the Roughness parameter, like dents, cracks, grooves etc. Apply an image where those features are defined, with white corresponding to peaks and black to valleys.</source>
+        <target>Bump defines larger-scale features than what you can achieve with the Roughness parameter, like dents, cracks, grooves etc. Apply an image where those features are defined, with white corresponding to peaks and black to valleys.</target>
+      </trans-unit>
+      <trans-unit id="layered_normal_panel_label">
+        <source>Relief Pattern (Bump)</source>
+        <target>Relief Pattern (Bump)</target>
+      </trans-unit>
+      <trans-unit id="layered_normal_urn:uilabel">
+        <source>URN</source>
+        <target>URN</target>
+      </trans-unit>
+      <trans-unit id="layered_rotation:uilabel">
+        <source>Rotation</source>
+        <target>Rotation</target>
+      </trans-unit>
+      <trans-unit id="layered_rotation_label">
+        <source>Orientation</source>
+        <target>Orientation</target>
+      </trans-unit>
+      <trans-unit id="layered_rotation_label:tooltip">
+        <source>Determines the orientation of highlights. This has no effect if Anisotropy Amount is set to 0. Used with a texture map. For example, you can recreate woven materials where the direction of the highlights are perpendicular to each other.</source>
+        <target>Determines the orientation of highlights. This has no effect if Anisotropy Amount is set to 0. Used with a texture map. For example, you can recreate woven materials where the direction of the highlights are perpendicular to each other.</target>
+      </trans-unit>
+      <trans-unit id="layered_rotation_urn:uilabel">
+        <source>URN</source>
+        <target>URN</target>
+      </trans-unit>
+      <trans-unit id="layered_roughness">
+        <source>Roughness</source>
+        <target>Roughness</target>
+      </trans-unit>
+      <trans-unit id="layered_roughness:tooltip">
+        <source>The surface finish of the material, specifying the size of microscopic imperfections. When zero, the whole surface is a perfect mirror. Larger values tend towards more diffuse (rough) appearance and larger highlights. Use together with Anisotropy to obtain a brushed finish effect.</source>
+        <target>The surface finish of the material, specifying the size of microscopic imperfections. When zero, the whole surface is a perfect mirror. Larger values tend towards more diffuse (rough) appearance and larger highlights. Use together with Anisotropy to obtain a brushed finish effect.</target>
+      </trans-unit>
+      <trans-unit id="layered_roughness:uilabel">
+        <source>Roughness</source>
+        <target>Roughness</target>
+      </trans-unit>
+      <trans-unit id="layered_roughness_urn:uilabel">
+        <source>URN</source>
+        <target>URN</target>
+      </trans-unit>
+      <trans-unit id="layered_surface_anisotropy_panel_label">
+        <source>Advanced Controls</source>
+        <target>Advanced Controls</target>
+      </trans-unit>
+      <trans-unit id="maps">
+        <source>maps</source>
+        <target>maps</target>
+      </trans-unit>
+      <trans-unit id="materials">
+        <source>materials</source>
+        <target>materials</target>
+      </trans-unit>
+      <trans-unit id="metal">
+        <source>metal</source>
+        <target>metal</target>
+      </trans-unit>
+      <trans-unit id="metal_f0">
+        <source>Color</source>
+        <target>Color</target>
+      </trans-unit>
+      <trans-unit id="metal_f0:tooltip">
+        <source>The color of the metal surface and its highlights. This also corresponds to the amount of light reflected at the perpendicular direction.</source>
+        <target>The color of the metal surface and its highlights. This also corresponds to the amount of light reflected at the perpendicular direction.</target>
+      </trans-unit>
+      <trans-unit id="metal_f0:uilabel">
+        <source>Reflectance</source>
+        <target>Reflectance</target>
+      </trans-unit>
+      <trans-unit id="metal_f0_panel_label">
+        <source>Parameters</source>
+        <target>Parameters</target>
+      </trans-unit>
+      <trans-unit id="metal_f0_urn:uilabel">
+        <source>URN</source>
+        <target>URN</target>
+      </trans-unit>
+      <trans-unit id="misc">
+        <source>misc</source>
+        <target>misc</target>
+      </trans-unit>
+      <trans-unit id="offset_any">
+        <source>Any</source>
+        <target>Any</target>
+      </trans-unit>
+      <trans-unit id="offset_none">
+        <source>None</source>
+        <target>None</target>
+      </trans-unit>
+      <trans-unit id="offset_vector_a_x:uilabel">
+        <source>Offset a x</source>
+        <target>Offset a x</target>
+      </trans-unit>
+      <trans-unit id="offset_vector_a_y:uilabel">
+        <source>Offset a y</source>
+        <target>Offset a y</target>
+      </trans-unit>
+      <trans-unit id="offset_vector_b_x:uilabel">
+        <source>Offset b x</source>
+        <target>Offset b x</target>
+      </trans-unit>
+      <trans-unit id="offset_vector_b_y:uilabel">
+        <source>Offset b y</source>
+        <target>Offset b y</target>
+      </trans-unit>
+      <trans-unit id="offset_within">
+        <source>Within</source>
+        <target>Within</target>
+      </trans-unit>
+      <trans-unit id="opaque">
+        <source>opaque</source>
+        <target>opaque</target>
+      </trans-unit>
+      <trans-unit id="opaque_albedo">
+        <source>Color</source>
+        <target>Color</target>
+      </trans-unit>
+      <trans-unit id="opaque_albedo:tooltip">
+        <source>The base color of the material. This is defining the amount of diffuse light reflected back to the scene (diffuse reflectance).</source>
+        <target>The base color of the material. This is defining the amount of diffuse light reflected back to the scene (diffuse reflectance).</target>
+      </trans-unit>
+      <trans-unit id="opaque_albedo:uilabel">
+        <source>Color</source>
+        <target>Color</target>
+      </trans-unit>
+      <trans-unit id="opaque_albedo_panel_label">
+        <source>Parameters</source>
+        <target>Parameters</target>
+      </trans-unit>
+      <trans-unit id="opaque_albedo_urn:uilabel">
+        <source>URN</source>
+        <target>URN</target>
+      </trans-unit>
+      <trans-unit id="opaque_emission:uilabel">
+        <source>Emission</source>
+        <target>Emission</target>
+      </trans-unit>
+      <trans-unit id="opaque_emission_panel_label">
+        <source>Emissivity</source>
+        <target>Emissivity</target>
+      </trans-unit>
+      <trans-unit id="opaque_f0">
+        <source>Reflectance</source>
+        <target>Reflectance</target>
+      </trans-unit>
+      <trans-unit id="opaque_f0:tooltip">
+        <source>Reflectance expresses how much light is reflected from the surface in a mirror-like fashion (specular reflectance), when looking at the surface perpendicularly. Note that the material will always show a high specular reflectance when looked at grazing angles (Fresnel’s effect).</source>
+        <target>Reflectance expresses how much light is reflected from the surface in a mirror-like fashion (specular reflectance), when looking at the surface perpendicularly. Note that the material will always show a high specular reflectance when looked at grazing angles (Fresnel’s effect).</target>
+      </trans-unit>
+      <trans-unit id="opaque_f0:uilabel">
+        <source>Specular reflectance</source>
+        <target>Specular reflectance</target>
+      </trans-unit>
+      <trans-unit id="opaque_f0_urn:uilabel">
+        <source>URN</source>
+        <target>URN</target>
+      </trans-unit>
+      <trans-unit id="opaque_luminance:uilabel">
+        <source>Emissive Luminance</source>
+        <target>Emissive Luminance</target>
+      </trans-unit>
+      <trans-unit id="opaque_luminance_label">
+        <source>Luminance</source>
+        <target>Luminance</target>
+      </trans-unit>
+      <trans-unit id="opaque_luminance_label:tooltip">
+        <source>Specified in candelas per meter square (cd/m2), this parameter determines how bright a material will appear and how much light will be emitted from it.</source>
+        <target>Specified in candelas per meter square (cd/m2), this parameter determines how bright a material will appear and how much light will be emitted from it.</target>
+      </trans-unit>
+      <trans-unit id="opaque_luminance_modifier:uilabel">
+        <source>Luminance Scale</source>
+        <target>Luminance Scale</target>
+      </trans-unit>
+      <trans-unit id="opaque_luminance_modifier_label">
+        <source>Filter Color</source>
+        <target>Filter Color</target>
+      </trans-unit>
+      <trans-unit id="opaque_luminance_modifier_label:tooltip">
+        <source>Influences the emissivity color. Useful to create variations in the emissivity to simulate lamp shades, opalescent materials etc.</source>
+        <target>Influences the emissivity color. Useful to create variations in the emissivity to simulate lamp shades, opalescent materials etc.</target>
+      </trans-unit>
+      <trans-unit id="opaque_luminance_modifier_urn:uilabel">
+        <source>URN</source>
+        <target>URN</target>
+      </trans-unit>
+      <trans-unit id="opaque_mfp">
+        <source>Depth</source>
+        <target>Depth</target>
+      </trans-unit>
+      <trans-unit id="opaque_mfp:tooltip">
+        <source>Increase or decrease the translucency effect of the material. A value of zero will result in no translucency. The value corresponds to the scattering mean free path and is always expressed in millimetres.</source>
+        <target>Increase or decrease the translucency effect of the material. A value of zero will result in no translucency. The value corresponds to the scattering mean free path and is always expressed in millimetres.</target>
+      </trans-unit>
+      <trans-unit id="opaque_mfp:uilabel">
+        <source>Translucency Depth</source>
+        <target>Translucency Depth</target>
+      </trans-unit>
+      <trans-unit id="opaque_mfp_modifier">
+        <source>Weight</source>
+        <target>Weight</target>
+      </trans-unit>
+      <trans-unit id="opaque_mfp_modifier:tooltip">
+        <source>Enables color variations for the translucency effect. The Weight color is internally multiplied with the Depth. For best results, try using light and soft colors.</source>
+        <target>Enables color variations for the translucency effect. The Weight color is internally multiplied with the Depth. For best results, try using light and soft colors.</target>
+      </trans-unit>
+      <trans-unit id="opaque_mfp_modifier:uilabel">
+        <source>Translucency Weight</source>
+        <target>Translucency Weight</target>
+      </trans-unit>
+      <trans-unit id="opaque_mfp_modifier_urn:uilabel">
+        <source>URN</source>
+        <target>URN</target>
+      </trans-unit>
+      <trans-unit id="opaque_translucency:uilabel">
+        <source>Translucency</source>
+        <target>Translucency</target>
+      </trans-unit>
+      <trans-unit id="opaque_translucency_panel_label">
+        <source>Translucency</source>
+        <target>Translucency</target>
+      </trans-unit>
+      <trans-unit id="overall_OffsetLock:tooltip">
+        <source>Constrains the offset. When the X offset is changed, the Y offset is changed by the same amount.</source>
+        <target>Constrains the offset. When the X offset is changed, the Y offset is changed by the same amount.</target>
+      </trans-unit>
+      <trans-unit id="overall_corner_rounding_angle">
+        <source>Angle</source>
+        <target>Angle</target>
+      </trans-unit>
+      <trans-unit id="overall_corner_rounding_angle:tooltip">
+        <source>Controls the rounding direction, also it has impact to the tile thickness given the fixed edge rounding size.</source>
+        <target>Controls the rounding direction, also it has impact to the tile thickness given the fixed edge rounding size.</target>
+      </trans-unit>
+      <trans-unit id="overall_corner_rounding_angle:uilabel">
+        <source>Overall Corner Rounding Angle</source>
+        <target>Overall Corner Rounding Angle</target>
+      </trans-unit>
+      <trans-unit id="overall_corner_rounding_size">
+        <source>Radius</source>
+        <target>Radius</target>
+      </trans-unit>
+      <trans-unit id="overall_corner_rounding_size:tooltip">
+        <source>Controls the rounding radius of the tile edge. It also can define the thickness of the tile given the fixed edge rounding angle.</source>
+        <target>Controls the rounding radius of the tile edge. It also can define the thickness of the tile given the fixed edge rounding angle.</target>
+      </trans-unit>
+      <trans-unit id="overall_corner_rounding_size:uilabel">
+        <source>Overall Corner Rounding Size</source>
+        <target>Overall Corner Rounding Size</target>
+      </trans-unit>
+      <trans-unit id="overall_offset_vector_x">
+        <source>Offset</source>
+        <target>Offset</target>
+      </trans-unit>
+      <trans-unit id="overall_offset_vector_x:rightlabel">
+        <source>X</source>
+        <target>X</target>
+      </trans-unit>
+      <trans-unit id="overall_offset_vector_x:tooltip">
+        <source>Moves the starting point of the pattern along the X axis.</source>
+        <target>Moves the starting point of the pattern along the X axis.</target>
+      </trans-unit>
+      <trans-unit id="overall_offset_vector_x:uilabel">
+        <source>Overall Offset x</source>
+        <target>Overall Offset x</target>
+      </trans-unit>
+      <trans-unit id="overall_offset_vector_y">
+        <target></target>
+      </trans-unit>
+      <trans-unit id="overall_offset_vector_y:rightlabel">
+        <source>Y</source>
+        <target>Y</target>
+      </trans-unit>
+      <trans-unit id="overall_offset_vector_y:tooltip">
+        <source>Moves the starting point of the pattern along the Y axis.</source>
+        <target>Moves the starting point of the pattern along the Y axis.</target>
+      </trans-unit>
+      <trans-unit id="overall_offset_vector_y:uilabel">
+        <source>Overall Offset y</source>
+        <target>Overall Offset y</target>
+      </trans-unit>
+      <trans-unit id="overall_rotation_angle">
+        <source>Rotation</source>
+        <target>Rotation</target>
+      </trans-unit>
+      <trans-unit id="overall_rotation_angle:tooltip">
+        <source>Rotates the pattern from 0 degrees to 360 degrees.</source>
+        <target>Rotates the pattern from 0 degrees to 360 degrees.</target>
+      </trans-unit>
+      <trans-unit id="overall_rotation_angle:uilabel">
+        <source>Overall Rotation Angle</source>
+        <target>Overall Rotation Angle</target>
+      </trans-unit>
+      <trans-unit id="pattern">
+        <source>Pattern</source>
+        <target>Pattern</target>
+      </trans-unit>
+      <trans-unit id="pattern:tooltip">
+        <source>Uses a pattern.</source>
+        <target>Uses a pattern.</target>
+      </trans-unit>
+      <trans-unit id="random_offset_mode:offset_any">
+        <source>Any</source>
+        <target>Any</target>
+      </trans-unit>
+      <trans-unit id="random_offset_mode:offset_none">
+        <source>None</source>
+        <target>None</target>
+      </trans-unit>
+      <trans-unit id="random_offset_mode:offset_within">
+        <source>Within</source>
+        <target>Within</target>
+      </trans-unit>
+      <trans-unit id="random_offset_mode:uilabel">
+        <source>Random Offset Mode</source>
+        <target>Random Offset Mode</target>
+      </trans-unit>
+      <trans-unit id="random_offset_mode_label">
+        <source>Random Offset Mode</source>
+        <target>Random Offset Mode</target>
+      </trans-unit>
+      <trans-unit id="random_offset_mode_label:tooltip">
+        <source>TODO.</source>
+        <target>TODO.</target>
+      </trans-unit>
+      <trans-unit id="random_rotation_mode_label">
+        <source>Random Rotation Mode</source>
+        <target>Random Rotation Mode</target>
+      </trans-unit>
+      <trans-unit id="random_rotation_mode_label:tooltip">
+        <source>TODO.</source>
+        <target>TODO.</target>
+      </trans-unit>
+      <trans-unit id="rotation_180degree">
+        <source>180 degree</source>
+        <target>180 degree</target>
+      </trans-unit>
+      <trans-unit id="rotation_90degree">
+        <source>90 degree</source>
+        <target>90 degree</target>
+      </trans-unit>
+      <trans-unit id="rotation_angle:uilabel">
+        <source>Rotation Angle</source>
+        <target>Rotation Angle</target>
+      </trans-unit>
+      <trans-unit id="rotation_any">
+        <source>Any</source>
+        <target>Any</target>
+      </trans-unit>
+      <trans-unit id="rotation_none">
+        <source>None</source>
+        <target>None</target>
+      </trans-unit>
+      <trans-unit id="sample_sizeLock:tooltip">
+        <source>Locks the aspect ratio of the pattern. When the width or height value is changed, the other value changes as needed to maintain the aspect ratio.</source>
+        <target>Locks the aspect ratio of the pattern. When the width or height value is changed, the other value changes as needed to maintain the aspect ratio.</target>
+      </trans-unit>
+      <trans-unit id="scale_factor_x">
+        <source>Sample Size</source>
+        <target>Sample Size</target>
+      </trans-unit>
+      <trans-unit id="scale_factor_x:rightlabel">
+        <source>Width</source>
+        <target>Width</target>
+      </trans-unit>
+      <trans-unit id="scale_factor_x:tooltip">
+        <source>Specifies the horizontal scaling for the sample.</source>
+        <target>Specifies the horizontal scaling for the sample.</target>
+      </trans-unit>
+      <trans-unit id="scale_factor_x:uilabel">
+        <source>Scale Size X</source>
+        <target>Scale Size X</target>
+      </trans-unit>
+      <trans-unit id="scale_factor_y">
+        <target></target>
+      </trans-unit>
+      <trans-unit id="scale_factor_y:rightlabel">
+        <source>Height</source>
+        <target>Height</target>
+      </trans-unit>
+      <trans-unit id="scale_factor_y:tooltip">
+        <source>Specifies the vertical scaling for the sample.</source>
+        <target>Specifies the vertical scaling for the sample.</target>
+      </trans-unit>
+      <trans-unit id="scale_factor_y:uilabel">
+        <source>Scale Size Y</source>
+        <target>Scale Size Y</target>
+      </trans-unit>
+      <trans-unit id="seed_pattern_size">
+        <source>Seed Pattern</source>
+        <target>Seed Pattern</target>
+      </trans-unit>
+      <trans-unit id="seed_pattern_size:tooltip">
+        <source>Specifies the number of tiles in the minimum repeatable unit of the pattern.</source>
+        <target>Specifies the number of tiles in the minimum repeatable unit of the pattern.</target>
+      </trans-unit>
+      <trans-unit id="surface_albedo:uilabel">
+        <source>Color</source>
+        <target>Color</target>
+      </trans-unit>
+      <trans-unit id="surface_albedo_Glazing_panel_label">
+        <source>Parameters</source>
+        <target>Parameters</target>
+      </trans-unit>
+      <trans-unit id="surface_albedo_label">
+        <source>Color</source>
+        <target>Color</target>
+      </trans-unit>
+      <trans-unit id="surface_albedo_label:tooltip">
+        <source>Determines the color (or the weight) of the specular highlights of the material. Generally, this parameter should be set to a white color for physical correctness, but can be changed for artistic purposes.</source>
+        <target>Determines the color (or the weight) of the specular highlights of the material. Generally, this parameter should be set to a white color for physical correctness, but can be changed for artistic purposes.</target>
+      </trans-unit>
+      <trans-unit id="surface_albedo_urn:uilabel">
+        <source>URN</source>
+        <target>URN</target>
+      </trans-unit>
+      <trans-unit id="surface_anisotropy:uilabel">
+        <source>Anisotropy</source>
+        <target>Anisotropy</target>
+      </trans-unit>
+      <trans-unit id="surface_anisotropy_panel_label">
+        <source>Advanced Highlight Controls</source>
+        <target>Advanced Highlight Controls</target>
+      </trans-unit>
+      <trans-unit id="surface_anisotropy_urn:uilabel">
+        <source>URN</source>
+        <target>URN</target>
+      </trans-unit>
+      <trans-unit id="surface_bump_amount_label">
+        <source>Depth Amount</source>
+        <target>Depth Amount</target>
+      </trans-unit>
+      <trans-unit id="surface_bump_amount_label:tooltip">
+        <source>Adjusts the relative depth of the Bump pattern. Leave to 1.0 to use the exact amount defined by the Normal Map image.</source>
+        <target>Adjusts the relative depth of the Bump pattern. Leave to 1.0 to use the exact amount defined by the Normal Map image.</target>
+      </trans-unit>
+      <trans-unit id="surface_bump_map_label">
+        <source>Image</source>
+        <target>Image</target>
+      </trans-unit>
+      <trans-unit id="surface_bump_map_label:tooltip">
+        <source>Bump defines larger-scale features than what you can achieve with the Roughness parameter, like dents, cracks, grooves etc. Apply an image where those features are defined, with white corresponding to peaks and black to valleys.</source>
+        <target>Bump defines larger-scale features than what you can achieve with the Roughness parameter, like dents, cracks, grooves etc. Apply an image where those features are defined, with white corresponding to peaks and black to valleys.</target>
+      </trans-unit>
+      <trans-unit id="surface_bump_panel_label">
+        <source>Relief Pattern (Bump)</source>
+        <target>Relief Pattern (Bump)</target>
+      </trans-unit>
+      <trans-unit id="surface_cutout">
+        <source>Image</source>
+        <target>Image</target>
+      </trans-unit>
+      <trans-unit id="surface_cutout:tooltip">
+        <source>Cutout defines holes in the surface with an image map. The holes will have no thickness or depth so it is generally suitable for thin elements such as sheets of metal.</source>
+        <target>Cutout defines holes in the surface with an image map. The holes will have no thickness or depth so it is generally suitable for thin elements such as sheets of metal.</target>
+      </trans-unit>
+      <trans-unit id="surface_cutout:uilabel">
+        <source>Image</source>
+        <target>Image</target>
+      </trans-unit>
+      <trans-unit id="surface_cutout_panel_label">
+        <source>Cutout</source>
+        <target>Cutout</target>
+      </trans-unit>
+      <trans-unit id="surface_cutout_urn:uilabel">
+        <source>URN</source>
+        <target>URN</target>
+      </trans-unit>
+      <trans-unit id="surface_ndf_beckmann">
+        <source>Short Falloff</source>
+        <target>Short Falloff</target>
+      </trans-unit>
+      <trans-unit id="surface_ndf_ggx">
+        <source>Long Falloff</source>
+        <target>Long Falloff</target>
+      </trans-unit>
+      <trans-unit id="surface_ndf_type:surface_ndf_beckmann">
+        <source>BECKMANN</source>
+        <target>BECKMANN</target>
+      </trans-unit>
+      <trans-unit id="surface_ndf_type:surface_ndf_ggx">
+        <source>GGX</source>
+        <target>GGX</target>
+      </trans-unit>
+      <trans-unit id="surface_ndf_type:uilabel">
+        <source>NDF</source>
+        <target>NDF</target>
+      </trans-unit>
+      <trans-unit id="surface_ndf_type_label">
+        <source>Shape</source>
+        <target>Shape</target>
+      </trans-unit>
+      <trans-unit id="surface_ndf_type_label:tooltip">
+        <source>Determines the underlying equation used to calculate reflections and highlights on the material. The Long Falloff will produce highlights that appear smoother while the Short Falloff will produce highlights that appear sharper.</source>
+        <target>Determines the underlying equation used to calculate reflections and highlights on the material. The Long Falloff will produce highlights that appear smoother while the Short Falloff will produce highlights that appear sharper.</target>
+      </trans-unit>
+      <trans-unit id="surface_normal:uilabel">
+        <source>Image</source>
+        <target>Image</target>
+      </trans-unit>
+      <trans-unit id="surface_normal_anisotropy_label">
+        <source>Anisotropy</source>
+        <target>Anisotropy</target>
+      </trans-unit>
+      <trans-unit id="surface_normal_anisotropy_label:tooltip">
+        <source>Controls the shape of the highlights on the surface by making them elliptical rather than circular. Used together with Roughness, Anisotropy can simulate highlights seen on brushed materials.</source>
+        <target>Controls the shape of the highlights on the surface by making them elliptical rather than circular. Used together with Roughness, Anisotropy can simulate highlights seen on brushed materials.</target>
+      </trans-unit>
+      <trans-unit id="surface_normal_urn:uilabel">
+        <source>URN</source>
+        <target>URN</target>
+      </trans-unit>
+      <trans-unit id="surface_orientation_label">
+        <source>Orientation</source>
+        <target>Orientation</target>
+      </trans-unit>
+      <trans-unit id="surface_orientation_label:tooltip">
+        <source>Determines the orientation of highlights. This has no effect if Anisotropy Amount is set to 0. Used with a texture map. For example, you can recreate woven materials where the direction of the highlights are perpendicular to each other.</source>
+        <target>Determines the orientation of highlights. This has no effect if Anisotropy Amount is set to 0. Used with a texture map. For example, you can recreate woven materials where the direction of the highlights are perpendicular to each other.</target>
+      </trans-unit>
+      <trans-unit id="surface_rotation:uilabel">
+        <source>Rotation</source>
+        <target>Rotation</target>
+      </trans-unit>
+      <trans-unit id="surface_rotation_urn:uilabel">
+        <source>URN</source>
+        <target>URN</target>
+      </trans-unit>
+      <trans-unit id="surface_roughness">
+        <source>Roughness</source>
+        <target>Roughness</target>
+      </trans-unit>
+      <trans-unit id="surface_roughness:tooltip">
+        <source>The surface finish of the material, specifying the size of microscopic imperfections. When zero, the whole surface is a perfect mirror. Larger values tend towards more diffuse (rough) appearance and larger highlights. Use together with Anisotropy to obtain a brushed finish effect.</source>
+        <target>The roughness of the microfacet reflection lobe.</target>
+      </trans-unit>
+      <trans-unit id="surface_roughness:uilabel">
+        <source>Roughness</source>
+        <target>Roughness</target>
+      </trans-unit>
+      <trans-unit id="surface_roughness_urn:uilabel">
+        <source>URN</source>
+        <target>URN</target>
+      </trans-unit>
+      <trans-unit id="swatch">
+        <source>Swatch Scene</source>
+        <target>Swatch Scene</target>
+      </trans-unit>
+      <trans-unit id="texture_LinkTextureTransforms">
+        <source>Link texture transforms</source>
+        <target>Link texture transforms</target>
+      </trans-unit>
+      <trans-unit id="texture_LinkTextureTransforms:tooltip">
+        <source>When this setting is enabled, all changes made to the Position, Scale, and Repeat settings of this attribute will be propagated to all other attributes within the material that use a texture.</source>
+        <target>When this setting is enabled, all changes made to the Position, Scale, and Repeat settings of this attribute will be propagated to all other attributes within the material that use a texture.</target>
+      </trans-unit>
+      <trans-unit id="texture_LinkTextureTransforms:uilabel">
+        <source>Link Transforms</source>
+        <target>Link Transforms</target>
+      </trans-unit>
+      <trans-unit id="texture_MapChannel:uilabel">
+        <source>Map Channel</source>
+        <target>Map Channel</target>
+      </trans-unit>
+      <trans-unit id="texture_MapChannel_ID_Advanced">
+        <source>Map Channel</source>
+        <target>Map Channel</target>
+      </trans-unit>
+      <trans-unit id="texture_MapChannel_ID_Advanced:uilabel">
+        <source>Map Channel ID</source>
+        <target>Map Channel ID</target>
+      </trans-unit>
+      <trans-unit id="texture_MapChannel_UVWSource_Advanced:uilabel">
+        <source>UVW Source</source>
+        <target>UVW Source</target>
+      </trans-unit>
+      <trans-unit id="texture_OffsetLock:tooltip">
+        <source>Constrains the offset. When the X offset is changed, the Y offset is changed by the same amount.</source>
+        <target>Constrains the offset. When the X offset is changed, the Y offset is changed by the same amount.</target>
+      </trans-unit>
+      <trans-unit id="texture_OffsetLock:uilabel">
+        <source>Offset Lock</source>
+        <target>Offset Lock</target>
+      </trans-unit>
+      <trans-unit id="texture_RealWorldOffsetX">
+        <source>Offset</source>
+        <target>Offset</target>
+      </trans-unit>
+      <trans-unit id="texture_RealWorldOffsetX:rightlabel">
+        <source>X</source>
+        <target>X</target>
+      </trans-unit>
+      <trans-unit id="texture_RealWorldOffsetX:tooltip">
+        <source>Moves the starting point of the map along the X axis.</source>
+        <target>Moves the starting point of the map along the X axis.</target>
+      </trans-unit>
+      <trans-unit id="texture_RealWorldOffsetX:uilabel">
+        <source>Offset X</source>
+        <target>Offset X</target>
+      </trans-unit>
+      <trans-unit id="texture_RealWorldOffsetY">
+        <target></target>
+      </trans-unit>
+      <trans-unit id="texture_RealWorldOffsetY:rightlabel">
+        <source>Y</source>
+        <target>Y</target>
+      </trans-unit>
+      <trans-unit id="texture_RealWorldOffsetY:tooltip">
+        <source>Moves the starting point of the map along the Y axis.</source>
+        <target>Moves the starting point of the map along the Y axis.</target>
+      </trans-unit>
+      <trans-unit id="texture_RealWorldOffsetY:uilabel">
+        <source>Offset Y</source>
+        <target>Offset Y</target>
+      </trans-unit>
+      <trans-unit id="texture_RealWorldScaleX">
+        <source>Sample Size</source>
+        <target>Sample Size</target>
+      </trans-unit>
+      <trans-unit id="texture_RealWorldScaleX:rightlabel">
+        <source>Width</source>
+        <target>Width</target>
+      </trans-unit>
+      <trans-unit id="texture_RealWorldScaleX:tooltip">
+        <source>Specifies the horizontal scaling for this texture.</source>
+        <target>Specifies the horizontal scaling for this texture.</target>
+      </trans-unit>
+      <trans-unit id="texture_RealWorldScaleX:uilabel">
+        <source>Size X</source>
+        <target>Size X</target>
+      </trans-unit>
+      <trans-unit id="texture_RealWorldScaleY">
+        <target></target>
+      </trans-unit>
+      <trans-unit id="texture_RealWorldScaleY:rightlabel">
+        <source>Height</source>
+        <target>Height</target>
+      </trans-unit>
+      <trans-unit id="texture_RealWorldScaleY:tooltip">
+        <source>Specifies the vertical scaling for this texture.</source>
+        <target>Specifies the vertical scaling for this texture.</target>
+      </trans-unit>
+      <trans-unit id="texture_RealWorldScaleY:uilabel">
+        <source>Size Y</source>
+        <target>Size Y</target>
+      </trans-unit>
+      <trans-unit id="texture_ScaleLock:tooltip">
+        <source>Locks the aspect ratio of the map. When the height or width value is changed, the other value changes as needed to maintain the aspect ratio.</source>
+        <target>Locks the aspect ratio of the map. When the height or width value is changed, the other value changes as needed to maintain the aspect ratio.</target>
+      </trans-unit>
+      <trans-unit id="texture_ScaleLock:uilabel">
+        <source>Scale Lock</source>
+        <target>Scale Lock</target>
+      </trans-unit>
+      <trans-unit id="texture_UOffset:uilabel">
+        <source>U Offset</source>
+        <target>U Offset</target>
+      </trans-unit>
+      <trans-unit id="texture_URepeat">
+        <source>Horizontal</source>
+        <target>Horizontal</target>
+      </trans-unit>
+      <trans-unit id="texture_URepeat:offlabel">
+        <source>None</source>
+        <target>None</target>
+      </trans-unit>
+      <trans-unit id="texture_URepeat:onlabel">
+        <source>Tile</source>
+        <target>Tile</target>
+      </trans-unit>
+      <trans-unit id="texture_URepeat:tooltip">
+        <source>Adjusts the tiling of the map along the X axis. None controls the map to not be tiled within the material. Tile causes the map to be tiled within the material.</source>
+        <target>Adjusts the tiling of the map along the X axis. None controls the map to not be tiled within the material. Tile causes the map to be tiled within the material.</target>
+      </trans-unit>
+      <trans-unit id="texture_URepeat:uilabel">
+        <source>U Repeat</source>
+        <target>U Repeat</target>
+      </trans-unit>
+      <trans-unit id="texture_UScale:uilabel">
+        <source>U Scale</source>
+        <target>U Scale</target>
+      </trans-unit>
+      <trans-unit id="texture_UVScale:uilabel">
+        <source>UV Scale</source>
+        <target>UV Scale</target>
+      </trans-unit>
+      <trans-unit id="texture_VOffset:uilabel">
+        <source>V Offset</source>
+        <target>V Offset</target>
+      </trans-unit>
+      <trans-unit id="texture_VRepeat">
+        <source>Vertical</source>
+        <target>Vertical</target>
+      </trans-unit>
+      <trans-unit id="texture_VRepeat:offlabel">
+        <source>None</source>
+        <target>None</target>
+      </trans-unit>
+      <trans-unit id="texture_VRepeat:onlabel">
+        <source>Tile</source>
+        <target>Tile</target>
+      </trans-unit>
+      <trans-unit id="texture_VRepeat:tooltip">
+        <source>Adjusts the tiling of the map along the Y axis. None controls the map to not be tiled within the material. Tile causes the map to be tiled within the material.</source>
+        <target>Adjusts the tiling of the map along the Y axis. None controls the map to not be tiled within the material. Tile causes the map to be tiled within the material.</target>
+      </trans-unit>
+      <trans-unit id="texture_VRepeat:uilabel">
+        <source>V Repeat</source>
+        <target>V Repeat</target>
+      </trans-unit>
+      <trans-unit id="texture_VScale:uilabel">
+        <source>V Scale</source>
+        <target>V Scale</target>
+      </trans-unit>
+      <trans-unit id="texture_WAngle">
+        <source>Rotation</source>
+        <target>Rotation</target>
+      </trans-unit>
+      <trans-unit id="texture_WAngle:tooltip">
+        <source>Rotates the map from 0 degrees to 360 degrees.</source>
+        <target>Rotates the map from 0 degrees to 360 degrees.</target>
+      </trans-unit>
+      <trans-unit id="texture_WAngle:uilabel">
+        <source>Angle</source>
+        <target>Angle</target>
+      </trans-unit>
+      <trans-unit id="tile">
+        <source>tile</source>
+        <target>tile</target>
+      </trans-unit>
+      <trans-unit id="tiles">
+        <source>Tile </source>
+        <target>Tile </target>
+      </trans-unit>
+      <trans-unit id="tiles:tooltip">
+        <source>All tiles</source>
+        <target>All tiles</target>
+      </trans-unit>
+      <trans-unit id="tiles:uilabel">
+        <source>Tiles</source>
+        <target>Tiles</target>
+      </trans-unit>
+      <trans-unit id="tiling">
+        <source>Tiling</source>
+        <target>Tiling</target>
+      </trans-unit>
+      <trans-unit id="tiling_pattern">
+        <source>Tiling Pattern</source>
+        <target>Tiling Pattern</target>
+      </trans-unit>
+      <trans-unit id="tiling_pattern:uilabel">
+        <source>Tiling Pattern</source>
+        <target>Tiling Pattern</target>
+      </trans-unit>
+      <trans-unit id="tiling_pattern_preview:uilabel">
+        <source>Pattern Preview</source>
+        <target>Pattern Preview</target>
+      </trans-unit>
+      <trans-unit id="top_coat_group_label">
+        <source>Top Coat</source>
+        <target>Top Coat</target>
+      </trans-unit>
+      <trans-unit id="transparent">
+        <source>transparent</source>
+        <target>transparent</target>
+      </trans-unit>
+      <trans-unit id="transparent_color">
+        <source>Color</source>
+        <target>Color</target>
+      </trans-unit>
+      <trans-unit id="transparent_color:tooltip">
+        <source>The color of the light transmitted through the material at the distance defined by the Absorption Distance parameter (Transmission Color). A dark color will create a material that is more opaque than a bright color.</source>
+        <target>The color of the light transmitted through the material at the distance defined by the Absorption Distance parameter (Transmission Color). A dark color will create a material that is more opaque than a bright color.</target>
+      </trans-unit>
+      <trans-unit id="transparent_color:uilabel">
+        <source>Color</source>
+        <target>Color</target>
+      </trans-unit>
+      <trans-unit id="transparent_color_panel_label">
+        <source>Parameters</source>
+        <target>Parameters</target>
+      </trans-unit>
+      <trans-unit id="transparent_distance:uilabel">
+        <source>Transparent Distance</source>
+        <target>Transparent Distance</target>
+      </trans-unit>
+      <trans-unit id="transparent_distance_label">
+        <source>Absorption Distance</source>
+        <target>Absorption Distance</target>
+      </trans-unit>
+      <trans-unit id="transparent_distance_label:tooltip">
+        <source>Defines at which distance the transmission color is reached. For example, a 4 mm sheet of glass transmitting 50% of the incident light would need an Absorption Distance set to 4 mm and a color set to 50% grey.</source>
+        <target>Defines at which distance the transmission color is reached. For example, a 4 mm sheet of glass transmitting 50% of the incident light would need an Absorption Distance set to 4 mm and a color set to 50% grey.</target>
+      </trans-unit>
+      <trans-unit id="transparent_ior:uilabel">
+        <source>IOR</source>
+        <target>IOR</target>
+      </trans-unit>
+      <trans-unit id="transparent_ior_air">
+        <source>Air</source>
+        <target>Air</target>
+      </trans-unit>
+      <trans-unit id="transparent_ior_alcohol">
+        <source>Alcohol</source>
+        <target>Alcohol</target>
+      </trans-unit>
+      <trans-unit id="transparent_ior_custom">
+        <source>Custom</source>
+        <target>Custom</target>
+      </trans-unit>
+      <trans-unit id="transparent_ior_diamond">
+        <source>Diamond</source>
+        <target>Diamond</target>
+      </trans-unit>
+      <trans-unit id="transparent_ior_glass">
+        <source>Glass</source>
+        <target>Glass</target>
+      </trans-unit>
+      <trans-unit id="transparent_ior_label">
+        <source>Index of Refraction</source>
+        <target>Index of Refraction</target>
+      </trans-unit>
+      <trans-unit id="transparent_ior_label:tooltip">
+        <source>Describes how light bends when it enters a material (i.e. air = 1.0, water = 1.3, glass = 1.5, quartz =1.7, diamond = 2.4)</source>
+        <target>Describes how light bends when it enters a material (i.e. air = 1.0, water = 1.3, glass = 1.5, quartz =1.7, diamond = 2.4)</target>
+      </trans-unit>
+      <trans-unit id="transparent_ior_quartz">
+        <source>Quartz</source>
+        <target>Quartz</target>
+      </trans-unit>
+      <trans-unit id="transparent_iorr_water">
+        <source>Water</source>
+        <target>Water</target>
+      </trans-unit>
+      <trans-unit id="unifiedbitmap_Advanced_Parameters">
+        <source>Advanced Parameters</source>
+        <target>Advanced Parameters</target>
+      </trans-unit>
+      <trans-unit id="unifiedbitmap_Bitmap">
+        <source>Source</source>
+        <target>Source</target>
+      </trans-unit>
+      <trans-unit id="unifiedbitmap_Bitmap:uilabel">
+        <source>Source</source>
+        <target>Source</target>
+      </trans-unit>
+      <trans-unit id="unifiedbitmap_Bitmap_urn:uilabel">
+        <source>URN</source>
+        <target>URN</target>
+      </trans-unit>
+      <trans-unit id="unifiedbitmap_Blur">
+        <source>Blur</source>
+        <target>Blur</target>
+      </trans-unit>
+      <trans-unit id="unifiedbitmap_Blur:uilabel">
+        <source>Blur</source>
+        <target>Blur</target>
+      </trans-unit>
+      <trans-unit id="unifiedbitmap_Blur_Offset">
+        <source>Blur Offset</source>
+        <target>Blur Offset</target>
+      </trans-unit>
+      <trans-unit id="unifiedbitmap_Blur_Offset:uilabel">
+        <source>Blur Offset</source>
+        <target>Blur Offset</target>
+      </trans-unit>
+      <trans-unit id="unifiedbitmap_Filtering">
+        <source>Filtering</source>
+        <target>Filtering</target>
+      </trans-unit>
+      <trans-unit id="unifiedbitmap_Filtering:uilabel">
+        <source>Filtering</source>
+        <target>Filtering</target>
+      </trans-unit>
+      <trans-unit id="unifiedbitmap_Invert">
+        <source>Invert Image</source>
+        <target>Invert Image</target>
+      </trans-unit>
+      <trans-unit id="unifiedbitmap_Invert:tooltip">
+        <source>Swap the bright and dark areas of the image.</source>
+        <target>Swap the bright and dark areas of the image.</target>
+      </trans-unit>
+      <trans-unit id="unifiedbitmap_Invert:uilabel">
+        <source>Invert Image</source>
+        <target>Invert Image</target>
+      </trans-unit>
+      <trans-unit id="unifiedbitmap_None">
+        <source>None</source>
+        <target>None</target>
+      </trans-unit>
+      <trans-unit id="unifiedbitmap_Pyramidal">
+        <source>Pyramidal</source>
+        <target>Pyramidal</target>
+      </trans-unit>
+      <trans-unit id="unifiedbitmap_RGBAmount">
+        <source>Brightness</source>
+        <target>Brightness</target>
+      </trans-unit>
+      <trans-unit id="unifiedbitmap_RGBAmount:tooltip">
+        <source>Adjust the brightness of the image.</source>
+        <target>Adjust the brightness of the image.</target>
+      </trans-unit>
+      <trans-unit id="unifiedbitmap_RGBAmount:uilabel">
+        <source>Brightness</source>
+        <target>Brightness</target>
+      </trans-unit>
+      <trans-unit id="unifiedbitmap_Summed_Area">
+        <source>Summed Area</source>
+        <target>Summed Area</target>
+      </trans-unit>
+      <trans-unit id="unifiedbitmap_position_group">
+        <source>Position</source>
+        <target>Position</target>
+      </trans-unit>
+      <trans-unit id="unifiedbitmap_repeat_group">
+        <source>Repeat</source>
+        <target>Repeat</target>
+      </trans-unit>
+      <trans-unit id="unifiedbitmap_scale_group">
+        <source>Scale</source>
+        <target>Scale</target>
+      </trans-unit>
+      <trans-unit id="unifiedbitmap_transforms_group">
+        <source>Transforms</source>
+        <target>Transforms</target>
+      </trans-unit>
+      <trans-unit id="use_illuminance:uilabel">
+        <source>Use the above illuminance or raw data</source>
+        <target>Use the above illuminance or raw data</target>
+      </trans-unit>
+      <trans-unit id="vertices">
+        <source>Vertices</source>
+        <target>Vertices</target>
+      </trans-unit>
+      <trans-unit id="vertices:tooltip">
+        <source>Vertices.</source>
+        <target>Vertices.</target>
+      </trans-unit>
+      <trans-unit id="vertices:uilabel">
+        <source>Vertices</source>
+        <target>Vertices</target>
+      </trans-unit>
+      <trans-unit id="visible_transmission_label">
+        <source>Visible Transmittance</source>
+        <target>Visible Transmittance</target>
+      </trans-unit>
+      <trans-unit id="visible_transmission_label:tooltip">
+        <source>The amount of the light in the visible portion of the spectrum that passes through a glazing material.</source>
+        <target>The amount of the light in the visible portion of the spectrum that passes through a glazing material.</target>
+      </trans-unit>
+      <trans-unit id="white_luminance:uilabel">
+        <source>Luminance of the RGB value (1,1,1)</source>
+        <target>Luminance of the RGB value (1,1,1)</target>
+      </trans-unit>
+      <trans-unit id="wood">
+        <source>wood</source>
+        <target>wood</target>
+      </trans-unit>
+      <trans-unit id="wood_curly_distortion_enable:uilabel">
+        <source>Enable distortion for wood secondary curly highlight</source>
+        <target>Enable distortion for wood secondary curly highlight</target>
+      </trans-unit>
+      <trans-unit id="wood_curly_distortion_map">
+        <source>Map</source>
+        <target>Map</target>
+      </trans-unit>
+      <trans-unit id="wood_curly_distortion_map:tooltip">
+        <source>The 2D fiber distortion map(NO degamma op).</source>
+        <target>The 2D fiber distortion map(NO degamma op).</target>
+      </trans-unit>
+      <trans-unit id="wood_curly_distortion_map:uilabel">
+        <source> The 2D fiber distortion map (NO degamma op)</source>
+        <target> The 2D fiber distortion map (NO degamma op)</target>
+      </trans-unit>
+      <trans-unit id="wood_curly_distortion_map_urn:uilabel">
+        <source>URN</source>
+        <target>URN</target>
+      </trans-unit>
+      <trans-unit id="wood_curly_distortion_scale">
+        <source>Scale</source>
+        <target>Scale</target>
+      </trans-unit>
+      <trans-unit id="wood_curly_distortion_scale:tooltip">
+        <source>The scale of distortion for secondary curly highlight.</source>
+        <target>The scale of distortion for secondary curly highlight.</target>
+      </trans-unit>
+      <trans-unit id="wood_curly_distortion_scale:uilabel">
+        <source> The scale of distortion for secondary curly highlight</source>
+        <target> The scale of distortion for secondary curly highlight</target>
+      </trans-unit>
+      <trans-unit id="wood_diffuse_lobe_weight">
+        <source>Diffuse/Fiber Highlights Blend</source>
+        <target>Diffuse/Fiber Highlights Blend</target>
+      </trans-unit>
+      <trans-unit id="wood_diffuse_lobe_weight:tooltip">
+        <source>Blend between base wood color and fibers highlights (0.0 = only wood color, 1.0 = only fiber highlights).</source>
+        <target>Blend between base wood color and fibers highlights (0.0 = only wood color, 1.0 = only fiber highlights).</target>
+      </trans-unit>
+      <trans-unit id="wood_diffuse_lobe_weight:uilabel">
+        <source>Weight of diffuse lobe</source>
+        <target>Weight of diffuse lobe</target>
+      </trans-unit>
+      <trans-unit id="wood_diffuse_perlin_enable:uilabel">
+        <source>Use perlin function for diffuse albedo</source>
+        <target>Use perlin function for diffuse albedo</target>
+      </trans-unit>
+      <trans-unit id="wood_diffuse_perlin_prof">
+        <source>Variations Profile</source>
+        <target>Variations Profile</target>
+      </trans-unit>
+      <trans-unit id="wood_diffuse_perlin_prof:tooltip">
+        <source>Variation profile describes the noise to apply to a value as a series of numeric pairs SS;WW, where SS is the Size and WW is the Weight. All values are in centimeters. For example 5.5;0.5 means that the noise size is 5.5cm and the value is shifted a maximum of 0.5cm. Multiple pairs can be specified to combine larger and smaller scale noises. For example, three different noises can be specified as 5.5;0.5;2.5;0.2;0.5;0.05 to combine large and smaller scale variations.</source>
+        <target>Variation profile describes the noise to apply to a value as a series of numeric pairs SS;WW, where SS is the Size and WW is the Weight. All values are in centimeters. For example 5.5;0.5 means that the noise size is 5.5cm and the value is shifted a maximum of 0.5cm. Multiple pairs can be specified to combine larger and smaller scale noises. For example, three different noises can be specified as 5.5;0.5;2.5;0.2;0.5;0.05 to combine large and smaller scale variations.</target>
+      </trans-unit>
+      <trans-unit id="wood_diffuse_perlin_prof:uilabel">
+        <source>Profile for diffuse albedo perlin noise</source>
+        <target>Profile for diffuse albedo perlin noise</target>
+      </trans-unit>
+      <trans-unit id="wood_diffuse_perlin_scale_z">
+        <source>Vertical Scale</source>
+        <target>Vertical Scale</target>
+      </trans-unit>
+      <trans-unit id="wood_diffuse_perlin_scale_z:tooltip">
+        <source>Vertical color variations stretching (1.0 = no stretching, smaller values = more stretching)</source>
+        <target>Vertical color variations stretching (1.0 = no stretching, smaller values = more stretching)</target>
+      </trans-unit>
+      <trans-unit id="wood_diffuse_perlin_scale_z:uilabel">
+        <source>Anisotropic pos-z scale for diffuse albedo perlin</source>
+        <target>Anisotropic pos-z scale for diffuse albedo perlin</target>
+      </trans-unit>
+      <trans-unit id="wood_early_color:uilabel">
+        <source>Earlywood color</source>
+        <target>Earlywood color</target>
+      </trans-unit>
+      <trans-unit id="wood_earlycolor_perlin_enable:uilabel">
+        <source>Use perlin noise for earlywood color</source>
+        <target>Use perlin noise for earlywood color</target>
+      </trans-unit>
+      <trans-unit id="wood_earlycolor_perlin_prof">
+        <source>Variations Profile</source>
+        <target>Variations Profile</target>
+      </trans-unit>
+      <trans-unit id="wood_earlycolor_perlin_prof:tooltip">
+        <source>Variation profile describes the noise to apply to a value as a series of numeric pairs SS;WW, where SS is the Size and WW is the Weight. All values are in centimeters. For example 5.5;0.5 means that the noise size is 5.5cm and the value is shifted a maximum of 0.5cm. Multiple pairs can be specified to combine larger and smaller scale noises. For example, three different noises can be specified as 5.5;0.5;2.5;0.2;0.5;0.05 to combine large and smaller scale variations.</source>
+        <target>Variation profile describes the noise to apply to a value as a series of numeric pairs SS;WW, where SS is the Size and WW is the Weight. All values are in centimeters. For example 5.5;0.5 means that the noise size is 5.5cm and the value is shifted a maximum of 0.5cm. Multiple pairs can be specified to combine larger and smaller scale noises. For example, three different noises can be specified as 5.5;0.5;2.5;0.2;0.5;0.05 to combine large and smaller scale variations.</target>
+      </trans-unit>
+      <trans-unit id="wood_earlycolor_perlin_prof:uilabel">
+        <source>Profile for earlywood color perlin noise</source>
+        <target>Profile for earlywood color perlin noise</target>
+      </trans-unit>
+      <trans-unit id="wood_earlywood_sharpness">
+        <source>Earlywood Sharpness</source>
+        <target>Earlywood Sharpness</target>
+      </trans-unit>
+      <trans-unit id="wood_earlywood_sharpness:tooltip">
+        <source>Amount of pure Earlywood.</source>
+        <target>Amount of pure Earlywood.</target>
+      </trans-unit>
+      <trans-unit id="wood_earlywood_sharpness:uilabel">
+        <source>Percentage of pure earlywood</source>
+        <target>Percentage of pure earlywood</target>
+      </trans-unit>
+      <trans-unit id="wood_fiber_cosine_enable:uilabel">
+        <source>Use cosine function for wood fiber</source>
+        <target>Use cosine function for wood fiber</target>
+      </trans-unit>
+      <trans-unit id="wood_fiber_cosine_prof">
+        <source>Vertical Variations Profile</source>
+        <target>Vertical Variations Profile</target>
+      </trans-unit>
+      <trans-unit id="wood_fiber_cosine_prof:tooltip">
+        <source>Variation profile describes the noise to apply to a value as a series of numeric pairs SS;WW, where SS is the Size and WW is the Weight. All values are in centimeters. For example 5.5;0.5 means that the noise size is 5.5cm and the value is shifted a maximum of 0.5cm. Multiple pairs can be specified to combine larger and smaller scale noises. For example, three different noises can be specified as 5.5;0.5;2.5;0.2;0.5;0.05 to combine large and smaller scale variations.</source>
+        <target>Variation profile describes the noise to apply to a value as a series of numeric pairs SS;WW, where SS is the Size and WW is the Weight. All values are in centimeters. For example 5.5;0.5 means that the noise size is 5.5cm and the value is shifted a maximum of 0.5cm. Multiple pairs can be specified to combine larger and smaller scale noises. For example, three different noises can be specified as 5.5;0.5;2.5;0.2;0.5;0.05 to combine large and smaller scale variations.</target>
+      </trans-unit>
+      <trans-unit id="wood_fiber_cosine_prof:uilabel">
+        <source>Profile for fiber cosine function</source>
+        <target>Profile for fiber cosine function</target>
+      </trans-unit>
+      <trans-unit id="wood_fiber_perlin_enable:uilabel">
+        <source>Use perlin noise for wood fiber</source>
+        <target>Use perlin noise for wood fiber</target>
+      </trans-unit>
+      <trans-unit id="wood_fiber_perlin_prof">
+        <source>Variations Profile</source>
+        <target>Variations Profile</target>
+      </trans-unit>
+      <trans-unit id="wood_fiber_perlin_prof:tooltip">
+        <source>Variation profile describes the noise to apply to a value as a series of numeric pairs SS;WW, where SS is the Size and WW is the Weight. All values are in centimeters. For example 5.5;0.5 means that the noise size is 5.5cm and the value is shifted a maximum of 0.5cm. Multiple pairs can be specified to combine larger and smaller scale noises. For example, three different noises can be specified as 5.5;0.5;2.5;0.2;0.5;0.05 to combine large and smaller scale variations.</source>
+        <target>Variation profile describes the noise to apply to a value as a series of numeric pairs SS;WW, where SS is the Size and WW is the Weight. All values are in centimeters. For example 5.5;0.5 means that the noise size is 5.5cm and the value is shifted a maximum of 0.5cm. Multiple pairs can be specified to combine larger and smaller scale noises. For example, three different noises can be specified as 5.5;0.5;2.5;0.2;0.5;0.05 to combine large and smaller scale variations.</target>
+      </trans-unit>
+      <trans-unit id="wood_fiber_perlin_prof:uilabel">
+        <source>Profile for fiber perlin noise</source>
+        <target>Profile for fiber perlin noise</target>
+      </trans-unit>
+      <trans-unit id="wood_fiber_perlin_scale_z">
+        <source>Vertical Scale</source>
+        <target>Vertical Scale</target>
+      </trans-unit>
+      <trans-unit id="wood_fiber_perlin_scale_z:tooltip">
+        <source>Vertical fibers distortions stretching (1.0 = no stretching, smaller values = more stretching).</source>
+        <target>Vertical fibers distortions stretching (1.0 = no stretching, smaller values = more stretching).</target>
+      </trans-unit>
+      <trans-unit id="wood_fiber_perlin_scale_z:uilabel">
+        <source>Anisotropic pos-z scale for fiber perlin</source>
+        <target>Anisotropic pos-z scale for fiber perlin</target>
+      </trans-unit>
+      <trans-unit id="wood_fiber_roughness">
+        <source>Fiber Highlights Roughness</source>
+        <target>Fiber Highlights Roughness</target>
+      </trans-unit>
+      <trans-unit id="wood_fiber_roughness:tooltip">
+        <source>Fibers highlights roughness.</source>
+        <target>Fibers highlights roughness.</target>
+      </trans-unit>
+      <trans-unit id="wood_fiber_roughness:uilabel">
+        <source>Roughness for secondary highlight</source>
+        <target>Roughness for secondary highlight</target>
+      </trans-unit>
+      <trans-unit id="wood_groove_roughness">
+        <source>Roughness</source>
+        <target>Roughness</target>
+      </trans-unit>
+      <trans-unit id="wood_groove_roughness:tooltip">
+        <source>Earlywood roughness.</source>
+        <target>Earlywood roughness.</target>
+      </trans-unit>
+      <trans-unit id="wood_groove_roughness:uilabel">
+        <source>Roughness for surface groove area</source>
+        <target>Roughness for surface groove area</target>
+      </trans-unit>
+      <trans-unit id="wood_growth_perlin_enable:uilabel">
+        <source>Use perlin noise for ring growth</source>
+        <target>Use perlin noise for ring growth</target>
+      </trans-unit>
+      <trans-unit id="wood_growth_perlin_prof">
+        <source>Variations Profile</source>
+        <target>Variations Profile</target>
+      </trans-unit>
+      <trans-unit id="wood_growth_perlin_prof:tooltip">
+        <source>Variation profile describes the noise to apply to a value as a series of numeric pairs SS;WW, where SS is the Size and WW is the Weight. All values are in centimeters. For example 5.5;0.5 means that the noise size is 5.5cm and the value is shifted a maximum of 0.5cm. Multiple pairs can be specified to combine larger and smaller scale noises. For example, three different noises can be specified as 5.5;0.5;2.5;0.2;0.5;0.05 to combine large and smaller scale variations.</source>
+        <target>Variation profile describes the noise to apply to a value as a series of numeric pairs SS;WW, where SS is the Size and WW is the Weight. All values are in centimeters. For example 5.5;0.5 means that the noise size is 5.5cm and the value is shifted a maximum of 0.5cm. Multiple pairs can be specified to combine larger and smaller scale noises. For example, three different noises can be specified as 5.5;0.5;2.5;0.2;0.5;0.05 to combine large and smaller scale variations.</target>
+      </trans-unit>
+      <trans-unit id="wood_growth_perlin_prof:uilabel">
+        <source>Profile for growth perlin noise</source>
+        <target>Profile for growth perlin noise</target>
+      </trans-unit>
+      <trans-unit id="wood_late_color_power:uilabel">
+        <source>Power to compute latewood color</source>
+        <target>Power to compute latewood color</target>
+      </trans-unit>
+      <trans-unit id="wood_latecolor_perlin_enable:uilabel">
+        <source>Use perlin noise for latewood color</source>
+        <target>Use perlin noise for latewood color</target>
+      </trans-unit>
+      <trans-unit id="wood_latecolor_perlin_prof">
+        <source>Variations Profile</source>
+        <target>Variations Profile</target>
+      </trans-unit>
+      <trans-unit id="wood_latecolor_perlin_prof:tooltip">
+        <source>Variation profile describes the noise to apply to a value as a series of numeric pairs SS;WW, where SS is the Size and WW is the Weight. All values are in centimeters. For example 5.5;0.5 means that the noise size is 5.5cm and the value is shifted a maximum of 0.5cm. Multiple pairs can be specified to combine larger and smaller scale noises. For example, three different noises can be specified as 5.5;0.5;2.5;0.2;0.5;0.05 to combine large and smaller scale variations.</source>
+        <target>Variation profile describes the noise to apply to a value as a series of numeric pairs SS;WW, where SS is the Size and WW is the Weight. All values are in centimeters. For example 5.5;0.5 means that the noise size is 5.5cm and the value is shifted a maximum of 0.5cm. Multiple pairs can be specified to combine larger and smaller scale noises. For example, three different noises can be specified as 5.5;0.5;2.5;0.2;0.5;0.05 to combine large and smaller scale variations.</target>
+      </trans-unit>
+      <trans-unit id="wood_latecolor_perlin_prof:uilabel">
+        <source>Profile for latewood color perlin noise</source>
+        <target>Profile for latewood color perlin noise</target>
+      </trans-unit>
+      <trans-unit id="wood_latewood_bump_depth">
+        <source>Latewood Bump</source>
+        <target>Latewood Bump</target>
+      </trans-unit>
+      <trans-unit id="wood_latewood_bump_depth:tooltip">
+        <source>Height of the Latewood bump.</source>
+        <target>Height of the Latewood bump.</target>
+      </trans-unit>
+      <trans-unit id="wood_latewood_bump_depth:uilabel">
+        <source>Depth (cm) of the latewood bump</source>
+        <target>Depth (cm) of the latewood bump</target>
+      </trans-unit>
+      <trans-unit id="wood_latewood_ratio">
+        <source>Latewood Ratio</source>
+        <target>Latewood Ratio</target>
+      </trans-unit>
+      <trans-unit id="wood_latewood_ratio:tooltip">
+        <source>Amount of Latewood within a growth ring.</source>
+        <target>Amount of Latewood within a growth ring.</target>
+      </trans-unit>
+      <trans-unit id="wood_latewood_ratio:uilabel">
+        <source>Percentage of latewood in each ring</source>
+        <target>Percentage of latewood in each ring</target>
+      </trans-unit>
+      <trans-unit id="wood_latewood_sharpness">
+        <source>Latewood Sharpness</source>
+        <target>Latewood Sharpness</target>
+      </trans-unit>
+      <trans-unit id="wood_latewood_sharpness:tooltip">
+        <source>Amount of pure Latewood.</source>
+        <target>Amount of pure Latewood.</target>
+      </trans-unit>
+      <trans-unit id="wood_latewood_sharpness:uilabel">
+        <source>Percentage of pure latewood</source>
+        <target>Percentage of pure latewood</target>
+      </trans-unit>
+      <trans-unit id="wood_manual_late_color">
+        <source>Latewood</source>
+        <target>Latewood</target>
+      </trans-unit>
+      <trans-unit id="wood_manual_late_color:tooltip">
+        <source>Custom Latewood color.</source>
+        <target>Custom Latewood color.</target>
+      </trans-unit>
+      <trans-unit id="wood_manual_late_color:uilabel">
+        <source>Manual latewood color</source>
+        <target>Manual latewood color</target>
+      </trans-unit>
+      <trans-unit id="wood_pore_cell_dim">
+        <source>Spacing</source>
+        <target>Spacing</target>
+      </trans-unit>
+      <trans-unit id="wood_pore_cell_dim:tooltip">
+        <source>Average distance between pores.</source>
+        <target>Average distance between pores.</target>
+      </trans-unit>
+      <trans-unit id="wood_pore_cell_dim:uilabel">
+        <source>Dim (cm) of cell containing one pore</source>
+        <target>Dim (cm) of cell containing one pore</target>
+      </trans-unit>
+      <trans-unit id="wood_pore_color_power">
+        <source>Color Exponent</source>
+        <target>Color Exponent</target>
+      </trans-unit>
+      <trans-unit id="wood_pore_color_power:tooltip">
+        <source>Pore color as a power of the Earlywood color (1.0 = same, &lt; 1.0 = lighter, &gt; 1.0 = darker).</source>
+        <target>Pore color as a power of the Earlywood color (1.0 = same, &lt; 1.0 = lighter, &gt; 1.0 = darker).</target>
+      </trans-unit>
+      <trans-unit id="wood_pore_color_power:uilabel">
+        <source>Power to compute pore color</source>
+        <target>Power to compute pore color</target>
+      </trans-unit>
+      <trans-unit id="wood_pore_depth">
+        <source>Depth</source>
+        <target>Depth</target>
+      </trans-unit>
+      <trans-unit id="wood_pore_depth:tooltip">
+        <source>Pore depth for bump effect.</source>
+        <target>Pore depth for bump effect.</target>
+      </trans-unit>
+      <trans-unit id="wood_pore_depth:uilabel">
+        <source>Bump depth variation (cm) for pores</source>
+        <target>Bump depth variation (cm) for pores</target>
+      </trans-unit>
+      <trans-unit id="wood_pore_earlywood_only">
+        <source>Earlywood only</source>
+        <target>Earlywood only</target>
+      </trans-unit>
+      <trans-unit id="wood_pore_in_both_woods">
+        <source>In both woods</source>
+        <target>In both woods</target>
+      </trans-unit>
+      <trans-unit id="wood_pore_latewood_only">
+        <source>Latewood only</source>
+        <target>Latewood only</target>
+      </trans-unit>
+      <trans-unit id="wood_pore_radius">
+        <source>Size</source>
+        <target>Size</target>
+      </trans-unit>
+      <trans-unit id="wood_pore_radius:tooltip">
+        <source>Pore size.</source>
+        <target>Pore size.</target>
+      </trans-unit>
+      <trans-unit id="wood_pore_radius:uilabel">
+        <source>Radius (cm) of the impact circle of each pore</source>
+        <target>Radius (cm) of the impact circle of each pore</target>
+      </trans-unit>
+      <trans-unit id="wood_pore_type">
+        <source>Distribution</source>
+        <target>Distribution</target>
+      </trans-unit>
+      <trans-unit id="wood_pore_type:tooltip">
+        <source>Pores distribution.</source>
+        <target>Pores distribution.</target>
+      </trans-unit>
+      <trans-unit id="wood_pore_type:uilabel">
+        <source>Pore type</source>
+        <target>Pore type</target>
+      </trans-unit>
+      <trans-unit id="wood_pore_type:wood_pore_earlywood_only">
+        <source>Earlywood only</source>
+        <target>Earlywood only</target>
+      </trans-unit>
+      <trans-unit id="wood_pore_type:wood_pore_in_both_woods">
+        <source>In both woods</source>
+        <target>In both woods</target>
+      </trans-unit>
+      <trans-unit id="wood_pore_type:wood_pore_latewood_only">
+        <source>Latewood only</source>
+        <target>Latewood only</target>
+      </trans-unit>
+      <trans-unit id="wood_ray_color_power">
+        <source>Color Exponent</source>
+        <target>Color Exponent</target>
+      </trans-unit>
+      <trans-unit id="wood_ray_color_power:tooltip">
+        <source>Ray color as a power of the Earlywood color (1.0 = same, &lt; 1.0 = lighter, &gt; 1.0 = darker).</source>
+        <target>Ray color as a power of the Earlywood color (1.0 = same, &lt; 1.0 = lighter, &gt; 1.0 = darker).</target>
+      </trans-unit>
+      <trans-unit id="wood_ray_color_power:uilabel">
+        <source>Power to compute ray color</source>
+        <target>Power to compute ray color</target>
+      </trans-unit>
+      <trans-unit id="wood_ray_ellipse_radius_x">
+        <source>Horizontal Size</source>
+        <target>Horizontal Size</target>
+      </trans-unit>
+      <trans-unit id="wood_ray_ellipse_radius_x:tooltip">
+        <source>Ray horizontal size.</source>
+        <target>Ray horizontal size.</target>
+      </trans-unit>
+      <trans-unit id="wood_ray_ellipse_radius_x:uilabel">
+        <source>Radius (cm) along the longer axis of ray ellipse</source>
+        <target>Radius (cm) along the longer axis of ray ellipse</target>
+      </trans-unit>
+      <trans-unit id="wood_ray_ellipse_z2x">
+        <source>Vertical Ratio</source>
+        <target>Vertical Ratio</target>
+      </trans-unit>
+      <trans-unit id="wood_ray_ellipse_z2x:tooltip">
+        <source>Ray vertical stretching (1.0 = same, higher numbers = more stretching).</source>
+        <target>Ray vertical stretching (1.0 = same, higher numbers = more stretching).</target>
+      </trans-unit>
+      <trans-unit id="wood_ray_ellipse_z2x:uilabel">
+        <source>Ratio between two radii of ray ellipse</source>
+        <target>Ratio between two radii of ray ellipse</target>
+      </trans-unit>
+      <trans-unit id="wood_ray_num_slices">
+        <source>Density</source>
+        <target>Density</target>
+      </trans-unit>
+      <trans-unit id="wood_ray_num_slices:tooltip">
+        <source>Number of rays along the circumference.</source>
+        <target>Number of rays along the circumference.</target>
+      </trans-unit>
+      <trans-unit id="wood_ray_num_slices:uilabel">
+        <source>Number of slices in xy plane</source>
+        <target>Number of slices in xy plane</target>
+      </trans-unit>
+      <trans-unit id="wood_ray_seg_length_z">
+        <source>Vertical Spacing</source>
+        <target>Vertical Spacing</target>
+      </trans-unit>
+      <trans-unit id="wood_ray_seg_length_z:tooltip">
+        <source>Average vertical separation between rays.</source>
+        <target>Average vertical separation between rays.</target>
+      </trans-unit>
+      <trans-unit id="wood_ray_seg_length_z:uilabel">
+        <source>Length (cm) of z segment containing one ray</source>
+        <target>Length (cm) of z segment containing one ray</target>
+      </trans-unit>
+      <trans-unit id="wood_ring_thickness:uilabel">
+        <source>Thickness (cm) of yearly growth ring</source>
+        <target>Thickness (cm) of yearly growth ring</target>
+      </trans-unit>
+      <trans-unit id="wood_secondary_color_power">
+        <source>Fibers Exponent</source>
+        <target>Fibers Exponent</target>
+      </trans-unit>
+      <trans-unit id="wood_secondary_color_power:tooltip">
+        <source>Secondary highlights color as a power of the Earlywood color (1.0 = same). It can only be a lighter color.</source>
+        <target>Secondary highlights color as a power of the Earlywood color (1.0 = same). It can only be a lighter color.</target>
+      </trans-unit>
+      <trans-unit id="wood_secondary_color_power:uilabel">
+        <source>Power to compute secondary highlight color</source>
+        <target>Power to compute secondary highlight color</target>
+      </trans-unit>
+      <trans-unit id="wood_secondary_perlin_enable:uilabel">
+        <source>Use perlin noise for secondary highlight</source>
+        <target>Use perlin noise for secondary highlight</target>
+      </trans-unit>
+      <trans-unit id="wood_secondary_perlin_prof">
+        <source>Variations Profile</source>
+        <target>Variations Profile</target>
+      </trans-unit>
+      <trans-unit id="wood_secondary_perlin_prof:tooltip">
+        <source>Variation profile describes the noise to apply to a value as a series of numeric pairs SS;WW, where SS is the Size and WW is the Weight. All values are in centimeters. For example 5.5;0.5 means that the noise size is 5.5cm and the value is shifted a maximum of 0.5cm. Multiple pairs can be specified to combine larger and smaller scale noises. For example, three different noises can be specified as 5.5;0.5;2.5;0.2;0.5;0.05 to combine large and smaller scale variations.</source>
+        <target>Variation profile describes the noise to apply to a value as a series of numeric pairs SS;WW, where SS is the Size and WW is the Weight. All values are in centimeters. For example 5.5;0.5 means that the noise size is 5.5cm and the value is shifted a maximum of 0.5cm. Multiple pairs can be specified to combine larger and smaller scale noises. For example, three different noises can be specified as 5.5;0.5;2.5;0.2;0.5;0.05 to combine large and smaller scale variations.</target>
+      </trans-unit>
+      <trans-unit id="wood_secondary_perlin_prof:uilabel">
+        <source>Profile for secondary highlight perlin noise</source>
+        <target>Profile for secondary highlight perlin noise</target>
+      </trans-unit>
+      <trans-unit id="wood_secondary_perlin_scale_z">
+        <source>Vertical Scale</source>
+        <target>Vertical Scale</target>
+      </trans-unit>
+      <trans-unit id="wood_secondary_perlin_scale_z:tooltip">
+        <source>Vertical highlights color variations stretching (1.0 = no stretching, smaller values = more stretching).</source>
+        <target>Vertical highlights color variations stretching (1.0 = no stretching, smaller values = more stretching).</target>
+      </trans-unit>
+      <trans-unit id="wood_secondary_perlin_scale_z:uilabel">
+        <source>Anisotropic pos-z scale for secondary highlight perlin</source>
+        <target>Anisotropic pos-z scale for secondary highlight perlin</target>
+      </trans-unit>
+      <trans-unit id="wood_use_groove_roughness:uilabel">
+        <source>Use additional groove roughness</source>
+        <target>Use additional groove roughness</target>
+      </trans-unit>
+      <trans-unit id="wood_use_latewood_bump:uilabel">
+        <source>Use latewood bump</source>
+        <target>Use latewood bump</target>
+      </trans-unit>
+      <trans-unit id="wood_use_manual_late_color:uilabel">
+        <source>Use manual latewood color</source>
+        <target>Use manual latewood color</target>
+      </trans-unit>
+      <trans-unit id="wood_use_manual_late_color_label">
+        <source>Manual Latewood Color</source>
+        <target>Manual Latewood Color</target>
+      </trans-unit>
+      <trans-unit id="wood_use_manual_late_color_label:tooltip">
+        <source>Enable to specify a custom Latewood color.</source>
+        <target>Enable to specify a custom Latewood color.</target>
+      </trans-unit>
+      <trans-unit id="wood_use_pores:uilabel">
+        <source>Use pores feature</source>
+        <target>Use pores feature</target>
+      </trans-unit>
+      <trans-unit id="wood_use_rays:uilabel">
+        <source>Use rays feature</source>
+        <target>Use rays feature</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
+

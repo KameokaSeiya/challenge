@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="150px" viewBox="0 0 200 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>SOIC-SOP Thermal</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="SOIC-SOP-Thermal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="topview" transform="translate(75.810547, 25.000000)">
+            <path d="M8.5,0.5 L8.5,27.5 L18.5,27.5 L18.5,0.5 L8.5,0.5 Z" id="Rectangle-32" stroke="#979797" fill="#D8D8D8"></path>
+            <polygon id="Rectangle-33" fill="#979797" points="8 11 19 11 19 12 8 12"></polygon>
+            <path d="M26.5,0.5 L26.5,27.5 L36.5,27.5 L36.5,0.5 L26.5,0.5 Z" id="Rectangle-32" stroke="#979797" fill="#D8D8D8"></path>
+            <polygon id="Rectangle-33" fill="#979797" points="26 11 37 11 37 12 26 12"></polygon>
+            <rect id="Rectangle-32" stroke="#979797" fill="#D8D8D8" x="43.5" y="0.5" width="10" height="27"></rect>
+            <polygon id="Rectangle-33" fill="#979797" points="43 11 54 11 54 12 43 12"></polygon>
+            <rect id="Rectangle-32" stroke="#979797" fill="#D8D8D8" x="61.5" y="0.5" width="10" height="27"></rect>
+            <polygon id="Rectangle-33" fill="#979797" points="61 11 72 11 72 12 61 12"></polygon>
+            <rect id="Rectangle-32" stroke="#979797" fill="#D8D8D8" x="78.5" y="0.5" width="10" height="27"></rect>
+            <polygon id="Rectangle-33" fill="#979797" points="78 11 89 11 89 12 78 12"></polygon>
+            <rect id="Rectangle-32" stroke="#979797" fill="#D8D8D8" x="95.5" y="0.5" width="10" height="27"></rect>
+            <polygon id="Rectangle-33" fill="#979797" points="95 11 106 11 106 12 95 12"></polygon>
+            <g id="Group-2" transform="translate(56.000000, 86.000000) rotate(180.000000) translate(-56.000000, -86.000000) translate(7.000000, 72.000000)">
+                <rect id="Rectangle-32" stroke="#979797" fill="#D8D8D8" x="0.5" y="0.5" width="10" height="27"></rect>
+                <rect id="Rectangle-33" fill="#979797" x="1.45994328e-14" y="11" width="11" height="1"></rect>
+                <rect id="Rectangle-32" stroke="#979797" fill="#D8D8D8" x="17.5" y="0.5" width="10" height="27"></rect>
+                <rect id="Rectangle-33" fill="#979797" x="17" y="11" width="11" height="1"></rect>
+                <rect id="Rectangle-32" stroke="#979797" fill="#D8D8D8" x="34.5" y="0.5" width="10" height="27"></rect>
+                <rect id="Rectangle-33" fill="#979797" x="34" y="11" width="11" height="1"></rect>
+                <rect id="Rectangle-32" stroke="#979797" fill="#D8D8D8" x="52.5" y="0.5" width="10" height="27"></rect>
+                <rect id="Rectangle-33" fill="#979797" x="52" y="11" width="11" height="1"></rect>
+                <rect id="Rectangle-32" stroke="#979797" fill="#D8D8D8" x="69.5" y="0.5" width="10" height="27"></rect>
+                <rect id="Rectangle-33" fill="#979797" x="69" y="11" width="11" height="1"></rect>
+                <rect id="Rectangle-32" stroke="#979797" fill="#D8D8D8" x="87.5" y="0.5" width="10" height="27"></rect>
+                <rect id="Rectangle-33" fill="#979797" x="87" y="11" width="11" height="1"></rect>
+            </g>
+            <rect id="Rectangle-31" stroke="#505050" stroke-width="3" fill="#585858" x="1.5" y="28.5" width="110.318359" height="43" rx="1"></rect>
+        </g>
+        <path d="M89,59 L177,59 L177,91 L89,91 L89,59 Z" id="Rectangle-21" fill="#D8D8D8"></path>
+        <g id="sideview" transform="translate(13.125165, 24.500000)">
+            <path d="M16.0209961,22.8065186 L33.7711166,12.2997997 C34.2255981,12.0293698 34.5040894,11.5395954 34.5040894,11.0107422 L34.5040894,2.01501465 C34.5040894,1.18658752 33.8325165,0.515014648 33.0040894,0.515014648 C32.1756622,0.515014648 31.5040894,1.18658752 31.5040894,2.01501465 L31.5040894,10.144165 L13.7539689,20.7196705 C13.2994874,20.9901004 13.0209961,21.4798748 13.0209961,22.008728 L13.0209961,30.9944458 C13.0209961,31.8228729 13.692569,32.4944458 14.5209961,32.4944458 C15.3494232,32.4944458 16.0209961,31.8228729 16.0209961,30.9944458 L16.0209961,22.8065186 Z" id="Path-11" stroke="#979797" fill="#D8D8D8" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M13.0209961,78.49646 C13.0209961,79.0253132 13.2994874,79.5150875 13.7539689,79.7855175 L31.5040894,90.3757324 L31.5040894,98.9944458 C31.5040894,99.8228729 32.1756622,100.494446 33.0040894,100.494446 C33.8325165,100.494446 34.5040894,99.8228729 34.5040894,98.9944458 L34.5040894,89.4944458 C34.5040894,88.9655925 34.2255981,88.4758182 33.7711166,88.2053883 L16.0209961,77.6508789 L16.0209961,69.5107422 C16.0209961,68.6823151 15.3494232,68.0107422 14.5209961,68.0107422 C13.692569,68.0107422 13.0209961,68.6823151 13.0209961,69.5107422 L13.0209961,78.49646 Z" id="Path-11" stroke="#979797" fill="#D8D8D8" fill-rule="nonzero"></path>
+            <path d="M14.5537848,28.0277387 L2.57761128,32.0537884 C1.99478109,32.2497194 1.49255371,32.9464878 1.49255371,33.5551685 L1.49255371,67.5570751 C1.49255371,68.1686304 1.98747455,68.8547983 2.5667929,69.0459011 L14.4773652,72.9749042 L26.4176125,69.0457867 C26.995962,68.8554721 27.4949951,68.1649693 27.4949951,67.5570751 L27.4949951,33.5551685 C27.4949951,32.9420376 27.0001743,32.2496731 26.4214145,32.0533522 L14.5537848,28.0277387 Z" id="Combined-Shape" stroke="#505050" fill="#585858"></path>
+            <rect id="Rectangle-158" fill="#505050" x="14" y="27.8283081" width="1" height="44.3433838"></rect>
+        </g>
+    </g>
+</svg>

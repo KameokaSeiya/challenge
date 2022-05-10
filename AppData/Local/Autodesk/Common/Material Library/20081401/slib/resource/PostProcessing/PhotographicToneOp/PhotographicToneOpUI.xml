@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!DOCTYPE adsui SYSTEM "../../ui.dtd">
+<adsui version="2.0">
+  <PageInfo>
+    <Title>
+      Photographic ToneOp
+    </Title>
+  </PageInfo>
+  <Fields>
+    <StackPanel id="PhotographicToneOpGroup" label="Photographic ToneOp" orientation="Vertical" expanded="true">
+  	<Boolean id="active" label="Active" />
+  	<Float id="whitepoint" label="Whitepoint:"/>  
+  	<Float id="film_iso" label="Film speed (ISO):"/>  
+  	<Float id="camera_shutter" label="Shutter Speed:"/>
+  	<Float id="f_number" label="Aperture (f-stop):"/>
+  	<Float id="vignetting" label="Vigneting:"/>
+  	<Float id="crush_blacks" label="Shadows:"/>
+  	<Float id="burn_highlights" label="Highlights (Burn):"/>
+  	<Float id="saturation" label="Color Saturation:"/>
+    </StackPanel>   
+  </Fields>
+</adsui>

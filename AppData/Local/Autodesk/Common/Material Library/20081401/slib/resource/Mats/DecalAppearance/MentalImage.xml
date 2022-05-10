@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+   <implementation render="MentalImage">
+      <language name="MentalRaySL" version="3.6"/>
+      <api name="MentalRay" version="3.6"/>
+      <root_bindings name="root"/>
+      <bindings target="shader" name="root">
+        <desc val="mi.phenomenon/include/adsk_Mtl_DecalAppearance.mi" tag="adsk_Mtl_DecalAppearance_V2"/>
+        <map_interface source="decApp_diffuse" destination="m.diffuse"/>
+        <map_interface source="decApp_reflectivity_at_0deg" destination="m.brdf_0_degree_refl"/>
+        <map_interface source="decApp_reflectivity_at_90deg" destination="m.brdf_90_degree_refl"/>
+        <map_interface source="decApp_glossiness" destination="m.surf_gloss"/>
+	<map_interface source="common_Tint_toggle" destination="m.tint_enable"/>
+	<map_interface source="common_Tint_color" destination="m.tint_color"/>
+        <map_interface source="decApp_transparency" destination="t.transparency"/>
+        <map_interface source="decApp_refraction_index" destination="t.refr_ior"/>
+        <map_interface source="decApp_refraction_translucency_weight" destination="t.refr_trans_weight"/>
+      <map_interface source="decApp_cutout_opacity" destination="t.cutout_opacity"/>
+      <map_interface source="decApp_backface_cull" destination="t.backface_cull"/>
+        <map_interface source="decApp_self_illum_luminance" destination="i.self_illum_luminance"/>
+        <map_interface source="decApp_self_illum_color_temperature" destination="i.self_illum_color_temperature"/>
+        <map_interface source="decApp_self_illum_filter_map" destination="i.self_illum_filter_map"/>
+        <map_interface source="decApp_bump_amount" destination="m.bump_amount"/>
+        <map_interface source="decApp_bump_map" destination="m.bump_map"/>
+        <map_interface source="decApp_reflection_glossy_samples" destination="p.reflection_glossy_samples"/>
+        <map_interface source="decApp_refraction_glossy_samples" destination="p.refraction_glossy_samples"/>
+		  <map_interface source="mode" destination="mode"/>
+      </bindings>
+   </implementation>

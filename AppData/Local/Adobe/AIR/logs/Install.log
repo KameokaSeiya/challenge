@@ -1,0 +1,1046 @@
+﻿[2020-04-27:07:10:17] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -eula -nai
+[2020-04-27:07:10:17] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2020-04-27:07:10:17] Commandline is: -eula -nai
+[2020-04-27:07:10:17] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2020-04-27:07:10:17] Starting eula display
+[2020-04-27:07:10:19] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -eula -nai
+[2020-04-27:07:10:19] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2020-04-27:07:10:19] Commandline is: -eula -nai
+[2020-04-27:07:10:19] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2020-04-27:07:10:19] Starting eula display
+[2020-04-27:07:10:22] Finished eula display
+[2020-04-27:07:10:22] Runtime Installer end with exit code 0
+[2020-04-27:07:10:23] Subprocess c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater failed (1)
+[2020-04-27:07:10:23] Finished eula display
+[2020-04-27:07:10:23] Runtime Installer end with exit code 0
+[2020-04-27:07:10:24] Subprocess c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater failed (1)
+[2020-04-27:07:10:49] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2020-04-27:07:10:49] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2020-04-27:07:10:49] Commandline is: -updatecheck
+[2020-04-27:07:10:49] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2020-04-27:07:10:50] Starting runtime background update check
+[2020-04-27:07:10:50] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2020-04-27:07:10:50] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2020-04-27:07:10:50] Runtime update not available
+[2020-04-27:07:10:50] Unpackaging cancelled
+[2020-04-27:07:10:50] Runtime Installer end with exit code 0
+[2020-05-04:20:23:28] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2020-05-04:20:23:28] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2020-05-04:20:23:28] Commandline is: -updatecheck
+[2020-05-04:20:23:28] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2020-05-04:20:23:30] Starting runtime background update check
+[2020-05-04:20:23:30] Clearing unused background update directory
+[2020-05-04:20:23:30] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2020-05-04:20:23:30] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2020-05-04:20:23:31] Runtime update not available
+[2020-05-04:20:23:31] Unpackaging cancelled
+[2020-05-04:20:23:31] Runtime Installer end with exit code 0
+[2020-05-12:07:03:42] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2020-05-12:07:03:42] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2020-05-12:07:03:42] Commandline is: -updatecheck
+[2020-05-12:07:03:42] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2020-05-12:07:03:44] Starting runtime background update check
+[2020-05-12:07:03:44] Clearing unused background update directory
+[2020-05-12:07:03:44] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2020-05-12:07:03:44] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2020-05-12:07:03:45] Runtime update not available
+[2020-05-12:07:03:45] Unpackaging cancelled
+[2020-05-12:07:03:45] Runtime Installer end with exit code 0
+[2020-05-19:07:03:57] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2020-05-19:07:03:57] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2020-05-19:07:03:57] Commandline is: -updatecheck
+[2020-05-19:07:03:57] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2020-05-19:07:03:58] Starting runtime background update check
+[2020-05-19:07:03:58] Clearing unused background update directory
+[2020-05-19:07:03:58] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2020-05-19:07:03:58] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2020-05-19:07:03:59] Runtime update not available
+[2020-05-19:07:03:59] Unpackaging cancelled
+[2020-05-19:07:03:59] Runtime Installer end with exit code 0
+[2020-05-26:07:36:39] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2020-05-26:07:36:40] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2020-05-26:07:36:40] Commandline is: -updatecheck
+[2020-05-26:07:36:40] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2020-05-26:07:36:41] Starting runtime background update check
+[2020-05-26:07:36:41] Clearing unused background update directory
+[2020-05-26:07:36:41] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2020-05-26:07:36:41] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2020-05-26:07:36:42] Runtime update not available
+[2020-05-26:07:36:42] Unpackaging cancelled
+[2020-05-26:07:36:42] Runtime Installer end with exit code 0
+[2020-06-02:07:38:01] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2020-06-02:07:38:01] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2020-06-02:07:38:01] Commandline is: -updatecheck
+[2020-06-02:07:38:01] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2020-06-02:07:38:03] Starting runtime background update check
+[2020-06-02:07:38:03] Clearing unused background update directory
+[2020-06-02:07:38:03] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2020-06-02:07:38:03] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2020-06-02:07:38:03] Runtime update not available
+[2020-06-02:07:38:03] Unpackaging cancelled
+[2020-06-02:07:38:03] Runtime Installer end with exit code 0
+[2020-06-09:13:17:08] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2020-06-09:13:17:08] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2020-06-09:13:17:08] Commandline is: -updatecheck
+[2020-06-09:13:17:08] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2020-06-09:13:17:09] Starting runtime background update check
+[2020-06-09:13:17:09] Clearing unused background update directory
+[2020-06-09:13:17:09] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2020-06-09:13:17:10] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2020-06-09:13:17:10] Runtime update not available
+[2020-06-09:13:17:10] Unpackaging cancelled
+[2020-06-09:13:17:10] Runtime Installer end with exit code 0
+[2020-06-16:21:03:53] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2020-06-16:21:03:53] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2020-06-16:21:03:53] Commandline is: -updatecheck
+[2020-06-16:21:03:53] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2020-06-16:21:03:55] Starting runtime background update check
+[2020-06-16:21:03:55] Clearing unused background update directory
+[2020-06-16:21:03:55] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2020-06-16:21:03:55] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2020-06-16:21:03:55] Runtime background update check failed: [IOErrorEvent type="ioError" bubbles=false cancelable=false eventPhase=2 text="Error #2032" errorID=2032]
+[2020-06-16:21:03:55] Runtime Installer end with exit code 0
+[2020-06-17:07:34:59] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2020-06-17:07:34:59] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2020-06-17:07:34:59] Commandline is: -updatecheck
+[2020-06-17:07:34:59] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2020-06-17:07:35:00] Starting runtime background update check
+[2020-06-17:07:35:00] Clearing unused background update directory
+[2020-06-17:07:35:00] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2020-06-17:07:35:00] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2020-06-17:07:35:00] Runtime update not available
+[2020-06-17:07:35:00] Unpackaging cancelled
+[2020-06-17:07:35:00] Runtime Installer end with exit code 0
+[2020-06-24:16:26:10] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2020-06-24:16:26:10] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2020-06-24:16:26:10] Commandline is: -updatecheck
+[2020-06-24:16:26:10] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2020-06-24:16:26:11] Starting runtime background update check
+[2020-06-24:16:26:11] Clearing unused background update directory
+[2020-06-24:16:26:11] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2020-06-24:16:26:11] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2020-06-24:16:26:12] Runtime update not available
+[2020-06-24:16:26:12] Unpackaging cancelled
+[2020-06-24:16:26:12] Runtime Installer end with exit code 0
+[2020-07-02:07:26:50] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2020-07-02:07:26:51] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2020-07-02:07:26:51] Commandline is: -updatecheck
+[2020-07-02:07:26:51] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2020-07-02:07:26:51] Starting runtime background update check
+[2020-07-02:07:26:51] Clearing unused background update directory
+[2020-07-02:07:26:52] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2020-07-02:07:26:52] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2020-07-02:07:26:52] Runtime background update check failed: [IOErrorEvent type="ioError" bubbles=false cancelable=false eventPhase=2 text="Error #2032" errorID=2032]
+[2020-07-02:07:26:52] Runtime Installer end with exit code 0
+[2020-07-02:18:57:05] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2020-07-02:18:57:05] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2020-07-02:18:57:05] Commandline is: -updatecheck
+[2020-07-02:18:57:05] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2020-07-02:18:57:06] Starting runtime background update check
+[2020-07-02:18:57:06] Clearing unused background update directory
+[2020-07-02:18:57:06] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2020-07-02:18:57:06] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2020-07-02:18:57:07] Runtime update not available
+[2020-07-02:18:57:07] Unpackaging cancelled
+[2020-07-02:18:57:07] Runtime Installer end with exit code 0
+[2020-07-10:07:10:24] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2020-07-10:07:10:24] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2020-07-10:07:10:24] Commandline is: -updatecheck
+[2020-07-10:07:10:24] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2020-07-10:07:10:24] Starting runtime background update check
+[2020-07-10:07:10:24] Clearing unused background update directory
+[2020-07-10:07:10:25] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2020-07-10:07:10:25] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2020-07-10:07:10:26] Runtime update not available
+[2020-07-10:07:10:26] Unpackaging cancelled
+[2020-07-10:07:10:26] Runtime Installer end with exit code 0
+[2020-07-17:20:39:25] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2020-07-17:20:39:25] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2020-07-17:20:39:26] Commandline is: -updatecheck
+[2020-07-17:20:39:26] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2020-07-17:20:39:26] Starting runtime background update check
+[2020-07-17:20:39:26] Clearing unused background update directory
+[2020-07-17:20:39:26] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2020-07-17:20:39:26] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2020-07-17:20:39:27] Runtime update not available
+[2020-07-17:20:39:27] Unpackaging cancelled
+[2020-07-17:20:39:27] Runtime Installer end with exit code 0
+[2020-07-25:13:02:39] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2020-07-25:13:02:40] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2020-07-25:13:02:40] Commandline is: -updatecheck
+[2020-07-25:13:02:40] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2020-07-25:13:02:41] Starting runtime background update check
+[2020-07-25:13:02:41] Clearing unused background update directory
+[2020-07-25:13:02:41] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2020-07-25:13:02:41] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2020-07-25:13:02:42] Runtime update not available
+[2020-07-25:13:02:42] Unpackaging cancelled
+[2020-07-25:13:02:42] Runtime Installer end with exit code 0
+[2020-08-01:19:12:40] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2020-08-01:19:12:40] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2020-08-01:19:12:40] Commandline is: -updatecheck
+[2020-08-01:19:12:40] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2020-08-01:19:12:41] Starting runtime background update check
+[2020-08-01:19:12:41] Clearing unused background update directory
+[2020-08-01:19:12:41] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2020-08-01:19:12:41] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2020-08-01:19:12:42] Runtime update not available
+[2020-08-01:19:12:42] Unpackaging cancelled
+[2020-08-01:19:12:42] Runtime Installer end with exit code 0
+[2020-08-11:07:31:52] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2020-08-11:07:31:52] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2020-08-11:07:31:52] Commandline is: -updatecheck
+[2020-08-11:07:31:52] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2020-08-11:07:31:53] Starting runtime background update check
+[2020-08-11:07:31:53] Clearing unused background update directory
+[2020-08-11:07:31:53] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2020-08-11:07:31:53] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2020-08-11:07:31:54] Runtime update not available
+[2020-08-11:07:31:54] Unpackaging cancelled
+[2020-08-11:07:31:54] Runtime Installer end with exit code 0
+[2020-08-18:21:07:07] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2020-08-18:21:07:07] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2020-08-18:21:07:07] Commandline is: -updatecheck
+[2020-08-18:21:07:07] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2020-08-18:21:07:08] Starting runtime background update check
+[2020-08-18:21:07:08] Clearing unused background update directory
+[2020-08-18:21:07:08] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2020-08-18:21:07:08] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2020-08-18:21:07:08] Runtime update not available
+[2020-08-18:21:07:08] Unpackaging cancelled
+[2020-08-18:21:07:08] Runtime Installer end with exit code 0
+[2020-08-26:18:37:13] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2020-08-26:18:37:13] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2020-08-26:18:37:13] Commandline is: -updatecheck
+[2020-08-26:18:37:13] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2020-08-26:18:37:14] Starting runtime background update check
+[2020-08-26:18:37:14] Clearing unused background update directory
+[2020-08-26:18:37:14] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2020-08-26:18:37:14] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2020-08-26:18:37:15] Runtime update not available
+[2020-08-26:18:37:15] Unpackaging cancelled
+[2020-08-26:18:37:15] Runtime Installer end with exit code 0
+[2020-09-02:21:13:19] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2020-09-02:21:13:19] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2020-09-02:21:13:19] Commandline is: -updatecheck
+[2020-09-02:21:13:19] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2020-09-02:21:13:20] Starting runtime background update check
+[2020-09-02:21:13:20] Clearing unused background update directory
+[2020-09-02:21:13:20] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2020-09-02:21:13:20] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2020-09-02:21:13:20] Runtime update not available
+[2020-09-02:21:13:20] Unpackaging cancelled
+[2020-09-02:21:13:20] Runtime Installer end with exit code 0
+[2020-09-18:21:12:50] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2020-09-18:21:12:51] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2020-09-18:21:12:51] Commandline is: -updatecheck
+[2020-09-18:21:12:51] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2020-09-18:21:12:51] Starting runtime background update check
+[2020-09-18:21:12:51] Clearing unused background update directory
+[2020-09-18:21:12:52] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2020-09-18:21:12:52] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2020-09-18:21:12:53] Runtime update not available
+[2020-09-18:21:12:53] Unpackaging cancelled
+[2020-09-18:21:12:53] Runtime Installer end with exit code 0
+[2020-09-28:08:09:28] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2020-09-28:08:09:28] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2020-09-28:08:09:28] Commandline is: -updatecheck
+[2020-09-28:08:09:28] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2020-09-28:08:09:30] Starting runtime background update check
+[2020-09-28:08:09:30] Clearing unused background update directory
+[2020-09-28:08:09:30] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2020-09-28:08:09:30] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2020-09-28:08:09:31] Runtime update not available
+[2020-09-28:08:09:31] Unpackaging cancelled
+[2020-09-28:08:09:31] Runtime Installer end with exit code 0
+[2020-10-05:13:32:48] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2020-10-05:13:32:49] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2020-10-05:13:32:49] Commandline is: -updatecheck
+[2020-10-05:13:32:49] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2020-10-05:13:32:49] Starting runtime background update check
+[2020-10-05:13:32:49] Clearing unused background update directory
+[2020-10-05:13:32:49] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2020-10-05:13:32:49] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2020-10-05:13:32:50] Runtime update not available
+[2020-10-05:13:32:50] Unpackaging cancelled
+[2020-10-05:13:32:50] Runtime Installer end with exit code 0
+[2020-10-13:09:35:37] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2020-10-13:09:35:37] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2020-10-13:09:35:37] Commandline is: -updatecheck
+[2020-10-13:09:35:37] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2020-10-13:09:35:38] Starting runtime background update check
+[2020-10-13:09:35:38] Clearing unused background update directory
+[2020-10-13:09:35:38] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2020-10-13:09:35:38] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2020-10-13:09:35:39] Runtime update not available
+[2020-10-13:09:35:39] Unpackaging cancelled
+[2020-10-13:09:35:39] Runtime Installer end with exit code 0
+[2020-10-22:10:11:54] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2020-10-22:10:11:54] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2020-10-22:10:11:54] Commandline is: -updatecheck
+[2020-10-22:10:11:54] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2020-10-22:10:11:55] Starting runtime background update check
+[2020-10-22:10:11:55] Clearing unused background update directory
+[2020-10-22:10:11:55] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2020-10-22:10:11:55] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2020-10-22:10:11:56] Runtime update not available
+[2020-10-22:10:11:56] Unpackaging cancelled
+[2020-10-22:10:11:56] Runtime Installer end with exit code 0
+[2020-10-29:13:18:03] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2020-10-29:13:18:03] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2020-10-29:13:18:03] Commandline is: -updatecheck
+[2020-10-29:13:18:03] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2020-10-29:13:18:04] Starting runtime background update check
+[2020-10-29:13:18:04] Clearing unused background update directory
+[2020-10-29:13:18:04] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2020-10-29:13:18:04] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2020-10-29:13:18:04] Runtime update not available
+[2020-10-29:13:18:04] Unpackaging cancelled
+[2020-10-29:13:18:04] Runtime Installer end with exit code 0
+[2020-11-05:19:24:23] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2020-11-05:19:24:24] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2020-11-05:19:24:24] Commandline is: -updatecheck
+[2020-11-05:19:24:24] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2020-11-05:19:24:24] Starting runtime background update check
+[2020-11-05:19:24:24] Clearing unused background update directory
+[2020-11-05:19:24:24] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2020-11-05:19:24:24] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2020-11-05:19:24:25] Runtime update not available
+[2020-11-05:19:24:25] Unpackaging cancelled
+[2020-11-05:19:24:25] Runtime Installer end with exit code 0
+[2020-11-13:08:36:25] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2020-11-13:08:36:25] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2020-11-13:08:36:25] Commandline is: -updatecheck
+[2020-11-13:08:36:25] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2020-11-13:08:36:26] Starting runtime background update check
+[2020-11-13:08:36:26] Clearing unused background update directory
+[2020-11-13:08:36:26] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2020-11-13:08:36:26] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2020-11-13:08:36:26] Runtime update not available
+[2020-11-13:08:36:26] Unpackaging cancelled
+[2020-11-13:08:36:26] Runtime Installer end with exit code 0
+[2020-11-25:15:53:55] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2020-11-25:15:53:55] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2020-11-25:15:53:55] Commandline is: -updatecheck
+[2020-11-25:15:53:55] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2020-11-25:15:53:55] Starting runtime background update check
+[2020-11-25:15:53:55] Clearing unused background update directory
+[2020-11-25:15:53:56] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2020-11-25:15:53:56] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2020-11-25:15:53:57] Runtime update not available
+[2020-11-25:15:53:57] Unpackaging cancelled
+[2020-11-25:15:53:57] Runtime Installer end with exit code 0
+[2020-12-02:16:11:33] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2020-12-02:16:11:34] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2020-12-02:16:11:34] Commandline is: -updatecheck
+[2020-12-02:16:11:34] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2020-12-02:16:11:35] Starting runtime background update check
+[2020-12-02:16:11:35] Clearing unused background update directory
+[2020-12-02:16:11:35] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2020-12-02:16:11:35] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2020-12-02:16:11:35] Runtime update not available
+[2020-12-02:16:11:35] Unpackaging cancelled
+[2020-12-02:16:11:35] Runtime Installer end with exit code 0
+[2020-12-09:20:35:45] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2020-12-09:20:35:45] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2020-12-09:20:35:45] Commandline is: -updatecheck
+[2020-12-09:20:35:45] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2020-12-09:20:35:46] Starting runtime background update check
+[2020-12-09:20:35:46] Clearing unused background update directory
+[2020-12-09:20:35:46] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2020-12-09:20:35:46] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2020-12-09:20:35:47] Runtime update not available
+[2020-12-09:20:35:47] Unpackaging cancelled
+[2020-12-09:20:35:47] Runtime Installer end with exit code 0
+[2020-12-17:14:48:32] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2020-12-17:14:48:32] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2020-12-17:14:48:32] Commandline is: -updatecheck
+[2020-12-17:14:48:32] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2020-12-17:14:48:33] Starting runtime background update check
+[2020-12-17:14:48:33] Clearing unused background update directory
+[2020-12-17:14:48:33] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2020-12-17:14:48:33] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2020-12-17:14:48:34] Runtime update not available
+[2020-12-17:14:48:34] Unpackaging cancelled
+[2020-12-17:14:48:34] Runtime Installer end with exit code 0
+[2020-12-24:21:11:12] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2020-12-24:21:11:12] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2020-12-24:21:11:12] Commandline is: -updatecheck
+[2020-12-24:21:11:12] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2020-12-24:21:11:13] Starting runtime background update check
+[2020-12-24:21:11:13] Clearing unused background update directory
+[2020-12-24:21:11:13] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2020-12-24:21:11:13] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2020-12-24:21:11:13] Runtime update not available
+[2020-12-24:21:11:13] Unpackaging cancelled
+[2020-12-24:21:11:13] Runtime Installer end with exit code 0
+[2021-01-04:06:55:29] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2021-01-04:06:55:29] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2021-01-04:06:55:29] Commandline is: -updatecheck
+[2021-01-04:06:55:29] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2021-01-04:06:55:30] Starting runtime background update check
+[2021-01-04:06:55:30] Clearing unused background update directory
+[2021-01-04:06:55:30] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2021-01-04:06:55:30] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2021-01-04:06:55:30] Runtime update not available
+[2021-01-04:06:55:30] Unpackaging cancelled
+[2021-01-04:06:55:30] Runtime Installer end with exit code 0
+[2021-01-11:08:45:58] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2021-01-11:08:45:59] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2021-01-11:08:45:59] Commandline is: -updatecheck
+[2021-01-11:08:45:59] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2021-01-11:08:45:59] Starting runtime background update check
+[2021-01-11:08:45:59] Clearing unused background update directory
+[2021-01-11:08:46:00] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2021-01-11:08:46:00] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2021-01-11:08:46:00] Runtime update not available
+[2021-01-11:08:46:00] Unpackaging cancelled
+[2021-01-11:08:46:00] Runtime Installer end with exit code 0
+[2021-01-18:17:06:22] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2021-01-18:17:06:23] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2021-01-18:17:06:23] Commandline is: -updatecheck
+[2021-01-18:17:06:23] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2021-01-18:17:06:23] Starting runtime background update check
+[2021-01-18:17:06:23] Clearing unused background update directory
+[2021-01-18:17:06:23] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2021-01-18:17:06:23] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2021-01-18:17:06:24] Runtime update not available
+[2021-01-18:17:06:24] Unpackaging cancelled
+[2021-01-18:17:06:24] Runtime Installer end with exit code 0
+[2021-01-25:21:05:33] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2021-01-25:21:05:33] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2021-01-25:21:05:33] Commandline is: -updatecheck
+[2021-01-25:21:05:33] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2021-01-25:21:05:34] Starting runtime background update check
+[2021-01-25:21:05:34] Clearing unused background update directory
+[2021-01-25:21:05:34] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2021-01-25:21:05:34] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2021-01-25:21:05:35] Runtime update not available
+[2021-01-25:21:05:35] Unpackaging cancelled
+[2021-01-25:21:05:35] Runtime Installer end with exit code 0
+[2021-02-02:09:48:52] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2021-02-02:09:48:53] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2021-02-02:09:48:53] Commandline is: -updatecheck
+[2021-02-02:09:48:53] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2021-02-02:09:48:54] Starting runtime background update check
+[2021-02-02:09:48:54] Clearing unused background update directory
+[2021-02-02:09:48:54] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2021-02-02:09:48:54] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2021-02-02:09:48:54] Runtime update not available
+[2021-02-02:09:48:54] Unpackaging cancelled
+[2021-02-02:09:48:54] Runtime Installer end with exit code 0
+[2021-02-09:14:56:02] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2021-02-09:14:56:02] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2021-02-09:14:56:02] Commandline is: -updatecheck
+[2021-02-09:14:56:02] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2021-02-09:14:56:02] Starting runtime background update check
+[2021-02-09:14:56:02] Clearing unused background update directory
+[2021-02-09:14:56:02] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2021-02-09:14:56:02] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2021-02-09:14:56:03] Runtime update not available
+[2021-02-09:14:56:03] Unpackaging cancelled
+[2021-02-09:14:56:03] Runtime Installer end with exit code 0
+[2021-02-17:07:05:16] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2021-02-17:07:05:17] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2021-02-17:07:05:17] Commandline is: -updatecheck
+[2021-02-17:07:05:17] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2021-02-17:07:05:17] Starting runtime background update check
+[2021-02-17:07:05:17] Clearing unused background update directory
+[2021-02-17:07:05:18] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2021-02-17:07:05:18] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2021-02-17:07:05:19] Runtime update not available
+[2021-02-17:07:05:19] Unpackaging cancelled
+[2021-02-17:07:05:19] Runtime Installer end with exit code 0
+[2021-02-25:20:19:49] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2021-02-25:20:19:49] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2021-02-25:20:19:49] Commandline is: -updatecheck
+[2021-02-25:20:19:49] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2021-02-25:20:19:50] Starting runtime background update check
+[2021-02-25:20:19:50] Clearing unused background update directory
+[2021-02-25:20:19:50] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2021-02-25:20:19:50] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2021-02-25:20:19:51] Runtime update not available
+[2021-02-25:20:19:51] Unpackaging cancelled
+[2021-02-25:20:19:51] Runtime Installer end with exit code 0
+[2021-03-08:13:32:56] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2021-03-08:13:32:56] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2021-03-08:13:32:56] Commandline is: -updatecheck
+[2021-03-08:13:32:56] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2021-03-08:13:32:57] Starting runtime background update check
+[2021-03-08:13:32:57] Clearing unused background update directory
+[2021-03-08:13:32:57] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2021-03-08:13:32:57] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2021-03-08:13:32:58] Runtime update not available
+[2021-03-08:13:32:58] Unpackaging cancelled
+[2021-03-08:13:32:58] Runtime Installer end with exit code 0
+[2021-03-16:19:37:45] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2021-03-16:19:37:45] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2021-03-16:19:37:45] Commandline is: -updatecheck
+[2021-03-16:19:37:45] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2021-03-16:19:37:46] Starting runtime background update check
+[2021-03-16:19:37:46] Clearing unused background update directory
+[2021-03-16:19:37:46] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2021-03-16:19:37:46] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2021-03-16:19:37:47] Runtime update not available
+[2021-03-16:19:37:47] Unpackaging cancelled
+[2021-03-16:19:37:47] Runtime Installer end with exit code 0
+[2021-03-23:21:10:39] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2021-03-23:21:10:39] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2021-03-23:21:10:39] Commandline is: -updatecheck
+[2021-03-23:21:10:39] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2021-03-23:21:10:40] Starting runtime background update check
+[2021-03-23:21:10:40] Clearing unused background update directory
+[2021-03-23:21:10:40] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2021-03-23:21:10:40] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2021-03-23:21:10:41] Runtime update not available
+[2021-03-23:21:10:41] Unpackaging cancelled
+[2021-03-23:21:10:41] Runtime Installer end with exit code 0
+[2021-03-31:16:47:07] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2021-03-31:16:47:08] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2021-03-31:16:47:08] Commandline is: -updatecheck
+[2021-03-31:16:47:08] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2021-03-31:16:47:08] Starting runtime background update check
+[2021-03-31:16:47:08] Clearing unused background update directory
+[2021-03-31:16:47:09] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2021-03-31:16:47:09] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2021-03-31:16:47:10] Runtime update not available
+[2021-03-31:16:47:10] Unpackaging cancelled
+[2021-03-31:16:47:10] Runtime Installer end with exit code 0
+[2021-04-08:18:54:14] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2021-04-08:18:54:14] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2021-04-08:18:54:14] Commandline is: -updatecheck
+[2021-04-08:18:54:14] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2021-04-08:18:54:15] Starting runtime background update check
+[2021-04-08:18:54:15] Clearing unused background update directory
+[2021-04-08:18:54:15] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2021-04-08:18:54:15] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2021-04-08:18:54:16] Runtime update not available
+[2021-04-08:18:54:16] Unpackaging cancelled
+[2021-04-08:18:54:16] Runtime Installer end with exit code 0
+[2021-04-15:20:11:31] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2021-04-15:20:11:31] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2021-04-15:20:11:31] Commandline is: -updatecheck
+[2021-04-15:20:11:31] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2021-04-15:20:11:32] Starting runtime background update check
+[2021-04-15:20:11:32] Clearing unused background update directory
+[2021-04-15:20:11:32] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2021-04-15:20:11:32] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2021-04-15:20:11:33] Runtime update not available
+[2021-04-15:20:11:33] Unpackaging cancelled
+[2021-04-15:20:11:33] Runtime Installer end with exit code 0
+[2021-04-22:21:36:03] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2021-04-22:21:36:04] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2021-04-22:21:36:04] Commandline is: -updatecheck
+[2021-04-22:21:36:04] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2021-04-22:21:36:04] Starting runtime background update check
+[2021-04-22:21:36:04] Clearing unused background update directory
+[2021-04-22:21:36:05] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2021-04-22:21:36:05] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2021-04-22:21:36:05] Runtime update not available
+[2021-04-22:21:36:05] Unpackaging cancelled
+[2021-04-22:21:36:05] Runtime Installer end with exit code 0
+[2021-05-01:19:12:20] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2021-05-01:19:12:21] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2021-05-01:19:12:21] Commandline is: -updatecheck
+[2021-05-01:19:12:21] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2021-05-01:19:12:22] Starting runtime background update check
+[2021-05-01:19:12:22] Clearing unused background update directory
+[2021-05-01:19:12:22] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2021-05-01:19:12:22] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2021-05-01:19:12:23] Runtime update not available
+[2021-05-01:19:12:23] Unpackaging cancelled
+[2021-05-01:19:12:23] Runtime Installer end with exit code 0
+[2021-05-08:20:15:48] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2021-05-08:20:15:48] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2021-05-08:20:15:48] Commandline is: -updatecheck
+[2021-05-08:20:15:48] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2021-05-08:20:15:49] Starting runtime background update check
+[2021-05-08:20:15:49] Clearing unused background update directory
+[2021-05-08:20:15:49] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2021-05-08:20:15:49] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2021-05-08:20:15:49] Runtime update not available
+[2021-05-08:20:15:49] Unpackaging cancelled
+[2021-05-08:20:15:49] Runtime Installer end with exit code 0
+[2021-05-15:20:55:47] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2021-05-15:20:55:47] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2021-05-15:20:55:47] Commandline is: -updatecheck
+[2021-05-15:20:55:47] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2021-05-15:20:55:47] Starting runtime background update check
+[2021-05-15:20:55:47] Clearing unused background update directory
+[2021-05-15:20:55:48] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2021-05-15:20:55:48] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2021-05-15:20:55:49] Runtime update not available
+[2021-05-15:20:55:49] Unpackaging cancelled
+[2021-05-15:20:55:49] Runtime Installer end with exit code 0
+[2021-05-23:15:49:29] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2021-05-23:15:49:29] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2021-05-23:15:49:29] Commandline is: -updatecheck
+[2021-05-23:15:49:29] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2021-05-23:15:49:30] Starting runtime background update check
+[2021-05-23:15:49:30] Clearing unused background update directory
+[2021-05-23:15:49:30] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2021-05-23:15:49:30] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2021-05-23:15:49:30] Runtime update not available
+[2021-05-23:15:49:30] Unpackaging cancelled
+[2021-05-23:15:49:30] Runtime Installer end with exit code 0
+[2021-05-30:21:43:03] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2021-05-30:21:43:03] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2021-05-30:21:43:03] Commandline is: -updatecheck
+[2021-05-30:21:43:03] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2021-05-30:21:43:04] Starting runtime background update check
+[2021-05-30:21:43:04] Clearing unused background update directory
+[2021-05-30:21:43:04] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2021-05-30:21:43:04] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2021-05-30:21:43:06] Runtime update not available
+[2021-05-30:21:43:06] Unpackaging cancelled
+[2021-05-30:21:43:06] Runtime Installer end with exit code 0
+[2021-06-07:16:06:56] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2021-06-07:16:06:56] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2021-06-07:16:06:56] Commandline is: -updatecheck
+[2021-06-07:16:06:56] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2021-06-07:16:06:57] Starting runtime background update check
+[2021-06-07:16:06:57] Clearing unused background update directory
+[2021-06-07:16:06:57] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2021-06-07:16:06:57] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2021-06-07:16:06:58] Runtime update not available
+[2021-06-07:16:06:58] Unpackaging cancelled
+[2021-06-07:16:06:58] Runtime Installer end with exit code 0
+[2021-06-15:15:56:59] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2021-06-15:15:56:59] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2021-06-15:15:56:59] Commandline is: -updatecheck
+[2021-06-15:15:56:59] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2021-06-15:15:57:00] Starting runtime background update check
+[2021-06-15:15:57:00] Clearing unused background update directory
+[2021-06-15:15:57:00] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2021-06-15:15:57:00] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2021-06-15:15:57:01] Runtime update not available
+[2021-06-15:15:57:01] Unpackaging cancelled
+[2021-06-15:15:57:01] Runtime Installer end with exit code 0
+[2021-06-23:13:01:40] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2021-06-23:13:01:40] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2021-06-23:13:01:40] Commandline is: -updatecheck
+[2021-06-23:13:01:40] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2021-06-23:13:01:41] Starting runtime background update check
+[2021-06-23:13:01:41] Clearing unused background update directory
+[2021-06-23:13:01:41] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2021-06-23:13:01:41] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2021-06-23:13:01:42] Runtime update not available
+[2021-06-23:13:01:42] Unpackaging cancelled
+[2021-06-23:13:01:42] Runtime Installer end with exit code 0
+[2021-07-01:21:28:37] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2021-07-01:21:28:37] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2021-07-01:21:28:37] Commandline is: -updatecheck
+[2021-07-01:21:28:37] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2021-07-01:21:28:38] Starting runtime background update check
+[2021-07-01:21:28:38] Clearing unused background update directory
+[2021-07-01:21:28:38] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2021-07-01:21:28:38] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2021-07-01:21:28:39] Runtime update not available
+[2021-07-01:21:28:39] Unpackaging cancelled
+[2021-07-01:21:28:39] Runtime Installer end with exit code 0
+[2021-07-09:08:30:56] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2021-07-09:08:30:56] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2021-07-09:08:30:56] Commandline is: -updatecheck
+[2021-07-09:08:30:56] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2021-07-09:08:30:57] Starting runtime background update check
+[2021-07-09:08:30:57] Clearing unused background update directory
+[2021-07-09:08:30:57] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2021-07-09:08:30:57] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2021-07-09:08:30:58] Runtime update not available
+[2021-07-09:08:30:58] Unpackaging cancelled
+[2021-07-09:08:30:58] Runtime Installer end with exit code 0
+[2021-07-16:13:11:18] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2021-07-16:13:11:18] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2021-07-16:13:11:18] Commandline is: -updatecheck
+[2021-07-16:13:11:18] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2021-07-16:13:11:19] Starting runtime background update check
+[2021-07-16:13:11:19] Clearing unused background update directory
+[2021-07-16:13:11:19] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2021-07-16:13:11:19] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2021-07-16:13:11:20] Runtime update not available
+[2021-07-16:13:11:20] Unpackaging cancelled
+[2021-07-16:13:11:20] Runtime Installer end with exit code 0
+[2021-07-23:22:49:33] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2021-07-23:22:49:33] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2021-07-23:22:49:33] Commandline is: -updatecheck
+[2021-07-23:22:49:33] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2021-07-23:22:49:34] Starting runtime background update check
+[2021-07-23:22:49:34] Clearing unused background update directory
+[2021-07-23:22:49:34] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2021-07-23:22:49:34] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2021-07-23:22:49:36] Runtime update not available
+[2021-07-23:22:49:36] Unpackaging cancelled
+[2021-07-23:22:49:36] Runtime Installer end with exit code 0
+[2021-08-01:08:31:04] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2021-08-01:08:31:04] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2021-08-01:08:31:04] Commandline is: -updatecheck
+[2021-08-01:08:31:04] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2021-08-01:08:31:05] Starting runtime background update check
+[2021-08-01:08:31:05] Clearing unused background update directory
+[2021-08-01:08:31:05] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2021-08-01:08:31:05] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2021-08-01:08:31:05] Runtime update not available
+[2021-08-01:08:31:05] Unpackaging cancelled
+[2021-08-01:08:31:05] Runtime Installer end with exit code 0
+[2021-08-08:08:57:46] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2021-08-08:08:57:47] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2021-08-08:08:57:47] Commandline is: -updatecheck
+[2021-08-08:08:57:47] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2021-08-08:08:57:47] Starting runtime background update check
+[2021-08-08:08:57:47] Clearing unused background update directory
+[2021-08-08:08:57:48] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2021-08-08:08:57:48] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2021-08-08:08:57:49] Runtime update not available
+[2021-08-08:08:57:49] Unpackaging cancelled
+[2021-08-08:08:57:49] Runtime Installer end with exit code 0
+[2021-08-15:09:42:26] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2021-08-15:09:42:26] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2021-08-15:09:42:26] Commandline is: -updatecheck
+[2021-08-15:09:42:26] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2021-08-15:09:42:27] Starting runtime background update check
+[2021-08-15:09:42:27] Clearing unused background update directory
+[2021-08-15:09:42:27] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2021-08-15:09:42:27] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2021-08-15:09:42:28] Runtime update not available
+[2021-08-15:09:42:28] Unpackaging cancelled
+[2021-08-15:09:42:28] Runtime Installer end with exit code 0
+[2021-08-24:11:03:58] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2021-08-24:11:03:58] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2021-08-24:11:03:58] Commandline is: -updatecheck
+[2021-08-24:11:03:58] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2021-08-24:11:03:59] Starting runtime background update check
+[2021-08-24:11:03:59] Clearing unused background update directory
+[2021-08-24:11:03:59] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2021-08-24:11:03:59] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2021-08-24:11:03:59] Runtime update not available
+[2021-08-24:11:03:59] Unpackaging cancelled
+[2021-08-24:11:03:59] Runtime Installer end with exit code 0
+[2021-09-10:17:23:31] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2021-09-10:17:23:32] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2021-09-10:17:23:32] Commandline is: -updatecheck
+[2021-09-10:17:23:32] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2021-09-10:17:23:33] Starting runtime background update check
+[2021-09-10:17:23:33] Clearing unused background update directory
+[2021-09-10:17:23:33] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2021-09-10:17:23:33] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2021-09-10:17:23:33] Runtime background update check failed: [IOErrorEvent type="ioError" bubbles=false cancelable=false eventPhase=2 text="Error #2032" errorID=2032]
+[2021-09-10:17:23:33] Runtime Installer end with exit code 0
+[2021-09-13:09:36:33] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2021-09-13:09:36:34] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2021-09-13:09:36:34] Commandline is: -updatecheck
+[2021-09-13:09:36:34] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2021-09-13:09:36:34] Starting runtime background update check
+[2021-09-13:09:36:34] Clearing unused background update directory
+[2021-09-13:09:36:35] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2021-09-13:09:36:35] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2021-09-13:09:36:35] Runtime update not available
+[2021-09-13:09:36:35] Unpackaging cancelled
+[2021-09-13:09:36:35] Runtime Installer end with exit code 0
+[2021-09-21:19:37:11] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2021-09-21:19:37:11] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2021-09-21:19:37:11] Commandline is: -updatecheck
+[2021-09-21:19:37:11] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2021-09-21:19:37:12] Starting runtime background update check
+[2021-09-21:19:37:12] Clearing unused background update directory
+[2021-09-21:19:37:12] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2021-09-21:19:37:12] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2021-09-21:19:37:15] Runtime update not available
+[2021-09-21:19:37:15] Unpackaging cancelled
+[2021-09-21:19:37:15] Runtime Installer end with exit code 0
+[2021-09-28:22:08:08] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2021-09-28:22:08:09] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2021-09-28:22:08:09] Commandline is: -updatecheck
+[2021-09-28:22:08:09] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2021-09-28:22:08:09] Starting runtime background update check
+[2021-09-28:22:08:09] Clearing unused background update directory
+[2021-09-28:22:08:10] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2021-09-28:22:08:10] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2021-09-28:22:08:11] Runtime update not available
+[2021-09-28:22:08:11] Unpackaging cancelled
+[2021-09-28:22:08:11] Runtime Installer end with exit code 0
+[2021-10-05:23:46:25] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2021-10-05:23:46:25] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2021-10-05:23:46:25] Commandline is: -updatecheck
+[2021-10-05:23:46:25] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2021-10-05:23:46:26] Starting runtime background update check
+[2021-10-05:23:46:26] Clearing unused background update directory
+[2021-10-05:23:46:26] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2021-10-05:23:46:26] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2021-10-05:23:46:27] Runtime update not available
+[2021-10-05:23:46:27] Unpackaging cancelled
+[2021-10-05:23:46:27] Runtime Installer end with exit code 0
+[2021-10-13:08:08:51] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2021-10-13:08:08:51] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2021-10-13:08:08:51] Commandline is: -updatecheck
+[2021-10-13:08:08:51] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2021-10-13:08:08:53] Starting runtime background update check
+[2021-10-13:08:08:53] Clearing unused background update directory
+[2021-10-13:08:08:53] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2021-10-13:08:08:53] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2021-10-13:08:08:54] Runtime update not available
+[2021-10-13:08:08:54] Unpackaging cancelled
+[2021-10-13:08:08:54] Runtime Installer end with exit code 0
+[2021-10-20:13:31:28] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2021-10-20:13:31:29] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2021-10-20:13:31:29] Commandline is: -updatecheck
+[2021-10-20:13:31:29] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2021-10-20:13:31:30] Starting runtime background update check
+[2021-10-20:13:31:30] Clearing unused background update directory
+[2021-10-20:13:31:30] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2021-10-20:13:31:30] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2021-10-20:13:31:30] Runtime update not available
+[2021-10-20:13:31:30] Unpackaging cancelled
+[2021-10-20:13:31:30] Runtime Installer end with exit code 0
+[2021-10-28:14:03:14] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2021-10-28:14:03:14] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2021-10-28:14:03:14] Commandline is: -updatecheck
+[2021-10-28:14:03:14] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2021-10-28:14:03:15] Starting runtime background update check
+[2021-10-28:14:03:15] Clearing unused background update directory
+[2021-10-28:14:03:15] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2021-10-28:14:03:15] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2021-10-28:14:03:16] Runtime update not available
+[2021-10-28:14:03:16] Unpackaging cancelled
+[2021-10-28:14:03:16] Runtime Installer end with exit code 0
+[2021-11-05:08:09:18] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2021-11-05:08:09:18] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2021-11-05:08:09:18] Commandline is: -updatecheck
+[2021-11-05:08:09:18] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2021-11-05:08:09:19] Starting runtime background update check
+[2021-11-05:08:09:19] Clearing unused background update directory
+[2021-11-05:08:09:20] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2021-11-05:08:09:20] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2021-11-05:08:09:21] Runtime update not available
+[2021-11-05:08:09:21] Unpackaging cancelled
+[2021-11-05:08:09:21] Runtime Installer end with exit code 0
+[2021-11-13:00:15:24] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2021-11-13:00:15:24] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2021-11-13:00:15:24] Commandline is: -updatecheck
+[2021-11-13:00:15:24] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2021-11-13:00:15:25] Starting runtime background update check
+[2021-11-13:00:15:25] Clearing unused background update directory
+[2021-11-13:00:15:25] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2021-11-13:00:15:25] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2021-11-13:00:15:25] Runtime update not available
+[2021-11-13:00:15:25] Unpackaging cancelled
+[2021-11-13:00:15:25] Runtime Installer end with exit code 0
+[2021-11-20:07:53:05] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2021-11-20:07:53:05] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2021-11-20:07:53:05] Commandline is: -updatecheck
+[2021-11-20:07:53:05] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2021-11-20:07:53:06] Starting runtime background update check
+[2021-11-20:07:53:06] Clearing unused background update directory
+[2021-11-20:07:53:06] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2021-11-20:07:53:06] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2021-11-20:07:53:07] Runtime update not available
+[2021-11-20:07:53:07] Unpackaging cancelled
+[2021-11-20:07:53:07] Runtime Installer end with exit code 0
+[2021-11-29:09:20:35] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2021-11-29:09:20:35] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2021-11-29:09:20:35] Commandline is: -updatecheck
+[2021-11-29:09:20:35] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2021-11-29:09:20:36] Starting runtime background update check
+[2021-11-29:09:20:36] Clearing unused background update directory
+[2021-11-29:09:20:36] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2021-11-29:09:20:36] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2021-11-29:09:20:37] Runtime update not available
+[2021-11-29:09:20:37] Unpackaging cancelled
+[2021-11-29:09:20:37] Runtime Installer end with exit code 0
+[2021-12-06:13:47:15] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2021-12-06:13:47:16] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2021-12-06:13:47:16] Commandline is: -updatecheck
+[2021-12-06:13:47:16] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2021-12-06:13:47:17] Starting runtime background update check
+[2021-12-06:13:47:17] Clearing unused background update directory
+[2021-12-06:13:47:18] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2021-12-06:13:47:18] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2021-12-06:13:47:18] Runtime update not available
+[2021-12-06:13:47:18] Unpackaging cancelled
+[2021-12-06:13:47:18] Runtime Installer end with exit code 0
+[2021-12-15:12:28:43] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2021-12-15:12:28:43] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2021-12-15:12:28:43] Commandline is: -updatecheck
+[2021-12-15:12:28:43] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2021-12-15:12:28:44] Starting runtime background update check
+[2021-12-15:12:28:44] Clearing unused background update directory
+[2021-12-15:12:28:44] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2021-12-15:12:28:44] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2021-12-15:12:28:46] Runtime update not available
+[2021-12-15:12:28:46] Unpackaging cancelled
+[2021-12-15:12:28:46] Runtime Installer end with exit code 0
+[2021-12-22:14:38:24] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2021-12-22:14:38:24] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2021-12-22:14:38:24] Commandline is: -updatecheck
+[2021-12-22:14:38:24] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2021-12-22:14:38:26] Starting runtime background update check
+[2021-12-22:14:38:26] Clearing unused background update directory
+[2021-12-22:14:38:26] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2021-12-22:14:38:26] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2021-12-22:14:38:28] Runtime update not available
+[2021-12-22:14:38:28] Unpackaging cancelled
+[2021-12-22:14:38:28] Runtime Installer end with exit code 0
+[2021-12-30:15:51:59] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2021-12-30:15:52:00] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2021-12-30:15:52:00] Commandline is: -updatecheck
+[2021-12-30:15:52:00] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2021-12-30:15:52:01] Starting runtime background update check
+[2021-12-30:15:52:01] Clearing unused background update directory
+[2021-12-30:15:52:02] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2021-12-30:15:52:02] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2021-12-30:15:52:03] Runtime update not available
+[2021-12-30:15:52:03] Unpackaging cancelled
+[2021-12-30:15:52:03] Runtime Installer end with exit code 0
+[2022-01-07:15:40:01] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2022-01-07:15:40:01] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2022-01-07:15:40:01] Commandline is: -updatecheck
+[2022-01-07:15:40:01] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2022-01-07:15:40:02] Starting runtime background update check
+[2022-01-07:15:40:02] Clearing unused background update directory
+[2022-01-07:15:40:03] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2022-01-07:15:40:03] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2022-01-07:15:40:03] Runtime update not available
+[2022-01-07:15:40:03] Unpackaging cancelled
+[2022-01-07:15:40:03] Runtime Installer end with exit code 0
+[2022-01-15:01:59:43] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2022-01-15:01:59:44] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2022-01-15:01:59:44] Commandline is: -updatecheck
+[2022-01-15:01:59:44] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2022-01-15:01:59:45] Starting runtime background update check
+[2022-01-15:01:59:45] Clearing unused background update directory
+[2022-01-15:01:59:45] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2022-01-15:01:59:45] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2022-01-15:01:59:47] Runtime update not available
+[2022-01-15:01:59:47] Unpackaging cancelled
+[2022-01-15:01:59:47] Runtime Installer end with exit code 0
+[2022-01-22:09:42:46] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2022-01-22:09:42:46] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2022-01-22:09:42:46] Commandline is: -updatecheck
+[2022-01-22:09:42:46] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2022-01-22:09:42:47] Starting runtime background update check
+[2022-01-22:09:42:47] Clearing unused background update directory
+[2022-01-22:09:42:47] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2022-01-22:09:42:48] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2022-01-22:09:42:48] Runtime update not available
+[2022-01-22:09:42:48] Unpackaging cancelled
+[2022-01-22:09:42:48] Runtime Installer end with exit code 0
+[2022-01-29:16:16:35] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2022-01-29:16:16:35] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2022-01-29:16:16:35] Commandline is: -updatecheck
+[2022-01-29:16:16:35] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2022-01-29:16:16:36] Starting runtime background update check
+[2022-01-29:16:16:36] Clearing unused background update directory
+[2022-01-29:16:16:36] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2022-01-29:16:16:36] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2022-01-29:16:16:38] Runtime update not available
+[2022-01-29:16:16:38] Unpackaging cancelled
+[2022-01-29:16:16:38] Runtime Installer end with exit code 0
+[2022-02-05:23:22:35] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2022-02-05:23:22:36] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2022-02-05:23:22:36] Commandline is: -updatecheck
+[2022-02-05:23:22:36] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2022-02-05:23:22:36] Starting runtime background update check
+[2022-02-05:23:22:36] Clearing unused background update directory
+[2022-02-05:23:22:36] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2022-02-05:23:22:36] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2022-02-05:23:22:37] Runtime update not available
+[2022-02-05:23:22:37] Unpackaging cancelled
+[2022-02-05:23:22:37] Runtime Installer end with exit code 0
+[2022-02-14:09:41:47] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2022-02-14:09:41:47] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2022-02-14:09:41:47] Commandline is: -updatecheck
+[2022-02-14:09:41:47] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2022-02-14:09:41:48] Starting runtime background update check
+[2022-02-14:09:41:48] Clearing unused background update directory
+[2022-02-14:09:41:48] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2022-02-14:09:41:48] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2022-02-14:09:41:48] Runtime update not available
+[2022-02-14:09:41:48] Unpackaging cancelled
+[2022-02-14:09:41:48] Runtime Installer end with exit code 0
+[2022-02-21:10:05:11] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2022-02-21:10:05:11] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2022-02-21:10:05:11] Commandline is: -updatecheck
+[2022-02-21:10:05:11] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2022-02-21:10:05:12] Starting runtime background update check
+[2022-02-21:10:05:12] Clearing unused background update directory
+[2022-02-21:10:05:12] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2022-02-21:10:05:12] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2022-02-21:10:05:13] Runtime update not available
+[2022-02-21:10:05:13] Unpackaging cancelled
+[2022-02-21:10:05:13] Runtime Installer end with exit code 0
+[2022-03-01:10:54:37] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2022-03-01:10:54:37] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2022-03-01:10:54:37] Commandline is: -updatecheck
+[2022-03-01:10:54:37] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2022-03-01:10:54:39] Starting runtime background update check
+[2022-03-01:10:54:39] Clearing unused background update directory
+[2022-03-01:10:54:39] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2022-03-01:10:54:39] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2022-03-01:10:54:40] Runtime update not available
+[2022-03-01:10:54:41] Unpackaging cancelled
+[2022-03-01:10:54:41] Runtime Installer end with exit code 0
+[2022-03-10:22:42:28] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2022-03-10:22:42:29] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2022-03-10:22:42:29] Commandline is: -updatecheck
+[2022-03-10:22:42:29] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2022-03-10:22:42:29] Starting runtime background update check
+[2022-03-10:22:42:29] Clearing unused background update directory
+[2022-03-10:22:42:30] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2022-03-10:22:42:30] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2022-03-10:22:42:31] Runtime update not available
+[2022-03-10:22:42:31] Unpackaging cancelled
+[2022-03-10:22:42:31] Runtime Installer end with exit code 0
+[2022-03-25:10:27:51] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2022-03-25:10:27:51] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2022-03-25:10:27:51] Commandline is: -updatecheck
+[2022-03-25:10:27:51] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2022-03-25:10:27:52] Starting runtime background update check
+[2022-03-25:10:27:52] Clearing unused background update directory
+[2022-03-25:10:27:52] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2022-03-25:10:27:52] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2022-03-25:10:27:53] Runtime update not available
+[2022-03-25:10:27:53] Unpackaging cancelled
+[2022-03-25:10:27:53] Runtime Installer end with exit code 0
+[2022-04-05:23:29:28] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2022-04-05:23:29:29] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2022-04-05:23:29:29] Commandline is: -updatecheck
+[2022-04-05:23:29:29] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2022-04-05:23:29:29] Starting runtime background update check
+[2022-04-05:23:29:29] Clearing unused background update directory
+[2022-04-05:23:29:30] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2022-04-05:23:29:30] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2022-04-05:23:29:30] Runtime update not available
+[2022-04-05:23:29:30] Unpackaging cancelled
+[2022-04-05:23:29:30] Runtime Installer end with exit code 0
+[2022-04-13:17:16:04] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2022-04-13:17:16:04] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2022-04-13:17:16:04] Commandline is: -updatecheck
+[2022-04-13:17:16:04] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2022-04-13:17:16:05] Starting runtime background update check
+[2022-04-13:17:16:05] Clearing unused background update directory
+[2022-04-13:17:16:05] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2022-04-13:17:16:05] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2022-04-13:17:16:05] Runtime update not available
+[2022-04-13:17:16:05] Unpackaging cancelled
+[2022-04-13:17:16:05] Runtime Installer end with exit code 0
+[2022-04-24:10:12:32] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2022-04-24:10:12:32] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2022-04-24:10:12:32] Commandline is: -updatecheck
+[2022-04-24:10:12:32] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2022-04-24:10:12:33] Starting runtime background update check
+[2022-04-24:10:12:33] Clearing unused background update directory
+[2022-04-24:10:12:33] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2022-04-24:10:12:33] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2022-04-24:10:12:34] Runtime update not available
+[2022-04-24:10:12:34] Unpackaging cancelled
+[2022-04-24:10:12:34] Runtime Installer end with exit code 0
+[2022-05-01:19:21:41] Launching subprocess with commandline c:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater -updatecheck
+[2022-05-01:19:21:41] Runtime Installer begin with version 32.0.0.125 on Windows 10 x86
+[2022-05-01:19:21:41] Commandline is: -updatecheck
+[2022-05-01:19:21:41] Installed runtime (32.0.0.125) located at c:\Program Files (x86)\Common Files\Adobe AIR
+[2022-05-01:19:21:42] Starting runtime background update check
+[2022-05-01:19:21:43] Clearing unused background update directory
+[2022-05-01:19:21:43] Begin Background update download from https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update
+[2022-05-01:19:21:43] Unpackaging https://airdownload.adobe.com/air/3/background/windows/x86/patch/32.0.0.125/update to C:\Users\seiya\AppData\Roaming\Adobe\AIR\Updater\Background
+[2022-05-01:19:21:44] Runtime update not available
+[2022-05-01:19:21:44] Unpackaging cancelled
+[2022-05-01:19:21:44] Runtime Installer end with exit code 0

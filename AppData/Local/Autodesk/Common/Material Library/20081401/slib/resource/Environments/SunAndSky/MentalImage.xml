@@ -1,0 +1,206 @@
+<?xml version="1.0"?>
+    <implementation render="MentalImage">
+      <language name="MentalRaySL" version="3.6"/>
+      <api name="MentalRay" version="3.6"/>
+      <root_bindings name="root"/>
+
+      <constants>
+        <float name="one" val="1"/>
+        <float name="k" val="90"/>
+        <float name="mult_inverse" val="-1."/> 
+      </constants>
+
+      <operator function="IsSceneYUp" name="IsSceneYUp">
+      </operator>
+
+      <operator function="SubstractOp" name="phiDegree">
+        <map_constant source="k" destination="X"/>
+        <map_interface source="Altitude" destination="Y"/>
+      </operator>
+
+      <operator function="AddOp" name="AddNorth">
+        <map_interface source="north_offset_from_x" destination="X"/>
+        <map_interface source="Azimuth" destination="Y"/>
+      </operator>
+      
+      <operator function="MultiplyOp" name="ThetaDegree">
+        <map_constant source="mult_inverse" destination="X"/>
+        <map_operator source="AddNorth" destination="Y"/>
+      </operator>
+      
+      <operator function="DegreeToRadian" name="phi">
+        <map_operator source="phiDegree" destination="X"/>
+      </operator>
+
+      <operator function="DegreeToRadian" name="theta">
+        <map_operator source="ThetaDegree" destination="X"/>
+      </operator>
+
+      <operator function="SphericalToCartesian" name="sunDirectionFromAltAzim">
+        <map_constant source="one" destination="rho"/>
+        <map_operator source="theta" destination="theta"/>
+        <map_operator source="phi" destination="phi"/>
+        <map_operator source="IsSceneYUp" destination="YUp"/>
+      </operator>
+
+      <operator function="SunPositionOperatorFunc" name="sunDirectionFromLatLon">
+        <map_interface source="Latitude" destination="Latitude"/>
+        <map_interface source="Longitude" destination="Longitude"/>
+        <map_interface source="Year" destination="Year"/>
+        <map_interface source="Month" destination="Month"/>
+        <map_interface source="Day" destination="Day"/>
+        <map_interface source="TimeZoneOffset" destination="TimeZoneOffset"/>
+        <map_interface source="DST" destination="DST"/>
+        <map_interface source="Time" destination="Time"/>
+        <map_operator source="IsSceneYUp" destination="YUp"/>
+        <map_interface source="north_offset_from_x" destination="NorthAzimuth"/>
+      </operator>
+
+      <operator function="ConditionalOperator" name="sunDirection">
+        <map_interface source="use_altitude_azimuth" destination="predicate"/>
+        <map_operator source="sunDirectionFromAltAzim" destination="ifTrue"/>
+        <map_operator source="sunDirectionFromLatLon" destination="ifFalse"/>
+      </operator>
+
+      <operator function="SwitchOperator" name="ImageSwitcher">
+        <!-- case 0: we have a float; case 1: we have an image -->
+        <map_interface source="ImageSwitch" destination="switch"/>
+        <map_interface source="haze" destination="case_0"/>
+        <map_interface source="haze_small" destination="case_1"/>
+      </operator>
+      
+      <bindings target="shader" name="sky_texture_background">
+        <desc val="" tag="mia_physicalsky"/>
+        <map_interface source="backgroundOn" destination="on"/>
+        <map_interface source="multiplier" destination="multiplier"/>
+        <map_interface source="rgb_unit_conversion" destination="rgb_unit_conversion"/>
+        <map_interface source="haze" destination="haze"/>
+        <map_interface source="redblueshift" destination="redblueshift"/>
+        <map_interface source="saturation" destination="saturation"/>
+        <map_interface source="horizon_height" destination="horizon_height"/>
+        <map_interface source="horizon_blur" destination="horizon_blur"/>
+        <map_interface source="ground_color" destination="ground_color"/>
+        <map_interface source="night_color" destination="night_color"/>
+        <map_interface source="sun" destination="sun"/>
+        <map_interface source="sun_disk_intensity" destination="sun_disk_intensity"/>
+        <map_interface source="sun_disk_scale" destination="sun_disk_scale"/>
+        <map_interface source="sun_glow_intensity" destination="sun_glow_intensity"/>
+        <map_interface source="use_background" destination="use_background"/>
+        <map_interface source="background" destination="background"/>
+        <map_interface source="visibility_distance" destination="visibility_distance"/>
+        <map_interface source="flags" destination="flags"/>
+        <map_operator source="IsSceneYUp" destination="y_is_up"/>
+        <map_operator source="sunDirection" destination="sun_direction"/>
+      </bindings>
+
+      <bindings target="shader" name="sky_texture_environment">
+        <desc val="" tag="mia_physicalsky"/>
+        <map_interface source="illuminationOn" destination="on"/>
+        <map_interface source="multiplier" destination="multiplier"/>
+        <map_interface source="rgb_unit_conversion" destination="rgb_unit_conversion"/>
+        <map_interface source="haze_small" destination="haze"/>
+        <map_interface source="redblueshift" destination="redblueshift"/>
+        <map_interface source="saturation" destination="saturation"/>
+        <map_interface source="horizon_height" destination="horizon_height"/>
+        <map_interface source="horizon_blur" destination="horizon_blur"/>
+        <map_interface source="ground_color" destination="ground_color"/>
+        <map_interface source="night_color" destination="night_color"/>
+        <map_interface source="sun" destination="sun"/>
+        <map_interface source="sun_disk_intensity" destination="sun_disk_intensity"/>
+        <map_interface source="sun_disk_scale" destination="sun_disk_scale"/>
+        <map_interface source="sun_glow_intensity" destination="sun_glow_intensity"/>
+        <map_interface source="use_background" destination="use_background"/>
+        <map_interface source="background" destination="background"/>
+        <map_interface source="visibility_distance" destination="visibility_distance"/>
+        <map_interface source="flags" destination="flags"/>
+        <map_operator source="IsSceneYUp" destination="y_is_up"/>
+        <map_operator source="sunDirection" destination="sun_direction"/>
+      </bindings>
+
+      <bindings target="shader" name="sky_lens_texture">
+        <desc val="" tag="mia_physicalsky"/>
+        <map_interface source="hazeOn" destination="on"/>
+        <map_interface source="multiplier" destination="multiplier"/>
+        <map_interface source="rgb_unit_conversion" destination="rgb_unit_conversion"/>
+        <!-- The haze/cloud map is not used with the lens shader, to avoid seeing clouds in the haze. -->
+        <!-- <map_interface source="haze" destination="haze"/> -->
+        <map_interface source="redblueshift" destination="redblueshift"/>
+        <map_interface source="saturation" destination="saturation"/>
+        <map_interface source="horizon_height" destination="horizon_height"/>
+        <map_interface source="horizon_blur" destination="horizon_blur"/>
+        <map_interface source="ground_color" destination="ground_color"/>
+        <map_interface source="night_color" destination="night_color"/>
+        <map_interface source="sun" destination="sun"/>
+        <map_interface source="sun_disk_intensity" destination="sun_disk_intensity"/>
+        <map_interface source="sun_disk_scale" destination="sun_disk_scale"/>
+        <map_interface source="sun_glow_intensity" destination="sun_glow_intensity"/>
+        <map_interface source="use_background" destination="use_background"/>
+        <map_interface source="background" destination="background"/>
+        <map_interface source="visibility_distance" destination="visibility_distance"/>
+        <map_interface source="flags" destination="flags"/>
+        <!-- <map_interface source="cloud_haze" destination="haze"/> -->
+        <map_operator source="IsSceneYUp" destination="y_is_up"/>
+        <map_operator source="sunDirection" destination="sun_direction"/>
+      </bindings>
+
+      <bindings target="shader" name="sky_env">
+        <desc val="" tag="adsk_SS_Environment"/>
+        <map_bindings source="sky_texture_background" destination="Map"/>
+        <map_bindings source="sky_texture_environment" destination="Sky"/>
+      </bindings>
+
+      <bindings target="shader" name="sun">
+        <desc val="mi.phenomenon/include/adsk_Mtl_SunAndSky.mi" tag="adsk_physicalsun"/>
+        
+        <!--do not use *-->
+        <!--map_interface source="*" destination="*"/-->
+        <!--
+        boolean "on"                   default on,
+        scalar  "multiplier"           default 1.0,
+        color   "rgb_unit_conversion"  default 0.0001 0.0001 0.0001,
+        scalar  "haze"                 default 0.0,
+        scalar  "redblueshift"         default 0.0,
+        scalar  "saturation"           default 1.0,
+        scalar  "horizon_height"       default 0.0,
+        scalar  "shadow_softness"      default 1.0,
+        integer "samples"              default 8,
+        vector  "photon_bbox_min",
+        vector  "photon_bbox_max",
+        boolean "automatic_photon_energy",
+        boolean "y_is_up"
+        -->
+        <map_interface source="illuminationOn" destination="on"/>
+        <map_interface source="multiplier" destination="multiplier"/>
+        <map_interface source="rgb_unit_conversion" destination="rgb_unit_conversion"/>
+        <map_interface source="haze" destination="haze"/>
+        <map_interface source="redblueshift" destination="redblueshift"/>
+        <map_interface source="saturation" destination="saturation"/>
+        <map_interface source="horizon_height" destination="horizon_height"/>
+        <map_interface source="shadow_softness" destination="shadow_softness"/>
+        <map_interface source="automatic_photon_energy" destination="automatic_photon_energy"/>
+        <map_operator source="IsSceneYUp" destination="y_is_up"/>
+      </bindings>
+
+      <bindings target="light object" name="sun_object">
+        <map_interface source="lightobjecttype" destination="type"/>
+        <map_interface source="lightobjectareatype" destination="area"/>
+        <map_interface source="lightobjectexponent" destination="exponent"/>
+        <map_interface source="lightobjectvisible" destination="visible"/>
+        <map_bindings source="sun" destination="shader"/>
+        <map_bindings source="sun" destination="emitter"/>
+      </bindings>
+
+      <bindings target="light instance" name="sun_light_instance">
+        <map_operator source="sunDirection" destination="direction"/>
+        <map_bindings source="sun_object" destination="object"/>
+      </bindings>
+
+	  <!-- This is the root binding table of this environment, which lets the translator
+		 know what objects go where, in the scene -->
+      <bindings target="environment" name="root">
+        <map_bindings source="sun_light_instance" destination="instanceGroupMember"/>
+        <map_bindings source="sky_env" destination="cameraEnvironmentShader"/>
+        <map_bindings source="sky_lens_texture" destination="cameraLensShader"/>
+      </bindings>
+
+    </implementation>

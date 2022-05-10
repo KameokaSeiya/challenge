@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+    <implementation render="MentalImage">
+      <language name="MentalRaySL" version="3.6"/>
+      <api name="MentalRay" version="3.6"/>
+      <root_bindings name="root"/>
+
+      <bindings target="shader" name="light">
+        <desc val="" tag="mia_portal_light"/>
+        <!--map_interface source="*" destination="*"/-->
+        
+        <!-- NO * it's BAD
+        declare shader "mia_portal_light" (
+        boolean "on"                     default on,
+        scalar  "multiplier"             default 1.0,    #: min 0.0 softmax 1.0
+        color   "tint_color"             default 1 1 1,  
+        boolean "reverse"                default off,
+        scalar  "cutoff_threshold"       default 0.005,
+        boolean "shadows"                default true,
+        boolean "use_custom_environment" default off,
+        shader  "custom_environment",
+        boolean "visible"                default off,
+        boolean "lookup_using_fg_rays"   default on,
+        scalar  "shadow_ray_extension"   default 0.0,
+        boolean "emit_direct_photons"    default off,
+        color   "transparency"           default 1 1 1
+        )
+        -->
+        <map_interface source="on" destination="on"/>
+        <map_interface source="multiplier" destination="multiplier"/>
+        <map_interface source="tint_color" destination="tint_color"/>
+        <map_interface source="reverse" destination="reverse"/>
+        <map_interface source="cutoff_threshold" destination="cutoff_threshold"/>
+        <map_interface source="shadows" destination="shadows"/>
+        <map_interface source="use_custom_environment" destination="use_custom_environment"/>
+        <map_interface source="custom_environment" destination="custom_environment"/>
+        <map_interface source="visible" destination="visible"/>
+        <map_interface source="lookup_using_fg_rays" destination="lookup_using_fg_rays"/>
+        <map_interface source="shadow_ray_extension" destination="shadow_ray_extension"/>
+        <map_interface source="emit_direct_photons" destination="emit_direct_photons"/>
+        <map_interface source="transparency" destination="transparency"/>
+      </bindings>
+      
+      <bindings target="light object" name="root">
+        <map_interface source="lightobjecttype" destination="type"/>
+        <map_interface source="lightobjectareatype" destination="area"/>
+		<map_interface source="lightobject_force_area_light_enable" destination="force_area_light_enable"/>
+        <map_interface source="lightobjectexponent" destination="exponent"/>
+        <map_interface source="on" destination="visible"/>  <!-- If it's ON, it's visible. The shader then controls the actual visibility. -->
+        <map_interface source="length" destination="rectangle_length"/>
+        <map_interface source="width" destination="rectangle_width"/>
+        <map_interface source="spread" destination="spread"/>
+        <map_bindings source="light" destination="shader"/>
+        <map_bindings source="light" destination="emitter"/>
+      </bindings>
+      
+    </implementation>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="150px" viewBox="0 0 200 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>Crystal</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 23.4060179 0 23.4060179 2.68917948 0 2.68917948"></polygon>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="23.4060179" height="2.68917948" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <polygon id="path-3" points="65 0 88.4060179 0 88.4060179 2.68917948 65 2.68917948"></polygon>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="23.4060179" height="2.68917948" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="0" y="0" width="20.5299886" height="7.56368001"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="20.5299886" height="7.56368001" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <rect id="path-7" x="67.2215786" y="0" width="20.5299886" height="7.56368001"></rect>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="20.5299886" height="7.56368001" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+    </defs>
+    <g id="Crystal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-4" transform="translate(55.836080, 17.134766)">
+            <g id="Group-6" transform="translate(0.000000, 0.885742)">
+                <path d="M7.92604574,28.3631016 L80.4017944,28.3631016 L80.4017944,5.88378906 C80.4017944,3.39850769 78.3870758,1.38378906 75.9017944,1.38378906 L12.4260457,1.38378906 C9.94076436,1.38378906 7.92604574,3.39850769 7.92604574,5.88378906 L7.92604574,28.3631016 Z" id="Rectangle" stroke="#979797" fill="#D8D8D8"></path>
+                <g id="Group-5" transform="translate(0.000000, 1.000000)">
+                    <path d="M3.70869954,25.8999023 L3.70869954,30.8989258 L84.6191406,30.8989258 L84.6191406,25.8999023 L3.70869954,25.8999023 Z" id="Rectangle" stroke="#979797" fill="#C7C2C2"></path>
+                    <g id="Group-3" transform="translate(7.966309, 0.080526)"></g>
+                    <path d="M8.49839364,8.44896698 C8.49055798,6.15761438 7.23472087,1.06420898 12.7855021,0.901033733 C13.4948711,0.880180548 15.1075835,0.883506927 17.6236391,0.91101287 L17.6556764,25.4404297 L8.4594996,25.4404297 C8.44832106,19.2447743 8.46128575,13.5809534 8.49839364,8.44896698 Z" id="Rectangle-Copy" fill="#A8A8A8" opacity="0.521222015"></path>
+                    <path d="M70.8379933,8.44896698 C70.8301576,6.15761438 69.5743205,1.06420898 75.1251017,0.901033733 C75.8344708,0.880180548 77.4471831,0.883506927 79.9632387,0.91101287 L79.995276,25.4404297 L70.7990992,25.4404297 C70.7879207,19.2447743 70.8008854,13.5809534 70.8379933,8.44896698 Z" id="Rectangle-Copy-2" fill="#A8A8A8" opacity="0.521222015" transform="translate(75.353052, 13.163988) scale(-1, 1) translate(-75.353052, -13.163988) "></path>
+                    <path d="M1.5,30.5 L1.5,35.6632944 L86.9420573,35.6632944 L86.9420573,30.5 L1.5,30.5 Z" id="Rectangle-6" stroke="#979797" fill="#585858"></path>
+                    <g id="Group" transform="translate(0.000000, 33.426782)" fill="#D8D8D8" stroke="#979797" stroke-dasharray="5,1">
+                        <use id="Rectangle-7" mask="url(#mask-2)" xlink:href="#path-1"></use>
+                        <use id="Rectangle-7-Copy" mask="url(#mask-4)" transform="translate(76.703009, 1.344590) scale(-1, 1) translate(-76.703009, -1.344590) " xlink:href="#path-3"></use>
+                    </g>
+                </g>
+            </g>
+            <path d="M3.33031539,72.9867589 L3.33031539,104.563582 L86.7723727,104.563582 L86.7723727,72.9867589 L3.33031539,72.9867589 Z" id="Rectangle-8" stroke="#979797" stroke-width="3" fill="#D8D8D8"></path>
+            <g id="Group-2" transform="translate(0.967950, 84.453067)" fill="#D8D8D8" stroke="#979797" stroke-dasharray="2,1" stroke-width="2">
+                <use id="Rectangle-2" mask="url(#mask-6)" xlink:href="#path-5"></use>
+                <use id="Rectangle-2-Copy" mask="url(#mask-8)" xlink:href="#path-7"></use>
+            </g>
+        </g>
+    </g>
+</svg>

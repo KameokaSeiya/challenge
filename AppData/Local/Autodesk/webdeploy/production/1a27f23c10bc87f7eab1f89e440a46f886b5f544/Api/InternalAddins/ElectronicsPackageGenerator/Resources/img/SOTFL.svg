@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="200px" height="150px" viewBox="0 0 200 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>SOTFL</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="92" y="39" width="106" height="72" rx="2"></rect>
+        <polygon id="path-2" points="32 24 41 24 41 48 32 48"></polygon>
+        <polygon id="path-3" points="32 102 41 102 41 126 32 126"></polygon>
+        <path d="M2,45.3726107 C2,44.8206151 2.43245411,44.3054611 2.98319318,44.2192778 L31.6085225,39.7397979 C32.1515251,39.6548253 33.0437816,39.5859414 33.5892751,39.5859414 L41,39.5859414 L41,110.113364 L33.5892751,110.113364 C33.0383383,110.113364 32.1474692,110.048212 31.6085225,109.969172 L2.98319318,105.771058 C2.44019058,105.691423 2,105.186179 2,104.627389 L2,45.3726107 Z" id="path-4"></path>
+        <polygon id="path-5" points="137 24 153 24 153 48 137 48"></polygon>
+        <polygon id="path-6" points="107 24 123 24 123 48 107 48"></polygon>
+        <mask id="mask-7" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="24" fill="white">
+            <use xlink:href="#path-6"></use>
+        </mask>
+        <polygon id="path-8" points="167 24 183 24 183 48 167 48"></polygon>
+        <mask id="mask-9" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="24" fill="white">
+            <use xlink:href="#path-8"></use>
+        </mask>
+        <polygon id="path-10" points="137 102 153 102 153 126 137 126"></polygon>
+        <mask id="mask-11" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="24" fill="white">
+            <use xlink:href="#path-10"></use>
+        </mask>
+        <polygon id="path-12" points="107 102 123 102 123 126 107 126"></polygon>
+        <polygon id="path-13" points="167 102 183 102 183 126 167 126"></polygon>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <use fill="#585858" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <rect stroke="#505050" stroke-width="1" x="92.5" y="39.5" width="105" height="71" rx="2"></rect>
+            </g>
+            <g>
+                <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-2"></use>
+                <path stroke="#979797" stroke-width="1" d="M32.5,24.5 L32.5,47.5 L40.5,47.5 L40.5,24.5 L32.5,24.5 Z"></path>
+            </g>
+            <g>
+                <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-3"></use>
+                <path stroke="#979797" stroke-width="1" d="M32.5,102.5 L32.5,125.5 L40.5,125.5 L40.5,102.5 L32.5,102.5 Z"></path>
+            </g>
+            <g>
+                <use fill="#585858" fill-rule="evenodd" xlink:href="#path-4"></use>
+                <path stroke="#505050" stroke-width="1" d="M40.5,109.613364 L40.5,40.0859414 L33.5892751,40.0859414 C33.0677459,40.0859414 32.2013689,40.1531104 31.6858251,40.2337861 L3.0604957,44.713266 C2.75664583,44.7608144 2.5,45.0632981 2.5,45.3726107 L2.5,104.627389 C2.5,104.935813 2.75601466,105.232392 3.05574573,105.27635 L31.6810751,109.474463 C32.1973928,109.550185 33.0640299,109.613364 33.5892751,109.613364 L40.5,109.613364 Z"></path>
+            </g>
+            <rect fill="#505050" x="32" y="41" width="1" height="67"></rect>
+            <g>
+                <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-5"></use>
+                <path stroke="#979797" stroke-width="1" d="M137.5,24.5 L137.5,47.5 L152.5,47.5 L152.5,24.5 L137.5,24.5 Z"></path>
+            </g>
+            <use stroke="#979797" mask="url(#mask-7)" stroke-width="2" stroke-dasharray="4,3" xlink:href="#path-6"></use>
+            <use stroke="#979797" mask="url(#mask-9)" stroke-width="2" stroke-dasharray="4,3" xlink:href="#path-8"></use>
+            <use stroke="#979797" mask="url(#mask-11)" stroke-width="2" stroke-dasharray="4,3" xlink:href="#path-10"></use>
+            <g>
+                <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-12"></use>
+                <path stroke="#979797" stroke-width="1" d="M107.5,102.5 L107.5,125.5 L122.5,125.5 L122.5,102.5 L107.5,102.5 Z"></path>
+            </g>
+            <g>
+                <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-13"></use>
+                <path stroke="#979797" stroke-width="1" d="M167.5,102.5 L167.5,125.5 L182.5,125.5 L182.5,102.5 L167.5,102.5 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>

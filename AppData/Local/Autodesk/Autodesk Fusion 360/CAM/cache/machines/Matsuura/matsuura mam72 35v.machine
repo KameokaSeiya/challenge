@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<machine xmlns="http://www.hsmworks.com/xml/2009/machine">
+
+  <vendor>Matsuura</vendor>
+
+  <model>MAM72-35V</model>
+
+  <description>Matsuura MAM72-35V</description>
+
+  <control>Fanuc</control>
+
+  <machining additive="no" inspection="no" jet="no" milling="yes" turning="no" />
+
+  <dimensions depth="0mm" height="0mm" weight="0kg" width="0mm" />
+
+  <capacities depth="0mm" height="0mm" weight="0kg" width="0mm" />
+
+  <png128>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</png128>
+
+  <mtk />
+
+  <controllerConfigurations />
+
+  <fusion>
+    <model>https://cam.autodesk.com/machines/machines/matsuura%20mam72%2035v.f3d</model>
+  </fusion>
+
+  <custom>
+    <data />
+    <name />
+    <softwareVersion />
+    <network ip="" port="" protocol="" />
+    <serial />
+  </custom>
+
+  <coolant options="FLOOD MIST THROUGH_TOOL FLOOD_THROUGH_TOOL" />
+
+  <multiAxis adjust="yes" angle="10deg" cone="3deg" feedRateType="tcp" linearizationTolerance="0.040000000000000001mm" method="off" reconfigure="no" tolerance="0.040000000000000001mm" />
+
+  <tooling maximumToolDiameter="0mm" maximumToolLength="0mm" maximumToolWeight="0kg" numberOfTools="100" toolChanger="yes" toolPreload="yes" />
+
+  <machiningTime ratio="1" toolChangeTime="15s" />
+
+  <capabilities maximumBlockProcessingSpeed="0" maximumFeedrate="0mm/min" workOffsets="100" />
+
+  <simulation retractOnIndexing="yes" shortestAngularRotation="yes" tableAttachPoint="0mm 0mm 0mm" toolAttachPoint="329.9999999992869mm 220.00000000000799mm 620.00028427302004mm" wcs="0mm 0mm 0mm">
+    <machineAssembly />
+  </simulation>
+
+  <post>
+    <postProcessor>system://machinesimulation.cps</postProcessor>
+    <postProperties>
+      <Parameters />
+    </postProperties>
+    <setupSheet />
+    <setupSheetProperties />
+  </post>
+
+  <axis actuator="linear" coordinate="X" homePosition="0mm" id="X" link="head" maximumFeed="0mm/min" name="" offset="0mm 0mm 0mm" range="-440mm 0mm" rapidFeed="0mm/min" resolution="0mm" />
+
+  <axis actuator="linear" coordinate="Z" homePosition="0mm" id="Z" link="head" maximumFeed="0mm/min" name="" offset="0mm 0mm 0mm" range="-580mm 0mm" rapidFeed="0mm/min" resolution="0mm" />
+
+  <spindle axis="0 0 1" maximumSpeed="99999rpm" minimumSpeed="0rpm">
+    <description />
+  </spindle>
+
+  <axis actuator="linear" coordinate="Y" homePosition="0mm" id="Y" link="table" maximumFeed="0mm/min" name="" offset="0mm 0mm 0mm" range="-550mm 0mm" rapidFeed="0mm/min" resolution="0mm" />
+
+  <axis actuator="rotational" axis="0 1 0" control="driven" coordinate="Y" cyclic="no" homePosition="0deg" id="U" link="table" maximumFeed="21600deg/min" name="" offset="4.6084611599999997e-06mm 389.99999999999983mm 19.999998803628721mm" preference="dont care" range="-125deg 65deg" rapidFeed="0deg/min" resolution="0deg" tcp="yes" />
+
+  <axis actuator="rotational" axis="0 0 1" control="driven" coordinate="Z" cyclic="no" homePosition="0deg" id="V" link="table" maximumFeed="21600deg/min" name="" offset="0mm 0mm 0mm" preference="dont care" rapidFeed="0deg/min" resolution="0deg" tcp="yes" />
+
+</machine>

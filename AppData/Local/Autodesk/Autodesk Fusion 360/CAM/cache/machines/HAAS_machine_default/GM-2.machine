@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<machine xmlns="http://www.hsmworks.com/xml/2009/machine">
+
+  <vendor>HAAS_machine_default</vendor>
+
+  <model>GM-2</model>
+
+  <description>GM</description>
+
+  <control>NGC</control>
+
+  <machining additive="no" jet="no" milling="yes" turning="no" />
+
+  <dimensions depth="0mm" height="0mm" weight="0kg" width="0mm" />
+
+  <capacities depth="0mm" height="0mm" weight="0kg" width="0mm" />
+
+  <png128>https://cam.autodesk.com/machines/machines/GM-2%203AX%20L%20Angle.png</png128>
+
+  <coolant options="FLOOD" />
+
+  <multiAxis adjust="yes" angle="10deg" cone="3deg" feedRateType="ipm" linearizationTolerance="0.040000000000000001mm" method="off" reconfigure="yes" tolerance="0.040000000000000001mm" />
+
+  <tooling maximumToolDiameter="127mm" maximumToolLength="279mm" maximumToolWeight="5.4kg" numberOfTools="31" toolChanger="yes" toolPreload="yes" />
+
+  <machiningTime ratio="1" toolChangeTime="15s" />
+
+  <capabilities maximumBlockProcessingSpeed="0" maximumFeedrate="20300.0mm/min" workOffsets="105" />
+
+  <simulation retractOnIndexing="yes" shortestAngularRotation="yes" wcs="0mm 0mm 0mm">
+    <machineAssembly />
+  </simulation>
+
+  <post>
+    <postProcessor>system://haas-generic-mill-hd.cps</postProcessor>
+    <postProperties>
+      <Parameters>
+        <Parameter expression="false" name="useDWO" value="false" />
+        <Parameter expression="false" name="forceHomeOnIndexing" value="false" />
+        <Parameter expression="0" name="safeRetractDistance" value="0" />
+        <Parameter expression="true" name="preloadTool" value="true" />
+        <Parameter expression="false" name="chipTransport" value="false" />
+        <Parameter expression="true" name="optionalStop" value="true" />
+        <Parameter expression="true" name="separateWordsWithSpace" value="true" />
+        <Parameter expression="false" name="useRadius" value="false" />
+        <Parameter expression="false" name="useParametricFeed" value="false" />
+        <Parameter expression="false" name="useG0" value="false" />
+        <Parameter expression="false" name="useG28" value="false" />
+        <Parameter expression="false" name="useG187" value="false" />
+        <Parameter expression="true" name="homePositionCenter" value="true" />
+        <Parameter expression="false" name="optionallyCycleToolsAtStart" value="false" />  
+        <Parameter expression="false" name="optionallyMeasureToolsAtStart" value="false" />
+        <Parameter expression="0.1" name="toolBreakageTolerance" value="0.1" />
+        <Parameter expression="false" name="safeStartAllOperations" value="false" />
+        <Parameter expression="false" name="fastToolChange" value="false" />
+        <Parameter expression="false" name="useG95forTapping" value="false" />
+        <Parameter expression="" name="coolantPressure" value="" />
+        <Parameter expression="false" name="writeMachine" value="false" />
+        <Parameter expression="true" name="writeTools" value="true" />
+        <Parameter expression="false" name="writeVersion" value="false" />
+        <Parameter expression="true" name="showSequenceNumbers" value="true" />
+        <Parameter expression="10" name="sequenceNumberStart" value="10" />
+        <Parameter expression="1" name="sequenceNumberIncrement" value="1" />
+        <Parameter expression="false" name="sequenceNumberOnlyOnToolChange" value="false" />
+        <Parameter expression="false" name="showNotes" value="false" />
+        <Parameter expression="false" name="useM130PartImages" value="false" />
+        <Parameter expression="false" name="useM130ToolImages" value="false" />
+        <Parameter expression="false" name="useSubroutines" value="false" />
+        <Parameter expression="false" name="useSubroutinePatterns" value="false" />
+        <Parameter expression="false" name="useSubroutineCycles" value="false" />
+      </Parameters>
+    </postProperties>
+    <setupSheet />
+    <setupSheetProperties />
+  </post>
+
+  <axis actuator="linear" coordinate="X" homePosition="0mm" id="X" link="head" maximumFeed="20300.0mm/min" name="" offset="0mm 0mm 0mm" range="0mm 3683mm" rapidFeed="20300.0mm/min" resolution="0mm" />
+
+  <axis actuator="linear" coordinate="Y" homePosition="0mm" id="Y" link="head" maximumFeed="20300.0mm/min" name="" offset="0mm 0mm 0mm" range="0mm 2223mm" rapidFeed="53300.0mm/min" resolution="0mm" />
+
+  <axis actuator="linear" coordinate="Z" homePosition="0mm" id="Z" link="head" maximumFeed="20300.0mm/min" name="" offset="0mm 0mm 0mm" range="-559mm 0mm" rapidFeed="27900.0mm/min" resolution="0mm" />
+
+  <spindle axis="0 0 1" maximumSpeed="8100 rpm" minimumSpeed="0rpm">
+    <description />
+  </spindle>
+
+</machine>

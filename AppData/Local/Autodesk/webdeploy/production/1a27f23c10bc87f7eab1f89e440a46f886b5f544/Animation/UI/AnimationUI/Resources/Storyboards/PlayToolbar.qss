@@ -1,0 +1,115 @@
+ /* Style for Play Toolbar */
+#NormalPlayToolBar {
+	 background-color: rgb(242, 242, 242);
+}
+
+#FullScreenPlayToolBar {
+	 background-color: rgb(242, 242, 242);
+}
+
+#PlayPrevious {
+  background-color: rgb(242, 242, 242);
+}
+
+#PlayPrevious:hover {
+  background-color: rgb(217, 217, 217);
+  border: 1px solid rgb(217, 217, 217);
+}
+
+#PlayPrevious:pressed {
+  background-color: rgb(128, 128, 128);
+  border: 1px solid rgb(128, 128, 128);
+}
+
+#PlayStep {
+  background-color: rgb(242, 242, 242);
+}
+
+#PlayStep:hover {
+  background-color: rgb(217, 217, 217);
+  border: 1px solid rgb(217, 217, 217);
+}
+
+#PlayStep:pressed {
+  background-color: rgb(128, 128, 128);
+  border: 1px solid rgb(128, 128, 128);
+}
+
+#PauseStep {
+ background-color: rgb(242, 242, 242);
+}
+
+#PauseStep:hover {
+  background-color: rgb(217, 217, 217);
+  border: 1px solid rgb(217, 217, 217);
+}
+
+#PauseStep:pressed {
+  background-color: rgb(128, 128, 128);
+  border: 1px solid rgb(128, 128, 128);
+}
+
+#PlayNext {
+  background-color: rgb(242, 242, 242);
+}
+
+#PlayNext:hover {
+  background-color: rgb(217, 217, 217);
+  border: 1px solid rgb(217, 217, 217);
+}
+
+#PlayNext:pressed {
+  background-color: rgb(128, 128, 128);
+  border: 1px solid rgb(128, 128, 128);
+}
+
+#FullScreenMode {
+ background-color: rgb(242, 242, 242);
+}
+
+#FullScreenMode:hover {
+  background-color: rgb(217, 217, 217);
+  border: 1px solid rgb(217, 217, 217);
+}
+
+#FullScreenMode:pressed {
+  background-color: rgb(128, 128, 128);
+  border: 1px solid rgb(128, 128, 128);
+}
+
+#NormalMode {
+  background-color: rgb(242, 242, 242);
+}
+
+#NormalMode:hover {
+  background-color: rgb(217, 217, 217);
+  border: 1px solid rgb(217, 217, 217);
+}
+
+#NormalMode:pressed {
+  background-color: rgb(128, 128, 128);
+  border: 1px solid rgb(128, 128, 128);
+}
+
+#PlayToolBarSetting {
+  background-color: rgb(242, 242, 242);
+}
+
+#PlayToolBarSetting:hover {
+  background-color: rgb(217, 217, 217);
+  border: 1px solid rgb(217, 217, 217);
+}
+
+#PlayToolBarSetting:pressed {
+  background-color: rgb(128, 128, 128);
+  border: 1px solid rgb(128, 128, 128);
+}
+
+#PlayProgressBar {
+    background-color: #F2F2F2;
+}
+
+#StepPreview {
+  background-color: transparent;
+	border: 1px solid #303030;
+}

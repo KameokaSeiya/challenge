@@ -1,0 +1,72 @@
+20220503T171404 I .12220 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/NMachineSpecificOptions.xml successfully		ThreadID: 12220, Function: Ns::OptionGroup::load, Line: 622
+20220503T171404 I .12220 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/NMachineSpecificOptions.xml successfully		ThreadID: 12220, Function: Ns::OptionGroup::load, Line: 622
+20220503T171406 I .12220 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/NMachineSpecificOptions.xml successfully		ThreadID: 12220, Function: Ns::OptionGroup::load, Line: 622
+20220503T171406 I .12220 Version : 2.0.11894
+20220503T171406 I .12220 UTC offset : 9
+20220503T171406 I .12220 Loading configuration from:C:/Users/seiya/AppData/Local/Autodesk/webdeploy/production/1a27f23c10bc87f7eab1f89e440a46f886b5f544/Fusion 360.server.config
+20220503T171406 I .12220 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/TYK7JMNJL5YB/NGlobalOptions.xml successfully		ThreadID: 12220, Function: Ns::OptionGroup::load, Line: 622
+20220503T171409 I .12220 PROXY: WindowsProxyOptionId set to Automatic
+20220503T171409 W .12220 PROXY: failed to query IE proxy configuration - ﾂプﾂδ債キﾂシﾂの篠ｩﾂ督ｮﾂ構ﾂ青ｬ URL ﾂつｪﾂ個ｩﾂつつｩﾂり�慊つｹﾂわ｣逸ｵつｵﾂつｽﾂ。
+
+20220503T171409 I .12220 PROXY: proxy server set to DIRECT
+20220503T171409 I .12220 GET 200 https://ui-dls360.autodesk.com/fusion/version.txt - workflow: attempt:0 requestId: dt=0.40
+20220503T171409 I .12220 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/TYK7JMNJL5YB/NGlobalOptions.xml successfully		ThreadID: 12220, Function: Ns::OptionGroup::load, Line: 622
+20220503T171409 I .12220 SLM: device id = 57621587-3832-60f7-3c59-94c9040a3885
+20220503T171409 I .12220 SLM: Initialized
+20220503T171409 I .12220 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/TYK7JMNJL5YB/NGlobalOptions.xml successfully		ThreadID: 12220, Function: Ns::OptionGroup::load, Line: 622
+20220503T171409 I .12220 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/NMachineSpecificOptions.xml successfully		ThreadID: 12220, Function: Ns::OptionGroup::load, Line: 622
+20220503T171409 I .12220 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/TYK7JMNJL5YB/NGlobalOptions.xml successfully		ThreadID: 12220, Function: Ns::OptionGroup::load, Line: 622
+20220503T171410 I .12220 WorkflowTrackManager Initialized with:0 items
+20220503T171410 I .12220 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/NMachineSpecificOptions.xml successfully		ThreadID: 12220, Function: Ns::OptionGroup::load, Line: 622
+20220503T171410 I  13196 Disk capacity: 242,895MB Disk free: 97,104MB Percentage free: 39 UIThread: no Time: 0.00105s
+20220503T171410 I .12220 ADP - bcfb2fb5-3c2a-49c2-850b-c9ca7b4a42c4
+20220503T171410 I .12220 AnalyticItemCounts Initialized with:0 items
+20220503T171410 I .12220 	searchAndLoad exec path: C:/Users/seiya/AppData/Local/Autodesk/webdeploy/production/1a27f23c10bc87f7eab1f89e440a46f886b5f544/Fusion360.exe
+20220503T171411 I .12220 SYNHUB: Loading config files in directory C:/Users/seiya/AppData/Roaming/Autodesk/Synergy
+
+20220503T171411 I .12220 SYNHUB: Loading config file C:/Users/seiya/AppData/Roaming/Autodesk/Synergy/NLauncher.syncfg
+
+20220503T171414 I   6904 LaunchDarkly client initialization process is finished successfully!		ThreadID: 6904, Function: Ns::LDCSDKWrapper::initLDCallback, Line: 336
+20220503T171414 I    180 LD CSDK for type Global was initialized with a total time of 0.000002 seconds		ThreadID: 180, Function: Ns::CSDKLDFeatureFlagsManager::getFlagValue, Line: 137
+20220503T171416 I .12220 Load Feature Toggle Xml:C:/Users/seiya/AppData/Local/Autodesk/webdeploy/production/1a27f23c10bc87f7eab1f89e440a46f886b5f544/Fusion/Server/Fusion/Resources/FeatureToggle/FeatureToggle.xml
+20220503T171416 I .12220 Live update: start update check.
+20220503T171416 I   5728 Live update: Skip the first Etag check
+20220503T171416 I   5728 Live update: Start update process in Streamer side.
+20220503T171419 I .12220 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/TYK7JMNJL5YB/NGlobalOptions.xml successfully		ThreadID: 12220, Function: Ns::OptionGroup::load, Line: 622
+20220503T171420 I .12220 Load Feature Toggle Xml:C:/Users/seiya/AppData/Local/Autodesk/webdeploy/production/1a27f23c10bc87f7eab1f89e440a46f886b5f544/FusionDoc/Server/FusionDoc/Resources/FeatureToggle/FeatureToggle.xml
+20220503T171423 I .12220 C:\Users\seiya\AppData\Local\Autodesk\webdeploy\production\1a27f23c10bc87f7eab1f89e440a46f886b5f544\Applications\Simulation\SimCommon10.dll		ThreadID: 12220, Function: DllMain, Line: 22
+20220503T171423 I .12220 Process attach		ThreadID: 12220, Function: DllMain, Line: 23
+20220503T171426 I .12220 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/NMachineSpecificOptions.xml successfully		ThreadID: 12220, Function: Ns::OptionGroup::load, Line: 622
+20220503T171428 I .12220 C:\Users\seiya\AppData\Local\Autodesk\webdeploy\production\1a27f23c10bc87f7eab1f89e440a46f886b5f544\Applications\CAM360\SimIdealizations10.dll		ThreadID: 12220, Function: DllMain, Line: 16
+20220503T171428 I .12220 Process attach		ThreadID: 12220, Function: DllMain, Line: 17
+20220503T171432 I .12220 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/TYK7JMNJL5YB/NGlobalOptions.xml successfully		ThreadID: 12220, Function: Ns::OptionGroup::load, Line: 622
+20220503T171432 I .12220 Libeagle app mode: Hosted		ThreadID: 12220, Function: void __cdecl Application::cEagleAppPrivate::Init(void), Line: 236
+20220503T171436 I .12220 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/TYK7JMNJL5YB/electronoptiongroup_eagle.rc successfully		ThreadID: 12220, Function: Ns::OptionGroup::load, Line: 622
+20220503T171438 I .12220 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/TYK7JMNJL5YB/NGlobalOptions.xml successfully		ThreadID: 12220, Function: Ns::OptionGroup::load, Line: 622
+20220503T171438 I .12220 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/TYK7JMNJL5YB/NGlobalOptions.xml successfully		ThreadID: 12220, Function: Ns::OptionGroup::load, Line: 622
+20220503T171438 I .12220 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/TYK7JMNJL5YB/NGlobalOptions.xml successfully		ThreadID: 12220, Function: Ns::OptionGroup::load, Line: 622
+20220503T171438 I .12220 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/TYK7JMNJL5YB/NGlobalOptions.xml successfully		ThreadID: 12220, Function: Ns::OptionGroup::load, Line: 622
+20220503T171439 I .12220 Toolbar loader: Stopping...
+20220503T171439 I .12220 Toolbar loader: Stopped
+20220503T171439 I .12220 ***startSession: BEGIN
+20220503T171439 I .12220 getEntitlement
+20220503T171439 I .12220 authenticate:begin
+20220503T171439 I .12220 login start
+20220503T171513 I  25840 ServicesHealthStatus: Health Status changed from unknown to operational
+20220503T171557 I .12220 Executing exit command
+20220503T171557 I .12220 Running deferred session release tasks
+20220503T171557 I .12220 Signal shutdown to script manager
+20220503T171557 I  24752 Autosave background thread started with saveTime: 5
+20220503T171557 I .12220 Script manager shut down done
+20220503T171557 I .12220 Exit now
+20220503T171557 I .12220 Start QTApplication::exit
+20220503T171557 I .12220 Done QTApplication::exit
+20220503T171557 I .12220 Exit command end
+20220503T171557 W .12220 Login - Login Dialog Exit
+20220503T171557 I .12220 login end 0
+20220503T171558 I .12220 GET 200 https://js.prd.fusionapi.autodesk.com/fusion360-runtime-config/config.json - workflow:HTTPClient attempt:0 requestId:f360_HTTPClient__1-6270e4bc-bad76b2ef31b44cfa30da785 dt=0.53
+20220503T171558 I .12220 SLM: Enabled (Production)
+20220503T171558 I .12220 SLM: Start session deviceId=57621587-3832-60f7-3c59-94c9040a3885 deviceName=DESKTOP-EAOHTBR
+20220503T171558 I .12220 Workflow start: SLM_startSession 1-6270e4bd-0eff3260672a4a8ab4d087d2
+20220503T171558 I .12220 POST 200 https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions - workflow:SLM_startSession attempt:0 requestId:f360_SLM_startSession__1-6270e4bd-0eff3260672a4a8ab4d087d2 dt=0.59
+20220503T171558 I .12220 SLM: session = 88674579

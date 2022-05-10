@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!DOCTYPE adsui SYSTEM "../../ui.dtd">
+<adsui version="2.0">
+  <PageInfo>
+    <Title>
+      Logarithmic ToneOp
+    </Title>
+  </PageInfo>
+  <Fields>
+    <StackPanel id="LogarithmicToneOpGroup" label="Logarithmic ToneOp" orientation="Vertical" expanded="true">
+  	<Boolean id="active" label="Active" />
+  	<Float id="brightness" label="Brightness:"/>
+  	<Float id="contrast" label="Contrast:"/>
+  	<Float id="midtones" label="Mid Tones:"/>
+  	<Boolean id="colorCorrection" label="Color Correction" />
+  	<Color id="whiteColor" label="White Color:"/>
+  	<Boolean id="colorDifferentiation" label="Desaturate Low Levels" />
+  	<Boolean id="colorMapIndependent" label="Affect Indirect Only" />
+  	<Boolean id="exterior" label="Exterior Daylight" />
+    </StackPanel>   
+  </Fields>
+</adsui>

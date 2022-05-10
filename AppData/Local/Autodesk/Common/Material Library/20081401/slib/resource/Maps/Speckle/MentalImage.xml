@@ -1,0 +1,26 @@
+<?xml version="1.0"?>  
+    <implementation render="MentalImage">
+      <language name="MentalRaySL" version="3.6"/>
+      <api name="MentalRay" version="3.6"/>
+      <root_bindings name="root"/>
+
+      <operator function="VectorDegreeToVectorRadian" name="VectorDegreeToVectorRadian">
+        <map_interface source="texture_Angle" destination="X"/>
+      </operator>
+
+      <operator function="FloatToVector" name="OffsetVector">
+        <map_interface source="texture_RealWorldOffsetX" destination="X"/>
+        <map_interface source="texture_RealWorldOffsetY" destination="Y"/>
+        <map_interface source="texture_RealWorldOffsetZ" destination="Z"/>
+      </operator>
+
+      <bindings target="shader" name="root">
+        <desc val="mi.phenomenon/include/adsk_Map_SimpleSpeckle.mi" tag="adsk_Map_Simple_Speckle_V2"/>
+        <map_interface source="speckle_Size" destination="m.Size"/>
+        <map_interface source="speckle_Color1" destination="m.Color1"/>
+        <map_interface source="speckle_Color2" destination="m.Color2"/>
+        <map_operator source="OffsetVector" destination="u.Offset"/>
+        <map_interface source="texture_Tiling" destination="u.Tiling"/>
+        <map_operator source="VectorDegreeToVectorRadian" destination="u.Angle"/>
+      </bindings>
+    </implementation>

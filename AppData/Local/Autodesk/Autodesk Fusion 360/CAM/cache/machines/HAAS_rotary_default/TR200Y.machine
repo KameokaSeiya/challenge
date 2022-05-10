@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<machine xmlns="http://www.hsmworks.com/xml/2009/machine">
+  <vendor>HAAS_rotary_default</vendor>
+  <axis actuator="rotational" axis="0 1 0" coordinate="Y" cyclic="no" homePosition="0deg" id="V" link="table" maximumFeed="0deg/min" name="" offset="0mm 0mm 0mm" preference="dont care" range="-120deg 120deg" rapidFeed="6000deg/min" resolution="0deg" tcp="yes" />
+  <axis actuator="rotational" axis="0 0 1" coordinate="Z" cyclic="yes" homePosition="0deg" id="W" link="table" maximumFeed="0deg/min" name="" offset="0mm 0mm 0mm" preference="dont care" range="-360deg 360deg" rapidFeed="7800deg/min" resolution="0.001deg" tcp="yes" />
+</machine>

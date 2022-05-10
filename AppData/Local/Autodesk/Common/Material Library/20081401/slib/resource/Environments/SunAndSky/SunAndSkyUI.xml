@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<!DOCTYPE adsui SYSTEM "../../ui.dtd">
+<adsui version="2.0">
+  <PageInfo>
+    <Title>
+      Sun and Sky
+    </Title>
+  </PageInfo>
+  <Fields>
+    <StackPanel id="SunAndSkyGroup" label="Sun And Sky" orientation="Vertical" expanded="true">
+      <Boolean id="illuminationOn" label="Illumination On:"/>
+      <Boolean id="backgroundOn" label="Background On:"/>
+      <Boolean id="hazeOn" label="Haze On:"/>
+      <Float id="multiplier" label="Sky Multiplier:"/>
+      <Vector3 id="rgb_unit_conversion" label="Color Conversion:"/>
+    </StackPanel>
+    <StackPanel id="aspect" label="Aspect" orientation="Vertical">
+      <Float id="haze" label="Sky Haziness/Cloudiness:"/>
+      <Float id="redblueshift" label="Red/Blue Shift:"/>
+      <Float id="saturation" label="Saturation:"/>
+      <Color id="night_color" label="Night Color:"/>
+    </StackPanel>
+    <StackPanel id="horizon" label="Ground and Horizon" orientation="Vertical">
+      <Float id="horizon_height" label="Horizon Height:"/>
+      <Float id="horizon_blur" label="Horizon Blur:"/>
+      <Color id="ground_color" label="Ground Color:"/>
+    </StackPanel>
+    <StackPanel id="sun" label="Sun" orientation="Vertical">
+      <StackPanel id="sunPosition" label="Sun Position" orientation="Vertical">
+        <Boolean id="use_altitude_azimuth" label="Override Sun Position:"/>
+        <Float id="Altitude" label="Sun Altitude:"/>
+        <Float id="Azimuth" label="Sun Azimuth:"/>
+      </StackPanel>
+      <Float id="Latitude" label="Scene Latitude:"/>
+      <Float id="Longitude" label="Scene Longitude:"/>
+      <Integer id="Year" label="Year:"/>
+      <Integer id="Month" label="Month:"/>
+      <Integer id="Day" label="Day:"/>
+      <Float id="TimeZoneOffset" label="Time Zone Offset:"/>
+      <Boolean id="DST" label="DST In Use:"/>
+      <Float id="Time" label="Time:"/>
+      <Float id="north_offset_from_x" label="North Azimuth:"/>
+      <!--String id="sun" label="Sun Shader:"/-->
+      <Float id="sun_disk_intensity" label="Disk Intensity:"/>
+      <Float id="sun_disk_scale" label="Disk Scale:"/>
+      <Float id="sun_glow_intensity" label="Glow Intensity:"/>
+      <Boolean id="cast_shadows" label="Compute Shadows:"/>
+      <Float id="intensity_factor" label="Sun Multiplier:"/>
+      <Color id="sun_color" label="Sun Color:"/>
+    </StackPanel>
+    <StackPanel id="backgroundx" label="Background" orientation="Vertical">
+      <Boolean id="use_background" label="Use Background:"/>
+      <String id="background" label="Background Shader:"/>
+    </StackPanel>
+    <StackPanel id="aerial_perspective" label="Atmospheric Haze" orientation="Vertical">
+      <Float id="visibility_distance" label="Visibility Distance (10% Haze):"/>
+    </StackPanel>
+    
+  </Fields>
+</adsui>

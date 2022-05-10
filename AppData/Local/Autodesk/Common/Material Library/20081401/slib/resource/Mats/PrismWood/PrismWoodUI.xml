@@ -1,0 +1,273 @@
+<?xml version="1.0" ?>
+<!DOCTYPE adsui SYSTEM "../../ui.dtd">
+<adsui version="2.0">
+  <PageInfo>
+    <Title>
+      Wood
+    </Title>
+  </PageInfo>
+  <Fields>	
+    <StackPanel id="wood_color_enable"
+                label="Color"
+				labelid="ColorLabel"
+                orientation="Vertical" expanded="true">
+	  <Color id="wood_early_color"
+             label="Earlywood"
+			 labelid="EarywoodLabel"
+             tooltip="Earlywood color."/>			 
+      <Float id="wood_late_color_power"
+             label="Latewood Exponent"
+			 labelid="LatewoodExponentLabel"
+             min="0.5" 
+			 max="3.0" 
+             tooltip="Latewood color as a power of the Earlywood color(1.0 = same, &lt; 1.0 = lighter, &gt; 1.0 = darker)." >
+		<Dependency id="wood_late_color_power_dependency"
+                    on="wood_use_manual_late_color"
+					dependstackpanel="true"
+                    requires="true" not="true" else="disable"/>
+	  </Float>	  
+	  <StackPanel id="wood_use_manual_late_color"
+                  label="Manual Latewood Color"
+                  labelid="wood_use_manual_late_color_label"
+                  orientation="Vertical" expanded="false" checkbox="true" usebottomdivider="true"
+				  tooltip="Enable to specify a custom Latewood color.">
+	    <Color id="wood_manual_late_color"
+             label="Latewood"
+             tooltip="Custom Latewood color."/>
+	  </StackPanel>
+	  <Float id="wood_secondary_color_power"
+             label="Fibers Exponent"
+             min="0.1" max="1.0" precision="2"
+             tooltip="Secondary highlights color as a power of the Earlywood color (1.0 = same). It can only be a lighter color."/>				 
+	</StackPanel> 
+	
+	<StackPanel id="wood_color_variations_enable"
+                label="Color Variations"
+				labelid="ColorVariationsLabel"
+                orientation="Vertical" expanded="true">
+	  <StackPanel id="wood_earlycolor_perlin_enable"
+                  label="Earlywood"
+                  labelid="Earlywood_label"
+                  orientation="Vertical" expanded="false" checkbox="true" usetopdivider="false"
+				  tooltip="Enables ring growth Earlywood color variations">
+		<Profile id="wood_earlycolor_perlin_prof"
+             label="Variations Profile"
+             tooltip="Variation profile describes the noise to apply to a value as a series of numeric pairs SS;WW, where SS is the Size and WW is the Weight. All values are in centimeters. For example 5.5;0.5 means that the noise size is 5.5cm and the value is shifted a maximum of 0.5cm. Multiple pairs can be specified to combine larger and smaller scale noises. For example, three different noises can be specified as 5.5;0.5;2.5;0.2;0.5;0.05 to combine large and smaller scale variations."/>
+	  </StackPanel>
+      <StackPanel id="wood_latecolor_perlin_enable"
+                  label="Latewood"
+                  labelid="Latewood_label"
+                  orientation="Vertical" expanded="false" checkbox="true"
+				  tooltip="Enables ring growth Latewood color variations">
+		<Profile id="wood_latecolor_perlin_prof"
+             label="Variations Profile"
+             tooltip="Variation profile describes the noise to apply to a value as a series of numeric pairs SS;WW, where SS is the Size and WW is the Weight. All values are in centimeters. For example 5.5;0.5 means that the noise size is 5.5cm and the value is shifted a maximum of 0.5cm. Multiple pairs can be specified to combine larger and smaller scale noises. For example, three different noises can be specified as 5.5;0.5;2.5;0.2;0.5;0.05 to combine large and smaller scale variations."/>
+	  </StackPanel>	  
+      <StackPanel id="wood_diffuse_perlin_enable"
+                  label="Additional Color Noise"
+                  labelid="Additional_Color_Noise_label"
+                  orientation="Vertical" expanded="false" checkbox="true"
+				  tooltip="Enables random color variations.">
+		<Profile id="wood_diffuse_perlin_prof"
+             label="Variations Profile"
+             tooltip="Variation profile describes the noise to apply to a value as a series of numeric pairs SS;WW, where SS is the Size and WW is the Weight. All values are in centimeters. For example 5.5;0.5 means that the noise size is 5.5cm and the value is shifted a maximum of 0.5cm. Multiple pairs can be specified to combine larger and smaller scale noises. For example, three different noises can be specified as 5.5;0.5;2.5;0.2;0.5;0.05 to combine large and smaller scale variations."/>
+		<Float id="wood_diffuse_perlin_scale_z"
+             label="Vertical Scale"
+			 min="0.0" max="1.0"
+             tooltip="Vertical color variations stretching (1.0 = no stretching, smaller values = more stretching)"/>
+	  </StackPanel>
+	  <StackPanel id="wood_secondary_perlin_enable"
+                  label="Fiber Highlights"
+                  labelid="Fiber_Highlights_label"
+                  orientation="Vertical" expanded="false" checkbox="true"
+				  tooltip="Enables random highlights color variations.">
+		<Profile id="wood_secondary_perlin_prof"
+             label="Variations Profile"
+             tooltip="Variation profile describes the noise to apply to a value as a series of numeric pairs SS;WW, where SS is the Size and WW is the Weight. All values are in centimeters. For example 5.5;0.5 means that the noise size is 5.5cm and the value is shifted a maximum of 0.5cm. Multiple pairs can be specified to combine larger and smaller scale noises. For example, three different noises can be specified as 5.5;0.5;2.5;0.2;0.5;0.05 to combine large and smaller scale variations."/>
+		<Float id="wood_secondary_perlin_scale_z"
+             label="Vertical Scale"
+             min="0.0" max="1.0"
+             tooltip="Vertical highlights color variations stretching (1.0 = no stretching, smaller values = more stretching)."/>	
+	  </StackPanel>			 
+	</StackPanel>  
+	
+	<StackPanel id="wood_Growth_enable"
+                label="Growth"
+				labelid="GrowthLabel"
+                orientation="Vertical" expanded="true">
+	  <Float id="wood_ring_thickness"
+             label="Ring Thickness"
+			 labelid="RingThicknessLabel"
+             min="0.01" max="10.0" precision="2" units="cm"
+             tooltip="Thickness of a single growth ring."/>
+      <Float id="wood_latewood_ratio"
+             label="Latewood Ratio"
+             min="0.0" max="1.0" precision="2"
+             tooltip="Amount of Latewood within a growth ring."/>
+	  <Float id="wood_earlywood_sharpness"
+             label="Earlywood Sharpness"
+             min="0.0" max="1.0" precision="2"
+             tooltip="Amount of pure Earlywood."/>
+	  <Float id="wood_latewood_sharpness"
+             label="Latewood Sharpness"
+             min="0.0" max="1.0" precision="2"
+             tooltip="Amount of pure Latewood."/>
+    </StackPanel>
+	
+	<StackPanel id="wood_growth_variations_enable"
+                label="Growth Variations"
+				labelid="GrowthVariationsLabel"
+                orientation="Vertical" expanded="true">
+	  <StackPanel id="wood_growth_perlin_enable"
+                  label="Ring Thickness"
+                  labelid="Ring_Thickness_label"
+                  orientation="Vertical" expanded="false" checkbox="true" usetopdivider="false"
+				  tooltip="Enables ring growth thickness variations.">
+		<Profile id="wood_growth_perlin_prof"
+             label="Variations Profile"
+             tooltip="Variation profile describes the noise to apply to a value as a series of numeric pairs SS;WW, where SS is the Size and WW is the Weight. All values are in centimeters. For example 5.5;0.5 means that the noise size is 5.5cm and the value is shifted a maximum of 0.5cm. Multiple pairs can be specified to combine larger and smaller scale noises. For example, three different noises can be specified as 5.5;0.5;2.5;0.2;0.5;0.05 to combine large and smaller scale variations."/>
+	  </StackPanel>
+      <StackPanel id="wood_fiber_cosine_enable"
+                  label="Vertical Lumps"
+                  labelid="Vertical_Lumps_label"
+                  orientation="Vertical" expanded="false" checkbox="true"
+				  tooltip="Enables vertical cyclic radial distortions.">
+		<Profile id="wood_fiber_cosine_prof"
+             label="Vertical Variations Profile"
+             tooltip="Variation profile describes the noise to apply to a value as a series of numeric pairs SS;WW, where SS is the Size and WW is the Weight. All values are in centimeters. For example 5.5;0.5 means that the noise size is 5.5cm and the value is shifted a maximum of 0.5cm. Multiple pairs can be specified to combine larger and smaller scale noises. For example, three different noises can be specified as 5.5;0.5;2.5;0.2;0.5;0.05 to combine large and smaller scale variations."/>
+	  </StackPanel>	  
+      <StackPanel id="wood_fiber_perlin_enable"
+                  label="Additional Growth Noise"
+                  labelid="Additional_Growth_Noise_label"
+                  orientation="Vertical" expanded="false" checkbox="true"
+				  tooltip="Enables fibers random distortion.">
+		<Profile id="wood_fiber_perlin_prof"
+             label="Variations Profile"
+             tooltip="Variation profile describes the noise to apply to a value as a series of numeric pairs SS;WW, where SS is the Size and WW is the Weight. All values are in centimeters. For example 5.5;0.5 means that the noise size is 5.5cm and the value is shifted a maximum of 0.5cm. Multiple pairs can be specified to combine larger and smaller scale noises. For example, three different noises can be specified as 5.5;0.5;2.5;0.2;0.5;0.05 to combine large and smaller scale variations."/>
+		<Float id="wood_fiber_perlin_scale_z"
+             label="Vertical Scale"
+			 min="0.0" max="1.0"
+             tooltip="Vertical fibers distortions stretching (1.0 = no stretching, smaller values = more stretching)."/>
+	  </StackPanel>
+      <StackPanel id="wood_curly_distortion_enable"
+                  label="Fiber Highlight Distortion"
+                  labelid="Wood_curly_distortion_enable_label"
+                  orientation="Vertical" expanded="false" checkbox="true"
+				  tooltip="Enable distortion for wood secondary curly highlight.">
+		<Float id="wood_curly_distortion_scale"
+             label="Scale"
+			 min="0.0" max="1.0"
+             tooltip="The scale of distortion for secondary curly highlight."/>
+		<MappableFloat id="wood_curly_distortion_map"
+                 label="Map"
+                 aspercentage="0"
+                 noprocedural="1"
+                 min="0.0" max="1.0" precision="2"
+                 tooltip="The 2D fiber distortion map(NO degamma op)."/>
+	  </StackPanel>		  
+	  
+	</StackPanel> 
+	
+	<StackPanel id="wood_details_enable"
+                label="Details"
+				labelid="DetailsLabel"
+                orientation="Vertical" expanded="true">
+	  <StackPanel id="wood_use_pores"
+                  label="Pores"
+                  labelid="Pores_label"
+                  orientation="Vertical" expanded="false" checkbox="true" usetopdivider="false"
+				  tooltip="Enables pores.">
+		<ChooseList id="wood_pore_type" label="Distribution"
+                  tooltip="Pores distribution.">
+        <Choice id="wood_pore_in_both_woods" label="In both woods"/>
+        <Choice id="wood_pore_earlywood_only" label="Earlywood only"/>
+        <Choice id="wood_pore_latewood_only" label="Latewood only"/>
+       </ChooseList>
+	   <Float id="wood_pore_cell_dim"
+             label="Spacing"
+			 min="0.02" max="10.0" units="cm"
+             tooltip="Average distance between pores."/>
+	   <Float id="wood_pore_radius"
+             label="Size"
+			 min="0.01" max="0.5" units="cm"
+             tooltip="Pore size."/>
+	   <Float id="wood_pore_depth"
+             label="Depth"
+			 min="0.0" max="0.5" units="cm"
+             tooltip="Pore depth for bump effect."/>
+	   <Float id="wood_pore_color_power"
+             label="Color Exponent"
+			 min="0.1" max="3.0"
+             tooltip="Pore color as a power of the Earlywood color (1.0 = same, &lt; 1.0 = lighter, &gt; 1.0 = darker)."/>	
+	  </StackPanel>
+      <StackPanel id="wood_use_rays"
+                  label="Rays"
+                  labelid="Rays_label"
+                  orientation="Vertical" expanded="false" checkbox="true"
+				  tooltip="Enables rays.">
+		<Integer id="wood_ray_num_slices"
+             label="Density"
+             tooltip="Number of rays along the circumference."
+             min="1"
+             max="10000"
+             forcenumeric="spinbox"/>
+	    <Float id="wood_ray_ellipse_radius_x"
+             label="Horizontal Size"
+			 min="0.01" max="0.5" units="cm"
+             tooltip="Ray horizontal size."/>
+	    <Float id="wood_ray_ellipse_z2x"
+             label="Vertical Ratio"
+			 min="1.0" max="100.0"
+             tooltip="Ray vertical stretching (1.0 = same, higher numbers = more stretching)."/>
+	    <Float id="wood_ray_seg_length_z"
+             label="Vertical Spacing"
+			 min="1.0" max="100.0" units="cm"
+             tooltip="Average vertical separation between rays."/>
+	    <Float id="wood_ray_color_power"
+             label="Color Exponent"
+			 min="0.1" max="3.0"
+             tooltip="Ray color as a power of the Earlywood color (1.0 = same, &lt; 1.0 = lighter, &gt; 1.0 = darker)."/>
+	  </StackPanel>	 
+	</StackPanel> 
+	
+	<StackPanel id="wood_use_latewood_bump_enable"
+                label="Shading"
+				labelid="ShadingLabel"
+                orientation="Vertical" expanded="true">
+      <MappableFloat id="surface_roughness"
+                 label="Roughness"
+                 aspercentage="0"
+                 noprocedural="1"
+                 min="0.0" max="1.0" precision="2"
+                 tooltip="The surface finish of the material, specifying the size of microscopic imperfections. When zero, the whole surface is a perfect mirror. Larger values tend towards more diffuse (rough) appearance and larger highlights. Use together with Anisotropy to obtain a brushed finish effect."/>
+	  <StackPanel id="wood_use_groove_roughness"
+                  label="Earlywood Roughness"
+                  labelid="Earlywood_Roughness_label"
+                  orientation="Vertical" expanded="false" checkbox="true" usetopdivider="false"
+				  tooltip="Enables separate roughness for Earlywood.">
+	    <Float id="wood_groove_roughness"
+               label="Roughness"
+               min="0.0" max="1.0" precision="2"
+               tooltip="Earlywood roughness."/>	
+	  </StackPanel>				 
+	  <StackPanel id="wood_use_latewood_bump"
+                  label="Rings Bump"
+                  labelid="Rings_Bump_label"
+                  orientation="Vertical" expanded="false" checkbox="true" usebottomdivider="true"
+				  tooltip="Enables bump based on growth ring.">
+	    <Float id="wood_latewood_bump_depth"
+             label="Latewood Bump"
+             min="0.0" max="0.25" precision="4" units="cm"
+             tooltip="Height of the Latewood bump."/>	
+	  </StackPanel>	  
+	  <Float id="wood_fiber_roughness"
+             label="Fiber Highlights Roughness"
+             min="0.0" max="1.0" precision="2"
+             tooltip="Fibers highlights roughness."/>
+      <Float id="wood_diffuse_lobe_weight"
+             label="Diffuse/Fiber Highlights Blend"
+             min="0.0" max="1.0" precision="2"
+             tooltip="Blend between base wood color and fibers highlights (0.0 = only wood color, 1.0 = only fiber highlights)."/>				 
+	</StackPanel> 
+  </Fields>
+</adsui>

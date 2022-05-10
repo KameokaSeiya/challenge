@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<machine xmlns="http://www.hsmworks.com/xml/2009/machine">
+
+  <vendor>Tormach</vendor>
+
+  <model>770MX</model>
+
+  <description>Tormach 770MX</description>
+
+  <control>PathPilot</control>
+
+  <machining additive="no" inspection="no" jet="no" milling="yes" turning="no" />
+
+  <dimensions depth="0mm" height="0mm" weight="0kg" width="0mm" />
+
+  <capacities depth="0mm" height="0mm" weight="0kg" width="0mm" />
+
+  <png128>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uMEqDjkAHA5HSvoLw74Y0Ka00/W42vNQeaKO5t5r6UtgMoZW8sYRW5zkLkHp0GOA0f4DSBFOr60sQ4zDp8Q447O4/D7nb8B7DpthBpWl2mnWwYW9pCkEQY5O1VCjJ78CrSLLVFFFMAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAOA+K3hjWfE+jWVvpMS3AimLzW7TBA/HynB+U4Pr68V5BP8PPGdsT5nhy6IHeKSKQH6bXJr6eooA+TZ/D2vW2PP0DV4wehNhKR+YXFZck0cLbZmETZI2yfKeOvBr7GprxpKhSRFdT1VhkGgD48WRH+46t9Dmq13aPM4kjkZSBgqDjcPr2619cXXhbw9eljd6FplwW6mW0jfPOe49ayLj4Y+C7lcN4ftY+MZgLQn80IpWA+TFjvDPJPmOMg7RI3XjjoDiui0rw74h8QbRptjfXinGHt4dkZ7f6xvlH/fXqenT6Z0z4feEdIYPZ6BZCQdJJk85x1zhnyecnPPNdLRYD560j4E6/dESahdWOm57nNzL+IBA64/iPU/j3mk/BPwzZFX1CW81OQHOJZPLj9vlTGR7EnP04r0mimBn6XoelaJCIdL021s0xgiCJUJ+pHJPua0KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA//Z</png128>
+
+  <mtk />
+
+  <controllerConfigurations />
+
+  <fusion>
+    <model>https://cam.autodesk.com/machines/machines/tormach%20770mx.f3d</model>
+  </fusion>
+
+  <custom>
+    <data />
+    <name />
+    <softwareVersion />
+    <network ip="" port="" protocol="" />
+    <serial />
+  </custom>
+
+  <coolant options="FLOOD THROUGH_TOOL AIR AIR_THROUGH_TOOL FLOOD_THROUGH_TOOL" />
+
+  <multiAxis adjust="yes" angle="10deg" cone="3deg" feedRateType="tcp" linearizationTolerance="0.040000000000000001mm" method="off" reconfigure="no" tolerance="0.040000000000000001mm" />
+
+  <tooling maximumToolDiameter="0mm" maximumToolLength="0mm" maximumToolWeight="0kg" numberOfTools="100" toolChanger="yes" toolPreload="yes" />
+
+  <machiningTime ratio="1" toolChangeTime="15s" />
+
+  <capabilities maximumBlockProcessingSpeed="0" maximumFeedrate="0mm/min" workOffsets="100" />
+
+  <simulation retractOnIndexing="yes" shortestAngularRotation="yes" tableAttachPoint="0mm 0mm 0mm" toolAttachPoint="-177.80000000000001mm 95.249999999999147mm 367.99999999999886mm" wcs="0mm 0mm 0mm">
+    <machineAssembly />
+  </simulation>
+
+  <post>
+    <postProcessor>system://machinesimulation.cps</postProcessor>
+    <postProperties>
+      <Parameters />
+    </postProperties>
+    <setupSheet />
+    <setupSheetProperties />
+  </post>
+
+  <axis actuator="linear" coordinate="Z" homePosition="0mm" id="Z" link="head" maximumFeed="0mm/min" name="" offset="0mm 0mm 0mm" range="-336.55000000000001mm 0mm" rapidFeed="0mm/min" resolution="0mm" />
+
+  <spindle axis="0 0 1" maximumSpeed="99999rpm" minimumSpeed="0rpm">
+    <description />
+  </spindle>
+
+  <axis actuator="linear" coordinate="Y" homePosition="0mm" id="Y" link="table" maximumFeed="0mm/min" name="" offset="0mm 0mm 0mm" range="-190.5mm 0mm" rapidFeed="0mm/min" resolution="0mm" />
+
+  <axis actuator="linear" coordinate="X" homePosition="0mm" id="X" link="table" maximumFeed="0mm/min" name="" offset="0mm 0mm 0mm" range="0mm 355.60000000000002mm" rapidFeed="0mm/min" resolution="0mm" />
+
+</machine>

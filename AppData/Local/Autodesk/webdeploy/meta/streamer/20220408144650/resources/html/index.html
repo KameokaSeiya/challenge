@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<!-- Specify the title -->
+<title></title>
+<!-- Include the stylesheets -->
+<link rel="Stylesheet" type="text/css" href="res/themes/smoothness/jquery-ui.min.css" />
+<link rel="Stylesheet" type="text/css" href="res/main.css" />
+<link rel="Stylesheet" type="text/css" href="res/divdialog.css" />
+
+<!-- The main startup -->
+<script src="scripts/jquery.min.js"></script>
+<script src="scripts/jquery-ui.min.js"></script>
+<script type="text/javascript" src="scripts/processprogressink.js"></script>
+<script src="scripts/Base64.js"></script>
+
+<script type="text/javascript">
+	
+    $(document).ready(function () {
+        $("#progressbar").progressbar();
+
+        $(document).bind("contextmenu", function (e) {
+            return false;
+        });
+    });
+
+    function initialize(_appId, resourceDirectory, procname) {
+        var progressSink = ProcessProgressSink.create(_appId, procname);
+        progressSink.initbg();
+        $("#progressbar").progressbar({
+            value: false
+        });
+        //$("#progressbarlabel").html("Initializing...");
+        return progressSink;
+    }
+</script>
+</head>
+
+<body scroll = "no">
+
+<div id="productlogo" class="productlogo">
+    <div id = "backbuff"></div>
+    <div class="pbarcontainer">
+        <div id = "progressdescription" class="progressdescription">&nbsp;</div>
+        <div id = "progressbar" class = "progressbar"></div>
+        <div id = "progressbarlabel" class = "progressbarlabel"></div>
+    </div>
+</div> 
+
+<div id="73e72ada57b7480280f7a6f4a289729f-survey" class="uninstall-survey">
+	<div class="new-uninstall-survey">
+		<h3></h3>
+		<button id="uninstall_continue"></button>
+		<button id="uninstall_cancel"></button>
+	</div>
+</div>
+<div id="dialog" class = "dialog">
+</div>
+
+<div class="hide-error-msg dlg-common">
+	<div class="dlg-titlebar">
+		<div class="title-col error-title showbd" align="left" >
+			Problem installing Fusion 360
+		</div> 
+		<div class="div-close showbd" align="right">
+			<a href="javascript:;" class="close"><img src="res/close.png" width="18" height="18"/></a>
+		</div>
+	</div>
+	<div class="error-body common-body">
+		<div class="row1">
+			<div class="Col_11 wide-col_1 showbd" align="right">
+				What's wrong?
+			</div>
+			<div class="Col_12 wide-col_2 showbd">
+				
+			</div>
+		</div>
+		<div class="row2">
+			<div class="Col_21 wide-col_1 showbd" align="right">
+				What should I do?
+			</div>
+			<div class="Col_22 wide-col_2 showbd">
+				
+			</div>
+		</div>
+	</div>
+	<div class="bottom-common bottom-error">
+		<div class="div-bt-col1 showbd">
+			<input id="btnDir" class="button sec-btn" type="submit" name="submitDir" value="Open Log File Location"/>
+		</div> 
+		<div class="div-bt-col2 showbd">
+			<input id="btnOK" class="button pri-btn" type="submit" name="submitOK" value="OK"/>
+		</div> 
+	</div>
+</div>
+
+<div class="hide-query-msg dlg-common">
+	<div class="dlg-titlebar">
+		<div class="title-col query-title showbd" align="left" >
+			Latest version already installed
+		</div> 
+		<div class="div-close showbd" align="right">
+			<a href="javascript:;" class="close"><img src="res/close.png" width="18" height="18"/></a>
+		</div>
+	</div>
+	<div class="query-body common-body showbd">
+	    
+	</div>
+	<div class="bottom-common showbd">
+		<div class="div-bt-col1 showbd" align="right" >
+			<input id="btnNo" class="button sec-btn" type="submit" name="submitNO" value="No"/>
+		</div> 
+		<div class="div-bt-col2 showbd" align="center">
+			<input id="btnYes" class="button pri-btn" type="submit" name="submitYES" value="Yes"/>
+		</div> 
+	</div>
+</div>
+
+<span id="spWidth"> </span>
+<div class="body-mask"></div>
+
+</body>
+</html>

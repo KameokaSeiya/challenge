@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<machine xmlns="http://www.hsmworks.com/xml/2009/machine" uuid="7832E2E8-C7B5-4BD8-8F77-B8C749EA1C66" version="1.0">
+  <vendor>DMU</vendor>
+  <model>DMU-50</model>
+  <coolant options="FLOOD" />
+  <axis actuator="linear" axis="1 0 0" coordinate="0" id="X" link="table" />
+  <axis actuator="linear" axis="0 1 0" coordinate="1" id="Y" link="table" />
+  <axis actuator="linear" axis="0 0 1" coordinate="2" id="Z" link="table" />
+  <axis actuator="rotational" axis="0 1 1" coordinate="1" id="U" link="head" range="0 180" />
+  <axis actuator="rotational" axis="0 0 1" coordinate="2" id="V" link="table" range="-99999 99999" />
+</machine>

@@ -1,0 +1,51 @@
+<?xml version="1.0"?>  
+    <implementation render="MentalImage">
+      <language name="MentalRaySL" version="3.6"/>
+      <api name="MentalRay" version="3.6"/>
+      <root_bindings name="root"/>
+	
+      <operator function="MultiplyDistOp" name="ProductU">
+        <map_interface source="texture_RealWorldScaleX" destination="X"/>
+        <map_interface source="texture_UVScale" destination="Y"/>
+      </operator>
+	
+      <operator function="MultiplyDistOp" name="ProductV">
+        <map_interface source="texture_RealWorldScaleY" destination="X"/>
+        <map_interface source="texture_UVScale" destination="Y"/>
+      </operator>
+	
+      <operator function="AddDistOp" name="SumOffsetU">
+        <map_interface source="texture_RealWorldOffsetX" destination="X"/>
+        <map_interface source="texture_UOffset" destination="Y"/>
+      </operator>
+
+      <operator function="AddDistOp" name="SumOffsetV">
+        <map_interface source="texture_RealWorldOffsetY" destination="X"/>
+        <map_interface source="texture_VOffset" destination="Y"/>
+      </operator>
+	
+      <operator function="DegreeToRadian" name="DegreeToRadian">
+        <map_interface source="texture_WAngle" destination="X"/>
+      </operator>
+      <bindings target="shader" name="root">
+        <desc val="mi.phenomenon/include/adsk_Map_SimpleChecker.mi" tag="adsk_Map_Simple_Checker_V2"/>
+        <map_interface source="checker_color1" destination="m.Color1"/>
+        <map_interface source="checker_color2" destination="m.Color2"/>
+        <map_interface source="checker_soften" destination="m.Soften"/>
+		<map_operator source="SumOffsetU" destination="u.UOffset"/>
+		<map_operator source="SumOffsetV" destination="u.VOffset"/>
+
+     <map_interface source="texture_MapChannel_ID_Advanced" destination="u.MapChannel"/>
+     <map_interface source="texture_MapChannel_UVWSource_Advanced" destination="u.UVWSource"/>
+
+        <map_operator source="DegreeToRadian" destination="u.WAngle"/>
+        <!-- NOW we pass the meter value of the scale no need to inverse-->
+		<map_operator source="ProductU" destination="u.UScale"/>
+		<map_operator source="ProductV" destination="u.VScale"/>
+		<map_interface source="texture_URepeat" destination="u.UWrap"/>
+     	<map_interface source="texture_VRepeat" destination="u.VWrap"/>
+      </bindings>
+      <bindings target="procedural texture" name="root">
+        <map_bindings source="texture_shader" destination="texture_function"/>
+      </bindings>
+    </implementation>

@@ -1,0 +1,47 @@
+<?XML version="1.0" ?>
+<job>
+    <script language="JScript">
+    <![CDATA[
+        var oFSO = WScript.CreateObject('Scripting.FileSystemObject');
+        var sPath = WScript.ScriptFullName;
+        var succeeded = false;
+        sPath = oFSO.GetParentFolderName(sPath);
+        sPath = oFSO.BuildPath(sPath, 'streamer');
+
+        if (oFSO.FolderExists(sPath)) {
+            oFolder = oFSO.GetFolder(sPath);
+            var fc = new Enumerator(oFolder.SubFolders);
+            var list = []
+            var streamer_pat = /\\\d{14}$/
+            for (; !fc.atEnd(); fc.moveNext()) {
+                var path = fc.item()
+                if (streamer_pat.test(path)) {
+                    list.push(path);
+                }
+            }
+
+            list.sort();
+            list.reverse();
+
+            if (list.length) {
+                var sStreamerPath = oFSO.BuildPath(list[0], 'streamer.exe');
+                if (oFSO.FileExists(sStreamerPath)) {
+                    var args = [];
+                    for (var i = 0; i < WScript.Arguments.length; i++) {
+                        args.push(WScript.Arguments(i));
+                    }
+                    var oShell = WScript.CreateObject('WScript.Shell');
+                    oShell.Run('"' + sStreamerPath + '" ' + args.join(' '));
+                    succeeded = true;
+                }
+            }
+            
+        }
+
+        if (!succeeded) {
+            WScript.Echo('Could not find uninstaller to launch');
+            WScript.Quit(1);
+        }
+    ]]>
+    </script>
+</job>

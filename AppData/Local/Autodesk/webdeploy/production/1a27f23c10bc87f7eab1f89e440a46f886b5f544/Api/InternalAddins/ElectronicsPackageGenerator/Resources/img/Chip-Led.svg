@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="150px" viewBox="0 0 200 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Chip-LED</title>
+    <g id="Chip-LED" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" transform="translate(55.000000, 55.000000)">
+            <g id="Group" fill="#D8D8D8" stroke="#FFFFFF" stroke-width="0.75">
+                <rect id="Rectangle-445" x="0.870117188" y="0.893554688" width="86.7597656" height="46.2128906" rx="1.5"></rect>
+            </g>
+            <path d="M18,1.125 L72,1.125 L72,46.875 L18,46.875 C18,46.875 18,61.625 18,46.5 L18,1.125 Z" id="Rectangle-445" fill="#585858"></path>
+            <rect id="Rectangle-445" fill-opacity="0.493662587" fill="#CE2621" x="18" y="1.125" width="54" height="45.75"></rect>
+            <g id="Group-3" transform="translate(18.000000, 1.125000)" fill="#CE2621">
+                <polygon id="Path-23" fill-opacity="0.49885271" points="3.375 2.625 50.625 2.625 50.625 42.375 3.375 42.375"></polygon>
+                <polygon id="Path-24" fill-opacity="0.748688811" points="54 0 50.625 2.625 50.625 42.375 54 45.75"></polygon>
+                <polygon id="Path-25" fill-opacity="0.751502404" points="0 45.75 3.375 42.375 50.625 42.375 54 45.75"></polygon>
+                <rect id="Rectangle-Copy" x="17.25" y="19.125" width="18.75" height="7.5"></rect>
+            </g>
+        </g>
+        <g id="Group-4" transform="translate(153.000000, 56.000000)">
+            <polygon id="Rectangle" fill-opacity="0.500437063" fill="#CE2621" points="-1.99840144e-14 2.72916667 22.5 1.5 22.5 45.75 0.489130435 44.5208333"></polygon>
+            <rect id="Rectangle" fill="#CE2621" x="18.75" y="19.5" width="3" height="7.5"></rect>
+            <rect id="Rectangle-445" stroke="#FFFFFF" stroke-width="0.75" fill="#D8D8D8" x="22.125" y="0.375" width="21.75" height="46.2128906" rx="1.5"></rect>
+        </g>
+        <g id="Group-4-Copy" transform="translate(24.500000, 79.500000) rotate(-180.000000) translate(-24.500000, -79.500000) translate(2.000000, 56.000000)">
+            <path d="M22.5,1.5 L22.5009775,16.0000826 C24.0701624,18.0892197 25,20.6860223 25,23.5 C25,26.3139777 24.0701624,28.9107803 22.5009775,30.9999174 L22.5,45.75 L8.80434783,44.5208333 L8.73807463,35.423995 C3.67285048,33.8274881 0,29.0926641 0,23.5 C0,17.9711481 3.58951426,13.2806722 8.56523934,11.6318757 L8.5,2.72916667 L22.5,1.5 Z" id="Combined-Shape" fill-opacity="0.500437063" fill="#CE2621"></path>
+            <rect id="Rectangle" fill="#CE2621" x="18.75" y="19.5" width="3" height="7.5"></rect>
+            <rect id="Rectangle-445" stroke="#FFFFFF" stroke-width="0.75" fill="#D8D8D8" x="22.125" y="0.375" width="21.75" height="46.2128906" rx="1.5"></rect>
+        </g>
+    </g>
+</svg>

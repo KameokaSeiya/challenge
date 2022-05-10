@@ -1,0 +1,27 @@
+[info]::[2021-Dec-11 14:05:10] (7736) Download Manager Execution - Begin.
+[info]::[2021-Dec-11 14:05:10] (7736) DLM Version [1.23.0.1]
+[info]::[2021-Dec-11 14:05:10] (7736) Caller's productname: Bootstrap productversion: 1.23.0.2
+[info]::[2021-Dec-11 14:05:12] (544) Downloading 1 of 1
+[info]::[2021-Dec-11 14:05:12] (7736) Translating error code 0 to 0
+[info]::[2021-Dec-11 14:05:12] (7736) Download Manager Execution - End.
+[info]::[2021-Dec-11 14:05:12] (13504) Download Manager Execution - Begin.
+[info]::[2021-Dec-11 14:05:12] (13504) DLM Version [1.23.0.1]
+[info]::[2021-Dec-11 14:05:12] (13504) Caller's productname: Bootstrap productversion: 1.23.0.2
+[info]::[2021-Dec-11 14:05:15] (6892) Downloading 1 of 16
+[info]::[2021-Dec-11 14:05:16] (6892) Downloading 2 of 16
+[info]::[2021-Dec-11 14:05:16] (6892) Downloading 3 of 16
+[info]::[2021-Dec-11 14:05:18] (6892) Downloading 4 of 16
+[info]::[2021-Dec-11 14:05:18] (6892) Downloading 5 of 16
+[info]::[2021-Dec-11 14:05:19] (6892) Downloading 6 of 16
+[info]::[2021-Dec-11 14:05:19] (6892) Downloading 7 of 16
+[info]::[2021-Dec-11 14:05:20] (6892) Downloading 8 of 16
+[info]::[2021-Dec-11 14:05:20] (6892) Downloading 9 of 16
+[info]::[2021-Dec-11 14:05:20] (6892) Downloading 10 of 16
+[info]::[2021-Dec-11 14:05:21] (6892) Downloading 11 of 16
+[info]::[2021-Dec-11 14:05:22] (6892) Downloading 12 of 16
+[info]::[2021-Dec-11 14:05:23] (6892) Downloading 13 of 16
+[info]::[2021-Dec-11 14:05:23] (6892) Downloading 14 of 16
+[info]::[2021-Dec-11 14:05:23] (6892) Downloading 15 of 16
+[info]::[2021-Dec-11 14:05:23] (6892) Downloading 16 of 16
+[info]::[2021-Dec-11 14:05:24] (13504) Translating error code 0 to 0
+[info]::[2021-Dec-11 14:05:24] (13504) Download Manager Execution - End.

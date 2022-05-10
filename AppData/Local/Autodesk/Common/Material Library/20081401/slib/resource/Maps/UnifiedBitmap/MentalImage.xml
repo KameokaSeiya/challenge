@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<implementation render="MentalImage">
+   <language name="MentalRaySL" version="3.6"/>
+   <api name="MentalRay" version="3.6"/>
+   <root_bindings name="root"/>
+
+   <operator function="MultiplyDistOp" name="ProductU">
+     <map_interface source="texture_RealWorldScaleX" destination="X"/>
+     <map_interface source="texture_UScale" destination="Y"/>
+   </operator>
+
+   <operator function="MultiplyDistOp" name="ProductV">
+     <map_interface source="texture_RealWorldScaleY" destination="X"/>
+     <map_interface source="texture_VScale" destination="Y"/>
+   </operator>
+
+  <operator function="AddDistOp" name="SumOffsetU">
+    <map_interface source="texture_RealWorldOffsetX" destination="X"/>
+    <map_interface source="texture_UOffset" destination="Y"/>
+  </operator>
+
+  <operator function="AddDistOp" name="SumOffsetV">
+    <map_interface source="texture_RealWorldOffsetY" destination="X"/>
+    <map_interface source="texture_VOffset" destination="Y"/>
+  </operator>
+
+  <operator function="DegreeToRadian" name="DegreeToRadian">
+     <map_interface source="texture_WAngle" destination="X"/>
+   </operator>
+   <bindings target="texture file" name="BitmapTexture">
+     <map_interface source="unifiedbitmap_Bitmap" destination="filename"/>
+   </bindings>
+   <bindings target="shader" name="root">
+     <desc val="mi.phenomenon/include/adsk_Map_UnifiedBitmap.mi" tag="adsk_Map_UnifiedBitmap_V2"/>
+     <map_bindings source="BitmapTexture" destination="m.Bitmap"/>
+     <map_interface source="unifiedbitmap_RGBAmount" destination="m.RGBAmount"/>
+     <map_interface source="unifiedbitmap_Filtering" destination="a.Filtering"/>
+     <map_interface source="unifiedbitmap_Blur" destination="a.Blur"/>
+     <map_interface source="unifiedbitmap_Blur_Offset" destination="a.BlurOffset"/>
+     <map_interface source="unifiedbitmap_Invert" destination="a.Invert"/>
+     <map_operator source="SumOffsetU" destination="u.UOffset"/>
+     <map_operator source="SumOffsetV" destination="u.VOffset"/>
+     <map_interface source="texture_URepeat" destination="u.UWrap"/>
+     <map_interface source="texture_VRepeat" destination="u.VWrap"/>
+
+     <map_interface source="texture_MapChannel_ID_Advanced" destination="u.MapChannel"/>
+     <map_interface source="texture_MapChannel_UVWSource_Advanced" destination="u.UVWSource"/>
+
+     <map_operator source="DegreeToRadian" destination="u.WAngle"/>
+     <!-- NOW we pass the meter value of the scale no need to inverse-->
+     <map_operator source="ProductU" destination="u.UScale"/>
+     <map_operator source="ProductV" destination="u.VScale"/>
+   </bindings>
+</implementation>

@@ -1,0 +1,64 @@
+<?xml version="1.0"?>  
+<implementation render="MentalImage">
+   <language name="MentalRaySL" version="3.6"/>
+   <api name="MentalRay" version="3.6"/>
+   <root_bindings name="root"/>
+	
+   <operator function="MultiplyDistOp" name="ProductU">
+      <map_interface source="texture_RealWorldScaleX" destination="X"/>
+      <map_interface source="texture_UVScale" destination="Y"/>
+   </operator>
+	
+   <operator function="MultiplyDistOp" name="ProductV">
+      <map_interface source="texture_RealWorldScaleY" destination="X"/>
+      <map_interface source="texture_UVScale" destination="Y"/>
+   </operator>
+	
+   <operator function="AddDistOp" name="SumOffsetU">
+      <map_interface source="texture_RealWorldOffsetX" destination="X"/>
+      <map_interface source="texture_UOffset" destination="Y"/>
+   </operator>
+
+   <operator function="AddDistOp" name="SumOffsetV">
+      <map_interface source="texture_RealWorldOffsetY" destination="X"/>
+      <map_interface source="texture_VOffset" destination="Y"/>
+   </operator>
+   
+   <operator function="DegreeToRadian" name="DegreeToRadian">
+      <map_interface source="texture_WAngle" destination="X"/>
+   </operator>
+   
+   <bindings target="shader" name="root">
+     <desc val="mi.phenomenon/include/adsk_Map_SimpleTile.mi" tag="adsk_Map_Simple_Tile_V2"/>
+     <map_interface source="tile_BrickType" destination="m.BrickType"/>
+     <map_interface source="tile_BrickColor" destination="m.BrickColor"/>
+     <map_interface source="tile_HorizontalCount" destination="m.HorizontalCount"/>
+     <map_interface source="tile_VerticalCount" destination="m.VerticalCount"/>
+     <map_interface source="tile_ColorVariance" destination="m.ColorVariance"/>
+     <map_interface source="tile_FadeVariance" destination="m.FadeVariance"/>
+     <map_interface source="tile_MortarColor" destination="n.MortarColor"/>
+     <map_interface source="tile_HorizontalGap" destination="n.HorizontalGap"/>
+     <map_interface source="tile_VerticalGap" destination="n.VerticalGap"/>
+     <map_interface source="tile_EdgeRoughness" destination="n.EdgeRoughness"/>
+     <map_interface source="tile_RandomSeed" destination="o.RandomSeed"/>
+     <map_interface source="tile_LineShift" destination="o.LineShift"/>
+     <map_interface source="tile_RandomShift" destination="o.RandomShift"/>
+     <map_interface source="tile_UseRowEdit" destination="o.UseRowEdit"/>
+     <map_interface source="tile_ChangeRow" destination="o.ChangeRow"/>
+     <map_interface source="tile_PerRow" destination="o.PerRow"/>
+     <map_interface source="tile_UseColumnEdit" destination="o.UseColumnEdit"/>
+     <map_interface source="tile_PerColumn" destination="o.PerColumn"/>
+     <map_interface source="tile_ChangeColumn" destination="o.ChangeColumn"/>
+     <map_operator source="SumOffsetU" destination="u.UOffset"/>
+     <map_operator source="SumOffsetV" destination="u.VOffset"/>
+     <map_interface source="texture_MapChannel" destination="u.MapChannel"/>
+    <map_interface source="texture_MapChannel_UVWSource_Advanced" destination="u.UVWSource"/>
+     <map_operator source="DegreeToRadian" destination="u.WAngle"/>
+     <!-- NOW we pass the meter value of the scale no need to inverse-->
+     <map_operator source="ProductU" destination="u.UScale"/>
+     <map_operator source="ProductV" destination="u.VScale"/>
+     <map_interface source="texture_URepeat" destination="u.UWrap"/>
+     <map_interface source="texture_VRepeat" destination="u.VWrap"/>
+		
+   </bindings>
+</implementation>

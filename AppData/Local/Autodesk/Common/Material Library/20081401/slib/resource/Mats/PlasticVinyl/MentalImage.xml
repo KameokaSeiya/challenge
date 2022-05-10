@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+    <implementation render="MentalImage">
+      <language name="MentalRaySL" version="3.6"/>
+      <api name="MentalRay" version="3.6"/>
+      <root_bindings name="root"/>
+
+      <bindings target="shader" name="root">
+        <desc val="mi.phenomenon/include/adsk_Mtl_PlasticVinyl.mi" tag="adsk_Mtl_PlasticVinyl_V2"/>
+		<map_interface source="plasticvinyl_color_by_object" destination="m.color_by_object"/>
+        <map_interface source="plasticvinyl_color" destination="m.diffuse_color"/>
+        <map_interface source="plasticvinyl_type" destination="m.type"/>
+        <map_interface source="plasticvinyl_application" destination="m.application"/>
+        <map_interface source="plasticvinyl_bump" destination="m.bump_enable"/>
+        <map_interface source="plasticvinyl_bump_map" destination="m.bump_map"/>
+        <map_interface source="plasticvinyl_bump_amount" destination="m.bump_amount"/>
+        <map_interface source="plasticvinyl_pattern" destination="m.pattern_enable"/>
+        <map_interface source="plasticvinyl_pattern_map" destination="m.pattern_map"/>
+        <map_interface source="plasticvinyl_pattern_amount" destination="m.pattern_amount"/>
+	<map_interface source="common_Tint_toggle" destination="m.tint_enable"/>
+	<map_interface source="common_Tint_color" destination="m.tint_color"/>
+        <map_interface source="plasticvinyl_ao_on" destination="o.ao_on"/>
+        <map_interface source="plasticvinyl_ao_samples" destination="o.ao_samples"/>
+        <map_interface source="plasticvinyl_ao_distance" destination="o.ao_distance"/>
+        <map_interface source="plasticvinyl_ao_details" destination="o.ao_do_details"/>
+        <map_interface source="plasticvinyl_roundcorners_on" destination="o.roundcorners_on"/>
+        <map_interface source="plasticvinyl_roundcorners_radius" destination="o.roundcorners_radius"/>
+        <map_interface source="plasticvinyl_roundcorners_allow_different_materials" destination="o.roundcorners_allow_different_materials"/>
+        <map_interface source="plasticvinyl_refl_depth" destination="p.refl_depth"/>
+        <map_interface source="plasticvinyl_refr_depth" destination="p.refr_depth"/>
+        <map_interface source="reflection_glossy_samples" destination="p.reflection_glossy_samples"/>
+        <map_interface source="refraction_glossy_samples" destination="p.refraction_glossy_samples"/>
+		  <map_interface source="mode" destination="mode"/>
+      </bindings>
+
+    </implementation>

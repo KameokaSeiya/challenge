@@ -1,0 +1,770 @@
+{
+    "description" : "Configuration file that contains the files that clean cache function will remove",
+	"version" : "0.0.1",
+	"windows" :
+	{
+	    "Items" : [
+			{
+			    "path" : "%LOCALAPPDATA%\\Autodesk\\Autodesk Fusion 360\\<o2id>\\GraphicsCardInfo.xml",
+				"CleanFlag" : "Default",
+				"isFile" : true,
+				"filter" : "GraphicsCardInfo.xml"
+			},
+			{
+			    "path" : "%LOCALAPPDATA%\\Autodesk\\Autodesk Fusion 360\\<o2id>\\session.dat",
+				"CleanFlag" : "ForceAll",
+				"isFile" : true,
+				"filter" : "session.dat"
+			},
+			{
+			    "path" : "%LOCALAPPDATA%\\Autodesk\\Autodesk Fusion 360\\<o2id>\\InUseByCollaboratorCache.xml",
+				"CleanFlag" : "Default",
+				"isFile" : true,
+				"filter" : "InUseByCollaboratorCache.xml"
+			},
+			{
+			    "path" : "%LOCALAPPDATA%\\Autodesk\\Autodesk Fusion 360\\<o2id>\\MRU.xml",
+				"CleanFlag" : "Default",
+				"isFile" : true,
+				"filter" : "MRU.xml"
+			},
+			{
+			    "path" : "%LOCALAPPDATA%\\Autodesk\\Autodesk Fusion 360\\<o2id>\\SavedNotifications.json",
+				"CleanFlag" : "Default",
+				"isFile" : true,
+				"filter" : "SavedNotifications.json"
+			},
+			{
+			    "path" : "%LOCALAPPDATA%\\Autodesk\\Autodesk Fusion 360\\<o2id>\\sessioncache",
+				"CleanFlag" : "Default",
+				"isFile" : true,
+				"filter" : "sessioncache"
+			},
+			{
+			    "path" : "%LOCALAPPDATA%\\Autodesk\\Autodesk Fusion 360\\<o2id>\\OfflineCache.xml",
+				"CleanFlag" : "ForceAll",
+				"isFile" : true,
+				"filter" : "OfflineCache.xml"
+			},
+			{
+			    "path" : "%LOCALAPPDATA%\\Autodesk\\Autodesk Fusion 360\\sessioncache",
+				"CleanFlag" : "Default",
+				"isFile" : true,
+				"filter" : "sessioncache"
+			},
+			{
+			    "path" : "%LOCALAPPDATA%\\Autodesk\\Autodesk Fusion 360\\MRU.xml",
+				"CleanFlag" : "Default",
+				"isFile" : true,
+				"filter" : "MRU.xml"
+			},
+			{
+			    "path" : "%LOCALAPPDATA%\\Autodesk\\Autodesk Fusion 360\\GraphicsCardInfo.xml",
+				"CleanFlag" : "Default",
+				"isFile" : true,
+				"filter" : "GraphicsCardInfo.xml"
+			},
+			{
+			    "path" : "%LOCALAPPDATA%\\Autodesk\\Autodesk Fusion 360\\<o2id>\\_analytic-counters.json",
+				"CleanFlag" : "ForceAll",
+				"isFile" : true,
+				"filter" : "_analytic-"
+			},
+			{
+			    "path" : "%LOCALAPPDATA%\\Autodesk\\Autodesk Fusion 360\\<o2id>\\NsCloudBrowserCache.dat",
+				"CleanFlag" : "ForceAll",
+				"isFile" : true,
+				"filter" : "NsCloudBrowserCache"
+			},
+			{
+			    "path" : "%LOCALAPPDATA%\\Autodesk\\Autodesk Fusion 360\\<o2id>\\flags.json",
+				"CleanFlag" : "ForceAll",
+				"isFile" : true,
+				"filter" : "flags.json"
+			},
+			{
+			    "path" : "%LOCALAPPDATA%\\Autodesk\\Autodesk Fusion 360\\logs",
+				"CleanFlag" : "ForceAll",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%LOCALAPPDATA%\\Autodesk\\Autodesk Fusion 360\\UnknownUser",
+				"CleanFlag" : "ForceAll",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%LOCALAPPDATA%\\Autodesk\\Autodesk Fusion 360\\<o2id>\\logs",
+				"CleanFlag" : "ForceAll",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%LOCALAPPDATA%\\Autodesk\\Neutron Platform\\NeutronLibraries.xml",
+				"CleanFlag" : "Default",
+				"isFile" : true,
+				"filter" : "NeutronLibraries.xml"
+			},
+			{
+			    "path" : "%LOCALAPPDATA%\\Autodesk\\Neutron Platform\\OfflineCache.xml",
+				"CleanFlag" : "Default",
+				"isFile" : true,
+				"filter" : "OfflineCache.xml"
+			},
+			{
+			    "path" : "%LOCALAPPDATA%\\Autodesk\\Web Services\\Event.xml",
+				"CleanFlag" : "Default",
+				"isFile" : true,
+				"filter" : "Event.xml"
+			},
+		    {
+			    "path" : "%LOCALAPPDATA%\\Autodesk\\Web Services\\EventTrigger.tmp",
+				"CleanFlag" : "Default",
+				"isFile" : true,
+				"filter" : "EventTrigger.tmp"
+			},
+			{
+			    "path" : "%LOCALAPPDATA%\\Autodesk\\Neutron Platform\\Filelock",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%APPDATA%\\Autodesk\\Autodesk Fusion 360\\CEROption.xml",
+				"CleanFlag" : "ForceAll",
+				"isFile" : true,
+				"filter" : "CEROption.xml"
+			},
+			{
+			    "path" : "%APPDATA%\\Autodesk\\Autodesk Fusion 360\\<o2id>\\CEROption.xml",
+				"CleanFlag" : "ForceAll",
+				"isFile" : true,
+				"filter" : "CEROption.xml"
+			},
+			{
+			    "path" : "%APPDATA%\\Autodesk\\Autodesk Fusion 360\\<o2id>\\JSLoadedScriptsinfo",
+				"CleanFlag" : "ForceAll",
+				"isFile" : true,
+				"filter" : "JSLoadedScriptsinfo"
+			},
+			{
+			    "path" : "%APPDATA%\\Autodesk\\Autodesk Fusion 360\\<o2id>\\PythonAutorunModuleinfo",
+				"CleanFlag" : "ForceAll",
+				"isFile" : true,
+				"filter" : "PythonAutorunModuleinfo"
+			},
+			{
+			    "path" : "%APPDATA%\\Autodesk\\Autodesk Fusion 360\\Fusion360_<build-number>_addins_to_load.xml",
+				"CleanFlag" : "ForceAll",
+				"isFile" : true,
+				"filter" : "Fusion360_"
+			},
+			{
+			    "path" : "%APPDATA%\\Autodesk\\Autodesk Fusion 360\\Fabrication",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%APPDATA%\\Autodesk\\Autodesk Fusion 360\\CPP",
+				"CleanFlag" : "ForceAll",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%APPDATA%\\Autodesk\\Autodesk Fusion 360\\Python",
+				"CleanFlag" : "ForceAll",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%APPDATA%\\Autodesk\\Autodesk Fusion 360\\version.txt",
+				"CleanFlag" : "ForceAll",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%APPDATA%\\Autodesk\\Autodesk Fusion 360\\Options",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%APPDATA%\\Autodesk\\Autodesk Fusion 360\\<o2id>\\Options",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%LOCALAPPDATA%\\Autodesk\\Neutron Platform",
+				"CleanFlag" : "ForceAll",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%LOCALAPPDATA%\\Autodesk\\Production",
+				"CleanFlag" : "ForceAll",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%LOCALAPPDATA%\\Autodesk\\Web Services",
+				"CleanFlag" : "ForceAll",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%LOCALAPPDATA%\\Autodesk\\Autodesk Fusion 360\\AcCore",
+				"CleanFlag" : "ForceAll",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%LOCALAPPDATA%\\Autodesk\\Fusion Documentation\\AcCore",
+				"CleanFlag" : "ForceAll",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%TMP%",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : "7Z|7z"
+			},
+			{
+			    "path" : "%TEMP%",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : "7Z|7z"
+			},
+			{
+			    "path" : "%TMP%\\Autodesk\\BrowserCache",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%TEMP%\\Autodesk\\BrowserCache",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%USERPROFILE%\\Autodesk\\BrowserCache",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%WINDIR%\\Autodesk\\BrowserCache",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%TMP%\\Autodesk",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%TEMP%\\Autodesk",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%TMP%\\Proteinrun",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%TEMP%\\Proteinrun",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%TMP%\\ProtoLabs",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%TEMP%\\ProtoLabs",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%TMP%\\Neutron",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%TEMP%\\Neutron",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%TMP%\\FusionStreamer",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%TEMP%\\FusionStreamer",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%AppData%\\Autodesk\\MC3",
+				"CleanFlag" : "ForceAll",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%AppData%\\Autodesk\\Neutron Platform",
+				"CleanFlag" : "ForceAll",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%AppData%\\Autodesk\\NINVFUS",
+				"CleanFlag" : "ForceAll",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%AppData%\\Autodesk\\Synergy",
+				"CleanFlag" : "ForceAll",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%AppData%\\Autodesk\\Neutron",
+				"CleanFlag" : "ForceAll",
+				"isFile" : false,
+				"filter" : ""
+			}
+	    ],
+		"User_Data_Items" : {
+			"Offline": [
+				{
+					"path": "%APPDATA%\\Autodesk\\Autodesk Fusion 360\\CrashRecovery",
+					"CleanFlag": "Default",
+					"isFile": false,
+					"filter": ""
+				},
+				{
+					"path": "%APPDATA%\\Autodesk\\Autodesk Fusion 360\\<o2id>\\CrashRecovery",
+					"CleanFlag": "Default",
+					"isFile": false,
+					"filter": ""
+				}
+			],
+			"Credential": [
+				{
+					"path": "%LOCALAPPDATA%\\Autodesk\\Autodesk Fusion 360\\<o2id>\\P.login",
+					"CleanFlag": "Default",
+					"isFile": false,
+					"filter": ""
+				},
+				{
+					"path": "%LOCALAPPDATA%\\Autodesk\\Autodesk Fusion 360\\<o2id>\\W.login",
+					"CleanFlag": "Default",
+					"isFile": false,
+					"filter": ""
+				}
+			]
+		}
+	},
+	"mac" :
+	{
+	    "Items" : [
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/Autodesk Fusion 360/<o2id>/session.dat",
+				"CleanFlag" : "ForceAll",
+				"isFile" : true,
+				"filter" : "session.dat"
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/Autodesk Fusion 360/<o2id>/NsCloudBrowserCache.dat",
+				"CleanFlag" : "ForceAll",
+				"isFile" : true,
+				"filter" : "NsCloudBrowserCache"
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/Autodesk Fusion 360/<o2id>/OfflineCache.xml",
+				"CleanFlag" : "ForceAll",
+				"isFile" : true,
+				"filter" : "OfflineCache.xml"
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/Autodesk Fusion 360/<o2id>/GraphicsCardInfo.xml",
+				"CleanFlag" : "Default",
+				"isFile" : true,
+				"filter" : "GraphicsCardInfo.xml"
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/Autodesk Fusion 360/<o2id>/InUseByCollaboratorCache.xml",
+				"CleanFlag" : "Default",
+				"isFile" : true,
+				"filter" : "InUseByCollaboratorCache.xml"
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/Autodesk Fusion 360/<o2id>/MRU.xml",
+				"CleanFlag" : "Default",
+				"isFile" : true,
+				"filter" : "MRU.xml"
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/Autodesk Fusion 360/<o2id>/SavedNotifications.json",
+				"CleanFlag" : "Default",
+				"isFile" : true,
+				"filter" : "SavedNotifications.json"
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/Autodesk Fusion 360/<o2id>/sessioncache",
+				"CleanFlag" : "Default",
+				"isFile" : true,
+				"filter" : "sessioncache"
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/Autodesk Fusion 360/<o2id>/_analytic-counters.json",
+				"CleanFlag" : "ForceAll",
+				"isFile" : true,
+				"filter" : "_analytic-"
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/Autodesk Fusion 360/<o2id>/flags.json",
+				"CleanFlag" : "ForceAll",
+				"isFile" : true,
+				"filter" : "flags.json"
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/Autodesk Fusion 360/sessioncache",
+				"CleanFlag" : "Default",
+				"isFile" : true,
+				"filter" : "sessioncache"
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/Autodesk Fusion 360/MRU.xml",
+				"CleanFlag" : "Default",
+				"isFile" : true,
+				"filter" : "MRU.xml"
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/Autodesk Fusion 360/GraphicsCardInfo.xml",
+				"CleanFlag" : "Default",
+				"isFile" : true,
+				"filter" : "GraphicsCardInfo.xml"
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/Neutron Platform/NeutronLibraries.xml",
+				"CleanFlag" : "Default",
+				"isFile" : true,
+				"filter" : "NeutronLibraries.xml"
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/Neutron Platform/OfflineCache.xml",
+				"CleanFlag" : "Default",
+				"isFile" : true,
+				"filter" : "OfflineCache.xml"
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/Web Services/Event.xml",
+				"CleanFlag" : "Default",
+				"isFile" : true,
+				"filter" : "Event.xml"
+			},
+		    {
+			    "path" : "$HOME/Library/Application Support/Autodesk/Web Services/EventTrigger.tmp",
+				"CleanFlag" : "Default",
+				"isFile" : true,
+				"filter" : "EventTrigger.tmp"
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/Neutron Platform/Filelock",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/Autodesk Fusion 360/logs",
+				"CleanFlag" : "ForceAll",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/Autodesk Fusion 360/<o2id>/logs",
+				"CleanFlag" : "ForceAll",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/Autodesk Fusion 360/UnknownUser",
+				"CleanFlag" : "ForceAll",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/Autodesk Fusion 360/Fabrication",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/Autodesk Fusion 360/Options",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/Autodesk Fusion 360/CEROption.xml",
+				"CleanFlag" : "ForceAll",
+				"isFile" : true,
+				"filter" : "CEROption.xml"
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/Autodesk Fusion 360/<o2id>/CEROption.xml",
+				"CleanFlag" : "ForceAll",
+				"isFile" : true,
+				"filter" : "CEROption.xml"
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/Autodesk Fusion 360/<o2id>/JSLoadedScriptsinfo",
+				"CleanFlag" : "ForceAll",
+				"isFile" : true,
+				"filter" : "JSLoadedScriptsinfo"
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/Autodesk Fusion 360/<o2id>/PythonAutorunModuleinfo",
+				"CleanFlag" : "ForceAll",
+				"isFile" : true,
+				"filter" : "PythonAutorunModuleinfo"
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/Autodesk Fusion 360/Fusion360_<build-number>_addins_to_load.xml",
+				"CleanFlag" : "ForceAll",
+				"isFile" : true,
+				"filter" : "Fusion360_"
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/Autodesk Fusion 360/<o2id>/Options",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+		    {
+			    "path" : "$HOME/Library/Application Support/Autodesk/Autodesk Fusion 360/CPP",
+				"CleanFlag" : "ForceAll",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/Autodesk Fusion 360/Python",
+				"CleanFlag" : "ForceAll",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/Autodesk Fusion 360/version.txt",
+				"CleanFlag" : "ForceAll",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/MC3",
+				"CleanFlag" : "ForceAll",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/FusionDoc 2016",
+				"CleanFlag" : "ForceAll",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/Synergy",
+				"CleanFlag" : "ForceAll",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/Neutron",
+				"CleanFlag" : "ForceAll",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/Neutron Platform",
+				"CleanFlag" : "ForceAll",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/NINVFUS",
+				"CleanFlag" : "ForceAll",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/Production",
+				"CleanFlag" : "ForceAll",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/Web Services",
+				"CleanFlag" : "ForceAll",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "$HOME/Downloads",
+				"CleanFlag" : "ForceAll",
+				"isFile" : false,
+				"filter" : "Fusion 360 Client Downloader"
+			},
+			{
+			    "path" : "$HOME/Library/Caches/com.autodesk.senddump",
+				"CleanFlag" : "ForceAll",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "$HOME/Library/Preferences/com.autodesk.MC3Framework.plist",
+				"CleanFlag" : "ForceAll",
+				"isFile" : true,
+				"filter" : ""
+			},
+			{
+			    "path" : "$HOME/Library/CrashReporter/MaterialLibraryMigrator...plist",
+				"CleanFlag" : "ForceAll",
+				"isFile" : true,
+				"filter" : ""
+			}, 
+			{
+			    "path" : "/Library/Application Support/Autodesk",
+				"CleanFlag" : "ForceAll",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "$TMPDIR/Autodesk",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "$TMPDIR/Neutron",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "$TMPDIR/Proteinrun",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "$TMPDIR/FusionStreamer",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "$HOME/Library/Containers/com.autodesk.mas",
+				"CleanFlag" : "ForceAll",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "$HOME/Library/Containers/com.autodesk.mas.fusion360",
+				"CleanFlag" : "ForceAll",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/FusionDoc R3",
+				"CleanFlag" : "ForceAll",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "$HOME/Library/Preferences/com.autodesk.AcCoreConsole.plist",
+				"CleanFlag" : "ForceAll",
+				"isFile" : true,
+				"filter" : ""
+			},
+			{
+			    "path" : "$HOME/Library/Preferences/com.autodesk.Autodesk Fusion 360.Autodesk Fusion 360.plist",
+				"CleanFlag" : "ForceAll",
+				"isFile" : true,
+				"filter" : "com.autodesk.Autodesk Fusion 360"
+			},
+			{
+			    "path" : "$HOME/Library/Preferences/com.autodesk.Autodesk Sim 360.Autodesk Sim 360.plist",
+				"CleanFlag" : "ForceAll",
+				"isFile" : true,
+				"filter" : "com.autodesk.Autodesk Sim 360"
+			},
+			{
+			    "path" : "$HOME/Library/Preferences/com.autodesk.fusion360.Autodesk Fusion 360.plist",
+				"CleanFlag" : "Default",
+				"isFile" : true,
+				"filter" : "com.autodesk.fusion360"
+			},
+			{
+			    "path" : "$HOME/Library/Preferences/com.autodesk.edu.fusion360.plist",
+				"CleanFlag" : "ForceAll",
+				"isFile" : true,
+				"filter" : "com.autodesk.edu.fusion360"
+			},
+			{
+			    "path" : "$HOME/Library/Preferences/com.autodesk.Neutron.plist",
+				"CleanFlag" : "ForceAll",
+				"isFile" : true,
+				"filter" : "com.autodesk.Neutron"
+			}
+	    ],
+		"User_Data_Items" : {
+			"Offline": [
+				{
+					"path": "$HOME/Library/Application Support/Autodesk/Autodesk Fusion 360/CrashRecovery",
+					"CleanFlag": "Default",
+					"isFile": false,
+					"filter": ""
+				},
+				{
+					"path": "$HOME/Library/Application Support/Autodesk/Autodesk Fusion 360/<o2id>/CrashRecovery",
+					"CleanFlag": "Default",
+					"isFile": false,
+					"filter": ""
+				}
+			],
+			"Credential": [
+				{
+					"path": "$HOME/Library/Application Support/Autodesk/Autodesk Fusion 360/<o2id>/P.login",
+					"CleanFlag": "Default",
+					"isFile": false,
+					"filter": ""
+				},
+				{
+					"path": "$HOME/Library/Application Support/Autodesk/Autodesk Fusion 360/<o2id>/W.login",
+					"CleanFlag": "Default",
+					"isFile": false,
+					"filter": ""
+				}
+			]
+		}
+	}
+}

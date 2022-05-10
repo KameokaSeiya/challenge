@@ -1,0 +1,576 @@
+<!-- Copyright (c) by Autodesk 2012-2020 -->
+<!-- http://cam.autodesk.com -->
+
+<html>
+
+<head>
+  <title>Autodesk CAM to NCSIMUL</title>
+  <HTA:APPLICATION ID="oHTA" ; applicationName="Autodesk CAM - Post Processor" ; border="dialog" ; singleInstance="no"
+    ; sysMenu="no" ; innerBorder="no" />
+  <style>
+    body {
+      background-color: #ffffff;
+      font: 15px "Arial";
+      color: black;
+      width: 640px;
+    };
+    .header {
+      width: 100%;
+      margin: 0px auto;
+      text-align: center;
+    }
+    .row {
+      margin-left: 10px;
+      height:10px;
+      align-content: left;
+      margin-bottom: 5px;
+     };
+    .subheader {
+      border-bottom: 1px solid #222222;
+      margin-bottom: 10px;
+      padding-left: 10px;
+      font-weight: 700;
+      font-size: 16px;
+    };
+    #error {
+      font-weight:700;
+      position: absolute;
+      width: 50%;
+      height: 50%;
+      margin-top: 25%;
+      margin-left: 25%;
+      background:white;
+      border: 1px solid grey;
+      display: none;
+    };    
+    #error h2 {
+      color: white;
+      background: #222222;
+      width:100%;
+      border-bottom: 2px solid gray;
+      text-align: center;
+    }
+    .page {
+      margin: 25px;
+    };
+    hr {
+      color: black;
+    };
+    .title {
+      font-weight: 700;
+    };
+    .error {
+      font-weight: 700;
+      color: red;
+    };
+    #errorText{
+      margin: 5px;
+      color:red;
+    }    
+    #errorBtn {
+      width: 100%;
+      position: absolute;
+      bottom:5px;
+      text-align: center;
+    }
+    #questionText {
+      font-size: 16px;
+      font-family: Arial, Helvetica, sans-serif;
+      float: left;
+      display: inline-block;
+      height: 10px;
+      width: 38%;
+      bottom: 0px;
+    };
+    #inputs {
+      display: inline-block;
+      float: right;
+      width: 60%;
+    }
+  </style>
+</head>
+
+<body leftmargin="0px" topmargin="0px" marginwidth="0px" marginheight="0px" onLoad="onLoad()">
+  <br>
+  <div id="error">
+    <h2>Error</h2>
+    <div id="errorText"></div>
+    <div id="errorBtn">
+       <input type="button" id="acceptButton" value="OK" onClick="resetError()">
+    </div>
+ </div>
+  <div class="header">
+    <img src="data:image/png;base64,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" border="0" alt="NCSimul" />
+  </div>
+  <div class="main">
+    <div class="subheader">Action</div>
+    <div class="row">
+      <div>
+        <input type="radio" name="action" value="create"/><div style="display:inline" id="createProject" class="tooltip">Create a new project</div><br>
+        <input type="radio" name="action" value="update"/><div style="display:inline" id="updateProgram" class="tooltip">Update NC program in existing project</div><br>
+        <input type="radio" name="action" value="gcode"/><div style="display:inline" id="programOnly" class="tooltip">Output NC program only</div>
+      </div>
+    </div><br>
+    <div class="subheader">Work Environment & Machine</div>
+    <div class="row">
+      <div id="questionText">Work environment</div>
+      <div id="inputs"><select id="workEnvironment" onChange="updateMachineList()"></select></div>
+    </div>
+    <div class="row"><div id="questionText">Machine</div>
+      <div id="inputs" ><select id="machineList" name="macFile"></select></div>
+    </div>    
+    </p>
+	
+    <div class="subheader">Tool Library</div>
+    <div class="row">
+      <div id="questionText">Export tool library</div>
+      <div id="inputs"><input type="checkbox" id="exportToolLib" name="exportToolLib" title="Specifies to export the tool library."/></div>
+    </div>
+	<div class="row">
+      <div id="questionText">Disable radius compensation</div>
+      <div id="inputs"><input type="checkbox" id="radiusComp" name="radiusComp" title="Sets the radius compenstation to null"/></div>
+    </div>
+    <div style="color='red'">
+      <p id="error"></p>
+    </div>
+    
+	<p align="right">	
+      <input type="button" name="accept" value="Accept" onClick="Accept_onClick()" />
+      <input type="button" name="cancel" value="Cancel" onClick="Cancel_onClick()" />
+    </p>
+  </div>
+</body>
+</html>
+
+<script language="javascript">
+
+var workEnvironment = function(name, machinePath, tapesPath){
+	this.name = name;
+	this.machinePath = machinePath;
+	this.tapesPath = tapesPath;
+  return this;
+}
+
+var listWorkEnv = {
+	start:'',
+	end:'',
+	length:'',
+	array: [],
+	getWorkEnvironmentNames: function() {
+		return this.length;
+	}
+};
+
+var recentAction = new Array();
+var recentUser = new Array();
+var recentMachine = new Array();
+var recentMachinePath = new Array();
+var recentTapesPath = new Array();
+var recentExportToolLib = true;
+var recentRadiusComp = false;
+var workEnvPath;
+
+var shell = new ActiveXObject("WScript.Shell");
+var localeDocument;
+
+function createSelections(content, id) {
+  var sel = document.getElementById(id);
+  var fragment = document.createDocumentFragment();
+
+  document.getElementById(id).options.length = 0; // clear
+
+  for (var i = 0; i < content.length; ++i) {
+    var option = content[i];
+    var opt = document.createElement('option');
+    opt.innerHTML = option;
+    opt.value = option;
+    if (id == "workEnvironment" && (opt.value == recentUser)) {
+      opt.selected = "selected"; // preselect last user in dropdown
+    }
+    if (id == "machineList" && opt.value == recentMachine[0]) {
+      opt.selected = "selected"; // preselect last machine in dropdown
+    }
+    fragment.appendChild(opt);
+  }
+  return sel.appendChild(fragment);
+}
+
+/** Returns the translation for the specified text. */
+function localize(text) {
+  if (localeDocument) {
+    pattern = ".//locale:locale/locale:message[@name='" + text + "']";
+    try {
+      localized = localeDocument.selectSingleNode(pattern).text;
+      return localized;
+    } catch (e) {
+    }
+  }
+  return text;
+}
+
+/** Returns the translation for the specified text with substitution of the extra arguments. */
+function localize2(text) {
+  var result = localize(text);
+  for (var i = 0; i < arguments.length; ++i) {
+    result = result.split("%" + (i + 1)).join(arguments[i + 1]);
+  }
+  return result;
+}
+
+function readFile (path) {
+  var fso = new ActiveXObject('Scripting.FileSystemObject');
+  stream = fso.OpenTextFile(path, 1, false);
+
+  while(!stream.AtEndOfStream) {
+    var line = stream.ReadLine();
+    var data = line.search(":");
+    var option = line.slice(0, data);
+    switch (option) {
+	  case "action":
+	    recentAction = (line.slice(data+1, line.length));
+      break;
+    case "user":
+      recentUser.push(line.slice(data+1, line.length));
+      break;
+    case "machine":
+      recentMachine.push(line.slice(data+1, line.length));
+      break;
+	  case "machinePath":
+      recentMachinePath.push(line.slice(data+1, line.length));
+      break;
+	  case "tapesPath":
+      recentTapesPath.push(line.slice(data+1, line.length));
+      break;
+    case "exportToolLib":
+      recentExportToolLib = ((line.slice(data+1, line.length)) == "true");
+      break;
+	  case "disableRadiusCompensation":
+      recentRadiusComp = ((line.slice(data+1, line.length)) == "true");
+      break;
+    }
+  }
+  stream.Close();
+}
+
+function onLoad() {
+  window.resizeTo(695, 710);
+
+  var arguments = getArguments();
+  var path = arguments[1];
+  var fso = new ActiveXObject("Scripting.FileSystemObject");
+
+  if (path) {
+    var tempPath = path.slice(0, path.lastIndexOf("\\")) + "\\ncsimul.txt";
+    if (fso.FileExists(tempPath)) {
+      readFile(tempPath);
+    }
+  }
+  
+  if (recentAction.length > 0) {
+    setCheckValue(action, recentAction);
+  } else {
+    setCheckValue(action, "create");
+  }
+  var currentVersion;
+	try {
+    if (arguments[2] == 11) {
+	    currentVersion = shell.RegRead("HKLM\\SOFTWARE\\Hexagon\\NCSIMUL\\CURRENT_VERSION");
+      workEnvPath = shell.RegRead("HKLM\\SOFTWARE\\Hexagon\\NCSIMUL\\" + currentVersion + "\\WORKING_ENV");	 
+    } else if (arguments[2] == 10) {
+      currentVersion = shell.RegRead("HKLM\\SOFTWARE\\Spring Technologies\\NCSIMUL SOLUTIONS\\CURRENT_VERSION"); 
+      workEnvPath = shell.RegRead("HKLM\\SOFTWARE\\Spring Technologies\\NCSIMUL SOLUTIONS\\" + currentVersion + "\\WORKING_ENV");	  	 
+    } else {
+      return;
+    }
+	} catch (e) {
+	  setError("Could not find work environment of NCSIMUL.");
+  }
+
+  getWorkEnvironments(workEnvPath);
+
+  updateMachineList();
+  
+  if (recentExportToolLib == true) {
+    exportToolLib.checked = "checked";
+  }
+  
+  if (recentRadiusComp == true) {
+    radiusComp.checked = "checked";
+  }
+}
+
+/** Returns the value of the specified radio object. */
+function getCheckedValue(object) {
+  if (!object) {
+    return "";
+  }
+  var length = object.length;
+  if (length == undefined) {
+    if (object.checked) {
+	  return object.value;
+    } else {
+      return "";
+	  }
+  }
+  for (var i = 0; i < length; ++i) {
+    if (object[i].checked) {
+
+      return object[i].value;
+    }
+  }
+  return "";
+}
+
+/** Sets the value for the specified radio group. */
+function setCheckValue(object, value) {
+  if (!object) {
+    return;
+  }
+  var length = object.length;
+  if (length == undefined) {
+    object.checked = (object.value == value.toString());
+    return;
+  }
+  for (var i = 0; i < length; ++i) {
+    object[i].checked = false;
+    if (object[i].value == value.toString()) {
+      object[i].checked = true;
+    }
+  }
+}
+
+/** Cancel settings. */
+function Cancel_onClick() {
+  var shell = new ActiveXObject("WScript.Shell");
+
+  var arguments = getArguments();
+  if (arguments.length != 2) {
+    window.close();
+    return;
+  }
+
+  // store settings
+  var path = arguments[1];
+
+  var fso = new ActiveXObject("Scripting.FileSystemObject");
+  var f = fso.CreateTextFile(path, true);
+  f.WriteLine("Cancel");  
+  f.Close();
+
+  window.close();
+}
+
+/** Sets the specified error. */
+function setError(text) {
+  document.getElementById("errortext").innerHTML = localize("Error") + ": " + text;
+  document.getElementById("error").style.display = "inline";
+}
+
+function resetError() {
+  document.getElementById("error").style.display = "none";
+}
+
+var machineFolderPath;
+var tapesFolderPath;
+
+function updateMachineList() {
+  var selectedValue = document.getElementById('workEnvironment').value;
+  for (var i = 0; i < listWorkEnv.array.length; ++i) {
+	  if (listWorkEnv.array[i].name == selectedValue) {
+      machineFolderPath = listWorkEnv.array[i].machinePath;
+      tapesFolderPath = listWorkEnv.array[i].tapesPath;
+		  break;
+	  }
+  }
+  if (i == -1) {
+    setError("Element not found");
+    return;
+  }
+
+  getFileList(machineFolderPath);
+  createSelections(machineList, "machineList");
+}
+
+/** Returns the arguments as an array. */
+function getArguments() {
+  var result = [];
+  var text = oHTA.commandLine;
+
+  var argument = "";
+  var i = 0;
+  while (true) {
+    while (text.charAt(i) == " ") { // skip spaces
+     ++i;
+    }
+    if (i >= text.length) { // no more
+      break;
+    }
+    argument = "";
+
+    if (text.charAt(i) == "\"") { // begin quote
+      ++i; // skip quote
+      var done = false;
+      while ((i < text.length) && !done) {
+        var ch = text.charAt(i);
+        ++i;
+        switch (ch) {
+        case '"': // end quote
+          done = true;
+          break;
+        case '\\':
+          if ((i < text.length) && (text.charAt(i) == '"')) {
+            argument = argument + '"';
+          } else if ((i < text.length) && (text.charAt(i) == '\\')) {
+            argument = argument + '\\';
+          } else {
+            argument = argument + ch;
+          }
+          break;
+        default:
+          argument = argument + ch;
+        }
+      }
+      if (!done) { // error
+        return [];
+      }
+    } else {
+      while ((i < text.length) && (text.charAt(i) != " ")) {
+        argument = argument + text.charAt(i);
+        ++i;
+      }
+    }
+    result.push(argument);
+  }
+
+  return result;
+}
+
+var machineList = new Array();
+
+function getFileList(folder) {
+  var fso, f, fc;
+  machineList = []; // clear
+
+  fso = new ActiveXObject("Scripting.FileSystemObject");
+  var extension = "NcsMac";
+  if (fso.FolderExists(folder)) {
+    error.innerHTML = "";
+    f = fso.GetFolder(folder);
+    fc = new Enumerator(f.files);
+    for (; !fc.atEnd(); fc.moveNext()) {
+      if (fso.GetExtensionName(fc.item()) == extension) {
+        machineList.push(fso.GetBaseName(fc.item()));
+      }
+    }
+    if (machineList.length == 0) {
+      setError("No machine files (*.NcsMac- files) found in the machine directory of this work environment.");
+    }
+  } else {
+    setError("The specified directory does not exist.");
+  }
+}
+
+var workEnvironmentList = new Array();
+
+function getWorkEnvironments(filePath) {
+  var fso = new ActiveXObject('Scripting.FileSystemObject');
+  stream = fso.OpenTextFile(filePath, 1, false, -1);
+  var environmentName = new Array();
+  var machinePath = new Array();
+  var tapesPath = new Array();
+
+  while (!stream.AtEndOfStream) {
+    var line = stream.ReadLine();
+    var data = line.search("=");
+	  if (data == -1) {
+      continue;
+    }
+	
+    var option = line.slice(0, data);
+    var value = line.slice(data+2, line.length);
+	  if (option == 'Name' || option == 'Name ') {
+	    environmentName = value;
+	    if (machinePath != "" || tapesPath != "") {
+	      setError("EnvironmentName set while Machine path or Tapes path defined");
+	  	  return;
+	    }
+	  } else if (option == "Machines_Path" || option == "Machines_Path ") {
+	    machinePath = value;
+	    if (environmentName.length == 0 || tapesPath.length > 0){
+	      setError("Machines set while environmentName empty or Tapes path defined");
+	  	  return;
+	    }
+	  } else if (option == "Tapes_Path" || option == "Tapes_Path ") {
+	    tapesPath = value;
+	    if (environmentName.length == 0 || machinePath.length == 0) {
+	      setError("Tapes set while environmentName empty or machinePath empty: " + tapesPath);
+	  	  return;
+      }
+      listWorkEnv.array.push(new workEnvironment(environmentName, machinePath, tapesPath));
+      workEnvironmentList.push(environmentName);
+      environmentName = "";
+      machinePath = "";
+      tapesPath = "";
+    }
+  }
+  stream.Close(); 
+  // generate work environment list
+  createSelections(workEnvironmentList.sort(), "workEnvironment");
+}
+
+/** Accept settings. */
+function Accept_onClick() {
+  var shell = new ActiveXObject("WScript.Shell");
+  var arguments = getArguments();
+  var path = arguments[1];
+  var fso = new ActiveXObject("Scripting.FileSystemObject");
+
+  // write the result of the HTA dialog in the specific post filePath
+  var f = fso.CreateTextFile(path, true);
+  f.WriteLine("OK");  
+  f.close();
+  
+  // cancel the process if there are any undefined parameters
+  if (arguments.length != 3) {
+    setError(localize("Output path not specified."));
+	  return;
+  } else if (!document.getElementById("machineList").value) {
+    setError(localize("No machine defined."));
+    return;
+  } else if (!document.getElementById("workEnvironment").value) {
+    setError(localize("User not specified."));
+    return;
+  } else if (!fso.FolderExists(machineFolderPath)) {
+    setError(localize("The machine path is not a folder."));
+    return;
+  } else if (machineList.length == 0) {
+    setError("No machine files found in the specified directory.");
+    return;
+  } else if (document.getElementsByName("action")[1].checked && !fso.FolderExists(tapesFolderPath)) {
+	  setError("The tapes path to send the program to is not a folder.");
+    return;
+  }
+ 
+  var machine = document.getElementById("machineList").value.toString();
+  var action;
+  for (var i = 0; i < document.getElementsByName("action").length; ++i) {
+    if (document.getElementsByName("action")[i].checked) {
+      action = document.getElementsByName("action")[i].value;
+      break;
+    }
+  }
+  // write the settings for the future use of the interface
+  var f = fso.CreateTextFile(fso.GetFile(path).ParentFolder + "\\ncsimul.txt", true);
+  f.WriteLine("action:" + action);
+  f.WriteLine("user:" + document.getElementById("workEnvironment").value);
+  f.WriteLine("machine:" + document.getElementById("machineList").value);
+  f.WriteLine("machinePath:" + machineFolderPath);
+  f.WriteLine("tapesPath:" + tapesFolderPath);
+  f.WriteLine("exportToolLib:" + document.getElementById("exportToolLib").checked);
+  f.WriteLine("disableRadiusCompensation:" + document.getElementById("radiusComp").checked);
+  f.Close();
+  
+  window.close();
+}
+
+</script>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+    <implementation render="MentalImage">
+      <language name="MentalRaySL" version="3.6"/>
+      <api name="MentalRay" version="3.6"/>
+      <root_bindings name="root"/>
+      <bindings target="shader" name="root">
+        <desc val="mi.phenomenon/include/adsk_Mtl_Mirror.mi" tag="adsk_Mtl_Mirror_V2"/>
+		<map_interface source="mirror_color_by_object" destination="m.color_by_object"/>
+        <map_interface source="mirror_tintcolor" destination="m.tint_color"/>
+	<map_interface source="common_Tint_toggle" destination="m.common_tint_enable"/>
+	<map_interface source="common_Tint_color" destination="m.common_tint_color"/>
+        <map_interface source="mirror_roundcorners_on" destination="o.roundcorners_on"/>
+        <map_interface source="mirror_roundcorners_radius" destination="o.roundcorners_radius"/>
+        <map_interface source="mirror_roundcorners_allow_different_materials" destination="o.roundcorners_allow_different_materials"/>
+        <map_interface source="mirror_refl_depth" destination="p.refl_depth"/>
+		<map_interface source="mode" destination="mode"/>
+      </bindings>
+    </implementation>

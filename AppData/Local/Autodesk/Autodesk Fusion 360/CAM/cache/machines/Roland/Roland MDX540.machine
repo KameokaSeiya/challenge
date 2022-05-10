@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<machine xmlns="http://www.hsmworks.com/xml/2009/machine" uuid="00A18744-5209-41F3-8B28-89B2830CADAE" version="1.0">
+  <description />
+  <model>MDX540</model>
+  <vendor>Roland</vendor>
+  <coolant options="FLOOD" />
+  <axis actuator="linear" axis="1 0 0" coordinate="0" id="X" link="table" />
+  <axis actuator="linear" axis="0 1 0" coordinate="1" id="Y" link="table" />
+  <axis actuator="linear" axis="0 0 1" coordinate="2" id="Z" link="table" />
+</machine>

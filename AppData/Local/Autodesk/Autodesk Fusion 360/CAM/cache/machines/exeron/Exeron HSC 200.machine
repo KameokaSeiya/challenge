@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<machine xmlns="http://www.hsmworks.com/xml/2009/machine" uuid="91DAAD5C-E9B0-431B-A5D0-886E85B9203E" version="1.0">
+  <model>HSC 200</model>
+  <vendor>exeron</vendor>
+  <control>Heidenhain iTNC 530</control>
+  <spindle maximumSpeed="42000rpm" />
+  <coolant options="FLOOD" />
+  <axis actuator="linear" axis="1 0 0" coordinate="0" id="X" link="head" range="0mm 200mm" resolution="0.0001" />
+  <axis actuator="linear" axis="0 1 0" coordinate="1" id="Y" link="table" range="0mm 250mm" resolution="0.0001" />
+  <axis actuator="linear" axis="0 0 1" coordinate="2" id="Z" link="head" range="0mm 250mm" resolution="0.0001" />
+</machine>

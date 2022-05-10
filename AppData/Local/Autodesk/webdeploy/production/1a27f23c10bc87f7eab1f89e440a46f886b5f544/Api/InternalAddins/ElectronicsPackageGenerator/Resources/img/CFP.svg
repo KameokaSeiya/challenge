@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="200px" height="150px" viewBox="0 0 200 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>CFP</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.993193069 0 9.23383354 0 9.23383354 22.0119895 0.993193069 22.0119895"></polygon>
+        <polygon id="path-2" points="14.4778775 0 22.7185179 0 22.7185179 22.0119895 14.4778775 22.0119895"></polygon>
+        <rect id="path-3" x="27.2134127" y="0" width="8.24064047" height="22.0119895"></rect>
+        <rect id="path-4" x="40.6980972" y="0" width="8.24064047" height="22.0119895"></rect>
+        <rect id="path-5" x="53.4336324" y="0" width="8.24064047" height="22.0119895"></rect>
+        <rect id="path-6" x="66.1691677" y="0" width="8.24064047" height="22.0119895"></rect>
+        <polygon id="path-7" points="0.993193069 0 9.23383354 0 9.23383354 22.0119895 0.993193069 22.0119895"></polygon>
+        <polygon id="path-8" points="14.4778775 0 22.7185179 0 22.7185179 22.0119895 14.4778775 22.0119895"></polygon>
+        <rect id="path-9" x="27.2134127" y="0" width="8.24064047" height="22.0119895"></rect>
+        <rect id="path-10" x="40.6980972" y="0" width="8.24064047" height="22.0119895"></rect>
+        <rect id="path-11" x="53.4336324" y="0" width="8.24064047" height="22.0119895"></rect>
+        <rect id="path-12" x="66.1691677" y="0" width="8.24064047" height="22.0119895"></rect>
+        <rect id="path-13" x="0" y="17.7774376" width="84.7181834" height="43.2111251" rx="1"></rect>
+        <path d="M2.00128401,17.235666 C1.17068891,17.235666 0.497358551,17.9114976 0.497358551,18.7299306 L0.497358551,59.8918987 C0.497358551,60.7171583 1.17040878,61.3861634 2.00128401,61.3861634 L19.2222887,61.3861634 C20.0528838,61.3861634 20.7262141,60.7103318 20.7262141,59.8918987 L20.7262141,18.7299306 C20.7262141,17.9046711 20.0531639,17.235666 19.2222887,17.235666 L2.00128401,17.235666 Z" id="path-14"></path>
+        <rect id="path-15" x="9.48714815" y="18.1705088" width="2.2474474" height="42.2717528"></rect>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <g transform="translate(27.500000, 35.000000)">
+                <g>
+                    <g transform="translate(0.084551, 0.692876)">
+                        <g transform="translate(4.859092, 0.000000)">
+                            <g>
+                                <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                <path stroke="#979797" stroke-width="1" d="M1.49319307,0.5 L1.49319307,21.5119895 L8.73383354,21.5119895 L8.73383354,0.5 L1.49319307,0.5 Z"></path>
+                            </g>
+                            <g>
+                                <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-2"></use>
+                                <path stroke="#979797" stroke-width="1" d="M14.9778775,0.5 L14.9778775,21.5119895 L22.2185179,21.5119895 L22.2185179,0.5 L14.9778775,0.5 Z"></path>
+                            </g>
+                            <g>
+                                <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-3"></use>
+                                <rect stroke="#979797" stroke-width="1" x="27.7134127" y="0.5" width="7.24064047" height="21.0119895"></rect>
+                            </g>
+                            <g>
+                                <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-4"></use>
+                                <rect stroke="#979797" stroke-width="1" x="41.1980972" y="0.5" width="7.24064047" height="21.0119895"></rect>
+                            </g>
+                            <g>
+                                <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-5"></use>
+                                <rect stroke="#979797" stroke-width="1" x="53.9336324" y="0.5" width="7.24064047" height="21.0119895"></rect>
+                            </g>
+                            <g>
+                                <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-6"></use>
+                                <rect stroke="#979797" stroke-width="1" x="66.6691677" y="0.5" width="7.24064047" height="21.0119895"></rect>
+                            </g>
+                            <polygon fill="#FFFFFF" points="2.04003883 8.20134471 8.22816392 8.20134471 8.22816392 9.68907625 2.04003883 9.68907625"></polygon>
+                            <polygon fill="#FFFFFF" points="15.4956052 8.20134471 21.6837303 8.20134471 21.6837303 9.68907625 15.4956052 9.68907625"></polygon>
+                            <polygon fill="#FFFFFF" points="28.2557765 8.20134471 34.4439016 8.20134471 34.4439016 9.68907625 28.2557765 9.68907625"></polygon>
+                            <polygon fill="#FFFFFF" points="41.7073972 8.20134471 47.8955223 8.20134471 47.8955223 9.68907625 41.7073972 9.68907625"></polygon>
+                            <polygon fill="#FFFFFF" points="54.4956052 8.20134471 60.6837303 8.20134471 60.6837303 9.68907625 54.4956052 9.68907625"></polygon>
+                            <polygon fill="#FFFFFF" points="67.1873777 8.20134471 73.3755028 8.20134471 73.3755028 9.68907625 67.1873777 9.68907625"></polygon>
+                        </g>
+                        <g transform="translate(42.359092, 66.236057) scale(1, -1) translate(-42.359092, -66.236057) translate(4.859092, 54.736057)">
+                            <g>
+                                <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-7"></use>
+                                <path stroke="#979797" stroke-width="1" d="M1.49319307,0.5 L1.49319307,21.5119895 L8.73383354,21.5119895 L8.73383354,0.5 L1.49319307,0.5 Z"></path>
+                            </g>
+                            <g>
+                                <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-8"></use>
+                                <path stroke="#979797" stroke-width="1" d="M14.9778775,0.5 L14.9778775,21.5119895 L22.2185179,21.5119895 L22.2185179,0.5 L14.9778775,0.5 Z"></path>
+                            </g>
+                            <g>
+                                <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-9"></use>
+                                <rect stroke="#979797" stroke-width="1" x="27.7134127" y="0.5" width="7.24064047" height="21.0119895"></rect>
+                            </g>
+                            <g>
+                                <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-10"></use>
+                                <rect stroke="#979797" stroke-width="1" x="41.1980972" y="0.5" width="7.24064047" height="21.0119895"></rect>
+                            </g>
+                            <g>
+                                <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-11"></use>
+                                <rect stroke="#979797" stroke-width="1" x="53.9336324" y="0.5" width="7.24064047" height="21.0119895"></rect>
+                            </g>
+                            <g>
+                                <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-12"></use>
+                                <rect stroke="#979797" stroke-width="1" x="66.6691677" y="0.5" width="7.24064047" height="21.0119895"></rect>
+                            </g>
+                            <polygon fill="#FFFFFF" points="2.04003883 8.20134471 8.22816392 8.20134471 8.22816392 9.68907625 2.04003883 9.68907625"></polygon>
+                            <polygon fill="#FFFFFF" points="15.4956052 8.20134471 21.6837303 8.20134471 21.6837303 9.68907625 15.4956052 9.68907625"></polygon>
+                            <polygon fill="#FFFFFF" points="28.2557765 8.20134471 34.4439016 8.20134471 34.4439016 9.68907625 28.2557765 9.68907625"></polygon>
+                            <polygon fill="#FFFFFF" points="41.7073972 8.20134471 47.8955223 8.20134471 47.8955223 9.68907625 41.7073972 9.68907625"></polygon>
+                            <polygon fill="#FFFFFF" points="54.4956052 8.20134471 60.6837303 8.20134471 60.6837303 9.68907625 54.4956052 9.68907625"></polygon>
+                            <polygon fill="#FFFFFF" points="67.1873777 8.20134471 73.3755028 8.20134471 73.3755028 9.68907625 67.1873777 9.68907625"></polygon>
+                        </g>
+                        <g>
+                            <use fill="#585858" fill-rule="evenodd" xlink:href="#path-13"></use>
+                            <rect stroke="#505050" stroke-width="1" x="0.5" y="18.2774376" width="83.7181834" height="42.2111251" rx="1"></rect>
+                        </g>
+                        <circle stroke="#979797" fill="#D8D8D8" cx="6.41544902" cy="53.0248975" r="1.97607422"></circle>
+                    </g>
+                </g>
+                <g transform="translate(120.000000, 0.000000)">
+                    <path d="M12.0021153,10.9780273 L25.2996027,9.66939504 C25.6400772,9.45679861 25.8487086,9.0717662 25.8487086,8.65601219 L25.8487086,1.58408862 C25.8487086,0.93282686 25.3456004,0.404874894 24.7249849,0.404874894 C24.1043695,0.404874894 23.6012612,0.93282686 23.6012612,1.58408862 L23.6012612,7.97475908 L10.3037739,9.33746747 C9.96329943,9.5500639 9.75466794,9.93509631 9.75466794,10.3508503 L9.75466794,24.3660505 C9.75466794,25.0173123 10.2577762,25.5452643 10.8783916,25.5452643 C11.4990071,25.5452643 12.0021153,25.0173123 12.0021153,24.3660505 L12.0021153,10.9780273 Z" stroke="#979797" fill="#D8D8D8" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M12.0021153,64.8305664 L25.2996027,63.5219341 C25.6400772,63.3093377 25.8487086,62.9243053 25.8487086,62.5085512 L25.8487086,55.4366277 C25.8487086,54.7853659 25.3456004,54.257414 24.7249849,54.257414 C24.1043695,54.257414 23.6012612,54.7853659 23.6012612,55.4366277 L23.6012612,61.8272981 L10.3037739,63.1900065 C9.96329943,63.402603 9.75466794,63.7876354 9.75466794,64.2033894 L9.75466794,78.2185896 C9.75466794,78.8698514 10.2577762,79.3978033 10.8783916,79.3978033 C11.4990071,79.3978033 12.0021153,78.8698514 12.0021153,78.2185896 L12.0021153,64.8305664 Z" stroke="#979797" fill="#D8D8D8" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" transform="translate(17.801688, 66.827609) scale(1, -1) translate(-17.801688, -66.827609) "></path>
+                    <g>
+                        <use fill="#585858" fill-rule="evenodd" xlink:href="#path-14"></use>
+                        <path stroke="#505050" stroke-width="1" d="M2.00128401,17.735666 C1.44882875,17.735666 0.997358551,18.1856516 0.997358551,18.7299306 L0.997358551,59.8918987 C0.997358551,60.4404027 1.44594346,60.8861634 2.00128401,60.8861634 L19.2222887,60.8861634 C19.7747439,60.8861634 20.2262141,60.4361778 20.2262141,59.8918987 L20.2262141,18.7299306 C20.2262141,18.1814267 19.7776292,17.735666 19.2222887,17.735666 L2.00128401,17.735666 Z"></path>
+                    </g>
+                    <g>
+                        <use fill="#505050" fill-rule="evenodd" xlink:href="#path-15"></use>
+                        <rect stroke="#505050" stroke-width="1" x="8.98714815" y="17.6705088" width="3.2474474" height="43.2717528"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

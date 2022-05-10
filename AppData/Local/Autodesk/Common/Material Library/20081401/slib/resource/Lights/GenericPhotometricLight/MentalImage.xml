@@ -1,0 +1,229 @@
+<?xml version="1.0"?>
+        <implementation render="MentalImage">
+            <language name="MentalRaySL" version="3.6"/>
+            <api name="MentalRay" version="3.6"/>
+            <root_bindings name="root"/>
+
+            <constants>
+                <float name="threePointFour" val="3.4"/>
+
+                <float name="halogenWarm" val="2800"/>
+                <float name="halogen" val="3200"/>
+                <float name="halogenCool" val="4200"/>
+                <float name="a_incandescent" val="2800"/>
+                <float name="f4_fluorescentWarmWhite" val="2940"/>
+                <float name="f2_fluorescentCoolWhite" val="4230"/>
+                <float name="f3_fluorescentWhite" val="3450"/>
+                <float name="f5_fluorescentDaylight" val="6430"/>
+                <float name="f6_fluorescentLightWhite" val="4150"/>
+                <float name="ceramicWarm" val="3000"/>
+                <float name="ceramicCool" val="4200"/>
+                <float name="quartzWarm" val="3200"/>
+                <float name="quartz" val="4000"/>
+                <float name="quartzCool" val="6000"/>
+                <float name="mercury" val="3900"/>
+                <float name="xenon" val="6000"/>
+                <float name="highPressureSodium" val="2100"/>
+                <float name="lowPressureSodium" val="1800"/>
+                <float name="d65" val="6500"/>
+                <float name="d50" val="5000"/>
+            </constants>
+
+            <operator function="SwitchOperator" name="kelvinPresetSwitch">
+                <map_interface source="lightTempPresets" destination="switch"/>
+                <map_constant source="halogenWarm" destination="case_0"/>
+                <map_constant source="halogen" destination="case_1"/>
+                <map_constant source="halogenCool" destination="case_2"/>
+                <map_constant source="a_incandescent" destination="case_3"/>
+                <map_constant source="f4_fluorescentWarmWhite" destination="case_4"/>
+                <map_constant source="f2_fluorescentCoolWhite" destination="case_5"/>
+                <map_constant source="f3_fluorescentWhite" destination="case_6"/>
+                <map_constant source="f5_fluorescentDaylight" destination="case_7"/>
+                <map_constant source="f6_fluorescentLightWhite" destination="case_8"/>
+                <map_constant source="ceramicWarm" destination="case_9"/>
+                <map_constant source="ceramicCool" destination="case_10"/>
+                <map_constant source="quartzWarm" destination="case_11"/>
+                <map_constant source="quartz" destination="case_12"/>
+                <map_constant source="quartzCool" destination="case_13"/>
+                <map_constant source="mercury" destination="case_14"/>
+                <map_constant source="xenon" destination="case_15"/>
+                <map_constant source="highPressureSodium" destination="case_16"/>
+                <map_constant source="lowPressureSodium" destination="case_17"/>
+                <map_constant source="d65" destination="case_18"/>
+                <map_constant source="d50" destination="case_19"/>
+                <map_interface source="lightTemperature" destination="case_20"/>
+            </operator>
+
+            <operator function="ConvertKelvinToRGB" name="kelvinToRGB">
+                <map_operator source="kelvinPresetSwitch" destination="temperature"/>
+                <map_interface source="colorShifting" destination="colorShiftingCurve"/>
+                <map_interface source="dimmer" destination="dimmer"/>
+            </operator>
+
+            <operator function="SwitchOperator" name="lightColorUnitSwitch">
+                <!-- case 0: kelvin; case 1: RGB -->
+                <map_interface source="lightColorUnits" destination="switch"/>
+                <map_operator source="kelvinToRGB" destination="case_0"/>
+                <map_interface source="rgbLightColor" destination="case_1"/>
+            </operator>
+
+            <operator function="ConvertLumenToCandela" name="candelaFromLumens">
+                <map_interface source="intensityValue" destination="flux"/>
+                <map_interface source="distribution" destination="distribution"/>
+                <map_interface source="lightProfileFileName" destination="lightProfile"/>
+				<map_interface source="hotSpot" destination="hotSpot"/>
+				<map_interface source="fallOff" destination="falloff"/>
+            </operator>
+
+            <operator function="ConvertLuxToCandela" name="candelaFromLuxAt">
+              <map_interface source="intensityValue" destination="illuminance"/>
+              <map_interface source="illuminanceAt" destination="distance"/>
+            </operator>
+
+            <operator function="ConvertWattToCandela" name="candelaFromWatts">
+                <map_interface source="intensityValue" destination="power"/>
+                <map_interface source="electricalEfficiency" destination="electricalEfficiency"/>
+                <map_interface source="distribution" destination="distribution"/>
+                <map_interface source="lightProfileFileName" destination="lightProfile"/>
+				<map_interface source="hotSpot" destination="hotSpot"/>
+				<map_interface source="fallOff" destination="falloff"/>
+            </operator>
+
+            <operator function="SwitchOperator" name="intensityUnitSwitch">
+                <!-- case 0: candela; case 1: lumens: case 2: lux; case 3: watts-->
+                <map_interface source="intensityUnits" destination="switch"/>
+                <map_interface source="intensityValue" destination="case_0"/>
+                <map_operator source="candelaFromLumens" destination="case_1"/>
+                <map_operator source="candelaFromLuxAt" destination="case_2"/>
+                <map_operator source="candelaFromWatts" destination="case_3"/>
+            </operator>
+
+            <operator function="PowerOp" name="dimmingFactor">
+                <map_interface source="dimmer" destination="X"/>
+                <map_constant source="threePointFour" destination="Y"/>
+            </operator>
+
+            <operator function="MultiplyOp" name="dimmedLight">
+                <map_operator source="intensityUnitSwitch" destination="X"/>
+                <map_operator source="dimmingFactor" destination="Y"/>
+            </operator>
+
+            <operator function="MultiplyOp" name="attenuatedLight">
+                <map_operator source="dimmedLight" destination="X"/>
+                <map_interface source="lightLossFactor" destination="Y"/>
+            </operator>
+
+            <operator function="TRSToMatrix" name="webTransformOp">
+                <map_interface source="webTranslation" destination="T"/>
+                <map_interface source="webRotation" destination="R"/>
+                <map_interface source="webScaling" destination="S"/>
+            </operator>
+
+            <operator function="SpotDistributionChooser" name="FindSpotDistribution">
+                <map_interface source="distribution" destination="X"/>
+            </operator>
+
+            <operator function="LinearLightBOF" name="linearlight">
+                <map_interface source="lightobjectareatype" destination="type" /> 
+                <map_interface source="isLinearLight" destination="force" />
+            </operator>
+
+            <operator function="LightAreaTypeBOF" name="lightareatype">
+                <map_interface source="lightobjectareatype" destination="type" /> 
+            </operator>
+
+            <bindings target="light profile" name="lightProfile">
+                <map_interface source="lightProfileFileName" destination="filename"/>
+            </bindings>
+            
+            <bindings target="shader" name="light">
+                <desc val="" tag="adsk_Light_Photometric"/>
+                <!--map_interface source="*" destination="*"/>
+                No use of *
+                
+                # General Parameters
+                boolean "on",-
+                boolean "shadowOn",-
+                # Intensity/Color/Distribution
+                integer "distribution",-
+                color "lightColor",-
+                color "filterColor",
+                scalar "intensity",
+                # Shadow Parameters
+                color "shadowCol",
+                scalar "shadowDensity",
+                boolean "useShadowColMap",
+                color texture "shadowColMap",
+                boolean "lightAffectShadowCol",
+                boolean "atmosShadowOn",
+                scalar "atmosShadowOpacity",
+                scalar "atmosShadowColAmnt",
+                #Advanced Parameters
+                scalar "contrast",
+                scalar "softDiffEdges",
+                boolean "diffuse",
+                boolean "specular",
+                boolean "ambientOnly",
+                boolean "projMapOn",
+                color texture "projMap",
+                # Spotlight parameters (for spot distributions only)
+                scalar "hotSpot",       # in radians
+                scalar "fallOff",       # in radians
+                # Web parameters (for web distributions only)
+                lightprofile "lightProfile",-
+                transform "webTransform",-   # rotation transform for the web
+                # Global parameters
+                scalar "physicalScale",
+                scalar "meterScale",
+                # Extended parameters
+                boolean "webHasSymmetry",  
+                # Eclusion list
+                array boolean "exclusionList"
+                -->
+                
+                <map_interface source="on" destination="on"/>
+                <map_interface source="shadowOn" destination="shadowOn"/>
+                <map_operator source="FindSpotDistribution" destination="distribution"/>
+                <map_operator source="lightColorUnitSwitch" destination="lightColor"/>
+                <map_interface source="filterColor" destination="filterColor"/>
+                <map_operator source="attenuatedLight" destination="intensity"/>
+                <map_interface source="shadowCol" destination="shadowCol"/>
+                <map_interface source="shadowDensity" destination="shadowDensity"/>
+                <map_interface source="useShadowColMap" destination="useShadowColMap"/>
+                <map_interface source="shadowColMap" destination="shadowColMap"/>
+                <map_interface source="lightAffectShadowCol" destination="lightAffectShadowCol"/>
+                <map_interface source="atmosShadowOn" destination="atmosShadowOn"/>
+                <map_interface source="atmosShadowOpacity" destination="atmosShadowOpacity"/>
+                <map_interface source="atmosShadowColAmnt" destination="atmosShadowColAmnt"/>
+                <map_interface source="contrast" destination="contrast"/>
+                <map_interface source="softDiffEdges" destination="softDiffEdges"/>
+                <map_interface source="diffuse" destination="diffuse"/>
+                <map_interface source="specular" destination="specular"/>
+                <map_interface source="ambientOnly" destination="ambientOnly"/>
+                <map_interface source="projMapOn" destination="projMapOn"/>
+                <map_interface source="projMap" destination="projMap"/>
+                <map_interface source="hotSpot" destination="hotSpot"/>
+                <map_interface source="fallOff" destination="fallOff"/>
+                <map_bindings source="lightProfile" destination="lightProfile"/>
+                <map_operator source="webTransformOp" destination="webTransform"/>
+                <map_interface source="webHasSymmetry" destination="webHasSymmetry"/>
+                <map_operator source="linearlight" destination="forceAsLinearLight"/>
+			</bindings>
+            
+            <bindings target="light object" name="root">
+                <map_interface source="lightobjecttype" destination="type"/>
+                <map_operator  source="lightareatype" destination="area"/>
+                <map_interface source="lightobjectexponent" destination="exponent"/>
+                <map_interface source="lightobjectvisible" destination="visible"/>
+                <map_interface source="rectangle_width" destination="rectangle_width"/>
+                <map_interface source="rectangle_length" destination="rectangle_length"/>
+                <map_interface source="disc_normal" destination="disc_normal"/>
+                <map_interface source="disc_radius" destination="disc_radius"/>
+                <map_interface source="cylinder_axis" destination="cylinder_axis"/>
+                <map_interface source="cylinder_radius" destination="cylinder_radius"/>
+                <map_interface source="sphere_radius" destination="sphere_radius"/>
+                <map_interface source="hotSpot" destination="spread"/>
+                <map_bindings source="light" destination="shader"/>
+                <map_bindings source="light" destination="emitter"/>
+            </bindings>
+        </implementation>

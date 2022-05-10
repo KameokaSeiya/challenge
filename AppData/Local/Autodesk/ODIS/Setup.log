@@ -1,0 +1,92 @@
+2021-12-11T14:05:08.532 [Bootstrap: 7908, single] [Bootstrap INFO] ======================== Start Bootstrap ========================
+2021-12-11T14:05:08.581 [Bootstrap: 7908, single] [Bootstrap INFO] [ BootstrapApp::OnInit ]   ====================================== 
+2021-12-11T14:05:08.581 [Bootstrap: 7908, single] [Bootstrap INFO] [ BootstrapApp::OnInit ]    
+2021-12-11T14:05:08.581 [Bootstrap: 7908, single] [Bootstrap INFO] [ BootstrapApp::OnInit ]   Setup starting... 
+2021-12-11T14:05:08.581 [Bootstrap: 7908, single] [Bootstrap INFO] [ BootstrapApp::OnInit ]   version:  1.23.0.2 
+2021-12-11T14:05:08.581 [Bootstrap: 7908, single] [Bootstrap INFO] [ BootstrapApp::OnInit ]    
+2021-12-11T14:05:08.581 [Bootstrap: 7908, single] [Bootstrap INFO] [ BootstrapApp::OnInit ]   ====================================== 
+2021-12-11T14:05:08.588 [Bootstrap: 7908, single] [Bootstrap INFO] [ BSStrings::loadStrings ]   ==> OS Language found is [ ja-JP ]. 
+2021-12-11T14:05:08.588 [Bootstrap: 7908, single] [Bootstrap WARN] [ BS_Setup::OpenXmlFile ]   OpenXmlFile: C:\Autodesk\Autodesk_Desktop_Connector_15_2_0_1634_Win_64bit\ODIS\strings.xml 
+2021-12-11T14:05:08.589 [Bootstrap: 7908, single] [Bootstrap INFO] [ BSStrings::loadStrings ]   Loading ja-JP strings. 
+2021-12-11T14:05:08.589 [Bootstrap: 7908, single] [Bootstrap INFO] [ BSData::initdata ]   Initialize data 
+2021-12-11T14:05:08.589 [Bootstrap: 7908, single] [Bootstrap INFO] [ BSData::initJson ]   ==> Load and parse bootstrap.json 
+2021-12-11T14:05:08.590 [Bootstrap: 7908, single] [Bootstrap INFO] [ BSData::initCmdL ]   ==> Load and parse command line 
+2021-12-11T14:05:08.591 [Bootstrap: 7908, single] [Bootstrap INFO] [ BSData::initEnvV ]   ==> Load and parse environment 
+2021-12-11T14:05:08.591 [Bootstrap: 7908, single] [Bootstrap INFO] [ BSData::initEnvV ]   ==> ODIS_ALLOWUPDATE:  undefined 
+2021-12-11T14:05:08.591 [Bootstrap: 7908, single] [Bootstrap INFO] [ BSData::validate ]   ==> Validate data 
+2021-12-11T14:05:08.591 [Bootstrap: 7908, single] [Bootstrap INFO] [ BSData::validate ]     ==> Data 
+2021-12-11T14:05:08.591 [Bootstrap: 7908, single] [Bootstrap INFO] [ BSData::validate ]         - UPI2 id:              {429EE9D2-3248-3483-A651-5D502A889A10} 
+2021-12-11T14:05:08.591 [Bootstrap: 7908, single] [Bootstrap INFO] [ BSData::validate ]         - Environment:          prd 
+2021-12-11T14:05:08.591 [Bootstrap: 7908, single] [Bootstrap INFO] [ BSData::validate ]         - State:                live 
+2021-12-11T14:05:08.591 [Bootstrap: 7908, single] [Bootstrap INFO] [ BSData::validate ]         - Serial Number:         
+2021-12-11T14:05:08.591 [Bootstrap: 7908, single] [Bootstrap INFO] [ BSData::validate ]         - Product Key:           
+2021-12-11T14:05:08.591 [Bootstrap: 7908, single] [Bootstrap INFO] [ BSData::validate ]         - Static ODIS version:  1.23.0.14 
+2021-12-11T14:05:08.591 [Bootstrap: 7908, single] [Bootstrap INFO] [ BSData::validate ]         - Path to odisver.xml:  C:\ProgramData\Autodesk\ODIS\ 
+2021-12-11T14:05:08.591 [Bootstrap: 7908, single] [Bootstrap INFO] [ BSData::validate ]         - Hide EULA:            false 
+2021-12-11T14:05:08.591 [Bootstrap: 7908, single] [Bootstrap INFO] [ BSData::validate ]         - Trial:                false 
+2021-12-11T14:05:08.592 [Bootstrap: 7908, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   Detecting [ C:\Autodesk\Autodesk_Desktop_Connector_15_2_0_1634_Win_64bit\setup.xml ]. 
+2021-12-11T14:05:08.592 [Bootstrap: 7908, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   File, [ C:\Autodesk\Autodesk_Desktop_Connector_15_2_0_1634_Win_64bit\setup.xml ] exists. 
+2021-12-11T14:05:08.592 [Bootstrap: 7908, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   Detecting [ C:\Autodesk\Autodesk_Desktop_Connector_15_2_0_1634_Win_64bit\ODIS\AdODIS-installer.exe ]. 
+2021-12-11T14:05:08.592 [Bootstrap: 7908, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   File, [ C:\Autodesk\Autodesk_Desktop_Connector_15_2_0_1634_Win_64bit\ODIS\AdODIS-installer.exe ] exists. 
+2021-12-11T14:05:08.592 [Bootstrap: 7908, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   Detecting [ C:\Autodesk\Autodesk_Desktop_Connector_15_2_0_1634_Win_64bit\ODIS\odisver.xml ]. 
+2021-12-11T14:05:08.592 [Bootstrap: 7908, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   File, [ C:\Autodesk\Autodesk_Desktop_Connector_15_2_0_1634_Win_64bit\ODIS\odisver.xml ] exists. 
+2021-12-11T14:05:08.592 [Bootstrap: 7908, single] [Bootstrap INFO] [ Autodesk::Setup::setLocalMediaInstallMode ]    -- 
+2021-12-11T14:05:08.592 [Bootstrap: 7908, single] [Bootstrap INFO] [ Autodesk::Setup::setLocalMediaInstallMode ]    -- Executing local media installation 
+2021-12-11T14:05:08.593 [Bootstrap: 7908, single] [Bootstrap INFO] [ Autodesk::Setup::setLocalMediaInstallMode ]    -- 
+2021-12-11T14:05:08.593 [Bootstrap: 7908, single] [Bootstrap DEBUG] [ Autodesk::Setup::selectODIS ]   selectODIS 
+2021-12-11T14:05:08.593 [Bootstrap: 7908, single] [Bootstrap DEBUG] [ Autodesk::Setup::selectODIS ]   prodEnv: 1 , noUpdate flag: 0 , NoUpdateBypass flag: 0 
+2021-12-11T14:05:08.593 [Bootstrap: 7908, single] [Bootstrap DEBUG] [ Autodesk::Setup::selectODIS ]   ==> bEnableODISUpdate:  1 
+2021-12-11T14:05:08.593 [Bootstrap: 7908, single] [Bootstrap DEBUG] [ Autodesk::Setup::tryInstalledODIS ]   Check for installed version of ODIS. 
+2021-12-11T14:05:08.593 [Bootstrap: 7908, single] [Bootstrap DEBUG] [ Autodesk::Setup::tryInstalledODIS ]   ==> installedOdisVerFile=[ C:\ProgramData\Autodesk\ODIS\odisver.xml ] 
+2021-12-11T14:05:08.593 [Bootstrap: 7908, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   Detecting [ C:\ProgramData\Autodesk\ODIS\odisver.xml ]. 
+2021-12-11T14:05:08.593 [Bootstrap: 7908, single] [Bootstrap WARN] [ BS_Setup::DetectFile ]   File, [ C:\ProgramData\Autodesk\ODIS\odisver.xml ] does not exist. 
+2021-12-11T14:05:08.593 [Bootstrap: 7908, single] [Bootstrap DEBUG] [ Autodesk::Setup::tryMediaODIS ]   Check if ODIS can be launched by local media. 
+2021-12-11T14:05:08.593 [Bootstrap: 7908, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   Detecting [ C:\Autodesk\Autodesk_Desktop_Connector_15_2_0_1634_Win_64bit\ODIS\AdODIS-installer.exe ]. 
+2021-12-11T14:05:08.594 [Bootstrap: 7908, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   File, [ C:\Autodesk\Autodesk_Desktop_Connector_15_2_0_1634_Win_64bit\ODIS\AdODIS-installer.exe ] exists. 
+2021-12-11T14:05:08.594 [Bootstrap: 7908, single] [Bootstrap INFO] [ Autodesk::Setup::tryMediaODIS ]   ==> Local Media ODIS version is  1.23.0.14 
+2021-12-11T14:05:08.594 [Bootstrap: 7908, single] [Bootstrap INFO] [ Autodesk::Setup::tryMediaODIS ]   ==> Update ODIS with local media version:  1.23.0.14 
+2021-12-11T14:05:08.594 [Bootstrap: 7908, single] [Bootstrap INFO] [ Autodesk::Setup::tryMediaODIS ]   ODIS is to be launched from local media: C:\Autodesk\Autodesk_Desktop_Connector_15_2_0_1634_Win_64bit\ODIS\ 
+2021-12-11T14:05:08.594 [Bootstrap: 7908, single] [Bootstrap INFO] [ Autodesk::Setup::tryMediaODIS ]   ==> ODIS can be launched by local media. 
+2021-12-11T14:05:08.594 [Bootstrap: 7908, single] [Bootstrap DEBUG] [ Autodesk::Setup::tryOnlineODIS ]   Check online for latest version of ODIS ( Environment: prd , State: live ) 
+2021-12-11T14:05:08.594 [Bootstrap: 7908, single] [Bootstrap INFO] [ RestClient::AdHttpLibLogHandler ]   [AdHttpLib]  Sending a HTTP POST request to url: https://compsvc.delivery.autodesk.com/compsvc/componentService/component/latest/v1 
+2021-12-11T14:05:08.594 [Bootstrap: 7908, single] [Bootstrap INFO] [ RestClient::AdHttpLibLogHandler ]   [AdHttpLib]  Generating headers for POST request. 
+2021-12-11T14:05:09.924 [Bootstrap: 7908, single] [Bootstrap INFO] [ RestClient::AdHttpLibLogHandler ]   [AdHttpLib]  Response Code Received: 200 
+2021-12-11T14:05:09.927 [Bootstrap: 7908, single] [Bootstrap INFO] [ Autodesk::Setup::tryOnlineODIS ]   ==> Online ODIS version is  1.25.0.27 
+2021-12-11T14:05:09.927 [Bootstrap: 7908, single] [Bootstrap INFO] [ Autodesk::Setup::tryOnlineODIS ]   ==> Update ODIS with online version:  1.25.0.27 
+2021-12-11T14:05:09.927 [Bootstrap: 7908, single] [Bootstrap INFO] [ Autodesk::Setup::tryOnlineODIS ]   ODIS is to be launched from online build: 1.25.0.27 
+2021-12-11T14:05:09.928 [Bootstrap: 7908, single] [Bootstrap DEBUG] [ Autodesk::Setup::resolveManifest ]   resolveManifest 
+2021-12-11T14:05:09.928 [Bootstrap: 7908, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   Detecting [ C:\Autodesk\Autodesk_Desktop_Connector_15_2_0_1634_Win_64bit\setup.xml ]. 
+2021-12-11T14:05:09.929 [Bootstrap: 7908, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   File, [ C:\Autodesk\Autodesk_Desktop_Connector_15_2_0_1634_Win_64bit\setup.xml ] exists. 
+2021-12-11T14:05:09.930 [Bootstrap: 7908, single] [Bootstrap WARN] [ BS_Setup::OpenXmlFile ]   OpenXmlFile: C:\Autodesk\Autodesk_Desktop_Connector_15_2_0_1634_Win_64bit\setup.xml 
+2021-12-11T14:05:09.933 [Bootstrap: 7908, single] [Bootstrap INFO] [ Autodesk::Bootstrap::AnalyticsManager::CheckAnalyticsDisabled ]   CONFIG JSON: File not found:  C:\Autodesk\Autodesk_Desktop_Connector_15_2_0_1634_Win_64bit\SetupRes\configuration.json 
+2021-12-11T14:05:10.047 [Bootstrap: 7908, single] [Bootstrap INFO] [ Autodesk::Bootstrap::AnalyticsManager::TrackAdpEvent ]   TrackEvent data:  {"operationId":"a8de27c1-5b9e-4be2-9e87-01c06d13b2f9","operationStage":"BOOTSTRAP","operationStatus":"OP_ENDED","operationType":"install","operation_meta":{"bootstrap_json":"upi2:{429EE9D2-3248-3483-A651-5D502A889A10}"###"signature:4nLi1e8fLW0oASujfSPQtjymTz29CpqSwEL9wv8nV44="###"state:live"###"env:prd"###"prodLang:en-US"###"url:https://dds.autodesk.com"###"odisver:1.23.0.14"},"product_meta":{"odis_session_id":"a8de27c1-5b9e-4be2-9e87-01c06d13b2f9","odis_events_category":"Bootstrap","installation_id":"42f1f04b-369e-4734-be54-0b68cf662c8f","target_product_name":"Autodesk Desktop Connector","target_product_line_name":"DTCONN","target_product_id":"{429EE9D2-3248-3483-A651-5D502A889A10}","target_product_release_id":"2017"}} 
+2021-12-11T14:05:10.098 [Bootstrap: 7908, single] [Bootstrap DEBUG] [ Autodesk::Setup::downloadDDA ]   downloadDDA 
+2021-12-11T14:05:10.098 [Bootstrap: 7908, single] [Bootstrap DEBUG] [ BS_Setup::downloadAndUnzipManifest ]   downloadAndUnzipManifest: upi2: {535E43B0-8BB0-3A63-8EEA-ECDC75942470} env: prd 
+2021-12-11T14:05:10.098 [Bootstrap: 7908, single] [Bootstrap INFO] [ BS_Setup::downloadFile ]   downloadFile: https://manifest.delivery.autodesk.com/manifest/manifestService/manifestDownload/v1/{535E43B0-8BB0-3A63-8EEA-ECDC75942470}?access_id=C1396DD9DD2B5B972BD3B7F378AFD&version=1.0&nonce=1234&timestamp=123456&signature=sSy+fGuQLswGhljdJT1B9Kz0o40rXz6CRglzG6Avc1s= 
+2021-12-11T14:05:10.462 [Bootstrap: 7908, single] [Bootstrap WARN] [] [ Autodesk::DDAUtils::SignatureUtils::IsSignedBySubjectName ]   CertQuery::File Name:[ C:\Autodesk\Autodesk_Desktop_Connector_15_2_0_1634_Win_64bit\ODIS\DownloadManager.exe ] Subject:[ Autodesk, Inc ] Success 
+2021-12-11T14:05:10.462 [Bootstrap: 7908, single] [Bootstrap DEBUG] [ BS_Setup::ExecuteCommand ]   Signature validated successfully for [ C:\Autodesk\Autodesk_Desktop_Connector_15_2_0_1634_Win_64bit\ODIS\DownloadManager.exe ] 
+2021-12-11T14:05:10.462 [Bootstrap: 7908, single] [Bootstrap INFO] [ BS_Setup::ExecuteCommand ]   Launching process:  "C:\Autodesk\Autodesk_Desktop_Connector_15_2_0_1634_Win_64bit\ODIS\DownloadManager.exe" -u "https://manifest.delivery.autodesk.com/manifest/manifestService/manifestDownload/v1/{535E43B0-8BB0-3A63-8EEA-ECDC75942470}?access_id=C1396DD9DD2B5B972BD3B7F378AFD&version=1.0&nonce=1234&timestamp=123456&signature=sSy+fGuQLswGhljdJT1B9Kz0o40rXz6CRglzG6Avc1s=" -p "C:\Autodesk\WI\{535E43B0-8BB0-3A63-8EEA-ECDC75942470}\{535E43B0-8BB0-3A63-8EEA-ECDC75942470}.zip" --productname Bootstrap --productversion 1.23.0.2 
+2021-12-11T14:05:12.556 [Bootstrap: 7908, single] [Bootstrap INFO] [ BS_Setup::ExecuteCommand ]     => Process completed. System exit code  0 Process exit code 0 
+2021-12-11T14:05:12.556 [Bootstrap: 7908, single] [Bootstrap INFO] [ BS_Setup::ExecuteCommand ]     => Success 
+2021-12-11T14:05:12.556 [Bootstrap: 7908, single] [Bootstrap INFO] [ BS_Setup::downloadAndUnzipManifest ]   Manifest downloaded. [ C:\Autodesk\WI\{535E43B0-8BB0-3A63-8EEA-ECDC75942470}\{535E43B0-8BB0-3A63-8EEA-ECDC75942470}.zip ]. 
+2021-12-11T14:05:12.557 [Bootstrap: 7908, single] [Bootstrap DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2021-12-11T14:05:12.557 [Bootstrap: 7908, single] [Bootstrap DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2021-12-11T14:05:12.557 [Bootstrap: 7908, single] [Bootstrap DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2021-12-11T14:05:12.559 [Bootstrap: 7908, single] [Bootstrap INFO] [ BS_Setup::downloadAndUnzipManifest ]   Files are extracted to [ C:\Autodesk\WI\{535E43B0-8BB0-3A63-8EEA-ECDC75942470} ]. 
+2021-12-11T14:05:12.732 [Bootstrap: 7908, single] [Bootstrap DEBUG] [ Autodesk::Setup::downloadDDA ]   Detecting file, [ C:\Autodesk\WI\{535E43B0-8BB0-3A63-8EEA-ECDC75942470}\setup.xml ]. 
+2021-12-11T14:05:12.732 [Bootstrap: 7908, single] [Bootstrap DEBUG] [ Autodesk::Setup::downloadDDA ]   File, [ C:\Autodesk\WI\{535E43B0-8BB0-3A63-8EEA-ECDC75942470}\setup.xml ] exists. 
+2021-12-11T14:05:12.732 [Bootstrap: 7908, single] [Bootstrap WARN] [ BS_Setup::OpenXmlFile ]   OpenXmlFile: C:\Autodesk\WI\{535E43B0-8BB0-3A63-8EEA-ECDC75942470}\setup.xml 
+2021-12-11T14:05:12.733 [Bootstrap: 7908, single] [Bootstrap INFO] [ Autodesk::Setup::downloadDDA ]   OfflineTimeoutInterval =  180 
+2021-12-11T14:05:12.733 [Bootstrap: 7908, single] [Bootstrap INFO] [ BS_Setup::downloadFileToTemp ]   downloadFileToTemp: url: https://up.autodesk.com/2020/AUTODESKINSTALLSERVICE/535E43B0-8BB0-3A63-8EEA-ECDC75942470/AdODIS-installer.exe filename: AdODIS-installer.exe offlineTimeoutInterval: 180 
+2021-12-11T14:05:12.733 [Bootstrap: 7908, single] [Bootstrap INFO] [ BS_Setup::downloadFile ]   downloadFile: https://up.autodesk.com/2020/AUTODESKINSTALLSERVICE/535E43B0-8BB0-3A63-8EEA-ECDC75942470/AdODIS-installer.exe 
+2021-12-11T14:05:12.777 [Bootstrap: 7908, single] [Bootstrap WARN] [] [ Autodesk::DDAUtils::SignatureUtils::IsSignedBySubjectName ]   CertQuery::File Name:[ C:\Autodesk\Autodesk_Desktop_Connector_15_2_0_1634_Win_64bit\ODIS\DownloadManager.exe ] Subject:[ Autodesk, Inc ] Success 
+2021-12-11T14:05:12.777 [Bootstrap: 7908, single] [Bootstrap DEBUG] [ BS_Setup::ExecuteCommand ]   Signature validated successfully for [ C:\Autodesk\Autodesk_Desktop_Connector_15_2_0_1634_Win_64bit\ODIS\DownloadManager.exe ] 
+2021-12-11T14:05:12.778 [Bootstrap: 7908, single] [Bootstrap INFO] [ BS_Setup::ExecuteCommand ]   Launching process:  "C:\Autodesk\Autodesk_Desktop_Connector_15_2_0_1634_Win_64bit\ODIS\DownloadManager.exe" -u "https://up.autodesk.com/2020/AUTODESKINSTALLSERVICE/535E43B0-8BB0-3A63-8EEA-ECDC75942470/AdODIS-installer.exe" -p "C:\Users\seiya\AppData\Local\Temp\download_dest\1076629353482629616\AdODIS-installer.exe" --productname Bootstrap --productversion 1.23.0.2 --maxtime 180 
+2021-12-11T14:05:17.790 [Bootstrap: 7908, single] [Bootstrap FATAL] [ BootstrapFrame::OnWindowClose ]   User clicked X button to close installation 
+2021-12-11T14:05:17.791 [Bootstrap: 7908, single] [Bootstrap INFO] [ Autodesk::Setup::cancelSetup ]   BS_ERROR_203 User cancelled the installation 
+2021-12-11T14:05:24.096 [Bootstrap: 7908, single] [Bootstrap INFO] [ BS_Setup::ExecuteCommand ]     => Process completed. System exit code  0 Process exit code 0 
+2021-12-11T14:05:24.096 [Bootstrap: 7908, single] [Bootstrap INFO] [ BS_Setup::ExecuteCommand ]     => Success 
+2021-12-11T14:05:24.097 [Bootstrap: 7908, single] [Bootstrap DEBUG] [ Autodesk::Setup::extractDDA ]   extractDDA 
+2021-12-11T14:05:24.097 [Bootstrap: 7908, single] [Bootstrap INFO] [ Autodesk::Setup::extractDDA ]   Cancellation happened, before extract 
+2021-12-11T14:05:24.121 [Bootstrap: 7908, single] [Bootstrap INFO] [ Autodesk::Bootstrap::AnalyticsManager::TrackAdpEvent ]   TrackEvent data:  {"operationId":"a8de27c1-5b9e-4be2-9e87-01c06d13b2f9","operationStage":"BOOTSTRAP","operationStatus":"OP_ENDED","operationType":"install","operation_errors":{"BS_ERROR_311","BS_ERROR_203"},"operation_meta":{"bootstrap_error_code":"BS_ERROR_311, BS_ERROR_203","bootstrap_error_context":"odisver xml path does not exist###user cancelled installation","bootstrap_execution":"cancel","bootstrap_execution_time":"9.279246"},"product_meta":{"odis_session_id":"a8de27c1-5b9e-4be2-9e87-01c06d13b2f9","odis_events_category":"Bootstrap","installation_id":"42f1f04b-369e-4734-be54-0b68cf662c8f","target_product_name":"Autodesk Desktop Connector","target_product_line_name":"DTCONN","target_product_id":"{429EE9D2-3248-3483-A651-5D502A889A10}","target_product_release_id":"2017"}} 
+2021-12-11T14:05:24.184 [Bootstrap: 7908, single] [Bootstrap INFO] [ BootstrapApp::OnExit ]   Deleted Instance checker Successfully 

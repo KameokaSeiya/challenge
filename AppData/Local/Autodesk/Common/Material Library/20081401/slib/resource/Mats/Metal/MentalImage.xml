@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+    <implementation render="MentalImage">
+      <language name="MentalRaySL" version="3.6"/>
+      <api name="MentalRay" version="3.6"/>
+      <root_bindings name="root"/>
+
+      <bindings target="texture file" name="brush_def_map">
+        <map_interface source="brush_def_map" destination="filename"/>
+      </bindings>
+
+      <bindings target="texture file" name="break_def_map">
+        <map_interface source="break_def_map" destination="filename"/>
+      </bindings>
+
+      <bindings target="texture file" name="bump_diamond_map">
+        <map_interface source="bump_diamond_map" destination="filename"/>
+      </bindings>
+
+      <bindings target="texture file" name="bump_checker_map">
+        <map_interface source="bump_checker_map" destination="filename"/>
+      </bindings>
+
+      <bindings target="shader" name="root">
+        <desc val="external.dependency/Simple_Metal_Mtl_DiamondPlate_pattern.jpg|external.dependency/Simple_Metal_Mtl_CheckerPlate_pattern.jpg|external.dependency/Simple_Metal_Mtl_Brush_pattern.jpg|external.dependency/Simple_Metal_Mtl_Break_pattern.jpg|mi.phenomenon/include/adsk_Mtl_Metal.mi" tag="adsk_Mtl_Metal_V2"/>
+
+        <map_interface source="metal_type" destination="m.type"/>
+		<map_interface source="metal_color_by_object" destination="m.color_by_object"/>
+        <map_interface source="metal_color" destination="m.diffuse_color"/>
+        <map_interface source="metal_patina" destination="m.brightness_var"/>
+        <map_interface source="metal_finish" destination="m.application"/>
+        <map_interface source="metal_pattern" destination="m.bump_enable"/>
+        <map_interface source="metal_pattern_height" destination="m.bump_amount"/>
+        <map_interface source="metal_pattern_scale" destination="u.scale"/>
+        <map_interface source="metal_pattern_shader" destination="m.bump_map"/>
+		
+        <map_interface source="metal_perforations" destination="m.cutouts_enable"/>
+        <map_interface source="metal_perforations_size" destination="m.cutouts_size"/>
+        <map_interface source="metal_perforations_center" destination="m.cutouts_center"/>
+        <map_interface source="metal_perforations_space" destination="m.cutouts_space"/>
+        <map_interface source="metal_perforations_shader" destination="m.cutouts_map"/>
+
+	<map_interface source="common_Tint_toggle" destination="m.tint_enable"/>
+	<map_interface source="common_Tint_color" destination="m.tint_color"/>
+
+        <map_bindings source="brush_def_map" destination="t.brush_def_map"/>
+        <map_bindings source="break_def_map" destination="t.break_def_map"/>
+        <map_bindings source="bump_diamond_map" destination="t.bump_diamond_map"/>
+        <map_bindings source="bump_checker_map" destination="t.bump_checker_map"/>
+        <map_interface source="metal_ao_on" destination="o.ao_on"/>
+        <map_interface source="metal_ao_samples" destination="o.ao_samples"/>
+        <map_interface source="metal_ao_distance" destination="o.ao_distance"/>
+        <map_interface source="metal_ao_details" destination="o.ao_do_details"/>
+        <map_interface source="metal_roundcorners_on" destination="o.roundcorners_on"/>
+        <map_interface source="metal_roundcorners_radius" destination="o.roundcorners_radius"/>
+        <map_interface source="metal_roundcorners_allow_different_materials" destination="o.roundcorners_allow_different_materials"/>
+        <map_interface source="metal_refl_depth" destination="p.refl_depth"/>
+      <map_interface source="reflection_glossy_samples" destination="p.reflection_glossy_samples"/>
+	  <map_interface source="mode" destination="mode"/>
+		  
+	  </bindings>
+    </implementation>

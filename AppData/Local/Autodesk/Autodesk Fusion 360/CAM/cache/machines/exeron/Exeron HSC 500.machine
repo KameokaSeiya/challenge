@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<machine xmlns="http://www.hsmworks.com/xml/2009/machine" uuid="13557F26-9B06-4EA4-AA9B-42A7DAFBC659" version="1.0">
+  <model>HSC 500</model>
+  <vendor>exeron</vendor>
+  <control>Heidenhain iTNC 530</control>
+  <capacities weight="1000kg" />
+  <spindle maximumSpeed="42000rpm" />
+  <dimensions depth="2300mm" height="2900mm" weight="4200kg" width="3800mm" />
+  <coolant options="FLOOD" />
+  <axis actuator="linear" axis="1 0 0" coordinate="0" id="X" link="head" range="0mm 560mm" resolution="0.0001" />
+  <axis actuator="linear" axis="0 1 0" coordinate="1" id="Y" link="table" range="0mm 520mm" resolution="0.0001" />
+  <axis actuator="linear" axis="0 0 1" coordinate="2" id="Z" link="head" range="0mm 350mm" resolution="0.0001" />
+</machine>

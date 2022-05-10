@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Toolbars>
+
+  <CommandToolbar Id="AnimationAssetType">
+    <DropDownButton Id="ActivateEnvironmentCommand" ShowText="true" SynchronizedWithCurrentItem="true" />
+
+    <!--All Tab info-->
+    <Tab Id="Animation"
+         _LCLZId="lclzAnimation"
+         _LCLZText="ANIMATION"
+         Panels="3DStoryboardPanel;3DComponentPanel;AnnotationPanel;PublisherViewPanel;PublishVideoPanel;"
+         Environment="Publisher3DEnvironment"/>
+    
+    <!-- ** 3D Storyboard Panel ** -->
+    <Panel Id="3DStoryboardPanel" _LCLZId="lclz3DStoryboard" _LCLZText="Storyboard" Environment="Publisher3DEnvironment">
+      <Controls>
+        <!-- ** DM - The following commands show up in the toolbar if  ** -->
+        <!-- ** a. they are part of a group that has been added to the Publisher3DEnvironment AND ** -->
+        <!-- ** b. their onIsApplicable returns true ** -->
+		  <Button Id="PublisherCreateStoryboardCommand" />
+      </Controls>
+      <PanelDropdown>
+        <Button Id="PublisherCreateStoryboardCommand" />
+      </PanelDropdown>
+    </Panel>
+
+    <!-- ** 3D Component Panel ** -->
+    <Panel Id="3DComponentPanel" _LCLZId="lclz3DComponent" _LCLZText="Transform" Environment="Publisher3DEnvironment">
+      <Controls>
+        <!-- ** DM - The following commands show up in the toolbar if  ** -->
+        <!-- ** a. they are part of a group that has been added to the Publisher3DEnvironment AND ** -->
+        <!-- ** b. their onIsApplicable returns true ** -->
+        <Button Id="PublisherMoveComponentsCommand" />
+        <Button Id="PublisherExplodeAllPartsCommand" />
+        <Button Id="PublisherVisibilityToggleCmd" />
+      </Controls>
+
+      <PanelDropdown>
+        <Button Id="PublisherMoveComponentsCommand" />
+        <Button Id="PublisherRestoreHomeCommand" />
+        <Button Id="PublisherExplodeDirectChildrenCommand" />
+        <Button Id="PublisherExplodeAllPartsCommand" />
+        <Button Id="PublisherManualExplodeCommand" />
+        <Button Id="PublisherVisibilityToggleCmd" />
+        <Button Id="PublisherAppearanceCommand" />
+      </PanelDropdown>
+    </Panel>
+
+    <!-- *******************-->
+    <!-- SmartObject Panel  -->
+    <!-- *******************-->
+    <Panel Id="AnnotationPanel" _LCLZId="lclzAnnotation" _LCLZText="Annotation" Environment="Publisher3DEnvironment">
+      <Controls>
+        <Button Id="CalloutCommand" />
+      </Controls>
+
+      <PanelDropdown>
+        <Button Id="CalloutCommand" />
+      </PanelDropdown>
+    </Panel>
+
+    <!-- *******************-->
+    <!-- View Panel         -->
+    <!-- *******************-->
+    <Panel Id="PublisherViewPanel" _LCLZId="lclzPublisherView" _LCLZText="View" Environment="Publisher3DEnvironment">
+      <Controls>
+        <Button Id="PublisherToggleCameraRecordingCmd" />
+      </Controls>
+
+      <PanelDropdown>
+        <Button Id="PublisherToggleCameraRecordingCmd" />
+      </PanelDropdown>
+    </Panel>
+
+    <!-- *******************-->
+    <!-- Publish Video Panel  -->
+    <!-- *******************-->
+    <Panel Id="PublishVideoPanel" _LCLZId="lclzPublishVideo" _LCLZText="Publish" Environment="Publisher3DEnvironment">
+      <Controls>
+        <Button Id="ExportVideoCommand" />
+      </Controls>
+
+      <PanelDropdown>
+        <Button Id="ExportVideoCommand" />
+      </PanelDropdown>
+    </Panel>
+  </CommandToolbar>
+  
+ </Toolbars>

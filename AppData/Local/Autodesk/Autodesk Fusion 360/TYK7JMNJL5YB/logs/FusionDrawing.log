@@ -1,0 +1,133 @@
+[22:13:51 - PID:12868] cmd will Start: FD_CMD
+[22:13:51 - PID:12868] doCommand(), json={"action":"newdoc","data":{"TempDir":"C:/Users/seiya/AppData/Local/Temp/Neutron/FusionFileOutput/57873941-c83a-4e9f-82e5-03ee4b2325e0/","AssetID":30,"SmallImageName":"small.png","DwgName":"Document1.dwg","FDocTemplate":false}}
+[22:13:51 - PID:12868] cmd Finished: FD_CMD Reason: 1
+[22:13:51 - PID:12868] cmd will Start: FD_CMD
+[22:13:51 - PID:12868] doCommand(), json={"action":"preferences","data":{"DefaultSheetSizeIFDOnly":"BOS","AnnotationFormat":"ISO","RevisionScope":"Drawing","TextHeightGroup":"Medium","ViewProjectionDir":"3rd Angle","ThinLineWidth":"0.25mm","TitleBlockDisplay":true,"DrawingUnits":"mm","OverrideFormatDefaults":"ON","DimensionUnits":"IFD","MediumLineWidth":"0.35mm","DefaultSheetSize":"A3","SmallTextHeight":"2.5 mm","MediumTextHeight":"3.5 mm","PopNewDrawingWarning":true,"LargeTextHeight":"5 mm","CustomLineWidthThick":"0.5","CustomSmallTextHeight":"0.07","CustomMediumTextHeight":"0.07","CustomLargeTextHeight":"0.07","Font":"Arial","LinearUnitFormat":"Decimal","FirstTimeDrawingLaunched":"ON","LinearDimensionPrecision":2,"AngularDimensionPrecision":2,"CustomLineWidthMedium":"0.35","UnitDisplay":false,"TrailingZero":false,"LeadingZero":true,"TitleBlock":"ISO","BorderDisplay":true,"LastVersionDrawingLaunched":"","ThickLineWidth":"0.5mm","LineWidthGroup":"Medium","CustomLineWidthThin":"0.25","DisplayLineWidth":false,"LinearUnitFormat":2,"HasUserTemplate":false}}
+[22:13:51 - PID:12868] cmd will Start: REGEN
+[22:13:51 - PID:12868] cmd Finished: REGEN Reason: 1
+[22:13:51 - PID:12868] cmd Finished: FD_CMD Reason: 1
+[22:13:51 - PID:12868] cmd will Start: FD_CMD
+[22:13:51 - PID:12868] doCommand(), json={"action":"autoPopulateTitleBlock","data":{"Type":"ISO","TITLE_1":"びーこあロボ_スタート","CREATED_BY":"亀岡 聖矢","PROJECT":"Admin Project"}}
+[22:13:52 - PID:12868] cmd Finished: FD_CMD Reason: 1
+[22:13:52 - PID:12868] cmd will Start: FD_CMD
+[22:13:52 - PID:12868] cmd Finished: FD_CMD Reason: 1
+[22:13:52 - PID:12868] cmd will Start: FD_CMD
+[22:13:52 - PID:12868] cmd Finished: FD_CMD Reason: 1
+[22:13:52 - PID:12868] cmd will Start: VIEWBASE
+[22:13:53 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 0 new: 1
+[22:13:53 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 1 new: 0
+[22:13:53 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 0 new: 1
+[22:13:53 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 1 new: 0
+[22:13:53 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 0 new: 1
+[22:13:54 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 1 new: 0
+[22:14:09 - PID:12868] cmd Finished: VIEWBASE Reason: 1
+[22:14:21 - PID:12868] cmd will Start: VIEWPROJ
+[22:15:14 - PID:12868] show MarkingMenu
+[22:15:20 - PID:12868] cmd Finished: VIEWPROJ Reason: 1
+[22:15:21 - PID:12868] cmd will Start: MOVE
+[22:15:21 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 0 new: 1
+[22:15:21 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 1 new: 0
+[22:15:21 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 0 new: 1
+[22:15:24 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 1 new: 0
+[22:15:24 - PID:12868] cmd Finished: MOVE Reason: 1
+[22:15:24 - PID:12868] cmd will Start: MOVE
+[22:15:24 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 0 new: 1
+[22:15:24 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 1 new: 0
+[22:15:24 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 0 new: 1
+[22:15:34 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 1 new: 0
+[22:15:34 - PID:12868] cmd Finished: MOVE Reason: 1
+[22:15:35 - PID:12868] cmd will Start: MOVE
+[22:15:35 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 0 new: 1
+[22:15:35 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 1 new: 0
+[22:15:35 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 0 new: 1
+[22:15:36 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 1 new: 0
+[22:15:36 - PID:12868] cmd Finished: MOVE Reason: 1
+[22:15:37 - PID:12868] show MarkingMenu
+[22:15:39 - PID:12868] cmd will Start: ERASE
+[22:15:41 - PID:12868] show MarkingMenu
+[22:15:43 - PID:12868] cmd Finished: ERASE Reason: 1
+[22:15:43 - PID:12868] cmd will Start: ERASE
+[22:15:47 - PID:12868] cmd Finished: ERASE Reason: 1
+[22:15:48 - PID:12868] cmd will Start: MOVE
+[22:15:48 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 0 new: 1
+[22:15:48 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 1 new: 0
+[22:15:48 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 0 new: 1
+[22:15:51 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 1 new: 0
+[22:15:51 - PID:12868] cmd Finished: MOVE Reason: 1
+[22:15:53 - PID:12868] cmd will Start: MOVE
+[22:15:53 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 0 new: 1
+[22:15:53 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 1 new: 0
+[22:15:53 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 0 new: 1
+[22:15:54 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 1 new: 0
+[22:15:54 - PID:12868] cmd Finished: MOVE Reason: 1
+[22:15:56 - PID:12868] start save Dwg  C:/Users/seiya/AppData/Local/Temp/Neutron/FusionFileOutput/57873941-c83a-4e9f-82e5-03ee4b2325e0/Document1.dwg
+[22:15:56 - PID:12868] end save Dwg saveAs ret: 0 isSaveAsDwg: 0
+[22:16:21 - PID:12868] cmd will Start: VIEWSECTION
+[22:16:29 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 0 new: 1
+[22:16:44 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 1 new: 0
+[22:16:44 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 0 new: 1
+[22:16:47 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 1 new: 0
+[22:16:47 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 0 new: 1
+[22:16:55 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 1 new: 0
+[22:16:58 - PID:12868] cmd Finished: VIEWSECTION Reason: 1
+[22:17:55 - PID:12868] cmd will Start: FD_CMD
+[22:17:55 - PID:12868] doCommand(), json={"action":"preferences","data":{"TitleBlockDisplay":false}}
+[22:17:55 - PID:12868] cmd Finished: FD_CMD Reason: 1
+[22:17:56 - PID:12868] cmd will Start: MOVE
+[22:17:56 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 0 new: 1
+[22:17:56 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 1 new: 0
+[22:17:56 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 0 new: 1
+[22:17:58 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 1 new: 0
+[22:17:58 - PID:12868] cmd Finished: MOVE Reason: 1
+[22:17:59 - PID:12868] cmd will Start: MOVE
+[22:18:01 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 0 new: 1
+[22:18:03 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 1 new: 0
+[22:18:03 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 0 new: 1
+[22:18:04 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 1 new: 0
+[22:18:04 - PID:12868] cmd Finished: MOVE Reason: 1
+[22:18:06 - PID:12868] cmd will Start: MOVE
+[22:18:06 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 0 new: 1
+[22:18:06 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 1 new: 0
+[22:18:06 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 0 new: 1
+[22:18:06 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 1 new: 0
+[22:18:08 - PID:12868] cmd Finished: MOVE Reason: 1
+[22:18:10 - PID:12868] cmd will Start: MOVE
+[22:18:10 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 0 new: 1
+[22:18:10 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 1 new: 0
+[22:18:10 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 0 new: 1
+[22:18:13 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 1 new: 0
+[22:18:13 - PID:12868] cmd Finished: MOVE Reason: 1
+[22:18:22 - PID:12868] cmd will Start: VIEWDETAIL
+[22:18:26 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 0 new: 1
+[22:18:40 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 1 new: 0
+[22:18:40 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 0 new: 1
+[22:18:50 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 1 new: 0
+[22:19:00 - PID:12868] cmd Finished: VIEWDETAIL Reason: 1
+[22:19:15 - PID:12868] cmd will Start: DIM
+[22:19:15 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 0 new: 1
+[22:19:15 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 1 new: 0
+[22:19:15 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 0 new: 1
+[22:19:20 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 1 new: 0
+[22:19:20 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 0 new: 1
+[22:19:27 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 1 new: 0
+[22:19:27 - PID:12868] sysVar change sent: SMARTDIMJIGMODELOCKMENU old: 0 new: 1
+[22:19:27 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 0 new: 1
+[22:19:28 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 1 new: 0
+[22:19:28 - PID:12868] sysVar change sent: SMARTDIMJIGMODELOCKMENU old: 1 new: 0
+[22:19:28 - PID:12868] cmd Finished: DIM Reason: 1
+[22:19:28 - PID:12868] cmd will Start: DIM
+[22:19:28 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 0 new: 1
+[22:19:28 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 1 new: 0
+[22:19:29 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 0 new: 1
+[22:19:46 - PID:12868] cmd Finished: DIM Reason: 3
+[22:19:46 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 1 new: 0
+[22:19:46 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 0 new: 1
+[22:19:46 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 1 new: 0
+[22:19:46 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 0 new: 1
+[22:19:46 - PID:12868] sysVar change sent: FDSHOWOSNAPOVERRIDE old: 1 new: 0
+[22:19:50 - PID:12868] cmd will Start: FD_DIMENSIONEDIT
+[22:20:05 - PID:12868] cmd Finished: FD_DIMENSIONEDIT Reason: 1
+[22:20:42 - PID:12868] start save Dwg  C:/Users/seiya/AppData/Local/Temp/Neutron/FusionFileOutput/57873941-c83a-4e9f-82e5-03ee4b2325e0/Document1.dwg
+[22:20:44 - PID:12868] end save Dwg saveAs ret: 0 isSaveAsDwg: 0
+[22:22:04 - PID:12868] closing dwg: C:/Users/seiya/AppData/Local/Temp/Neutron/FusionFileOutput/57873941-c83a-4e9f-82e5-03ee4b2325e0/Document1.dwg
+[22:22:04 - PID:12868] unloading AcFusionService.crx

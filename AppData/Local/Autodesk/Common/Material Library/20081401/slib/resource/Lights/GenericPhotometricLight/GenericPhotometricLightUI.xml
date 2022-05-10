@@ -1,0 +1,193 @@
+<?xml version="1.0" ?>
+<!DOCTYPE adsui SYSTEM "../../ui.dtd">
+<adsui version="2.0">
+  <PageInfo>
+    <Title>
+      Generic Photometric Light
+    </Title>
+  </PageInfo>
+  <Fields>
+    
+    <StackPanel id="base" label="Fixture" orientation="Vertical" expanded="true">
+      <Boolean id="on" label="On:"/>
+      <Boolean id="lightobjectvisible" label="Light Visible:"/>
+      <ChooseList id="lightobjecttype" label="Type:">
+        <Choice id="origin" label="Point"/>
+        <Choice id="spot" label="Spot"/>
+        <Choice id="directional" label="Directional"/>
+      </ChooseList>
+      <ChooseList id="lightobjectareatype" label="Area Type:">
+        <Choice id="none" label="No Area"/>
+        <Choice id="rectangle" label="Rectangle"/>
+        <Choice id="line" label="Line"/>
+        <Choice id="disc" label="Disc"/>
+        <Choice id="sphere" label="Sphere"/>
+        <Choice id="cylinder" label="Cylinder"/>
+      </ChooseList>
+      <StackPanel id="lightColorPanel" label="Light Color" orientation="Vertical">
+        <Color id="filterColor" label="Filter Color:"/>
+        <ChooseList id="lightColorUnits" label="Light Color Units:">
+          <Choice id="kelvin" label="Kelvin"/>
+          <Choice id="rgb" label="RGB"/>
+        </ChooseList>
+        <StackPanel id="kelvinPanel" label="Kelvin Color" orientation="Vertical">
+          <ChooseList id="lightTempPresets" label="Light Temperature:">
+            <Choice id="halogenWarm" label="Halogen (Warm)"/>
+            <Choice id="halogen" label="Halogen"/>
+            <Choice id="halogenCool" label="Halogen (Cool)"/>
+            <Choice id="a_incandescent" label="Incandescent Filament Lamp"/>
+            <Choice id="f4_fluorescentWarmWhite" label="Fluorescent (Warm White)"/>
+            <Choice id="f2_fluorescentCoolWhite" label="Fluorescent (Cool White)"/>
+            <Choice id="f3_fluorescentWhite" label="Fluorescent (White)"/>
+            <Choice id="f5_fluorescentDaylight" label="Fluorescent (Daylight)"/>
+            <Choice id="f6_fluorescentLightWhite" label="Fluorescent (Light White)"/>
+            <Choice id="ceramicWarm" label="HID Ceramic Metal Halide (Warm)"/>
+            <Choice id="ceramicCool" label="HID Ceramic Metal Halide (Cool)"/>
+            <Choice id="quartzWarm" label="HID Quartz Metal Halide (Warm)"/>
+            <Choice id="quartz" label="HID Quartz Metal Halide"/>
+            <Choice id="quartzCool" label="HID Quartz Metal Halide (Cool)"/>
+            <Choice id="mercury" label="HID Mercury"/>
+            <Choice id="xenon" label="HID Xenon"/>
+            <Choice id="highPressureSodium" label="HID High Pressure Sodium"/>
+            <Choice id="lowPressureSodium" label="HID Low Pressure Sodium"/>
+            <Choice id="d65" label="D65 Illuminant (Reference White)"/>
+            <Choice id="d50" label="D50 Illuminant (Reference White)"/>
+            <Choice id="custom" label="Custom"/>
+          </ChooseList>
+          <Float id="lightTemperature" label="Custom Light Temperature:"/>
+          <ChooseList id="colorShifting" label="Color Shifting:">
+            <Choice id="none" label="None"/>
+            <Choice id="std_incandescent" label="Standard Incandescent Light"/>
+          </ChooseList>
+        </StackPanel>
+        <Color id="rgbLightColor" label="Light Color:"/>
+      </StackPanel>
+      <StackPanel id="intensitygroup" label="Intensity" orientation="Vertical">
+        <ChooseList id="intensityUnits" label="Intensity Units:">
+          <Choice id="candela" label="candelas"/>
+          <Choice id="lumen" label="lumens"/>
+          <Choice id="lux_at" label="lux at"/>
+          <Choice id="watts" label="watts"/>
+          <Choice id="unitless" label="unitless"/>
+        </ChooseList>
+        <Float id="intensityValue" label="Value:"/>
+        <Float id="illuminanceAt" label="At (meters):"/>
+        <Float id="electricalEfficiency" label="Electrical Efficiency (lm/W):"/>
+        <StackPanel id="dimmerPanel" label="Dimming" orientation="Vertical">
+          <Float id="dimmer" label="Multiplier:"/>
+          <Float id="lightLossFactor" label="Light Loss Factor:"/>
+        </StackPanel>
+      </StackPanel>
+      <StackPanel id="area" label="Area" orientation="Vertical">
+        <StackPanel id="rect" label="Rectangle" orientation="Vertical">
+          <Float id="rectangle_width" label="Width:"/>
+          <Float id="rectangle_length" label="Length:"/>
+        </StackPanel>
+        <StackPanel id="disc" label="Disc" orientation="Vertical">
+          <Vector3 id="disc_normal" label="Normal:"/>
+          <Float id="disc_radius" label="Radius:"/>
+        </StackPanel>
+        <StackPanel id="cylinder" label="Cylinder" orientation="Vertical">
+          <Vector3 id="cylinder_axis" label="Axis:"/>
+          <Float id="cylinder_radius" label="Radius:"/>
+        </StackPanel>
+        <StackPanel id="sphere" label="Sphere" orientation="Vertical">
+          <Float id="sphere_radius" label="Radius:"/>
+        </StackPanel>
+      </StackPanel>
+    </StackPanel>
+    
+    <StackPanel id="shadows" label="Shadows" orientation="Vertical">
+      <Boolean id="shadowOn" label="Compute Shadows:"/>
+      <Color id="shadowCol" label="Color:"/>
+      <Boolean id="lightAffectShadowCol" label="Light Affects Color:"/>
+      <StackPanel id="shadowColorMap" label="Shadow Color Map" orientation="Vertical">
+        <Boolean id="useShadowColMap" label="Use Shadow Color Map:"/>
+        <!--String id="shadowColMap" label="File Name:"/-->
+      </StackPanel>
+      <StackPanel id="atmosShadows" label="Atmospheric Shadows" orientation="Vertical">
+        <Boolean id="atmosShadowOn" label="On:"/>
+        <Float id="atmosShadowOpacity" label="Opacity:"/>
+        <Float id="atmosShadowColAmnt" label="Amount:"/>
+      </StackPanel>
+    </StackPanel>
+    
+    <StackPanel id="effects" label="Effects" orientation="Vertical">
+      <Float id="contrast" label="Contrast:"/>
+      <Float id="softDiffEdges" label="Soften Diffuse Edges:"/>
+      <StackPanel id="illumination" label="Illumination" orientation="Vertical">
+        <Boolean id="diffuse" label="Diffuse:"/>
+        <Boolean id="specular" label="Specular:"/>
+        <Boolean id="ambientOnly" label="Ambient Only:"/>
+      </StackPanel>
+      <StackPanel id="projectionMaps" label="Projection Maps" orientation="Vertical">
+        <Boolean id="projMapOn" label="On:"/>
+        <!--String id="projMap" label="File Name:"/-->
+      </StackPanel>
+    </StackPanel>
+    
+    <StackPanel id="lightDistribution" label="Light Distribution" orientation="Vertical">
+      <ChooseList id="distribution" label="Distribution:">
+        <Choice id="isotropic" label="Uniform"/>
+        <Choice id="spot" label="Spot"/>
+        <Choice id="diffuse" label="Diffuse"/>
+        <Choice id="web" label="Use Light Profile"/>
+      </ChooseList>
+      
+      <StackPanel id="spot" label ="Spot" orientation="Vertical">
+        <Float id="hotSpot" label="Hot Spot:" tooltip="Hot spot, in radians"/>
+        <Float id="fallOff" label="Fall Off:" tooltip="Spot width, in radians"/>
+      </StackPanel>
+      
+      <StackPanel id="web" label="Web" orientation="Vertical">
+        <String id="lightProfileFileName" label="Light Profile:" tooltip="IES light profile file name"/>
+        <Vector3 id="webRotation" label="Rotation:" tooltip="Web spatial rotation"/>
+        <Boolean id="webHasSymmetry" label="Symmetric:"/>
+      </StackPanel>
+    </StackPanel>
+    
+    <StackPanel id="photon" label="Photons" orientation="Vertical">
+      <Float id="lightobjectexponent" label="Attenuation:" tooltip="Magnitude of photon attenuation"/>
+    </StackPanel>
+    
+    <StackPanel id="standardLight" label="Standard Light Parameters" orientation="Vertical">
+      <Float id="decayStartDistance"
+           label="Decay Start:"/>
+
+      <ChooseList id="decayType"
+              label="Decay Type:">
+        <Choice id="none"
+                     label="None"/>
+        <Choice id="inverse"
+                     label="Inverse"/>
+        <Choice id="inverseSquare"
+                     label="Inverse Square"/>
+      </ChooseList>
+
+      <Boolean id="nearAttenuationOn"
+               label="Near Attenuation:"/>
+
+      <Float id="nearAttenuationStart"
+           label="Start Point:"/>
+
+      <Float id="nearAttenuationEnd"
+           label="End Point:"/>
+
+      <Boolean id="farAttenuationOn"
+               label="Far Attenuation:"/>
+
+      <Float id="farAttenuationStart"
+           label="Start Point:"/>
+
+      <Float id="farAttenuationEnd"
+           label="End Point:"/>
+
+      <Color id="ambientColor"
+             label="Ambient Color:"/>
+
+      <Color id="specularColor"
+             label="Specular Color:"/>
+    </StackPanel>
+
+  </Fields>
+</adsui>

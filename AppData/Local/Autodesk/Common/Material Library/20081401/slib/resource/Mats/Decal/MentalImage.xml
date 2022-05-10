@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+    <implementation render="MentalImage">
+      <language name="MentalRaySL" version="3.6"/>
+      <api name="MentalRay" version="3.6"/>
+      <root_bindings name="root"/>
+      <bindings target="shader" name="root">
+        <desc val="mi.phenomenon/include/adsk_Mtl_Decal.mi" tag="adsk_Mtl_Decal_V2"/>
+        <map_interface source="surface_material" destination="m.surface_material"/>
+      <map_interface source="decal-1" destination="m.decal"/>
+      <map_interface source="top_left-1" destination="m.top_left"/>
+      <map_interface source="top_right-1" destination="m.top_right"/>
+      <map_interface source="bottom_right-1" destination="m.bottom_right"/>
+      <map_interface source="bottom_left-1" destination="m.bottom_left"/>
+        <!--map_interface source="decal-2" destination="m.decal"/-->
+        <!--map_interface source="top_right-2" destination="m.top_right"/>
+        <map_interface source="bottom_left-2" destination="m.bottom_left"/-->
+      </bindings>
+    </implementation>

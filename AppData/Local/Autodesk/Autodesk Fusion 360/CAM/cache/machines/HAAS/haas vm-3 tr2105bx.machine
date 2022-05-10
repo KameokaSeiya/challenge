@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<machine xmlns="http://www.hsmworks.com/xml/2009/machine" uuid="7E69320C-EF9D-478B-B929-F6B12663BC2F" version="1.0">
+  <description />
+  <model>VM-3 TR2105BX</model>
+  <vendor>HAAS</vendor>
+  <coolant options="FLOOD" />
+  <axis actuator="linear" axis="0 1 0" coordinate="1" id="Y" link="table" range="0mm 550mm" resolution="0.0001mm" />
+  <axis actuator="linear" axis="1 0 0" coordinate="0" id="X" link="table" range="0mm 650mm" resolution="0.0001mm" />
+  <axis actuator="linear" axis="0 0 1" coordinate="2" id="Z" link="head" range="0mm 400mm" resolution="0.0001mm" />
+  <axis actuator="rotational" axis="1 0 0" coordinate="X" id="U" link="table" range="-30deg 120deg" />
+  <axis actuator="rotational" axis="0 0 1" coordinate="Y" id="V" link="table" range="-999.999deg 999.999deg" />
+</machine>

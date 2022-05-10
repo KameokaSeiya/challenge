@@ -1,0 +1,39 @@
+<job id='delayed_purge'>
+    <runtime>
+        <unnamed name='ROOT' helpstring='The path of the root directory to remove' many='False' required='True'/>
+        <named name='Delay' helpstring='The number of seconds to wait before performing the purge' required='False' type='string'/>
+    </runtime>
+    <script language='JScript'>
+        try
+        {
+            var oFSO = WScript.CreateObject('Scripting.FileSystemObject');
+            var oNamedArgs = WScript.Arguments.Named;
+            var oShell = WScript.CreateObject('WScript.Shell');
+            var delay = 5;
+
+            try
+            {
+                if (oNamedArgs.Exists('Delay')) {
+                    delay = Number(oNamedArgs.Item('Delay'))
+                }
+            } catch (err) {
+                // Keep the default
+            }
+
+            var root = WScript.Arguments.Unnamed.Item(0)
+            if (oFSO.FolderExists(root)) {
+                WScript.Sleep(delay * 1000);
+
+                oFSO.DeleteFolder(root, true);
+            }
+
+        } catch(err) {
+            //lines = [];
+            //for (p in err) {
+            //    lines.push( p + '=' + err[p] );
+            //}
+            //WScript.Echo(lines.join('\n'));
+            WScript.Quit(1);
+        }
+    </script>
+</job>

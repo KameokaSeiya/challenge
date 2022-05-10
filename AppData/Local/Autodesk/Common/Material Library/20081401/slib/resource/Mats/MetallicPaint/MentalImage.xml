@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+    <implementation render="MentalImage">
+      <language name="MentalRaySL" version="3.7"/>
+      <api name="MentalRay" version="3.7"/>
+      <root_bindings name="root"/>
+      <bindings target="shader" name="root">
+        <desc val="mi.phenomenon/include/adsk_Mtl_MetallicPaint_V2.mi" tag="adsk_Mtl_MetallicPaint_V2"/>
+
+		<map_interface source="metallicpaint_base_color_by_object" destination="m.coat_base_color_by_object"/>
+        <map_interface source="metallicpaint_base_color" destination="m.coat_base_color"/>
+        <map_interface source="metallicpaint_base_highlightspread" destination="m.coat_base_highlight_spread"/>
+		
+        <map_interface source="metallicpaint_flecks" destination="m.flecks_enable"/>
+		<map_interface source="metallicpaint_flecks_color_by_object" destination="m.flecks_color_by_object"/>
+        <map_interface source="metallicpaint_flecks_color" destination="m.flecks_color"/>
+        <map_interface source="metallicpaint_flecks_size" destination="m.flecks_size"/>
+		
+        <map_interface source="metallicpaint_pearl" destination="m.pearl_enable"/>
+        <map_interface source="metallicpaint_pearl_amount" destination="m.pearl_amount"/>
+		<map_interface source="metallicpaint_pearl_color_by_object" destination="m.pearl_color_by_object"/>
+        <map_interface source="metallicpaint_pearl_color" destination="m.pearl_color"/>
+        <map_interface source="metallicpaint_pearl_ior" destination="m.pearl_ior"/>
+
+        <map_interface source="metallicpaint_topcoat" destination="m.top_coat_types"/>
+        <map_interface source="metallicpaint_topcoat_glossy" destination="m.top_coat_custom_glossy"/>
+        <map_interface source="metallicpaint_topcoat_falloff" destination="m.top_coat_custom_falloff"/>
+
+        <map_interface source="metallicpaint_finish" destination="m.finish"/>
+        <map_interface source="metallicpaint_finish_peelamount" destination="m.finish_peel_amount"/>
+
+	<map_interface source="common_Tint_toggle" destination="m.tint_enable"/>
+	<map_interface source="common_Tint_color" destination="m.tint_color"/>
+
+        <map_interface source="metallicpaint_ao_on" destination="o.ao_on"/>
+        <map_interface source="metallicpaint_ao_samples" destination="o.ao_samples"/>
+        <map_interface source="metallicpaint_ao_distance" destination="o.ao_distance"/>
+        <map_interface source="metallicpaint_ao_details" destination="o.ao_do_details"/>
+        <map_interface source="metallicpaint_roundcorners_on" destination="o.roundcorners_on"/>
+        <map_interface source="metallicpaint_roundcorners_radius" destination="o.roundcorners_radius"/>
+        <map_interface source="metallicpaint_roundcorners_allow_different_materials" destination="o.roundcorners_allow_different_materials"/>
+        <map_interface source="metallicpaint_refl_depth" destination="p.refl_depth"/>
+        <map_interface source="metallicpaint_reflection_glossy_samples" destination="p.reflection_glossy_samples"/>
+		<map_interface source="mode" destination="mode"/>
+		 
+      </bindings>
+    </implementation>

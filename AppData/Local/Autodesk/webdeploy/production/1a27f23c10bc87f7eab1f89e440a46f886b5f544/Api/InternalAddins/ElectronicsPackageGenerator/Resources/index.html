@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="jquery-1.10.2.js"></script>  
+    <script src="jquery-ui.js"></script> 
+    <title>Fusion Package Generator</title>
+
+    <style>
+        @font-face {
+            font-family: "Artifakt Element";
+            src: url("https://fonts.autodesk.com/ArtifaktElement/WOFF2/Artifakt%20Element%20Book.woff2") format("woff2"),
+            url("https://fonts.autodesk.com/ArtifaktElement/WOFF/Artifakt%20Element%20Book.woff") format("woff"),
+            url("https://fonts.autodesk.com/ArtifaktElement/TTF/Artifakt%20Element%20Book.ttf") format("ttf");
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            margin: 0;
+            overflow:hidden;
+        }
+        ul, li {
+            list-style: none;
+        }
+        
+        .topnav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+        .topnav input[type=text] {
+            position:fixed;
+            width: calc(100% - 70px);
+            outline: none;
+            margin-left: 4px;
+            margin-top: 8px;
+            padding: 4px;
+            visibility: hidden;
+            border: 1px solid lightgrey;
+            border-radius: 3px;
+        }
+
+        img[type="image"] {
+            margin-top: 8px;
+            margin-right: 22px;
+            float: right;
+            padding: 3px;
+            display: flex;
+        }
+
+        .topnav img[id="closeButton"] {
+            float: right;
+            display: none;
+        }
+
+        #container {
+            padding: 2px 2px;
+            display: flex;
+            flex-wrap: wrap;
+            overflow-y: scroll;
+            margin-top: 40px;
+        }
+
+        .itemWrap {
+            width: 140px;
+            height: 165px;
+            cursor: pointer;
+            margin: 2px;
+            padding-left: 8px;
+            user-select: none;
+            border: 1px solid lightgrey;
+        }
+
+        .itemWrap .imgWrap {
+            width: 100%;
+            text-align: center;
+        }
+        .itemWrap .imgWrap img {
+            width: 100%;
+            height: 100%;
+        }
+        .itemWrap .nameWrap {
+            float: left;
+            width: 100%;
+            font: 13px "Artifakt Element", sans-serif !important;
+            font-weight: bold;
+            line-height: 16px;
+            text-align: center;
+            padding-bottom: 2px;
+            overflow-wrap: break-word;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+        }
+        .ui-tooltip {
+            padding: 8px;
+            position: absolute;
+            z-index: 9999;
+            max-width: 300px;
+        }
+        body .ui-tooltip {
+            background-color:#505050;
+            border-radius: 12px;
+            color: white;
+            border: #000000;
+            text-align: center;	
+            font: 16px "Artifakt Element", sans-serif !important;
+        }
+    </style>
+</head>
+<body onresize="resizeContainer()"></body>
+    <div class="topnav">
+        <input type="text" id="myInput" onkeyup="search()" placeholder="Search Type" title="Type in a name">
+        <img src="./img/search-button.svg" id="searchButton" type="image" onclick="showSearchBox()">
+        <img src="./img/close-button.svg" id="closeButton" type="image" onclick="hideSearchBox()">
+    </div>    
+    <ul id="container"></ul>
+    <script>
+        function resizeContainer(){
+            var height = $(window).height() - 40;
+            //set container height on resize and search
+            if (document.getElementById("container").scrollHeight < $(window).height()){
+                $("#container").height("auto");
+            }
+            else {
+                $("#container").height(height);
+            }    
+        }    
+        
+        const localeStrings = {
+            "en": {
+                "SOIC_SOP": "SOIC, SOP",
+                "QFP": "QFP",
+                "CFP": "CFP",
+                "CQFP": "CQFP",
+                "QFN": "QFN",
+                "SOT23": "SOT23",
+                "SOTFL": "SOTFL",
+                "SOT223": "SOT223",
+                "TO_DPAK": "TO, DPAK",
+                "SOT143": "SOT143",
+                "CHIP": "Chip",
+                "SOD": "SOD",
+                "MOLDED_BODY": "Molded Body",
+                "SODFL": "SODFL",
+                "DFN_2": "DFN-2",
+                "DFN_3": "DFN-3",
+                "DFN_4": "DFN-4",
+                "ECAP": "E-Cap",
+                "CRYSTAL": "Crystal",
+                "BGA": "BGA",
+                "MELF": "MELF",
+                "CHIP_ARRAY_TWO_SIDE_FLAT_CONCAVE": "Chip Array, 2 Side Flat/Concave",
+                "CHIP_ARRAY_FOUR_SIDE_FLAT_CONCAVE": "Chip Array, 4 Side Flat/Concave",
+                "CHIP_ARRAY_TWO_SIDE_CONVEX": "Chip Array, 2 Side Convex",
+                "PLCC": "PLCC",
+                "OSCILLATOR_CORNER_CONCAVE": "Oscillator Corner Concave",
+                "OSCILLATOR_J_LEAD": "Oscillator J-Lead",
+                "OSCILLATOR_L_BEND": "Oscillator L-Bend",
+                "SOJ": "SOJ",
+                "AXIAL": "Axial",
+                "DIP": "DIP",
+                "PIN_HEADER_STRAIGHT": "Pin Header (Male) Straight",
+                "PIN_HEADER_RA": "Pin Header (Male) Right Angle",
+                "RECEPTACLE_HEADER_STRAIGHT": "Receptacle Header (Female) Straight",
+                "RECEPTACLE_HEADER_RA": "Receptacle Header (Female) Right Angle",
+                "SON_DFN": "SON (DFN)",
+                "RADIAL_GENERIC": "Radial Generic (Round)",
+                "RADIAL_LED": "Radial LED (Round)",
+                "CRYSTAL_HC49": "Crystal (HC49)",
+                "FEMALE_STANDOFF": "Female Standoff/Spacer",
+                "MALE_FEMALE_STANDOFF": "Male-Female Standoff",
+                "SNAP_LOCK": "Snap Lock",
+                "CHIP_LED": "Chip LED",
+                "RECEPTACLE_HEADER_SMD": "Surface Mount Receptacle Header (Female) Straight",
+                "PIN_HEADER_STRAIGHT_SMD": "Surface Mount Pin Header (Male) Straight",
+                "PIN_HEADER_RIGHT_ANGLE_SMD" : "Surface Mount Pin Header (Male) Right Angle",
+                "DIP_SOCKET" : "DIP Socket"
+            },
+            "de": {
+                "SOIC_SOP": "SOIC, SOP",
+                "QFP": "QFP",
+                "CFP": "CFP",
+                "CQFP": "CQFP",
+                "QFN": "QFN",
+                "SOT23": "SOT23",
+                "SOTFL": "SOTFL",
+                "SOT223": "SOT223",
+                "TO_DPAK": "TO, DPAK",
+                "SOT143": "SOT143",
+                "CHIP": "Chip",
+                "SOD": "SOD",
+                "MOLDED_BODY": "Formen, generisch",
+                "SODFL": "SODFL",
+                "DFN_2": "DFN-2",
+                "DFN_3": "DFN-3",
+                "DFN_4": "DFN-4",
+                "ECAP": "E-Cap",
+                "CRYSTAL": "Quarz",
+                "BGA": "BGA",
+                "MELF": "MELF",
+                "CHIP_ARRAY_TWO_SIDE_FLAT_CONCAVE": "Chip Array, 2-seitig flach/konkav",
+                "CHIP_ARRAY_FOUR_SIDE_FLAT_CONCAVE": "Chip Array, 4-seitig flach/konkav",
+                "CHIP_ARRAY_TWO_SIDE_CONVEX": "Chip Array, 2-seitig konvex",
+                "PLCC": "PLCC",
+                "OSCILLATOR_CORNER_CONCAVE": "Oszillator, Ecken konkav",
+                "OSCILLATOR_J_LEAD": "Oszillator, Anschluss J-Form",
+                "OSCILLATOR_L_BEND": "Oszillator, Anschluss L-Form",
+                "SOJ": "SOJ",
+                "AXIAL": "Axial",
+                "DIP": "DIP",
+                "PIN_HEADER_STRAIGHT": "Steckerleiste, gerade",
+                "PIN_HEADER_RA": "Steckerleiste, abgewinkelt",
+                "RECEPTACLE_HEADER_STRAIGHT": "Buchsenleiste, gerade",
+                "RECEPTACLE_HEADER_RA": "Buchsenleiste, abgewinkelt",
+                "SON_DFN": "SON (DFN)",
+                "RADIAL_GENERIC": "Radial generisch (rund)",
+                "RADIAL_LED": "Radiale LED (rund)",
+                "CRYSTAL_HC49": "Quarz (HC49)",
+                "FEMALE_STANDOFF": "Abstandshalter, Innengewinde durchgehend",
+                "MALE_FEMALE_STANDOFF": "Abstandshalter, Außen-/Innengewinde",
+                "SNAP_LOCK": "Halter, Schnappverbindung",
+                "CHIP_LED": "Chip-LED",
+                "RECEPTACLE_HEADER_SMD": "Aufputz-Buchsenleiste, gerade",
+                "PIN_HEADER_STRAIGHT_SMD": "Aufputz-Stiftleiste (Stecker), gerade",
+                "PIN_HEADER_RIGHT_ANGLE_SMD" : "Aufputz-Stiftleiste (Stecker), rechter Winkel",
+                "DIP_SOCKET" : "DIP Socket"
+            },
+            "fr": {
+                "SOIC_SOP": "SOIC, SOP",
+                "QFP": "QFP",
+                "CFP": "CFP",
+                "CQFP": "CQFP",
+                "QFN": "QFN",
+                "SOT23": "SOT23",
+                "SOTFL": "SOTFL",
+                "SOT223": "SOT223",
+                "TO_DPAK": "TO, DPAK",
+                "SOT143": "SOT143",
+                "CHIP": "Puce",
+                "SOD": "SOD",
+                "MOLDED_BODY": "Corps moulé",
+                "SODFL": "SODFL",
+                "DFN_2": "DFN-2",
+                "DFN_3": "DFN-3",
+                "DFN_4": "DFN-4",
+                "ECAP": "E-Cap",
+                "CRYSTAL": "Crystal",
+                "BGA": "BGA",
+                "MELF": "MELF",
+                "CHIP_ARRAY_TWO_SIDE_FLAT_CONCAVE": "Tableau de puces, plat/concave à 2 côtés",
+                "CHIP_ARRAY_FOUR_SIDE_FLAT_CONCAVE": "Tableau de puces, plat/concave à 4 côtés",
+                "CHIP_ARRAY_TWO_SIDE_CONVEX": "Tableau de puces, convexe à 2 côtés",
+                "PLCC": "PLCC",
+                "OSCILLATOR_CORNER_CONCAVE": "Oscillateur à angles concaves",
+                "OSCILLATOR_J_LEAD": "Oscillateur à broche J-Lead",
+                "OSCILLATOR_L_BEND": "Oscillateur à broches L-Bend",
+                "SOJ": "SOJ",
+                "AXIAL": "Axial",
+                "DIP": "DIP",
+                "PIN_HEADER_STRAIGHT": "Connecteur de broche (mâle) - Droit",
+                "PIN_HEADER_RA": "Connecteur de broche (mâle) - Angle droit",
+                "RECEPTACLE_HEADER_STRAIGHT": "Connecteur de réceptacle (femelle) - Droit",
+                "RECEPTACLE_HEADER_RA": "Connecteur de réceptacle (femelle) - Angle droit",
+                "SON_DFN": "SON (DFN)",
+                "RADIAL_GENERIC": "Générique radial (arrondi)",
+                "RADIAL_LED": "LED radiale (arrondie)",
+                "CRYSTAL_HC49": "Cristal (HC49)",
+                "FEMALE_STANDOFF": "Espaceur/Douille femelle",
+                "MALE_FEMALE_STANDOFF": "Douille mâle-femelle",
+                "SNAP_LOCK": "Verrou d'accrochage",
+                "CHIP_LED": "LED de puce",
+                "RECEPTACLE_HEADER_SMD": "Connecteur de réceptacle (femelle) droit pour le montage de surface",
+                "PIN_HEADER_STRAIGHT_SMD": "Connecteur de broche (mâle) de montage de surface droit",
+                "PIN_HEADER_RIGHT_ANGLE_SMD" : "Connecteur de broche (mâle) de montage de surface angle droit",
+                "DIP_SOCKET" : "DIP Socket"
+            },
+            "it": {
+                "SOIC_SOP": "SOIC, SOP",
+                "QFP": "QFP",
+                "CFP": "PCP",
+                "CQFP": "CQFP",
+                "QFN": "QFN",
+                "SOT23": "SOT23",
+                "SOTFL": "SOTFL",
+                "SOT223": "SOT223",
+                "TO_DPAK": "TO, DPAK",
+                "SOT143": "SOT143",
+                "CHIP": "Chip",
+                "SOD": "SOD",
+                "MOLDED_BODY": "Corpo stampato",
+                "SODFL": "SODFL",
+                "DFN_2": "DFN-2",
+                "DFN_3": "DFN-3",
+                "DFN_4": "DFN-4",
+                "ECAP": "Calotta elettronica",
+                "CRYSTAL": "Cristallo",
+                "BGA": "BGA",
+                "MELF": "MELF",
+                "CHIP_ARRAY_TWO_SIDE_FLAT_CONCAVE": "Serie di chip, 2 lati piatto/concavo",
+                "CHIP_ARRAY_FOUR_SIDE_FLAT_CONCAVE": "Serie di chip, 4 lati piatto/concavo",
+                "CHIP_ARRAY_TWO_SIDE_CONVEX": "Serie di chip, 2 lati convesso",
+                "PLCC": "PLCC",
+                "OSCILLATOR_CORNER_CONCAVE": "Angolo oscillatore concavo",
+                "OSCILLATOR_J_LEAD": "Oscillatore con capocorda a J",
+                "OSCILLATOR_L_BEND": "Oscillatore a L",
+                "SOJ": "SOJ",
+                "AXIAL": "Assiale",
+                "DIP": "DIP",
+                "PIN_HEADER_STRAIGHT": "Connettore (maschio) diritto",
+                "PIN_HEADER_RA": "Connettore (maschio) con angolo a destra",
+                "RECEPTACLE_HEADER_STRAIGHT": "Connettore (femmina) dritto",
+                "RECEPTACLE_HEADER_RA": "Connettore (femmina) con angolo a destra",
+                "SON_DFN": "SON (DFN)",
+                "RADIAL_GENERIC": "Generico radiale (circolare)",
+                "RADIAL_LED": "LED radiale (circolare)",
+                "CRYSTAL_HC49": "Cristallo (HC49)",
+                "FEMALE_STANDOFF": "Distanziale femmina",
+                "MALE_FEMALE_STANDOFF": "Distanziale maschio-femmina",
+                "SNAP_LOCK": "Blocco a innesto",
+                "CHIP_LED": "LED chip",
+                "RECEPTACLE_HEADER_SMD": "Connettore con montaggio su superficie (femmina) dritto",
+                "PIN_HEADER_STRAIGHT_SMD": "Connettore (maschio) dritto con montaggio su superficie",
+                "PIN_HEADER_RIGHT_ANGLE_SMD" : "Connettore (maschio) con angolo retto e montaggio su superficie",
+                "DIP_SOCKET" : "DIP Socket"
+            },
+            "ja": {
+                "SOIC_SOP": "SOIC、SOP",
+                "QFP": "QFP",
+                "CFP": "CFP",
+                "CQFP": "CQFP",
+                "QFN": "QFN",
+                "SOT23": "SOT23",
+                "SOTFL": "SOTFL",
+                "SOT223": "SOT223",
+                "TO_DPAK": "TO、DPAK",
+                "SOT143": "SOT143",
+                "CHIP": "チップ",
+                "SOD": "SOD",
+                "MOLDED_BODY": "成形ボディ",
+                "SODFL": "SODFL",
+                "DFN_2": "DFN-2",
+                "DFN_3": "DFN-3",
+                "DFN_4": "DFN-4",
+                "ECAP": "E-Cap",
+                "CRYSTAL": "水晶",
+                "BGA": "BGA",
+                "MELF": "MELF",
+                "CHIP_ARRAY_TWO_SIDE_FLAT_CONCAVE": "チップ アレイ、2 面フラット/凹型",
+                "CHIP_ARRAY_FOUR_SIDE_FLAT_CONCAVE": "チップ アレイ、4 面フラット/凹型",
+                "CHIP_ARRAY_TWO_SIDE_CONVEX": "チップ アレイ、2 面凸型",
+                "PLCC": "PLCC",
+                "OSCILLATOR_CORNER_CONCAVE": "オシレータ コーナー凹型",
+                "OSCILLATOR_J_LEAD": "オシレータ J リード",
+                "OSCILLATOR_L_BEND": "オシレータ L ベンド",
+                "SOJ": "SOJ",
+                "AXIAL": "軸",
+                "DIP": "DIP",
+                "PIN_HEADER_STRAIGHT": "ピン ヘッダ(オス)ストレート",
+                "PIN_HEADER_RA": "ピン ヘッダ(オス)ライト アングル",
+                "RECEPTACLE_HEADER_STRAIGHT": "ソケット ヘッダ(メス)ストレート",
+                "RECEPTACLE_HEADER_RA": "ソケット ヘッダ(メス)ライト アングル",
+                "SON_DFN": "SON (DFN)",
+                "RADIAL_GENERIC": "ラジアル汎用(丸)",
+                "RADIAL_LED": "ラジアル LED (丸)",
+                "CRYSTAL_HC49": "水晶(HC49)",
+                "FEMALE_STANDOFF": "メス スタンドオフ/スペーサ",
+                "MALE_FEMALE_STANDOFF": "オス-メス スタンドオフ",
+                "SNAP_LOCK": "スナップ ロック",
+                "CHIP_LED": "チップの LED",
+                "RECEPTACLE_HEADER_SMD": "表面実装ソケット ヘッダ(メス)ストレート",
+                "PIN_HEADER_STRAIGHT_SMD": "サーフェス マウント ストレートのピン ヘッダ(オス)",
+                "PIN_HEADER_RIGHT_ANGLE_SMD" : "サーフェス マウント ピン ヘッダ(オス)ライト アングル",
+                "DIP_SOCKET" : "DIP Socket"
+            },
+            "zh": {
+                "SOIC_SOP": "SOIC、SOP",
+                "QFP": "QFP",
+                "CFP": "CFP",
+                "CQFP": "CQFP",
+                "QFN": "QFN",
+                "SOT23": "SOT23",
+                "SOTFL": "SOTFL",
+                "SOT223": "SOT223",
+                "TO_DPAK": "TO、DPAK",
+                "SOT143": "SOT143",
+                "CHIP": "芯片",
+                "SOD": "SOD",
+                "MOLDED_BODY": "成型主体",
+                "SODFL": "SODFL",
+                "DFN_2": "DFN-2",
+                "DFN_3": "DFN-3",
+                "DFN_4": "DFN-4",
+                "ECAP": "电解电容",
+                "CRYSTAL": "晶振",
+                "BGA": "BGA",
+                "MELF": "MELF",
+                "CHIP_ARRAY_TWO_SIDE_FLAT_CONCAVE": "芯片阵列，2 侧平坦/凹面",
+                "CHIP_ARRAY_FOUR_SIDE_FLAT_CONCAVE": "芯片阵列，4 侧平坦/凹面",
+                "CHIP_ARRAY_TWO_SIDE_CONVEX": "芯片阵列，2 侧凸面",
+                "PLCC": "PLCC",
+                "OSCILLATOR_CORNER_CONCAVE": "振荡器转角凹面",
+                "OSCILLATOR_J_LEAD": "振荡器 J 型脚",
+                "OSCILLATOR_L_BEND": "振荡器 L 型弯曲",
+                "SOJ": "SOJ",
+                "AXIAL": "轴向",
+                "DIP": "DIP",
+                "PIN_HEADER_STRAIGHT": "引脚柱(外螺纹)直通",
+                "PIN_HEADER_RA": "引脚柱(外螺纹)直角",
+                "RECEPTACLE_HEADER_STRAIGHT": "插座头(内螺纹)直通",
+                "RECEPTACLE_HEADER_RA": "插座头(内螺纹)直角",
+                "SON_DFN": "SON (DFN)",
+                "RADIAL_GENERIC": "径向常规(圆形)",
+                "RADIAL_LED": "径向 LED (圆形)",
+                "CRYSTAL_HC49": "晶振(HC49)",
+                "FEMALE_STANDOFF": "内螺纹六角钉/垫圈",
+                "MALE_FEMALE_STANDOFF": "内螺纹-外螺纹六角钉",
+                "SNAP_LOCK": "捕捉锁定",
+                "CHIP_LED": "芯片 LED",
+                "RECEPTACLE_HEADER_SMD": "明装插座头(内螺纹)直通",
+                "PIN_HEADER_STRAIGHT_SMD": "明装引脚柱(外螺纹)直通",
+                "PIN_HEADER_RIGHT_ANGLE_SMD" : "明装引脚柱(外螺纹)直角",
+                "DIP_SOCKET" : "DIP Socket"
+            },
+            "KOR": {
+                "SOIC_SOP": "SOIC, SOP",
+                "QFP": "QFP",
+                "CFP": "CFP",
+                "CQFP": "CQFP",
+                "QFN": "QFN",
+                "SOT23": "SOT23",
+                "SOTFL": "SOTFL",
+                "SOT223": "SOT223",
+                "TO_DPAK": "TO, DPAK",
+                "SOT143": "SOT143",
+                "CHIP": "칩",
+                "SOD": "SOD",
+                "MOLDED_BODY": "몰딩된 본체",
+                "SODFL": "SODFL",
+                "DFN_2": "DFN-2",
+                "DFN_3": "DFN-3",
+                "DFN_4": "DFN-4",
+                "ECAP": "E-캡",
+                "CRYSTAL": "크리스탈",
+                "BGA": "BGA",
+                "MELF": "MELF",
+                "CHIP_ARRAY_TWO_SIDE_FLAT_CONCAVE": "칩 배열, 2면 플랫/오목",
+                "CHIP_ARRAY_FOUR_SIDE_FLAT_CONCAVE": "칩 배열, 4면 플랫/오목",
+                "CHIP_ARRAY_TWO_SIDE_CONVEX": "칩 배열, 2면 볼록",
+                "PLCC": "PLCC",
+                "OSCILLATOR_CORNER_CONCAVE": "오실레이터 구석 오목",
+                "OSCILLATOR_J_LEAD": "오실레이터 J-리드",
+                "OSCILLATOR_L_BEND": "오실레이터 L-절곡부",
+                "SOJ": "SOJ",
+                "AXIAL": "축",
+                "DIP": "DIP",
+                "PIN_HEADER_STRAIGHT": "핀 헤더(수) 직선",
+                "PIN_HEADER_RA": "핀 헤더(수) 직각",
+                "RECEPTACLE_HEADER_STRAIGHT": "리셉터클 헤더(암) 직선",
+                "RECEPTACLE_HEADER_RA": "리셉터클 헤더(암) 직각",
+                "SON_DFN": "SON(DFN)",
+                "RADIAL_GENERIC": "반지름 일반(원형)",
+                "RADIAL_LED": "반지름 LED(원형)",
+                "CRYSTAL_HC49": "크리스탈(HC49)",
+                "FEMALE_STANDOFF": "암 격리 절연기/스페이서",
+                "MALE_FEMALE_STANDOFF": "수-암 격리 절연기",
+                "SNAP_LOCK": "스냅 잠금",
+                "CHIP_LED": "칩 LED",
+                "RECEPTACLE_HEADER_SMD": "곡면 마운트 리셉터클 헤더(암) 직선",
+                "PIN_HEADER_STRAIGHT_SMD": "곡면 마운트 핀 헤더(수) 직선",
+                "PIN_HEADER_RIGHT_ANGLE_SMD" : "곡면 마운트 핀 헤더(수) 직각",
+                "DIP_SOCKET" : "DIP Socket"
+            },
+            "ESP": {
+                "SOIC_SOP": "SOIC, SOP",
+                "QFP": "QFP",
+                "CFP": "CFP",
+                "CQFP": "CQFP",
+                "QFN": "QFN",
+                "SOT23": "SOT23",
+                "SOTFL": "SOTFL",
+                "SOT223": "SOT223",
+                "TO_DPAK": "TO, DPAK",
+                "SOT143": "SOT143",
+                "CHIP": "Chip",
+                "SOD": "SOD",
+                "MOLDED_BODY": "Cuerpo moldeado",
+                "SODFL": "SODFL",
+                "DFN_2": "DFN-2",
+                "DFN_3": "DFN-3",
+                "DFN_4": "DFN-4",
+                "ECAP": "Remate E",
+                "CRYSTAL": "Cristal",
+                "BGA": "BGA",
+                "MELF": "MELF",
+                "CHIP_ARRAY_TWO_SIDE_FLAT_CONCAVE": "Matriz de chip, plana/cóncava de 2 lados",
+                "CHIP_ARRAY_FOUR_SIDE_FLAT_CONCAVE": "Matriz de chip, plana/cóncava de 4 lados",
+                "CHIP_ARRAY_TWO_SIDE_CONVEX": "Matriz de chip, convexa de 2 lados",
+                "PLCC": "PLCC",
+                "OSCILLATOR_CORNER_CONCAVE": "Esquina de oscilador cóncava",
+                "OSCILLATOR_J_LEAD": "Entrada/salida en J del oscilador",
+                "OSCILLATOR_L_BEND": "Codo en L del oscilador",
+                "SOJ": "SOJ",
+                "AXIAL": "Axial",
+                "DIP": "DIP",
+                "PIN_HEADER_STRAIGHT": "Cabeza de pasador (macho) recta",
+                "PIN_HEADER_RA": "Cabeza de pasador (macho) en ángulo recto",
+                "RECEPTACLE_HEADER_STRAIGHT": "Cabeza de receptáculo (hembra) recta",
+                "RECEPTACLE_HEADER_RA": "Cabeza de receptáculo (hembra) en ángulo recto",
+                "SON_DFN": "SON (DFN)",
+                "RADIAL_GENERIC": "Genérico radial (redondo)",
+                "RADIAL_LED": "LED radial (redondo)",
+                "CRYSTAL_HC49": "Cristal (HC49)",
+                "FEMALE_STANDOFF": "Separación/Separador hembra",
+                "MALE_FEMALE_STANDOFF": "Separación macho-hembra",
+                "SNAP_LOCK": "Bloqueo de forzado",
+                "CHIP_LED": "LED de chip",
+                "RECEPTACLE_HEADER_SMD": "Cabezas de receptáculo de montaje en superficie (hembra) rectas",
+                "PIN_HEADER_STRAIGHT_SMD": "Cabeza de pasador (macho) recta de montaje en superficie",
+                "PIN_HEADER_RIGHT_ANGLE_SMD" : "Ángulo recto de cabeza de pasador de montaje de superficie (macho)",
+                "DIP_SOCKET" : "DIP Socket"
+            }
+        }
+
+        var queryParameters = {};
+        location.search.substr(1).split("&").forEach(function(part) {
+            var item = part.split("=");
+            queryParameters[item[0]] = decodeURIComponent(item[1]);
+        });
+        var locale = queryParameters.locale || "en" 
+            
+        function hideSearchBox() {
+            var searchBox, searchButton, closeButton
+            searchBox = document.getElementById("myInput");
+            searchBox.style.visibility = "hidden"
+            searchBox.value = "";
+            search();
+            searchButton = document.getElementById("searchButton");
+            searchButton.style.display = "inline"
+            closeButton = document.getElementById("closeButton");
+            closeButton.style.display = "none"
+        }
+        function showSearchBox() {
+            var searchBox, searchButton, closeButton
+            searchBox = document.getElementById("myInput");
+            searchBox.style.visibility = "visible"
+            searchButton = document.getElementById("searchButton");
+            searchButton.style.display = "none"
+            closeButton = document.getElementById("closeButton");
+            closeButton.style.display = "inline"
+            searchBox.focus()
+        }
+        function search() {
+            var input, filter, ul, li, a, i, txtValue;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            ul = document.getElementById("container");
+            li = ul.getElementsByTagName("li");
+            for (i = 0; i < li.length; i++) {
+                a = li[i].getElementsByTagName("div")[1];
+                txtValue = a.textContent || a.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    li[i].style.display = "";
+                } else {
+                    li[i].style.display = "none";
+                }
+            }
+            resizeContainer()
+        }
+         const data = [{
+            name: localeStrings[locale].AXIAL,
+            type: 'axial_diode',
+            icon: './img/Axial.svg'
+        }, {
+            name: localeStrings[locale].BGA,
+            type: 'bga',
+            icon: './img/BGA.svg'
+        }, {
+            name: localeStrings[locale].CHIP,
+            type: 'chip',
+            icon: './img/Chip.svg'
+        }, {
+            name: localeStrings[locale].CHIP_ARRAY_TWO_SIDE_CONVEX,
+            type: 'chiparray2sideconvex',
+            icon: './img/ChipArray-2side-Convex.svg'
+        } , {
+            name: localeStrings[locale].CHIP_ARRAY_TWO_SIDE_FLAT_CONCAVE,
+            type: 'chiparray2sideflat',
+            icon: './img/ChipArray-2side-FlatConcave.svg'
+        }, {
+            name: localeStrings[locale].CHIP_ARRAY_FOUR_SIDE_FLAT_CONCAVE,
+            type: 'chiparray4sideflat',
+            icon: './img/ChipArray-4side-FlatConcave.svg'
+        }, {
+            name: localeStrings[locale].CHIP_LED,
+            type: 'chip_led',
+            icon: './img/Chip-Led.svg'
+        }, {
+            name: localeStrings[locale].CRYSTAL,
+            type: 'crystal',
+            icon: './img/Crystal.svg'
+        }, {
+            name: localeStrings[locale].CRYSTAL_HC49,
+            type: 'crystal_hc49',
+            icon: './img/Crystal-HC49.svg'
+        }, {
+            name: localeStrings[locale].DFN_2,
+            type: 'dfn2',
+            icon: './img/DFN-2.svg'
+        }, {
+            name: localeStrings[locale].DFN_3,
+            type: 'dfn3',
+            icon: './img/DFN-3.svg'
+        }, {
+            name: localeStrings[locale].DFN_4,
+            type: 'dfn4',
+            icon: './img/DFN-4.svg'
+        }, {
+            name: localeStrings[locale].DIP,
+            type: 'dip',
+            icon: './img/DIP.svg'
+        }, {
+            name: localeStrings[locale].DIP_SOCKET,
+            type: 'dip_socket',
+            icon: './img/DIP-Socket.svg'
+        }, {
+            name: localeStrings[locale].ECAP,
+            type: 'ecap',
+            icon: './img/E-Cap.svg'
+        }, {
+            name: localeStrings[locale].FEMALE_STANDOFF,
+            type: 'female_standoff',
+            icon: './img/Standoff-Female.svg'
+        }, {
+            name: localeStrings[locale].MELF,
+            type: 'melf',
+            icon: './img/MELF.svg'
+        }, {
+            name: localeStrings[locale].MALE_FEMALE_STANDOFF,
+            type: 'male_female_standoff',
+            icon: './img/Standoff-Male-Female.svg'
+        }, {
+            name: localeStrings[locale].MOLDED_BODY,
+            type: 'moldedbody',
+            icon: './img/Molded-Body.svg'
+        }, {
+            name: localeStrings[locale].OSCILLATOR_CORNER_CONCAVE,
+            type: 'cornerconcave',
+            icon: './img/Oscillator-Corner-Concave.svg'
+        }, {
+            name: localeStrings[locale].OSCILLATOR_J_LEAD,
+            type: 'oscillator_j',
+            icon: './img/Oscillator-JLead.svg'
+        }, {
+            name: localeStrings[locale].OSCILLATOR_L_BEND,
+            type: 'oscillator_l',
+            icon: './img/Oscillator-LBend.svg'
+        }, {
+            name: localeStrings[locale].PLCC,
+            type: 'plcc',
+            icon: './img/PLCC.svg'
+        }, {
+            name: localeStrings[locale].PIN_HEADER_RA,
+            type: 'header_right_angle',
+            icon: './img/Header-Male-Right-Angle.svg'
+        }, {
+            name: localeStrings[locale].PIN_HEADER_STRAIGHT,
+            type: 'header_straight',
+            icon: './img/Header-Male-Straight.svg'
+        }, {
+            name: localeStrings[locale].QFN,
+            type: 'qfn',
+            icon: './img/QFN.svg'
+        }, {
+            name: localeStrings[locale].QFP,
+            type: 'qfp',
+            icon: './img/QFP.svg'
+        }, {
+            name: localeStrings[locale].RADIAL_GENERIC,
+            type: 'radial_inductor',
+            icon: './img/Radial-Round.svg'
+        }, {
+            name: localeStrings[locale].RADIAL_LED,
+            type: 'radial_round_led',
+            icon: './img/Radial-Led-Round.svg'
+        }, {
+            name: localeStrings[locale].RECEPTACLE_HEADER_RA,
+            type: 'header_right_angle_socket',
+            icon: './img/Header-Female-Right-Angle.svg'
+        }, {
+            name: localeStrings[locale].RECEPTACLE_HEADER_STRAIGHT,
+            type: 'header_straight_socket',
+            icon: './img/Header-Female-Straight.svg'
+        }, {
+            name: localeStrings[locale].SOD,
+            type: 'sod',
+            icon: './img/SOD.svg'
+        }, {
+            name: localeStrings[locale].SODFL,
+            type: 'sodfl',
+            icon: './img/SODFL.svg'
+        }, {
+            name: localeStrings[locale].SOIC_SOP,
+            type: 'soic',
+            icon: './img/SOIC-SOP.svg'
+        }, {
+            name: localeStrings[locale].SOJ,
+            type: 'soj',
+            icon: './img/SOJ.svg'
+        }, {
+            name: localeStrings[locale].SON_DFN,
+            type: 'son',
+            icon: './img/SON.svg'
+        }, {
+            name: localeStrings[locale].SOT143,
+            type: 'sot143',
+            icon: './img/SOT143.svg'
+        }, {
+            name: localeStrings[locale].SOT223,
+            type: 'sot223',
+            icon: './img/SOT223.svg'
+        }, {
+            name: localeStrings[locale].SOT23,
+            type: 'sot23',
+            icon: './img/SOT23.svg'
+        }, {
+            name: localeStrings[locale].SOTFL,
+            type: 'sotfl',
+            icon: './img/SOTFL.svg'
+        }, {
+            name: localeStrings[locale].SNAP_LOCK,
+            type: 'snap_lock',
+            icon: './img/Snap-Lock.svg'
+        }, {
+            name: localeStrings[locale].PIN_HEADER_RIGHT_ANGLE_SMD,
+            type: 'surface_mount_pin_header_right_angle',
+            icon: './img/SMD-Header-Male-Right-Angle.svg'
+        }, {
+            name: localeStrings[locale].PIN_HEADER_STRAIGHT_SMD,
+            type: 'surface_mount_pin_header_straight',
+            icon: './img/SMD-Header-Male-Straight.svg'
+        }, {
+            name : localeStrings[locale].RECEPTACLE_HEADER_SMD,
+            type : 'surface_mount_header_female',
+            icon : './img/SMD-Header-Female-Straight.svg'
+        }, {
+            name: localeStrings[locale].TO_DPAK,
+            type: 'dpak',
+            icon: './img/TO-DPAK.svg'
+        }    
+        ]
+
+        function sendInfoToFusion(item) {
+            var args = {
+                type : item.type
+            }
+
+            if (window["adsk"]) 
+                window["adsk"]["fusionSendData"]('sendPackageType', JSON.stringify(args));
+        }
+
+        function createItem(item) {
+            var itemNode = document.createElement('Li');
+            itemNode.className = 'itemWrap';
+            itemNode.innerHTML = `
+                <div class="imgWrap"><img src="${item.icon}" alt="${item.name}"></div>
+                <div class="nameWrap"><span>${item.name}</span></div>
+            `;
+            itemNode.addEventListener('click', () => sendInfoToFusion(item));
+            return itemNode;
+        }
+
+        function createList(data) {
+            var fragment = document.createDocumentFragment();
+            data.forEach(item => {
+                fragment.appendChild(createItem(item));
+            });
+            return fragment;
+        }
+
+        function generateContent(data) {
+            var content = createList(data);
+            var container = document.querySelector('#container');
+            container.appendChild(content);
+        }
+
+        generateContent(data);
+
+        //set tootip for truncated text with ellipses
+        $(function() {
+            //get line clamp from css style
+            var element = document.querySelector('.nameWrap');
+            var style = window.getComputedStyle(element);
+            var lineClamp = parseInt(style.getPropertyValue('-webkit-line-clamp'));
+
+            $('div').each(function(index) {
+                if (this.className == 'nameWrap'){
+                    var textElement = $(this)[0]
+                    var textSpan = textElement.firstElementChild
+                    if (textSpan.getClientRects().length > lineClamp) {   
+                        $(this).attr("id", "tooltip-" + index);
+                        $(this).attr("title", $(this).text()); 
+                        $("#tooltip-" + index).tooltip();         
+                    }
+                }   
+            });
+        });
+        resizeContainer();
+
+    </script>
+</body>
+</html>

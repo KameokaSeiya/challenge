@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!DOCTYPE adsui SYSTEM "../../ui.dtd">
+<adsui version="2.0">
+  <PageInfo>
+    <Title>
+      Daylight Portal
+    </Title>
+  </PageInfo>
+  <Fields>
+    
+    <Boolean  id="on" label="On" />
+    <Float id="multiplier" label="Multiplier" />
+    <Color id="tint_color" label="Light Tint" />
+    <Boolean  id="reverse" label="Reverse" />
+    <Boolean  id="visible" label="Visible" />
+    <Color id="transparency" label="Transparency" />
+    <Float id="length" label="Length" />
+    <Float id="width" label="Width" />
+    <Float id="cutoff_threshold" label="Cutoff Threshold (lx)" />
+    
+  </Fields>
+</adsui>

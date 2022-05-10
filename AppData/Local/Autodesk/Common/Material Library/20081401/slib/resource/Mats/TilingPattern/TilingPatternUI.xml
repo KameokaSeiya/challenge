@@ -1,0 +1,99 @@
+<?xml version="1.0" ?>
+<!DOCTYPE adsui SYSTEM "../../ui.dtd">
+<adsui version="2.0">
+  <PageInfo>
+    <Title>
+      TilingPattern
+    </Title>
+  </PageInfo>
+  <Fields> 
+    <StackPanel id="asset_information" 
+                label="Information" 
+                orientation="Vertical" 
+                expanded="false">
+      <AssetName id="asset_name"
+                 label="Name"/>
+      <AssetDescription id="asset_description"
+                        label="Description"/>
+      <AssetKeywords id="asset_keywords"
+                     label="Keywords"/>
+    </StackPanel>
+    <StackPanel id="tiling_pattern"
+                label="Tiling Pattern"
+                orientation="Vertical"
+                expanded="true">
+      <MappablePattern id="pattern"
+                     label="Pattern"
+                     tooltip="Uses a pattern."/>
+      <Float id="inset_size"
+         label="Grout/Mortar Width"
+         tooltip="Controls the size of the grout/mortar between the tiles."/>
+      <SampleSize id="overall_offset_vector_x"
+                    label="Offset"
+                    rightlabel="X"
+                    type="offset"
+                    units="Unit"
+                    tooltip="Moves the starting point of the pattern along the X axis."/>
+      <SampleSize id="overall_offset_vector_y"
+                  label=""
+                  rightlabel="Y"
+                  type="offset"
+                  units="Unit"
+                  tooltip="Moves the starting point of the pattern along the Y axis."/>
+      <ParamLock id="overall_OffsetLock"
+                 tooltip="Constrains the offset. When the X offset is changed, the Y offset is changed by the same amount."
+                 topParamLock="overall_offset_vector_x"
+                 bottomParamLock="overall_offset_vector_y" />
+      <Angle id="overall_rotation_angle"
+               label="Rotation"
+               min="0.0"
+               max="360.0"
+               tooltip="Rotates the pattern from 0 degrees to 360 degrees."/>
+      <SampleSize id="scale_factor_x"
+            label="Sample Size"
+			      rightlabel="Width"
+            min="0.01"
+			      type="scale"
+			      notifyImageOnChange="true"
+            tooltip="Specifies the horizontal scaling for the sample."/>
+	  <SampleSize id="scale_factor_y"
+            label=""
+			      rightlabel="Height"
+            min="0.01"
+			      type="scale"
+			      notifyImageOnChange="true"
+            tooltip="Specifies the vertical scaling for the sample."/>
+	 <ParamLock id="sample_sizeLock"
+                 tooltip="Locks the aspect ratio of the pattern. When the width or height value is changed, the other value changes as needed to maintain the aspect ratio."
+                 topParamLock="scale_factor_x"
+                 bottomParamLock="scale_factor_y" />
+			
+    </StackPanel>
+    <StackPanel id="assignment"
+                label="Appearance Assignment"
+                orientation="Vertical"
+                expanded="true">
+	  <Text id="seed_pattern_size"
+            label="Seed Pattern"
+            tooltip="Specifies the number of tiles in the minimum repeatable unit of the pattern."/>
+      <MultiReference id="tiles"
+                      label="Tile "
+                      referencefrom="base_materials"
+                      tooltip="All tiles"/>
+    </StackPanel>
+    <StackPanel id="edge_rounding"
+                label="Edge Rounding"
+                orientation="Vertical"
+                expanded="true">
+      <Float id="overall_corner_rounding_size"
+         label="Radius"
+         min="0.0"
+         tooltip="Controls the rounding radius of the tile edge. It also can define the thickness of the tile given the fixed edge rounding angle."/>
+      <Angle id="overall_corner_rounding_angle"
+               label="Angle"
+               min="0.0"
+               max="90.0"
+               tooltip="Controls the rounding direction, also it has impact to the tile thickness given the fixed edge rounding size."/>
+    </StackPanel>
+  </Fields>
+</adsui>

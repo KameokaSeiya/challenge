@@ -1,0 +1,133 @@
+<?xml version="1.0" ?>
+<!DOCTYPE adsui SYSTEM "../../ui.dtd">
+<adsui version="2.0">
+  <PageInfo>
+    <Title>
+      Transparent
+    </Title>
+  </PageInfo>
+  <Fields>
+    <StackPanel id="asset_information" 
+                label="Information" 
+                orientation="Vertical" 
+                expanded="false">
+      <AssetName id="asset_name"
+                 label="Name"/>
+      <AssetDescription id="asset_description"
+                        label="Description"/>
+      <AssetKeywords id="asset_keywords"
+                     label="Keywords"/>
+      <AssetType id="asset_type"
+                 label="Type"/>
+      <AssetSource id="asset_source"
+                   label="Source"/>
+      <AssetVersion id="asset_version"
+                    label="Version"/>
+      <AssetTexturePaths id="asset_texture_paths"
+                         label="Texture Paths"/>
+    </StackPanel>
+
+    <StackPanel id="transparent_color"
+                    label="Parameters"
+                    labelid="transparent_color_panel_label"
+                    orientation="Vertical" expanded="true">
+      <Color id="transparent_color"
+             label="Color"
+             noprocedural="1"
+             tooltip="The color of the light transmitted through the material at the distance defined by the Absorption Distance parameter (Transmission Color). A dark color will create a material that is more opaque than a bright color.">
+      </Color>
+      <Float id="transparent_distance"
+             label="Absorption Distance"
+             labelid="transparent_distance_label"
+             precision="3"
+             fixedprecision="1"
+             min="0.01"
+             units="in"
+             forcenumeric="spinbox"
+             tooltip="Defines at which distance the transmission color is reached. For example, a 4 mm sheet of glass transmitting 50% of the incident light would need an Absorption Distance set to 4 mm and a color set to 50% grey."/>
+      <FloatMenu id="transparent_ior"
+                 label="Index of Refraction"
+                 labelid="transparent_ior_label"
+                 max="2.5" min="1.0" precision="2"
+                 tooltip="Describes how light bends when it enters a material (i.e. air = 1.0, water = 1.3, glass = 1.5, quartz =1.7, diamond = 2.4)">
+        <FloatMenuChoice id="transparent_ior_air"
+                         label="Air" value="1.0" />
+        <FloatMenuChoice id="transparent_iorr_water"
+                         label="Water" value="1.3" />
+        <FloatMenuChoice id="transparent_ior_alcohol"
+                         label="Alcohol" value="1.36" />
+        <FloatMenuChoice id="transparent_ior_quartz"
+                         label="Quartz" value="1.7" />
+        <FloatMenuChoice id="transparent_ior_glass"
+                         label="Glass" value="1.5" />
+        <FloatMenuChoice id="transparent_ior_diamond"
+                         label="Diamond" value="2.4" />
+        <FloatMenuChoice id="transparent_ior_custom"
+                         label="Custom" value="0.0" />
+      </FloatMenu>
+      <MappableFloat id="surface_roughness"
+                 label="Roughness"
+                 aspercentage="0"
+                 noprocedural="1"
+                 min="0.0" max="1.0" precision="2"
+                 tooltip="The surface finish of the material, specifying the size of microscopic imperfections. When zero, the whole surface is a perfect mirror. Larger values tend towards more diffuse (rough) appearance and larger highlights. Use together with Anisotropy to obtain a brushed finish effect."/>
+    </StackPanel>
+    <StackPanel id="surface_normal"
+                label="Relief Pattern (Bump)"
+                labelid="surface_bump_panel_label"
+                orientation="Vertical" expanded="false" checkbox="true">
+      <MappableFloat id="surface_normal"
+                     label="Image"
+                     labelid="surface_bump_map_label"
+                     nosinglevalue="true"
+                     noprocedural="1"
+                     usebumpmap="1"
+                     tooltip="Bump defines larger-scale features than what you can achieve with the Roughness parameter, like dents, cracks, grooves etc. Apply an image where those features are defined, with white corresponding to peaks and black to valleys."/>
+    </StackPanel>
+    <StackPanel id="surface_cutout"
+                label="Cutout"
+                labelid="surface_cutout_panel_label"
+                orientation="Vertical" expanded="false" checkbox="true">
+      <MappableFloat id="surface_cutout"
+                     nosinglevalue="true"
+                     label="Image"
+                     noprocedural="1"
+                     tooltip="Cutout defines holes in the surface with an image map. The holes will have no thickness or depth so it is generally suitable for thin elements such as sheets of metal."/>
+    </StackPanel>
+    <StackPanel id="surface_anisotropy"
+            label="Advanced Highlight Controls"
+            labelid="surface_anisotropy_panel_label"
+            orientation="Vertical" expanded="false">
+      <MappableFloat id="surface_anisotropy"
+                     label="Anisotropy"
+                     labelid="surface_normal_anisotropy_label"
+                     noprocedural="1"
+                     aspercentage="0"
+                     min="0" max="1.0" precision="2"
+                     forcenumeric="slider"
+                     tooltip="Controls the shape of the highlights on the surface by making them elliptical rather than circular. Used together with Roughness, Anisotropy can simulate highlights seen on brushed materials."/>
+      <MappableFloat id="surface_rotation"
+                     label="Orientation"
+                     labelid="surface_orientation_label"
+                     noprocedural="1"
+                     aspercentage="0"
+                     asangle="1"
+                     min="0.0" max="180.0"
+                     forcenumeric="slider"
+                     tooltip="Determines the orientation of highlights. This has no effect if Anisotropy Amount is set to 0. Used with a texture map. For example, you can recreate woven materials where the direction of the highlights are perpendicular to each other."/>
+      <MappableColor id="surface_albedo"
+                     label="Color"
+                     labelid="surface_albedo_label"
+                     noprocedural="1"
+                     tooltip="Determines the color (or the weight) of the specular highlights of the material. Generally, this parameter should be set to a white color for physical correctness, but can be changed for artistic purposes.">
+      </MappableColor>
+      <ChooseList id="surface_ndf_type"
+                  label="Shape"
+                  labelid="surface_ndf_type_label"
+                  tooltip="Determines the underlying equation used to calculate reflections and highlights on the material. The Long Falloff will produce highlights that appear smoother while the Short Falloff will produce highlights that appear sharper.">
+        <Choice id="surface_ndf_beckmann" label="Short Falloff"/>
+        <Choice id="surface_ndf_ggx" label="Long Falloff"/>
+      </ChooseList>
+    </StackPanel>
+  </Fields>
+</adsui>

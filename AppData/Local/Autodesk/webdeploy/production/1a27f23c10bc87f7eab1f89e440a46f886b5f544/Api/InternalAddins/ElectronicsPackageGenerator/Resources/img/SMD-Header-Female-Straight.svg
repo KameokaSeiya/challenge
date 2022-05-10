@@ -1,0 +1,102 @@
+<svg width="200" height="150" viewBox="0 0 200 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="SOIC-Header-Female">
+<g id="Rectangle 32">
+<mask id="path-1-inside-1" fill="white">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M28.6701 118.727H21.5012V101.316H28.6701V118.727Z"/>
+</mask>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M28.6701 118.727H21.5012V101.316H28.6701V118.727Z" fill="#D8D8D8"/>
+<path d="M21.5012 118.727H20.5012V119.727H21.5012V118.727ZM21.5012 101.316V100.316H20.5012V101.316H21.5012ZM28.6701 101.316H29.6701V100.316H28.6701V101.316ZM28.6701 117.727H21.5012V119.727H28.6701V117.727ZM22.5012 118.727V101.316H20.5012V118.727H22.5012ZM21.5012 102.316H28.6701V100.316H21.5012V102.316ZM27.6701 101.316V118.727H29.6701V101.316H27.6701Z" fill="#979797" mask="url(#path-1-inside-1)"/>
+</g>
+<g id="Rectangle 135">
+<mask id="path-3-inside-2" fill="white">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M28.6701 46.6841H21.5012V29.2739H28.6701V46.6841Z"/>
+</mask>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M28.6701 46.6841H21.5012V29.2739H28.6701V46.6841Z" fill="#D8D8D8"/>
+<path d="M21.5012 46.6841H20.5012V47.6841H21.5012V46.6841ZM21.5012 29.2739V28.2739H20.5012V29.2739H21.5012ZM28.6701 29.2739H29.6701V28.2739H28.6701V29.2739ZM28.6701 45.6841H21.5012V47.6841H28.6701V45.6841ZM22.5012 46.6841V29.2739H20.5012V46.6841H22.5012ZM21.5012 30.2739H28.6701V28.2739H21.5012V30.2739ZM27.6701 29.2739V46.6841H29.6701V29.2739H27.6701Z" fill="#979797" mask="url(#path-3-inside-2)"/>
+</g>
+<g id="Rectangle 133">
+<mask id="path-5-inside-3" fill="white">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M54.2057 118.727H47.0368V101.316H54.2057V118.727Z"/>
+</mask>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M54.2057 118.727H47.0368V101.316H54.2057V118.727Z" fill="#D8D8D8"/>
+<path d="M47.0368 118.727H46.0368V119.727H47.0368V118.727ZM47.0368 101.316V100.316H46.0368V101.316H47.0368ZM54.2057 101.316H55.2057V100.316H54.2057V101.316ZM54.2057 117.727H47.0368V119.727H54.2057V117.727ZM48.0368 118.727V101.316H46.0368V118.727H48.0368ZM47.0368 102.316H54.2057V100.316H47.0368V102.316ZM53.2057 101.316V118.727H55.2057V101.316H53.2057Z" fill="#979797" mask="url(#path-5-inside-3)"/>
+</g>
+<g id="Rectangle 136">
+<mask id="path-7-inside-4" fill="white">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M54.2057 46.6841H47.0368V29.2739H54.2057V46.6841Z"/>
+</mask>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M54.2057 46.6841H47.0368V29.2739H54.2057V46.6841Z" fill="#D8D8D8"/>
+<path d="M47.0368 46.6841H46.0368V47.6841H47.0368V46.6841ZM47.0368 29.2739V28.2739H46.0368V29.2739H47.0368ZM54.2057 29.2739H55.2057V28.2739H54.2057V29.2739ZM54.2057 45.6841H47.0368V47.6841H54.2057V45.6841ZM48.0368 46.6841V29.2739H46.0368V46.6841H48.0368ZM47.0368 30.2739H54.2057V28.2739H47.0368V30.2739ZM53.2057 29.2739V46.6841H55.2057V29.2739H53.2057Z" fill="#979797" mask="url(#path-7-inside-4)"/>
+</g>
+<g id="Rectangle 134">
+<mask id="path-9-inside-5" fill="white">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M78.2057 118.727H71.0368V101.316H78.2057V118.727Z"/>
+</mask>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M78.2057 118.727H71.0368V101.316H78.2057V118.727Z" fill="#D8D8D8"/>
+<path d="M71.0368 118.727H70.0368V119.727H71.0368V118.727ZM71.0368 101.316V100.316H70.0368V101.316H71.0368ZM78.2057 101.316H79.2057V100.316H78.2057V101.316ZM78.2057 117.727H71.0368V119.727H78.2057V117.727ZM72.0368 118.727V101.316H70.0368V118.727H72.0368ZM71.0368 102.316H78.2057V100.316H71.0368V102.316ZM77.2057 101.316V118.727H79.2057V101.316H77.2057Z" fill="#979797" mask="url(#path-9-inside-5)"/>
+</g>
+<g id="Rectangle 137">
+<mask id="path-11-inside-6" fill="white">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M78.2057 46.6841H71.0368V29.2739H78.2057V46.6841Z"/>
+</mask>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M78.2057 46.6841H71.0368V29.2739H78.2057V46.6841Z" fill="#D8D8D8"/>
+<path d="M71.0368 46.6841H70.0368V47.6841H71.0368V46.6841ZM71.0368 29.2739V28.2739H70.0368V29.2739H71.0368ZM78.2057 29.2739H79.2057V28.2739H78.2057V29.2739ZM78.2057 45.6841H71.0368V47.6841H78.2057V45.6841ZM72.0368 46.6841V29.2739H70.0368V46.6841H72.0368ZM71.0368 30.2739H78.2057V28.2739H71.0368V30.2739ZM77.2057 29.2739V46.6841H79.2057V29.2739H77.2057Z" fill="#979797" mask="url(#path-11-inside-6)"/>
+</g>
+<rect id="Rectangle 18" x="7.94142" y="43.0649" width="83.8597" height="62.0962" fill="#585858" stroke="#505050"/>
+<g id="Group 25">
+<g id="Group 3">
+<path id="Rectangle 19 Copy 8" fill-rule="evenodd" clip-rule="evenodd" d="M28.3901 57.3438L33.6372 52.0967V69.1284L28.3901 63.8813V57.3438Z" fill="#505050"/>
+<path id="Rectangle 19 Copy 9" fill-rule="evenodd" clip-rule="evenodd" d="M21.8525 63.8818H28.39L33.6371 69.1289H16.6062L21.8525 63.8818Z" fill="#666666"/>
+<path id="Rectangle 19 Copy 10" fill-rule="evenodd" clip-rule="evenodd" d="M16.6054 52.0967L21.8525 57.3438V63.8813L16.6062 69.1284L16.6054 52.0967Z" fill="#505050"/>
+<path id="Rectangle 19 Copy 11" fill-rule="evenodd" clip-rule="evenodd" d="M16.6054 52.0967H33.6371L28.39 57.3438H21.8525L16.6054 52.0967Z" fill="#666666"/>
+<path id="Rectangle 19" d="M21.8525 57.3442V63.8817H28.39V57.3442H21.8525Z" fill="black"/>
+<rect id="Rectangle" x="16.6213" y="52.1128" width="17" height="17" stroke="#4F4F4F"/>
+</g>
+<g id="Group 4">
+<path id="Rectangle 19 Copy 8_2" fill-rule="evenodd" clip-rule="evenodd" d="M28.3901 84.3438L33.6372 79.0967V96.1284L28.3901 90.8813V84.3438Z" fill="#505050"/>
+<path id="Rectangle 19 Copy 9_2" fill-rule="evenodd" clip-rule="evenodd" d="M21.8525 90.8818H28.39L33.6371 96.1289H16.6062L21.8525 90.8818Z" fill="#666666"/>
+<path id="Rectangle 19 Copy 10_2" fill-rule="evenodd" clip-rule="evenodd" d="M16.6054 79.0967L21.8525 84.3438V90.8813L16.6062 96.1284L16.6054 79.0967Z" fill="#505050"/>
+<path id="Rectangle 19 Copy 11_2" fill-rule="evenodd" clip-rule="evenodd" d="M16.6054 79.0967H33.6371L28.39 84.3438H21.8525L16.6054 79.0967Z" fill="#666666"/>
+<path id="Rectangle 19_2" d="M21.8525 84.3442V90.8817H28.39V84.3442H21.8525Z" fill="black"/>
+<rect id="Rectangle_2" x="16.6213" y="79.1128" width="17" height="17" stroke="#4F4F4F"/>
+</g>
+<g id="Group 3_2">
+<path id="Rectangle 19 Copy 8_3" fill-rule="evenodd" clip-rule="evenodd" d="M53.8901 57.3438L59.1372 52.0967V69.1284L53.8901 63.8813V57.3438Z" fill="#505050"/>
+<path id="Rectangle 19 Copy 9_3" fill-rule="evenodd" clip-rule="evenodd" d="M47.3525 63.8818H53.89L59.1371 69.1289H42.1062L47.3525 63.8818Z" fill="#666666"/>
+<path id="Rectangle 19 Copy 10_3" fill-rule="evenodd" clip-rule="evenodd" d="M42.1054 52.0967L47.3525 57.3438V63.8813L42.1062 69.1284L42.1054 52.0967Z" fill="#505050"/>
+<path id="Rectangle 19 Copy 11_3" fill-rule="evenodd" clip-rule="evenodd" d="M42.1054 52.0967H59.1371L53.89 57.3438H47.3525L42.1054 52.0967Z" fill="#666666"/>
+<path id="Rectangle 19_3" d="M47.3525 57.3442V63.8817H53.89V57.3442H47.3525Z" fill="black"/>
+<rect id="Rectangle_3" x="42.1213" y="52.1128" width="17" height="17" stroke="#4F4F4F"/>
+</g>
+<g id="Group 7">
+<path id="Rectangle 19 Copy 8_4" fill-rule="evenodd" clip-rule="evenodd" d="M53.8901 84.3438L59.1372 79.0967V96.1284L53.8901 90.8813V84.3438Z" fill="#505050"/>
+<path id="Rectangle 19 Copy 9_4" fill-rule="evenodd" clip-rule="evenodd" d="M47.3525 90.8818H53.89L59.1371 96.1289H42.1062L47.3525 90.8818Z" fill="#666666"/>
+<path id="Rectangle 19 Copy 10_4" fill-rule="evenodd" clip-rule="evenodd" d="M42.1054 79.0967L47.3525 84.3438V90.8813L42.1062 96.1284L42.1054 79.0967Z" fill="#505050"/>
+<path id="Rectangle 19 Copy 11_4" fill-rule="evenodd" clip-rule="evenodd" d="M42.1054 79.0967H59.1371L53.89 84.3438H47.3525L42.1054 79.0967Z" fill="#666666"/>
+<path id="Rectangle 19_4" d="M47.3525 84.3442V90.8817H53.89V84.3442H47.3525Z" fill="black"/>
+<rect id="Rectangle_4" x="42.1213" y="79.1128" width="17" height="17" stroke="#4F4F4F"/>
+</g>
+<g id="Group 6">
+<path id="Rectangle 19 Copy 8_5" fill-rule="evenodd" clip-rule="evenodd" d="M77.8901 57.3438L83.1372 52.0967V69.1284L77.8901 63.8813V57.3438Z" fill="#505050"/>
+<path id="Rectangle 19 Copy 9_5" fill-rule="evenodd" clip-rule="evenodd" d="M71.3526 63.8818H77.8901L83.1372 69.1289H66.1062L71.3526 63.8818Z" fill="#666666"/>
+<path id="Rectangle 19 Copy 10_5" fill-rule="evenodd" clip-rule="evenodd" d="M66.1055 52.0967L71.3526 57.3438V63.8813L66.1062 69.1284L66.1055 52.0967Z" fill="#505050"/>
+<path id="Rectangle 19 Copy 11_5" fill-rule="evenodd" clip-rule="evenodd" d="M66.1055 52.0967H83.1372L77.8901 57.3438H71.3526L66.1055 52.0967Z" fill="#666666"/>
+<path id="Rectangle 19_5" d="M71.3526 57.3442V63.8817H77.8901V57.3442H71.3526Z" fill="black"/>
+<rect id="Rectangle_5" x="66.1213" y="52.1128" width="17" height="17" stroke="#4F4F4F"/>
+</g>
+<g id="Group 8">
+<path id="Rectangle 19 Copy 8_6" fill-rule="evenodd" clip-rule="evenodd" d="M77.8901 84.3438L83.1372 79.0967V96.1284L77.8901 90.8813V84.3438Z" fill="#505050"/>
+<path id="Rectangle 19 Copy 9_6" fill-rule="evenodd" clip-rule="evenodd" d="M71.3526 90.8818H77.8901L83.1372 96.1289H66.1062L71.3526 90.8818Z" fill="#666666"/>
+<path id="Rectangle 19 Copy 10_6" fill-rule="evenodd" clip-rule="evenodd" d="M66.1055 79.0967L71.3526 84.3438V90.8813L66.1062 96.1284L66.1055 79.0967Z" fill="#505050"/>
+<path id="Rectangle 19 Copy 11_6" fill-rule="evenodd" clip-rule="evenodd" d="M66.1055 79.0967H83.1372L77.8901 84.3438H71.3526L66.1055 79.0967Z" fill="#666666"/>
+<path id="Rectangle 19_6" d="M71.3526 84.3442V90.8817H77.8901V84.3442H71.3526Z" fill="black"/>
+<rect id="Rectangle_6" x="66.1213" y="79.1128" width="17" height="17" stroke="#4F4F4F"/>
+</g>
+</g>
+<g id="Group 32">
+<path id="Vector 4" d="M113.272 115.368V110.949H126.721C131.025 110.949 131.888 105.996 131.781 103.52H137.417C137.459 103.797 137.519 105.467 137.417 109.924C137.314 114.382 133.958 115.411 132.293 115.368H113.272Z" fill="#D8D8D8" stroke="#979797" stroke-linejoin="round"/>
+<path id="Vector 5" d="M192.559 115.368V110.949H179.109C174.805 110.949 173.943 105.996 174.05 103.52H168.414C168.371 103.797 168.311 105.467 168.414 109.924C168.516 114.382 171.872 115.411 173.537 115.368H192.559Z" fill="#D8D8D8" stroke="#979797" stroke-linejoin="round"/>
+</g>
+<rect id="Rectangle 18_2" x="118.949" y="43.0649" width="70.8842" height="62.0962" fill="#585858" stroke="#505050"/>
+</g>
+</svg>

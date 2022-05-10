@@ -1,0 +1,650 @@
+<WebServicesCache>
+    <UserInfo TokenHash="691391fece843cdc066d50f8cfbea8ed" Server="Production" User="s.kameoka.227" UpdateDate="2022-05-03T08:16:33Z"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<User xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Id>TYK7JMNJL5YB</Id>
+  <UserName>s.kameoka.227</UserName>
+  <Email>s.kameoka.227@ms.saitama-u.ac.jp</Email>
+  <OnSubscription>true</OnSubscription>
+  <Profile>
+    <FirstName>亀岡</FirstName>
+    <LastName>聖矢</LastName>
+    <CountryCode>JP</CountryCode>
+    <Language>ja</Language>
+    <OptIn>true</OptIn>
+    <LastModified>2021-05-01T11:35:27Z</LastModified>
+    <CollectPersonalDetails xsi:nil="true" />
+    <DateOfBirth>2001-09-15</DateOfBirth>
+  </Profile>
+  <EntitlementList>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:raas</Service>
+      <Level>User</Level>
+      <Name>Rendering</Name>
+      <AccessUrl>http://rendering.cloud.autodesk.com</AccessUrl>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:storage</Service>
+      <Level>User</Level>
+      <Name>Autodesk® 360</Name>
+      <AccessUrl>https://a360.autodesk.com/drive/app</AccessUrl>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:cfdws</Service>
+      <Level>Ultimate</Level>
+      <Name>Autodesk® Simulation CFD 360</Name>
+      <AccessUrl>http://autodesk.com/subcenterdownloads</AccessUrl>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:structuralanalysis</Service>
+      <Level>User</Level>
+      <Name>Structural Analysis</Name>
+      <AccessUrl>http://structuralanalysis.360.autodesk.com</AccessUrl>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:photofly</Service>
+      <Level>User</Level>
+      <Name>Autodesk® ReCap Photo</Name>
+      <AccessUrl>https://recap360.autodesk.com</AccessUrl>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:infraworksvos</Service>
+      <Level>User</Level>
+      <Name>InfraWorks Vertical Optimization Service</Name>
+      <AccessUrl>http://www.autodesk.com/infraworks</AccessUrl>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:cfdwsls</Service>
+      <Level>User</Level>
+      <Name>Moldflow CFD 360 Local Solve</Name>
+      <AccessUrl>http://autodesk.com/subcenterdownloads</AccessUrl>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:fusion360</Service>
+      <Level>User</Level>
+      <Name>Autodesk® Fusion 360</Name>
+      <AccessUrl>http://fusion360.autodesk.com</AccessUrl>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:bridgedesign</Service>
+      <Level>User</Level>
+      <Name>Autodesk® Bridge Design</Name>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:drainagedesign</Service>
+      <Level>User</Level>
+      <Name>Autodesk® Drainage Design</Name>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:roadwaydesign</Service>
+      <Level>User</Level>
+      <Name>Autodesk® Roadway Design</Name>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:flowdesign</Service>
+      <Level>User</Level>
+      <Name>Autodesk® Flow Design</Name>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:cgen</Service>
+      <Level>User</Level>
+      <Name>Character Generator</Name>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:apa</Service>
+      <Level>User</Level>
+      <Name>Autodesk® Process Analysis 360</Name>
+      <AccessUrl>http://processanalysis360.autodesk.com</AccessUrl>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:rda</Service>
+      <Level>User</Level>
+      <Name>360 Light Analysis RDA</Name>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:wsa</Service>
+      <Level>User</Level>
+      <Name>Autodesk® Watershed Analysis</Name>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:autodesk360personal</Service>
+      <Level>User</Level>
+      <Name>A360</Name>
+      <AccessUrl>https://login.autodesk360.com/login/entitlements?edition=personal</AccessUrl>
+    </Entitlement>
+    <Entitlement>
+      <Service>gbs.autodesk.com</Service>
+      <Level>User</Level>
+      <Name>Autodesk® Green Building Studio®</Name>
+      <AccessUrl>https://gbs.autodesk.com</AccessUrl>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:fusion360pro</Service>
+      <Level>User</Level>
+      <Name>Autodesk® Fusion 360 Pro</Name>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:formit</Service>
+      <Level>User</Level>
+      <Name>Autodesk® FormIt Pro</Name>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:recap360</Service>
+      <Level>User</Level>
+      <Name>Autodesk® ReCap 360</Name>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:trafficanalysis</Service>
+      <Level>User</Level>
+      <Name>Traffic Analysis for InfraWorks 360</Name>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:revitcea</Service>
+      <Level>User</Level>
+      <Name>Conceptual Energy Analysis for Autodesk® Revit®</Name>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:infraworks360</Service>
+      <Level>User</Level>
+      <Name>Autodesk Infraworks 360 - IW360P</Name>
+      <AccessUrl>http://accounts.autodesk.com</AccessUrl>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:acad360pro</Service>
+      <Level>User</Level>
+      <Name>Autodesk® AutoCAD® 360 Pro</Name>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:fsim</Service>
+      <Level>User</Level>
+      <Name>Autodesk® Fusion Sim Basic</Name>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:remake</Service>
+      <Level>User</Level>
+      <Name>Autodesk® ReMake</Name>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:fusionteam</Service>
+      <Level>User</Level>
+      <Name>Autodesk® Fusion Team</Name>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:eaglepremium</Service>
+      <Level>User</Level>
+      <Name>Autodesk® Eagle Premium User</Name>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:recapmobile</Service>
+      <Level>User</Level>
+      <Name>ReCap Pro - mobile app</Name>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:recapphoto</Service>
+      <Level>User</Level>
+      <Name>Autodesk ReCap Photo service entitlement</Name>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:shview</Service>
+      <Level>User</Level>
+      <Name>Shared View</Name>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:shdata</Service>
+      <Level>User</Level>
+      <Name>Shared Data</Name>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:agd</Service>
+      <Level>User</Level>
+      <Name>Autodesk Generative Design</Name>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:hsmworksultimate</Service>
+      <Level>User</Level>
+      <Name>HSMWorks Ultimate</Name>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:fusion360manufacturingext</Service>
+      <Level>User</Level>
+      <Name>Manufacturing Extension for Fusion 360</Name>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:drawinghistory</Service>
+      <Level>User</Level>
+      <Name>Drawing History</Name>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:fusion360additiveext</Service>
+      <Level>User</Level>
+      <Name>Fusion 360 Additive Build Extension Flex Access</Name>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:acaddocext</Service>
+      <Level>User</Level>
+      <Name>Autodesk Docs Extension for AutoCAD</Name>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:fusion360nestingext</Service>
+      <Level>User</Level>
+      <Name>Fusion 360 Nesting and Fabrication Extension</Name>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:fusion360additivesim</Service>
+      <Level>User</Level>
+      <Name>Fusion 360 Additive Simulation Extension</Name>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:f360pde</Service>
+      <Level>User</Level>
+      <Name>Fusion 360 - Product Design Extension</Name>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:trace</Service>
+      <Level>User</Level>
+      <Name>Trace</Name>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:autocadwebapi</Service>
+      <Level>User</Level>
+      <Name>AutoCAD Web APIs</Name>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:myinsights</Service>
+      <Level>User</Level>
+      <Name>My Insights- Macro Advisor</Name>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:markupassist</Service>
+      <Level>User</Level>
+      <Name>Markup Import and Drafting Assist</Name>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:acadws</Service>
+      <Level>User</Level>
+      <Name>Autodesk® AutoCAD® 360</Name>
+      <AccessUrl>https://www.autocadws.com/main/oauth</AccessUrl>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:mobile:drapp</Service>
+      <Level>User</Level>
+      <Name>Autodesk® 360 Mobile</Name>
+      <AccessUrl>http://www.autodesk.com/autodesk360mobile</AccessUrl>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:geoloc3</Service>
+      <Level>User</Level>
+      <Name>Online Map Data</Name>
+    </Entitlement>
+  </EntitlementList>
+  <ExpiredEntitlementList />
+  <EidmGuid>TYK7JMNJL5YB</EidmGuid>
+  <SocialUserInfoList />
+  <LdapInfo>
+    <LdapEnabled>false</LdapEnabled>
+  </LdapInfo>
+  <ProfileImageUrl>
+    <SizeX20>https://images.profile.autodesk.com/default/user_X20.png</SizeX20>
+    <SizeX40>https://images.profile.autodesk.com/default/user_X40.png</SizeX40>
+    <SizeX50>https://images.profile.autodesk.com/default/user_X50.png</SizeX50>
+    <SizeX58>https://images.profile.autodesk.com/default/user_X58.png</SizeX58>
+    <SizeX80>https://images.profile.autodesk.com/default/user_X80.png</SizeX80>
+    <SizeX120>https://images.profile.autodesk.com/default/user_X120.png</SizeX120>
+    <SizeX160>https://images.profile.autodesk.com/default/user_X160.png</SizeX160>
+    <SizeX176>https://images.profile.autodesk.com/default/user_X176.png</SizeX176>
+    <SizeX240>https://images.profile.autodesk.com/default/user_X240.png</SizeX240>
+    <SizeX360>https://images.profile.autodesk.com/default/user_X360.png</SizeX360>
+  </ProfileImageUrl>
+  <Contact>
+    <Address1 />
+    <Address2 />
+    <City />
+    <State />
+    <Zipcode />
+    <Country>JP</Country>
+    <Phones />
+    <ProfileEmail />
+  </Contact>
+  <ProfessionalInformation>
+    <Company />
+    <JobTitle />
+    <Industry />
+    <IndustryCode />
+    <AboutMe />
+  </ProfessionalInformation>
+  <EmailVerified>true</EmailVerified>
+  <LastLoginDate>2022-05-03T08:15:26Z</LastLoginDate>
+  <IsVerifiedAdult>false</IsVerifiedAdult>
+  <IsTwoFAEnabled>true</IsTwoFAEnabled>
+  <CreatedDate>2021-05-01T11:35:27Z</CreatedDate>
+</User>]]></UserInfo>
+    <ServiceEntitlementEx TokenHash="691391fece843cdc066d50f8cfbea8ed" Server="Production" User="s.kameoka.227" UpdateDate="2022-05-03T08:15:32Z"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<UserEntitlement xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntitlementList>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:raas</Service>
+      <Name>Rendering</Name>
+      <Type>Subscription</Type>
+      <UserType>User|Student</UserType>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:storage</Service>
+      <Name>Autodesk® 360</Name>
+      <Type>Subscription</Type>
+      <UserType>User|Student</UserType>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:cfdws</Service>
+      <Name>Autodesk® Simulation CFD 360</Name>
+      <Type>Subscription</Type>
+      <UserType>User|Student</UserType>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:structuralanalysis</Service>
+      <Name>Structural Analysis</Name>
+      <Type>Subscription</Type>
+      <UserType>User|Student</UserType>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:photofly</Service>
+      <Name>Autodesk® ReCap Photo</Name>
+      <Type>Subscription</Type>
+      <UserType>User|Student</UserType>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:infraworksvos</Service>
+      <Name>InfraWorks Vertical Optimization Service</Name>
+      <Type>Subscription</Type>
+      <UserType>User|Student</UserType>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:cfdwsls</Service>
+      <Name>Moldflow CFD 360 Local Solve</Name>
+      <Type>Subscription</Type>
+      <UserType>User|Student</UserType>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:fusion360</Service>
+      <Name>Autodesk® Fusion 360</Name>
+      <Type>Subscription</Type>
+      <UserType>User|Student</UserType>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:bridgedesign</Service>
+      <Name>Autodesk® Bridge Design</Name>
+      <Type>Subscription</Type>
+      <UserType>User|Student</UserType>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:drainagedesign</Service>
+      <Name>Autodesk® Drainage Design</Name>
+      <Type>Subscription</Type>
+      <UserType>User|Student</UserType>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:roadwaydesign</Service>
+      <Name>Autodesk® Roadway Design</Name>
+      <Type>Subscription</Type>
+      <UserType>User|Student</UserType>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:flowdesign</Service>
+      <Name>Autodesk® Flow Design</Name>
+      <Type>Subscription</Type>
+      <UserType>User|Student</UserType>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:cgen</Service>
+      <Name>Character Generator</Name>
+      <Type>Subscription</Type>
+      <UserType>User|Student</UserType>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:apa</Service>
+      <Name>Autodesk® Process Analysis 360</Name>
+      <Type>Subscription</Type>
+      <UserType>User|Student</UserType>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:rda</Service>
+      <Name>360 Light Analysis RDA</Name>
+      <Type>Subscription</Type>
+      <UserType>User|Student</UserType>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:wsa</Service>
+      <Name>Autodesk® Watershed Analysis</Name>
+      <Type>Subscription</Type>
+      <UserType>User|Student</UserType>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:autodesk360personal</Service>
+      <Name>A360</Name>
+      <Type>Subscription</Type>
+      <UserType>User|Student</UserType>
+    </Entitlement>
+    <Entitlement>
+      <Service>gbs.autodesk.com</Service>
+      <Name>Autodesk® Green Building Studio®</Name>
+      <Type>Subscription</Type>
+      <UserType>User|Student</UserType>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:fusion360pro</Service>
+      <Name>Autodesk® Fusion 360 Pro</Name>
+      <Type>Subscription</Type>
+      <UserType>User|Student</UserType>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:formit</Service>
+      <Name>Autodesk® FormIt Pro</Name>
+      <Type>Subscription</Type>
+      <UserType>User|Student</UserType>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:recap360</Service>
+      <Name>Autodesk® ReCap 360</Name>
+      <Type>Subscription</Type>
+      <UserType>User|Student</UserType>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:trafficanalysis</Service>
+      <Name>Traffic Analysis for InfraWorks 360</Name>
+      <Type>Subscription</Type>
+      <UserType>User|Student</UserType>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:revitcea</Service>
+      <Name>Conceptual Energy Analysis for Autodesk® Revit®</Name>
+      <Type>Subscription</Type>
+      <UserType>User|Student</UserType>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:infraworks360</Service>
+      <Name>Autodesk Infraworks 360 - IW360P</Name>
+      <Type>Subscription</Type>
+      <UserType>User|Student</UserType>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:acad360pro</Service>
+      <Name>Autodesk® AutoCAD® 360 Pro</Name>
+      <Type>Subscription</Type>
+      <UserType>User|Student</UserType>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:fsim</Service>
+      <Name>Autodesk® Fusion Sim Basic</Name>
+      <Type>Subscription</Type>
+      <UserType>User|Student</UserType>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:remake</Service>
+      <Name>Autodesk® ReMake</Name>
+      <Type>Subscription</Type>
+      <UserType>User|Student</UserType>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:fusionteam</Service>
+      <Name>Autodesk® Fusion Team</Name>
+      <Type>Subscription</Type>
+      <UserType>User|Student</UserType>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:eaglepremium</Service>
+      <Name>Autodesk® Eagle Premium User</Name>
+      <Type>Subscription</Type>
+      <UserType>User|Student</UserType>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:recapmobile</Service>
+      <Name>ReCap Pro - mobile app</Name>
+      <Type>Subscription</Type>
+      <UserType>User|Student</UserType>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:recapphoto</Service>
+      <Name>Autodesk ReCap Photo service entitlement</Name>
+      <Type>Subscription</Type>
+      <UserType>User|Student</UserType>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:shview</Service>
+      <Name>Shared View</Name>
+      <Type>Subscription</Type>
+      <UserType>User|Student</UserType>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:shdata</Service>
+      <Name>Shared Data</Name>
+      <Type>Subscription</Type>
+      <UserType>User|Student</UserType>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:agd</Service>
+      <Name>Autodesk Generative Design</Name>
+      <Type>Subscription</Type>
+      <UserType>User|Student</UserType>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:hsmworksultimate</Service>
+      <Name>HSMWorks Ultimate</Name>
+      <Type>Subscription</Type>
+      <UserType>User|Student</UserType>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:fusion360manufacturingext</Service>
+      <Name>Manufacturing Extension for Fusion 360</Name>
+      <Type>Subscription</Type>
+      <UserType>User|Student</UserType>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:drawinghistory</Service>
+      <Name>Drawing History</Name>
+      <Type>Subscription</Type>
+      <UserType>User|Student</UserType>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:fusion360additiveext</Service>
+      <Name>Fusion 360 Additive Build Extension Flex Access</Name>
+      <Type>Subscription</Type>
+      <UserType>User|Student</UserType>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:acaddocext</Service>
+      <Name>Autodesk Docs Extension for AutoCAD</Name>
+      <Type>Subscription</Type>
+      <UserType>User|Student</UserType>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:fusion360nestingext</Service>
+      <Name>Fusion 360 Nesting and Fabrication Extension</Name>
+      <Type>Subscription</Type>
+      <UserType>User|Student</UserType>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:fusion360additivesim</Service>
+      <Name>Fusion 360 Additive Simulation Extension</Name>
+      <Type>Subscription</Type>
+      <UserType>User|Student</UserType>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:f360pde</Service>
+      <Name>Fusion 360 - Product Design Extension</Name>
+      <Type>Subscription</Type>
+      <UserType>User|Student</UserType>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:trace</Service>
+      <Name>Trace</Name>
+      <Type>Subscription</Type>
+      <UserType>User|Student</UserType>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:autocadwebapi</Service>
+      <Name>AutoCAD Web APIs</Name>
+      <Type>Subscription</Type>
+      <UserType>User|Student</UserType>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:myinsights</Service>
+      <Name>My Insights- Macro Advisor</Name>
+      <Type>Subscription</Type>
+      <UserType>User|Student</UserType>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:markupassist</Service>
+      <Name>Markup Import and Drafting Assist</Name>
+      <Type>Subscription</Type>
+      <UserType>User|Student</UserType>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:acadws</Service>
+      <Name>Autodesk® AutoCAD® 360</Name>
+      <Type>Free</Type>
+      <UserType>User</UserType>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:mobile:drapp</Service>
+      <Name>Autodesk® 360 Mobile</Name>
+      <Type>Free</Type>
+      <UserType>User</UserType>
+    </Entitlement>
+    <Entitlement>
+      <Service>urn:autodesk.com:services:geoloc3</Service>
+      <Name>Online Map Data</Name>
+      <Type>Free</Type>
+      <UserType>User</UserType>
+    </Entitlement>
+  </EntitlementList>
+  <EligibleTrialList>
+    <TrialGroup>
+      <Services>
+        <Entitlement>
+          <Service>urn:autodesk.com:services:configurator360</Service>
+          <Name>Autodesk® Configurator 360</Name>
+        </Entitlement>
+      </Services>
+      <TrialGroupName>configtrial</TrialGroupName>
+    </TrialGroup>
+    <TrialGroup>
+      <Services>
+        <Entitlement>
+          <Service>urn:autodesk.com:services:autodesk360team</Service>
+          <Name>A360 Team</Name>
+        </Entitlement>
+      </Services>
+      <TrialGroupName>autodesk360teamtrial</TrialGroupName>
+    </TrialGroup>
+    <TrialGroup>
+      <Services>
+        <Entitlement>
+          <Service>urn:autodesk.com:services:forge</Service>
+          <Name>Forge</Name>
+        </Entitlement>
+      </Services>
+      <TrialGroupName>forgeteamtrial</TrialGroupName>
+    </TrialGroup>
+  </EligibleTrialList>
+  <ActiveTrialList />
+  <ExpiredTrialList />
+</UserEntitlement>]]></ServiceEntitlementEx>
+</WebServicesCache>

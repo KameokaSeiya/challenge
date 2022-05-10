@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+    <implementation render="MentalImage">
+      <language name="MentalRaySL" version="3.6"/>
+      <api name="MentalRay" version="3.6"/>
+      <root_bindings name="root"/>
+      <constants>
+        <float name="on" val="1.0"/>
+        <float name="off" val="0.0"/>
+       </constants>
+
+      <operator function="ConditionalOperator" name="HighlightSwitcher">
+        <map_interface source="generic_is_metal" destination="predicate"/>
+        <map_constant source="on" destination="ifTrue"/>
+        <map_constant source="off" destination="ifFalse"/>
+      </operator>
+
+      <operator function="ExplicitColorAccessorOperator" name="ExplicitDiffuseAccessor">
+        <map_interface source="generic_diffuse" destination="color"/>
+      </operator>
+
+      <operator function="ExplicitFloatAccessorOperator" name="ExplicitTransparencyAccessor">
+        <map_interface source="generic_transparency" destination="float"/>
+      </operator>
+
+
+		<bindings target="shader" name="root">
+        <desc val="mi.phenomenon/include/adsk_Mtl_SimpleGeneric.mi" tag="adsk_Mtl_SimpleGeneric_V2"/>
+        <map_interface source="color_by_object" destination="m.color_by_object"/>
+		<map_interface source="generic_diffuse" destination="m.diffuse_map"/>				<!--here we translate the diffuse map connection-->
+		<map_operator  source="ExplicitDiffuseAccessor" destination="m.diffuse_color"/>		<!--here we translate the diffuse color value-->
+        <map_interface source="generic_diffuse_image_fade" destination="m.diffuse_image_fade"/>
+        <map_interface source="generic_reflectivity_at_0deg" destination="m.brdf_0_degree_refl"/>
+        <map_interface source="generic_reflectivity_at_90deg" destination="m.brdf_90_degree_refl"/>
+        <map_interface source="generic_glossiness" destination="m.surf_gloss"/>
+        <map_operator  source="HighlightSwitcher" destination="m.is_metal"/>
+		<map_interface source="common_Tint_toggle" destination="m.tint_enable"/>
+		<map_interface source="common_Tint_color" destination="m.tint_color"/>
+        <map_interface source="generic_transparency" destination="t.transparency_map"/>
+        <map_operator  source="ExplicitTransparencyAccessor" destination="t.transparency_amount"/>
+        <map_interface source="generic_transparency_image_fade" destination="t.transparency_image_fade"/>
+        <map_interface source="generic_refraction_index" destination="t.refr_ior"/>
+        <map_interface source="generic_refraction_translucency_weight" destination="t.refr_trans_weight"/>
+        <map_interface source="generic_cutout_opacity" destination="t.cutout_opacity"/>
+        <map_interface source="generic_backface_cull" destination="t.backface_cull"/>
+        <map_interface source="generic_self_illum_luminance" destination="i.self_illum_luminance"/>
+        <map_interface source="generic_self_illum_color_temperature" destination="i.self_illum_color_temperature"/>
+        <map_interface source="generic_self_illum_filter_map" destination="i.self_illum_filter_map"/>
+        <map_interface source="generic_bump_amount" destination="m.bump_amount"/>
+        <map_interface source="generic_bump_map" destination="m.bump_map"/>
+        <map_interface source="generic_ao_on" destination="o.ao_on"/>
+        <map_interface source="generic_ao_samples" destination="o.ao_samples"/>
+        <map_interface source="generic_ao_distance" destination="o.ao_distance"/>
+        <map_interface source="generic_ao_details" destination="o.ao_do_details"/>
+        <map_interface source="generic_roundcorners_radius" destination="r.roundcorners_radius"/>
+        <map_interface source="generic_roundcorners_allow_different_materials" destination="r.roundcorners_allow_different_materials"/>
+        <map_interface source="generic_refl_depth" destination="p.refl_depth"/>
+        <map_interface source="generic_refr_depth" destination="p.refr_depth"/>
+        <map_interface source="generic_reflection_glossy_samples" destination="p.reflection_glossy_samples"/>
+        <map_interface source="generic_refraction_glossy_samples" destination="p.refraction_glossy_samples"/>
+	<map_interface source="mode" destination="mode"/>
+      </bindings>
+    </implementation>

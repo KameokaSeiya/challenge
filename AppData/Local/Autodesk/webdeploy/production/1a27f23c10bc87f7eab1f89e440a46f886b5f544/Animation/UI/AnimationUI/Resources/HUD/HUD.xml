@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HUDs>
+  <HUD Id="PublisherMoveComponentsCommand">
+    <DynamicControls Id="MoveComponentsTransformInput"/>
+  </HUD>
+
+  <HUD Id="PublisherEditTransformActionCommand">
+    <DynamicControls Id="MoveComponentsTransformInput"/>
+  </HUD>
+
+  <HUD Id="PublisherDurationCmd" StaysOnTopHint="false">
+    <DropDownEntry Id="infoDuration" ShowText="true" Text="Duration" WidthString="000.000" />
+    <Button Id="infoDurationOk" Text="Ok" />
+    <Button Id="infoDurationCancel" Text="Cancel" />
+  </HUD>
+  
+  <HUD Id="PublisherEditActionCmd" StaysOnTopHint="false">
+    <DropDownButton Id="infoActionType" ShowText="true" SynchronizedWithCurrentItem="true" />
+    <DropDownEntry Id="infoStartTime" ShowText="true" Text="Start" WidthString="000.000" />
+    <DropDownEntry Id="infoEndTime" ShowText="true" Text="End" WidthString="000.000" />
+    <Button Id="infoEditActionOk" Text="Ok" />
+    <Button Id="infoEditActionCancel" Text="Cancel" />
+  </HUD>
+
+  <HUD Id="PublisherEditSmartObjectActionCmd" StaysOnTopHint="true">
+    <DropDownEntry Id="infoStartTime" ShowText="true" Text="Time" WidthString="000.000" />
+    <Button Id="infoEditActionOk" Text="Ok" />
+    <Button Id="infoEditActionCancel" Text="Cancel" />
+  </HUD>
+
+  <HUD Id="PublisherEditStoryboardCmd" StaysOnTopHint="true">
+    <DropDownEntry Id="infoStoryboardTime" WidthString="000.000" />
+    <Button Id="infoOk" Text="Ok" />
+    <Button Id="infoCancel" Text="Cancel" />
+  </HUD>
+
+  <HUD Id="PublisherExplodeAllPartsCommand">
+    <DropDownButton Id="infoExplosionType" ShowText="false" SynchronizedWithCurrentItem="true" />
+    <CheckBox Id="infoTrailVisibility" ShowText="false" />
+    <Slider Id="infoExplosionScale" NoIcon="true" NumSliders="1"
+            ShowText="false" ShowValue="false"
+            ValueType="float" LowerLimit="0.0" UpperLimit="4.0" WidthSlider="100"/>
+    <Button Id="infoExplodeOk" Text="Ok" />
+    <Button Id="infoExplodeCancel" Text="Cancel" />
+  </HUD>
+
+  <HUD Id="PublisherExplodeDirectChildrenCommand">
+    <DropDownButton Id="infoExplosionType" ShowText="false" SynchronizedWithCurrentItem="true" />
+    <CheckBox Id="infoTrailVisibility" ShowText="false" />
+    <Slider Id="infoExplosionScale" NoIcon="true" NumSliders="1"
+            ShowText="false" ShowValue="false"
+            ValueType="float" LowerLimit="0.0" UpperLimit="4.0" WidthSlider="100"/>
+    <Button Id="infoExplodeOk" Text="Ok" />
+    <Button Id="infoExplodeCancel" Text="Cancel" />
+  </HUD>
+
+  <HUD Id="PublisherMaterialCommand" StaysOnTopHint="false">
+    <DropDownButton Id="infoScopeType" ShowText="true" SynchronizedWithCurrentItem="true" />
+	<Button Id="infoEditOk" Text="Ok" />
+    <Button Id="infoEditCancel" Text="Cancel" />
+  </HUD>
+
+  <HUD Id="PublisherManualExplodeCommand">
+    <DropDownButton Id="infoExplosionType" ShowText="false" SynchronizedWithCurrentItem="true" />
+    <CheckBox Id="infoTrailVisibility" ShowText="false" />
+    <Slider Id="infoExplosionScale" NoIcon="true" NumSliders="1"
+            ShowText="false" ShowValue="false"
+            ValueType="float" LowerLimit="0.0" UpperLimit="4.0" WidthSlider="100"/>
+    <Button Id="infoExplodeOk" Text="Ok" />
+    <Button Id="infoExplodeCancel" Text="Cancel" />
+  </HUD>
+</HUDs>

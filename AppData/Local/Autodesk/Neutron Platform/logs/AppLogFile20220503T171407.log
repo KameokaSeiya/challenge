@@ -1,0 +1,88 @@
+20220503T171407 I .16228 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/NMachineSpecificOptions.xml successfully		ThreadID: 16228, Function: Ns::OptionGroup::load, Line: 622
+20220503T171407 I .16228 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/NMachineSpecificOptions.xml successfully		ThreadID: 16228, Function: Ns::OptionGroup::load, Line: 622
+20220503T171408 I .16228 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/NMachineSpecificOptions.xml successfully		ThreadID: 16228, Function: Ns::OptionGroup::load, Line: 622
+20220503T171408 I .16228 Version : 2.0.11894
+20220503T171408 I .16228 UTC offset : 9
+20220503T171408 I .16228 Loading configuration from:C:/Users/seiya/AppData/Local/Autodesk/webdeploy/production/1a27f23c10bc87f7eab1f89e440a46f886b5f544/Fusion 360.server.config
+20220503T171408 I .16228 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/TYK7JMNJL5YB/NGlobalOptions.xml successfully		ThreadID: 16228, Function: Ns::OptionGroup::load, Line: 622
+20220503T171409 I .16228 PROXY: WindowsProxyOptionId set to Automatic
+20220503T171409 W .16228 PROXY: failed to query IE proxy configuration - ﾂプﾂδ債キﾂシﾂの篠ｩﾂ督ｮﾂ構ﾂ青ｬ URL ﾂつｪﾂ個ｩﾂつつｩﾂり�慊つｹﾂわ｣逸ｵつｵﾂつｽﾂ。
+
+20220503T171409 I .16228 PROXY: proxy server set to DIRECT
+20220503T171409 I .16228 GET 200 https://ui-dls360.autodesk.com/fusion/version.txt - workflow: attempt:0 requestId: dt=0.41
+20220503T171409 I .16228 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/TYK7JMNJL5YB/NGlobalOptions.xml successfully		ThreadID: 16228, Function: Ns::OptionGroup::load, Line: 622
+20220503T171409 I .16228 SLM: device id = 57621587-3832-60f7-3c59-94c9040a3885
+20220503T171409 I .16228 SLM: Initialized
+20220503T171409 I .16228 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/TYK7JMNJL5YB/NGlobalOptions.xml successfully		ThreadID: 16228, Function: Ns::OptionGroup::load, Line: 622
+20220503T171409 I .16228 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/NMachineSpecificOptions.xml successfully		ThreadID: 16228, Function: Ns::OptionGroup::load, Line: 622
+20220503T171409 I .16228 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/TYK7JMNJL5YB/NGlobalOptions.xml successfully		ThreadID: 16228, Function: Ns::OptionGroup::load, Line: 622
+20220503T171410 I .16228 WorkflowTrackManager Initialized with:0 items
+20220503T171410 I .16228 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/NMachineSpecificOptions.xml successfully		ThreadID: 16228, Function: Ns::OptionGroup::load, Line: 622
+20220503T171410 I  18244 Disk capacity: 242,895MB Disk free: 97,104MB Percentage free: 39 UIThread: no Time: 0.00037s
+20220503T171410 I .16228 ADP - 41695c49-e327-48ea-8f95-36518196eebd
+20220503T171410 I .16228 AnalyticItemCounts Initialized with:0 items
+20220503T171410 I .16228 	searchAndLoad exec path: C:/Users/seiya/AppData/Local/Autodesk/webdeploy/production/1a27f23c10bc87f7eab1f89e440a46f886b5f544/Fusion360.exe
+20220503T171411 I .16228 SYNHUB: Loading config files in directory C:/Users/seiya/AppData/Roaming/Autodesk/Synergy
+
+20220503T171411 I .16228 SYNHUB: Loading config file C:/Users/seiya/AppData/Roaming/Autodesk/Synergy/NLauncher.syncfg
+
+20220503T171414 I  12196 LaunchDarkly client initialization process is finished successfully!		ThreadID: 12196, Function: Ns::LDCSDKWrapper::initLDCallback, Line: 336
+20220503T171414 I  18592 LD CSDK for type Global was initialized with a total time of 0.000002 seconds		ThreadID: 18592, Function: Ns::CSDKLDFeatureFlagsManager::getFlagValue, Line: 137
+20220503T171416 I .16228 Load Feature Toggle Xml:C:/Users/seiya/AppData/Local/Autodesk/webdeploy/production/1a27f23c10bc87f7eab1f89e440a46f886b5f544/Fusion/Server/Fusion/Resources/FeatureToggle/FeatureToggle.xml
+20220503T171416 I .16228 Live update: start update check.
+20220503T171416 I  12472 Live update: Skip the first Etag check
+20220503T171416 I  12472 Live update: Start update process in Streamer side.
+20220503T171419 I .16228 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/TYK7JMNJL5YB/NGlobalOptions.xml successfully		ThreadID: 16228, Function: Ns::OptionGroup::load, Line: 622
+20220503T171420 I .16228 Load Feature Toggle Xml:C:/Users/seiya/AppData/Local/Autodesk/webdeploy/production/1a27f23c10bc87f7eab1f89e440a46f886b5f544/FusionDoc/Server/FusionDoc/Resources/FeatureToggle/FeatureToggle.xml
+20220503T171423 I .16228 C:\Users\seiya\AppData\Local\Autodesk\webdeploy\production\1a27f23c10bc87f7eab1f89e440a46f886b5f544\Applications\Simulation\SimCommon10.dll		ThreadID: 16228, Function: DllMain, Line: 22
+20220503T171423 I .16228 Process attach		ThreadID: 16228, Function: DllMain, Line: 23
+20220503T171426 I .16228 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/NMachineSpecificOptions.xml successfully		ThreadID: 16228, Function: Ns::OptionGroup::load, Line: 622
+20220503T171428 I .16228 C:\Users\seiya\AppData\Local\Autodesk\webdeploy\production\1a27f23c10bc87f7eab1f89e440a46f886b5f544\Applications\CAM360\SimIdealizations10.dll		ThreadID: 16228, Function: DllMain, Line: 16
+20220503T171428 I .16228 Process attach		ThreadID: 16228, Function: DllMain, Line: 17
+20220503T171432 I .16228 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/TYK7JMNJL5YB/NGlobalOptions.xml successfully		ThreadID: 16228, Function: Ns::OptionGroup::load, Line: 622
+20220503T171432 I .16228 Libeagle app mode: Hosted		ThreadID: 16228, Function: void __cdecl Application::cEagleAppPrivate::Init(void), Line: 236
+20220503T171436 I .16228 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/TYK7JMNJL5YB/electronoptiongroup_eagle.rc successfully		ThreadID: 16228, Function: Ns::OptionGroup::load, Line: 622
+20220503T171438 I .16228 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/TYK7JMNJL5YB/NGlobalOptions.xml successfully		ThreadID: 16228, Function: Ns::OptionGroup::load, Line: 622
+20220503T171438 I .16228 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/TYK7JMNJL5YB/NGlobalOptions.xml successfully		ThreadID: 16228, Function: Ns::OptionGroup::load, Line: 622
+20220503T171438 I .16228 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/TYK7JMNJL5YB/NGlobalOptions.xml successfully		ThreadID: 16228, Function: Ns::OptionGroup::load, Line: 622
+20220503T171438 I .16228 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/TYK7JMNJL5YB/NGlobalOptions.xml successfully		ThreadID: 16228, Function: Ns::OptionGroup::load, Line: 622
+20220503T171439 I .16228 Toolbar loader: Stopping...
+20220503T171439 I .16228 Toolbar loader: Stopped
+20220503T171439 I .16228 ***startSession: BEGIN
+20220503T171439 I .16228 getEntitlement
+20220503T171439 I .16228 authenticate:begin
+20220503T171439 I .16228 login start
+20220503T171513 I   2148 ServicesHealthStatus: Health Status changed from unknown to operational
+20220503T171531 I .16228 Going to load toolbar customizations files		ThreadID: 16228, Function: Nu::ToolbarManager::loadCustomization, Line: 465
+20220503T171531 I .16228 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/TYK7JMNJL5YB/NGlobalOptions.xml successfully		ThreadID: 16228, Function: Ns::OptionGroup::load, Line: 622
+20220503T171531 I .16228 Completed loading toolbar customizations files		ThreadID: 16228, Function: Nu::ToolbarManager::loadCustomization, Line: 467
+20220503T171531 I .16228 AnalyticItemCounts Terminating with:0 items
+20220503T171531 I .16228 AnalyticItemCounts Initialized with:0 items
+20220503T171531 I .16228 WorkflowTrackManager Terminating with:0 items
+20220503T171531 I .16228 WorkflowTrackManager Initialized with:0 items
+20220503T171531 I .16228 ADP - optIn: 1 prompted: 1
+20220503T171533 I  14244 Workflow start: /v1/licenses 1-6270e4a4-61cb4b1ba1f144c28be4e046
+20220503T171533 W .16228 Login - Login Dialog Exit
+20220503T171533 I .16228 Going to load toolbar customizations files		ThreadID: 16228, Function: Nu::ToolbarManager::loadCustomization, Line: 465
+20220503T171533 I .16228 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/TYK7JMNJL5YB/NGlobalOptions.xml successfully		ThreadID: 16228, Function: Ns::OptionGroup::load, Line: 622
+20220503T171533 I .16228 Completed loading toolbar customizations files		ThreadID: 16228, Function: Nu::ToolbarManager::loadCustomization, Line: 467
+20220503T171533 I .16228 AnalyticItemCounts Terminating with:0 items
+20220503T171533 I  18592 LaunchDarkly client initialization process is not finished successfully!		ThreadID: 18592, Function: Ns::LDCSDKWrapper::initLDCallback, Line: 340
+20220503T171533 I .16228 AnalyticItemCounts Initialized with:0 items
+20220503T171533 I .16228 WorkflowTrackManager Terminating with:0 items
+20220503T171533 I .16228 WorkflowTrackManager Initialized with:0 items
+20220503T171533 I .16228 ADP - optIn: 1 prompted: 1
+20220503T171533 I .16228 login end 0
+20220503T171533 I   7044 Autosave background thread started with saveTime: 5
+20220503T171533 I .16228 GET 200 https://js.prd.fusionapi.autodesk.com/fusion360-runtime-config/config.json - workflow:HTTPClient attempt:0 requestId:f360_HTTPClient__1-6270e4a4-403aacfe63134ce8b31718b8 dt=0.32
+20220503T171533 I .16228 SLM: Enabled (Production)
+20220503T171533 I .16228 SLM: Start session deviceId=57621587-3832-60f7-3c59-94c9040a3885 deviceName=DESKTOP-EAOHTBR
+20220503T171533 I .16228 Workflow start: SLM_startSession 1-6270e4a5-7a8a31a052d9498fa5a64113
+20220503T171534 I   7660 GET 200 https://metering.autodesk.com/api/accounts/v1/TYK7JMNJL5YB - workflow:HTTPClient attempt:0 requestId:f360_HTTPClient__1-6270e4a4-b701b73eebfa4cfcb8529990 dt=1.16
+20220503T171534 I  12196 LaunchDarkly client initialization process is finished successfully!		ThreadID: 12196, Function: Ns::LDCSDKWrapper::initLDCallback, Line: 336
+20220503T171534 I  18592 LD CSDK for type Nonhub was initialized with a total time of 0.891986 seconds		ThreadID: 18592, Function: Ns::CSDKLDFeatureFlagsManager::getFlagValue, Line: 137
+20220503T171534 I  18592 LD CSDK for type Nonhub was initialized with a total time of 0.000003 seconds		ThreadID: 18592, Function: Ns::CSDKLDFeatureFlagsManager::getFlagValue, Line: 137
+20220503T171534 I  14244 POST 200 https://api.v3license.access.clic.autodesk.com/v1/licenses - workflow:/v1/licenses attempt:0 requestId:f360_/v1/licenses__1-6270e4a4-61cb4b1ba1f144c28be4e046 dt=1.77
+20220503T171534 I  14244 Workflow start: /v1/license-check 1-6270e4a5-383d33c87d0b476387b00bef
+20220503T171534 I .16228 POST 200 https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions - workflow:SLM_startSession attempt:0 requestId:f360_SLM_startSession__1-6270e4a5-7a8a31a052d9498fa5a64113 dt=0.94
+20220503T171534 I .16228 SLM: session = 88674579

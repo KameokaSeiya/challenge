@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Menus>
+  <MarkingMenu EnvId="Publisher2DEnvironment">
+    <Menu TypeId="BaseMenu">
+    </Menu>
+
+    <Menu TypeId="Overflow">
+      <Separator />
+      <MenuItem Id="CalloutEditCommand" />
+    </Menu>
+  </MarkingMenu>
+
+  <MarkingMenu EnvId="Publisher3DEnvironment">
+    <Menu TypeId="BaseMenu">
+    </Menu>
+
+    <Menu TypeId="Overflow">
+      <Separator />
+      <MenuItem Id="CalloutEditCommand" />
+    </Menu>
+  </MarkingMenu>
+  
+</Menus>

@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+    <implementation render="MentalImage">
+      <language name="MentalRaySL" version="3.6"/>
+      <api name="MentalRay" version="3.6"/>
+      <root_bindings name="root"/>
+
+      <bindings target="texture file" name="granite_tex">
+        <map_interface source="granite_tex" destination="filename"/>
+      </bindings>
+
+      <bindings target="texture file" name="stonewall_tex">
+        <map_interface source="stonewall_tex" destination="filename"/>
+      </bindings>
+
+      <bindings target="texture file" name="marble_tex">
+        <map_interface source="marble_tex" destination="filename"/>
+      </bindings>
+
+      <bindings target="shader" name="root">
+        <desc val="external.dependency/Simple_Stone_Mtl_Granite_bump.jpg|external.dependency/Simple_Stone_Mtl_StoneWall_bump.jpg|external.dependency/Simple_Stone_Mtl_Marble_bump.jpg|mi.phenomenon/include/adsk_Mtl_Stone.mi" tag="adsk_Mtl_Stone_V2"/>
+        <map_interface source="stone_color" destination="m.diffuse_color"/>
+        <map_interface source="stone_application" destination="m.application"/>
+        <map_interface source="stone_bump" destination="m.bump_enable"/>
+        <map_interface source="stone_bump_map" destination="m.bump_map"/>
+        <map_interface source="stone_bump_amount" destination="m.bump_amount"/>
+        <map_interface source="stone_pattern" destination="m.pattern_enable"/>
+        <map_interface source="stone_pattern_map" destination="m.pattern_map"/>
+        <map_interface source="stone_pattern_amount" destination="m.pattern_amount"/>
+
+	<map_interface source="common_Tint_toggle" destination="m.tint_enable"/>
+	<map_interface source="common_Tint_color" destination="m.tint_color"/>
+
+        <map_bindings source="granite_tex" destination="t.granite_tex"/>
+        <map_bindings source="stonewall_tex" destination="t.stonewall_tex"/>
+        <map_bindings source="marble_tex" destination="t.marble_tex"/>
+
+        <map_interface source="stone_ao_on" destination="o.ao_on"/>
+        <map_interface source="stone_ao_samples" destination="o.ao_samples"/>
+        <map_interface source="stone_ao_distance" destination="o.ao_distance"/>
+        <map_interface source="stone_ao_details" destination="o.ao_do_details"/>
+        <map_interface source="stone_roundcorners_on" destination="o.roundcorners_on"/>
+        <map_interface source="stone_roundcorners_radius" destination="o.roundcorners_radius"/>
+        <map_interface source="stone_roundcorners_allow_different_materials" destination="o.roundcorners_allow_different_materials"/>
+        <map_interface source="stone_refl_depth" destination="p.refl_depth"/>
+      <map_interface source="reflection_glossy_samples" destination="p.reflection_glossy_samples"/>
+      <map_interface source="uv_channel" destination="u.uv_channel"/>
+      <map_interface source="tiling" destination="u.tiling"/>
+		  <map_interface source="mode" destination="mode"/>
+     </bindings>
+
+    </implementation>

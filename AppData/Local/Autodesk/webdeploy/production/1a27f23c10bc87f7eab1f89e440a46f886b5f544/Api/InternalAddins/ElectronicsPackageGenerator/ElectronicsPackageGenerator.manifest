@@ -1,0 +1,13 @@
+{
+	"autodeskProduct":	"Fusion360",
+	"type":	"addin",
+	"id":	"6ab966cb-52d4-4448-b36d-b7e41d7e8756",
+	"author":	"Autodesk Inc.",
+	"description":	{
+		"":	"Generate a 3D electronics package with a 3D model and IPC compliant 2D footprint from parameters."
+	},
+	"version":	"1.0.181",
+	"runOnStartup":	true,
+	"supportedOS":	"windows|mac",
+	"editEnabled":	true
+}

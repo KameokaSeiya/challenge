@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!DOCTYPE adsui SYSTEM "../ui.dtd">
+<adsui version="2.0">
+  <PageInfo>
+    <Title>
+      Ambient Occlusion
+    </Title>
+  </PageInfo>
+  <Fields>
+    <StackPanel id="ambientocclusion_group" label="Ambient Occlusion Properties" orientation="Vertical" expanded="true">
+      
+      <Color id="ssao_filter_color" label="Filter Color:"/>
+      
+      <ChooseList id="ssao_quality" label="Quality:">
+        <Choice id="ssao_low" label="Coarse (Fastest)"/>
+        <Choice id="ssao_medium" label="Medium"/>
+        <Choice id="ssao_high" label="Fine (Slowest)"/>
+        <ChoiceDetail id="ssao_custom" label="Custom">
+          <Float id="ssao_sample_radius" label="Sample Radius:" min="0.001"/>
+          <Integer id="ssao_sample_count" label="Samples:" min="1"/>
+          <Float id="ssao_blur_radius" label="Blur:" min="0.001"/>
+          <Float id="ssao_blend_amount" label="Blending:" min="0.001"/>
+        </ChoiceDetail>
+      </ChooseList>
+    </StackPanel>
+    
+  </Fields>
+</adsui>

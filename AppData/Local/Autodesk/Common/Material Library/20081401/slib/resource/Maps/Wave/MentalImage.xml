@@ -1,0 +1,33 @@
+<?xml version="1.0"?>  
+    <implementation render="MentalImage">
+      <language name="MentalRaySL" version="3.6"/>
+      <api name="MentalRay" version="3.6"/>
+      <root_bindings name="root"/>
+      
+      <operator function="VectorDegreeToVectorRadian" name="VectorDegreeToVectorRadian">
+        <map_interface source="texture_Angle" destination="X"/>
+      </operator>
+
+      <operator function="FloatToVector" name="OffsetVector">
+        <map_interface source="texture_RealWorldOffsetX" destination="X"/>
+        <map_interface source="texture_RealWorldOffsetY" destination="Y"/>
+        <map_interface source="texture_RealWorldOffsetZ" destination="Z"/>
+      </operator>
+
+      <bindings target="shader" name="root">
+        <desc val="mi.phenomenon/include/adsk_Map_SimpleWave.mi" tag="adsk_Map_Simple_Wave_V2"/>
+        <map_interface source="wave_Color1" destination="m.Color1"/>
+        <map_interface source="wave_Color2" destination="m.Color2"/>
+        <map_interface source="wave_Distribution" destination="m.Distribution"/>
+        <map_interface source="wave_NumWaveSets" destination="m.NumWaveSets"/>
+        <map_interface source="wave_WaveRadius" destination="m.WaveRadius"/>
+        <map_interface source="wave_WaveLenMin" destination="m.WaveLenMin"/>
+        <map_interface source="wave_WaveLenMax" destination="m.WaveLenMax"/>
+        <map_interface source="wave_Amplitude" destination="m.Amplitude"/>
+        <map_interface source="wave_Phase" destination="m.Phase"/>
+        <map_interface source="wave_RandomSeed" destination="m.RandomSeed"/>
+        <map_operator source="OffsetVector" destination="u.Offset"/>
+        <map_interface source="texture_Tiling" destination="u.Tiling"/>
+        <map_operator source="VectorDegreeToVectorRadian" destination="u.Angle"/>
+      </bindings>
+    </implementation>

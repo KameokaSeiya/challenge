@@ -1,0 +1,85 @@
+20220422T161727 I .21728 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/NMachineSpecificOptions.xml successfully		ThreadID: 21728, Function: Ns::OptionGroup::load, Line: 622
+20220422T161727 I .21728 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/NMachineSpecificOptions.xml successfully		ThreadID: 21728, Function: Ns::OptionGroup::load, Line: 622
+20220422T161729 I .21728 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/NMachineSpecificOptions.xml successfully		ThreadID: 21728, Function: Ns::OptionGroup::load, Line: 622
+20220422T161729 I .21728 Version : 2.0.11894
+20220422T161729 I .21728 UTC offset : 9
+20220422T161729 I .21728 Loading configuration from:C:/Users/seiya/AppData/Local/Autodesk/webdeploy/production/1a27f23c10bc87f7eab1f89e440a46f886b5f544/Fusion 360.server.config
+20220422T161729 I .21728 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/TYK7JMNJL5YB/NGlobalOptions.xml successfully		ThreadID: 21728, Function: Ns::OptionGroup::load, Line: 622
+20220422T161733 I .21728 PROXY: WindowsProxyOptionId set to Automatic
+20220422T161733 W .21728 PROXY: failed to query IE proxy configuration - ﾂプﾂδ債キﾂシﾂの篠ｩﾂ督ｮﾂ構ﾂ青ｬ URL ﾂつｪﾂ個ｩﾂつつｩﾂり�慊つｹﾂわ｣逸ｵつｵﾂつｽﾂ。
+
+20220422T161733 I .21728 PROXY: proxy server set to DIRECT
+20220422T161734 I .21728 GET 200 https://ui-dls360.autodesk.com/fusion/version.txt - workflow: attempt:0 requestId: dt=0.29
+20220422T161734 I .21728 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/TYK7JMNJL5YB/NGlobalOptions.xml successfully		ThreadID: 21728, Function: Ns::OptionGroup::load, Line: 622
+20220422T161734 I .21728 SLM: device id = 57621587-3832-60f7-3c59-94c9040a3885
+20220422T161734 I .21728 SLM: Initialized
+20220422T161734 I .21728 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/TYK7JMNJL5YB/NGlobalOptions.xml successfully		ThreadID: 21728, Function: Ns::OptionGroup::load, Line: 622
+20220422T161734 I .21728 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/NMachineSpecificOptions.xml successfully		ThreadID: 21728, Function: Ns::OptionGroup::load, Line: 622
+20220422T161734 I .21728 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/TYK7JMNJL5YB/NGlobalOptions.xml successfully		ThreadID: 21728, Function: Ns::OptionGroup::load, Line: 622
+20220422T161734 I .21728 WorkflowTrackManager Initialized with:0 items
+20220422T161734 I .21728 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/NMachineSpecificOptions.xml successfully		ThreadID: 21728, Function: Ns::OptionGroup::load, Line: 622
+20220422T161734 I  17832 Disk capacity: 242,895MB Disk free: 94,852MB Percentage free: 39 UIThread: no Time: 0.00151s
+20220422T161734 I .21728 ADP - 09d1c712-0a22-47af-b69b-d20cef056342
+20220422T161734 I .21728 AnalyticItemCounts Initialized with:0 items
+20220422T161734 I .21728 	searchAndLoad exec path: C:/Users/seiya/AppData/Local/Autodesk/webdeploy/production/1a27f23c10bc87f7eab1f89e440a46f886b5f544/Fusion360.exe
+20220422T161735 I .21728 SYNHUB: Loading config files in directory C:/Users/seiya/AppData/Roaming/Autodesk/Synergy
+
+20220422T161735 I .21728 SYNHUB: Loading config file C:/Users/seiya/AppData/Roaming/Autodesk/Synergy/NLauncher.syncfg
+
+20220422T161737 I  24160 LaunchDarkly client initialization process is finished successfully!		ThreadID: 24160, Function: Ns::LDCSDKWrapper::initLDCallback, Line: 336
+20220422T161737 I  11340 LD CSDK for type Global was initialized with a total time of 0.000006 seconds		ThreadID: 11340, Function: Ns::CSDKLDFeatureFlagsManager::getFlagValue, Line: 137
+20220422T161744 I .21728 Load Feature Toggle Xml:C:/Users/seiya/AppData/Local/Autodesk/webdeploy/production/1a27f23c10bc87f7eab1f89e440a46f886b5f544/Fusion/Server/Fusion/Resources/FeatureToggle/FeatureToggle.xml
+20220422T161744 I .21728 Live update: start update check.
+20220422T161744 I  16412 Live update: Skip the first Etag check
+20220422T161744 I  16412 Live update: Start update process in Streamer side.
+20220422T161748 I .21728 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/TYK7JMNJL5YB/NGlobalOptions.xml successfully		ThreadID: 21728, Function: Ns::OptionGroup::load, Line: 622
+20220422T161749 I .21728 Load Feature Toggle Xml:C:/Users/seiya/AppData/Local/Autodesk/webdeploy/production/1a27f23c10bc87f7eab1f89e440a46f886b5f544/FusionDoc/Server/FusionDoc/Resources/FeatureToggle/FeatureToggle.xml
+20220422T161752 I .21728 C:\Users\seiya\AppData\Local\Autodesk\webdeploy\production\1a27f23c10bc87f7eab1f89e440a46f886b5f544\Applications\Simulation\SimCommon10.dll		ThreadID: 21728, Function: DllMain, Line: 22
+20220422T161752 I .21728 Process attach		ThreadID: 21728, Function: DllMain, Line: 23
+20220422T161756 I .21728 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/NMachineSpecificOptions.xml successfully		ThreadID: 21728, Function: Ns::OptionGroup::load, Line: 622
+20220422T161758 I .21728 C:\Users\seiya\AppData\Local\Autodesk\webdeploy\production\1a27f23c10bc87f7eab1f89e440a46f886b5f544\Applications\CAM360\SimIdealizations10.dll		ThreadID: 21728, Function: DllMain, Line: 16
+20220422T161758 I .21728 Process attach		ThreadID: 21728, Function: DllMain, Line: 17
+20220422T161802 I .21728 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/TYK7JMNJL5YB/NGlobalOptions.xml successfully		ThreadID: 21728, Function: Ns::OptionGroup::load, Line: 622
+20220422T161803 I .21728 Libeagle app mode: Hosted		ThreadID: 21728, Function: void __cdecl Application::cEagleAppPrivate::Init(void), Line: 236
+20220422T161805 I .21728 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/TYK7JMNJL5YB/electronoptiongroup_eagle.rc successfully		ThreadID: 21728, Function: Ns::OptionGroup::load, Line: 622
+20220422T161807 I .21728 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/TYK7JMNJL5YB/NGlobalOptions.xml successfully		ThreadID: 21728, Function: Ns::OptionGroup::load, Line: 622
+20220422T161808 I .21728 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/TYK7JMNJL5YB/NGlobalOptions.xml successfully		ThreadID: 21728, Function: Ns::OptionGroup::load, Line: 622
+20220422T161808 I .21728 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/TYK7JMNJL5YB/NGlobalOptions.xml successfully		ThreadID: 21728, Function: Ns::OptionGroup::load, Line: 622
+20220422T161808 I .21728 Just loaded Options file C:/Users/seiya/AppData/Roaming/Autodesk/Neutron Platform/Options/TYK7JMNJL5YB/NGlobalOptions.xml successfully		ThreadID: 21728, Function: Ns::OptionGroup::load, Line: 622
+20220422T161808 I .21728 Toolbar loader: Stopping...
+20220422T161808 I .21728 Toolbar loader: Stopped
+20220422T161808 I .21728 ***startSession: BEGIN
+20220422T161808 I .21728 getEntitlement
+20220422T161808 I .21728 authenticate:begin
+20220422T161808 I .21728 login start
+20220422T161810 I .21728 Executing exit command
+20220422T161810 I .21728 Running deferred session release tasks
+20220422T161810 I .21728 Signal shutdown to script manager
+20220422T161810 I  12356 Autosave background thread started with saveTime: 5
+20220422T161810 I .21728 Script manager shut down done
+20220422T161810 I .21728 Exit now
+20220422T161810 I .21728 Start QTApplication::exit
+20220422T161810 I .21728 Done QTApplication::exit
+20220422T161810 I .21728 Exit command end
+20220422T161810 W .21728 Login - Login Dialog Exit
+20220422T161810 I .21728 login end 0
+20220422T161810 E .21728 login failed 2.42814
+20220422T161810 D .21728 startSessionWithHubReady terminated: eApplicationExit
+20220422T161811 I .21728 Graphics Card: Intel(R) UHD Graphics, Rating: Yellow, Workarounds: 4 
+20220422T161811 I .21728 OGS Device: VirtualDeviceDx11
+20220422T161811 I .21728 fireApplicationClosing: 1
+20220422T161811 I .21728 fireApplicationClosing: done
+20220422T161811 I .21728 SYNHUB: Finalizing SynHub.
+
+20220422T161811 I .21728 SYNHUB: ...done finalizing SynHub.
+
+20220422T161811 I .21728 [CFS] Stopping uploader threads.
+20220422T161811 I .21728 Deleting files that are older than 15 days from the cache
+20220422T161812 I .21728 [CFS] Clearing cached folders
+20220422T161814 I .21728 SLM: Shutdown
+20220422T161814 I .21728 fireApplicationClosing: 2
+20220422T161814 I .21728 fireApplicationClosing: done
+20220422T161817 W .21728 save thread in Job Manager didn't join after waiting for 3 seconds
+20220422T161819 W .21728 dataFileName is unexpectely empty. This occurs when the user is logged out.
+20220422T161819 I .21728 AnalyticItemCounts Terminating with:0 items
+20220422T161819 I .21728 WorkflowTrackManager Terminating with:0 items

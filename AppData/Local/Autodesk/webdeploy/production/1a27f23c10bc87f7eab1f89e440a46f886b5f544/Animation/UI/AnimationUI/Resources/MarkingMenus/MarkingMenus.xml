@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Menus>
+  <!--/////////////////////////////////////////////
+    This document determines the order in which the contents of the menu will appear.
+    To determine whether the command joins the menu or not, edit the CmdDef onAddToContextMenu method.
+  //////////////////////////////////////////////-->
+  
+  <MarkingMenu EnvId="PublisherTestEnvironment">
+    <Menu TypeId="BaseMenu">
+      <MenuItem Id="RepeatCommand" Position="North" />
+      <MenuItem Id="RedoCommand" Position="East" />
+      <MenuItem Id="PublisherImportCommand" Position="South" />
+      <MenuItem Id="UndoCommand" Position="West" />
+    </Menu>
+    <!-- DM - the overflow menu is the same as the context menu -->
+    <!-- The following commands will appear in the following order if -->
+    <!-- a. the select command is running -->
+    <!-- b. the command does not already appear in the context menu -->
+    <!-- c. the command def's onAddToContextMenu returns true -->
+    <Menu TypeId="Overflow">
+      <!-- Just to show how this works, we add a couple of commands to the context menu -->
+      <MenuItem Id="PublisherMoveComponentsCommand" />
+    </Menu>
+  </MarkingMenu>
+
+  <MarkingMenu EnvId="Publisher2DEnvironment">
+    <Menu TypeId="BaseMenu">
+      <MenuItem Id="RepeatCommand" Position="North" />
+      <MenuItem Id="RedoCommand" Position="East" />
+      <MenuItem Id="UndoCommand" Position="East" />
+    </Menu>
+
+    <Menu TypeId="Overflow">
+      <!-- Nav controls -->
+      <MenuItem Id="PanCommand"/>
+      <MenuItem Id="ZoomCommand"/>
+      <MenuItem Id="ConstrainedOrbitCommand"/>
+
+      <!-- Orbit command related -->
+      <MenuItem Id="SetOrbitCenterCommand"/>
+      <MenuItem Id="ResetOrbitCenterCommand"/>
+      <Separator />
+      
+      <MenuItem Id="PublisherVisibilityToggleCmd"/>
+      <MenuItem Id="PublisherCreateStoryboardCommand" />      
+      <MenuItem Id="PublisherEditStoryboardCmd" />
+      <MenuItem Id="ReverseSequenceEntryCmd" />
+      <MenuItem Id="PublisherCopyCommand" />
+      <MenuItem Id="PublisherPasteCommand" />
+      <MenuItem Id="PublisherDurationCmd" />
+      <MenuItem Id="PublisherEditActionCmd" />
+      <MenuItem Id="PublisherEditTransformActionCommand" />
+      <MenuItem Id="PublisherEditSmartObjectActionCmd" />
+      <MenuItem Id="PublisherDeleteCommand" />
+    </Menu>
+  </MarkingMenu>
+
+  <MarkingMenu EnvId="Publisher3DEnvironment">
+    <Menu TypeId="BaseMenu">
+      <MenuItem Id="RepeatCommand" Position="North" />
+      <MenuItem Id="PublisherCreateStoryboardCommand" Position="Northeast" />
+      <MenuItem Id="RedoCommand" Position="East" />
+      <MenuItem Id="CalloutCommand" Position="South" />
+      <MenuItem Id="ExportVideoCommand" Position="Southeast" />
+      <MenuItem Id="PublisherMoveComponentsCommand" Position="Southwest" />
+      <MenuItem Id="UndoCommand" Position="West" />
+      <MenuItem Id="PublisherToggleCameraRecordingCmd" Position="Northwest" />
+    </Menu>
+
+    <Menu TypeId="Overflow">
+      <!-- Nav controls -->
+      <MenuItem Id="PanCommand"/>
+      <MenuItem Id="ZoomCommand"/>
+      <MenuItem Id="ConstrainedOrbitCommand"/>
+
+      <!-- Orbit command related -->
+      <MenuItem Id="SetOrbitCenterCommand"/>
+      <MenuItem Id="ResetOrbitCenterCommand"/>
+      <Separator />
+      
+      <MenuItem Id="PublisherMoveComponentsCommand" />
+      <MenuItem Id="PublisherVisibilityToggleCmd"/>
+      <MenuItem Id="PublisherAppearanceCommand" />
+      <MenuItem Id="PublisherMaterialToggleCommand" />
+      <MenuItem Id="PublisherScopeMaterialCommand" />
+      <MenuItem Id="PublisherRestoreHomeCommand" />
+      <MenuItem Id="PublisherTrailVisibilityCommand" />
+      <MenuItem Id="PublisherTrailShowAllCommand" />
+      <MenuItem Id="PublisherTrailHideAllCommand" />
+      <MenuItem Id="PublisherTrailAutoElbowCommand" />
+      <MenuItem Id="PublisherTrailRemoveElbowCommand" />
+      <MenuItem Id="PublisherExplodeDirectChildrenCommand" />
+      <MenuItem Id="PublisherExplodeAllPartsCommand" />
+      <MenuItem Id="PublisherManualExplodeCommand" />
+      <MenuItem Id="PublisherUpdateCmd"/>
+	  
+	  <Separator />
+      <MenuItem Id="PublisherCreateSelectionGroupCmd"/>
+	  
+	  <Separator />
+      <MenuItem Id="PublisherIsolateCmd"/>
+      <MenuItem Id="PublisherUnisolateCmd"/>
+
+      <Separator />
+      <MenuItem Id="PublisherCreateStoryboardCommand" />
+      
+      <Separator />
+      <MenuItem Id="PublisherEditStoryboardCmd" />
+      <MenuItem Id="ReverseSequenceEntryCmd" />
+      <MenuItem Id="RenameStoryboardShellCmd" />
+		
+      <Separator />
+      <MenuItem Id="PublisherCopyCommand" />
+      <MenuItem Id="PublisherPasteCommand" />
+      <MenuItem Id="PublisherDurationCmd" />
+      <MenuItem Id="PublisherEditActionCmd" />
+      <MenuItem Id="PublisherEditTransformActionCommand" />
+      <MenuItem Id="AlignActionStartTimesCmd" />
+      <MenuItem Id="AlignActionEndTimesCmd" />
+	  <MenuItem Id="SelectAllAfterCmd" />
+      <MenuItem Id="SelectAllBeforeCmd" />
+      <MenuItem Id="PublisherEditSmartObjectActionCmd" />
+      <MenuItem Id="PublisherExpandCompositeActionsCmd" />
+      <MenuItem Id="PublisherDeleteCommand" />
+      <MenuItem Id="PublisherDeleteActorCommand" />
+
+      <Separator />
+
+      <!-- Find in Window / Browser -->
+      <MenuItem Id="PublisherFindInBrowser" />
+      <MenuItem Id="PublisherFindInWindow" />
+    </Menu>
+  </MarkingMenu>
+
+  <MarkingMenu EnvId="DebugEnvironment">
+    <Menu TypeId="BaseMenu">
+      <MenuItem Id="RepeatCommand" Position="North" />
+      <MenuItem Id="ShowTextCommandsCommand" Position="South" />
+    </Menu>
+  </MarkingMenu>
+</Menus>

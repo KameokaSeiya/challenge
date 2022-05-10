@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<implementation render="Generic">
+  <language name="Protein" version="2.0"/>
+  <api name="Protein" version="2.0"/>
+  <root_bindings name="root"/>
+
+  
+  
+</implementation>

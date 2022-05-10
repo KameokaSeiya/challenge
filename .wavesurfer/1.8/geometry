@@ -1,0 +1,3 @@
+set Info(Prefs,wsWidth) 1920
+set Info(Prefs,wsLeft)  20
+set Info(Prefs,wsTop)   20

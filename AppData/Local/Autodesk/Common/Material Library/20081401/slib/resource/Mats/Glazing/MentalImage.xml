@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+    <implementation render="MentalImage">
+      <language name="MentalRaySL" version="3.6"/>
+      <api name="MentalRay" version="3.6"/>
+      <root_bindings name="root"/>
+      <bindings target="shader" name="root">
+        <desc val="mi.phenomenon/include/adsk_Mtl_Glazing.mi" tag="adsk_Mtl_Glazing_V2"/>
+		<map_interface source="glazing_color_by_object" destination="m.color_by_object"/>
+        <map_interface source="glazing_transmittance_color" destination="m.transmittance_color"/>
+        <map_interface source="glazing_transmittance_map" destination="m.transmittance_map"/>
+        <map_interface source="glazing_no_levels" destination="m.no_levels"/>
+        <map_interface source="glazing_reflectance" destination="m.reflectance"/>
+	<map_interface source="common_Tint_toggle" destination="m.tint_enable"/>
+	<map_interface source="common_Tint_color" destination="m.tint_color"/>
+        <map_interface source="glazing_refl_depth" destination="p.refl_depth"/>
+        <map_interface source="glazing_refr_depth" destination="p.refr_depth"/>
+		  <map_interface source="mode" destination="mode"/>
+      </bindings>
+    </implementation>

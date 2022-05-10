@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<machine xmlns="http://www.hsmworks.com/xml/2009/machine" uuid="DB4C411D-DB68-4D79-B42D-0DBD508CB83D" version="1.0">
+  <description>Generic 5-axis BC (head-head)</description>
+  <model />
+  <vendor>Autodesk</vendor>
+  <coolant options="FLOOD" />
+  <axis actuator="linear" axis="1 0 0" coordinate="0" id="X" link="table" />
+  <axis actuator="linear" axis="0 1 0" coordinate="1" id="Y" link="table" />
+  <axis actuator="linear" axis="0 0 1" coordinate="2" id="Z" link="table" />
+  <axis actuator="rotational" axis="0 1 0" coordinate="Y" id="U" link="head" />
+  <axis actuator="rotational" axis="0 0 1" coordinate="Z" id="V" link="head" />
+</machine>

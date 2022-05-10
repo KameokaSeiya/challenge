@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<machine xmlns="http://www.hsmworks.com/xml/2009/machine" uuid="ED8BBC3A-21AF-40BD-951E-869806745886" version="1.0">
+  <description>Generic A-axis</description>
+  <model />
+  <vendor>Autodesk</vendor>
+  <coolant options="FLOOD" />
+  <axis actuator="linear" axis="1 0 0" coordinate="0" id="X" link="table" />
+  <axis actuator="linear" axis="0 1 0" coordinate="1" id="Y" link="table" />
+  <axis actuator="linear" axis="0 0 1" coordinate="2" id="Z" link="table" />
+  <axis actuator="rotational" axis="1 0 0" coordinate="X" id="U" link="table" />
+</machine>

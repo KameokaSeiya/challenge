@@ -1,0 +1,103 @@
+<?xml version="1.0" ?>
+<!DOCTYPE adsui SYSTEM "../../ui.dtd">
+<adsui version="2.0">
+  <PageInfo>
+    <Title>
+      BumpMap
+    </Title>
+  </PageInfo>
+  <Fields>
+    <TextureLabel id="bumpmap_Bitmap" label="Source" />
+    <StackPanel id="bumpmap_transforms_group" label="Transforms" orientation="Vertical" expanded="true">
+      <Boolean id="texture_LinkTextureTransforms"
+               label="Link texture transforms"
+               tooltip="When this setting is enabled, all changes made to the Position, Scale, and Repeat settings of this attribute will be propagated to all other attributes within the material that use a texture."/>
+      <StackPanel id="bumpmap_position_group" label="Position" orientation="Vertical" expanded="true">
+        <SampleSize id="texture_RealWorldOffsetX"
+                    label="Offset"
+                    rightlabel="X"
+                    type="offset"
+                    tooltip="Moves the starting point of the map along the X axis."/>
+        <SampleSize id="texture_RealWorldOffsetY"
+                    label=""
+                    rightlabel="Y"
+                    type="offset"
+                    tooltip="Moves the starting point of the map along the Y axis."/>
+        <ParamLock id="texture_OffsetLock"
+                   tooltip="Constrains the offset. When the X offset is changed, the Y offset is changed by the same amount."
+                   topParamLock="texture_RealWorldOffsetX"
+                   bottomParamLock="texture_RealWorldOffsetY" />
+        <Angle id="texture_WAngle"
+               label="Rotation"
+               min="0.0"
+               max="360.0"
+               tooltip="Rotates the map from 0 degrees to 360 degrees."/>
+      </StackPanel>
+      <StackPanel id="bumpmap_scale_group" label="Scale" orientation="Vertical" expanded="true">
+        <SampleSize id="texture_RealWorldScaleX"
+                    label="Sample Size"
+                    rightlabel="Width"
+                    notifyImageOnChange="true"      
+                    min="0.01"
+                    type="scale"
+                    tooltip="Specifies the horizontal scaling for this texture."/>
+        <SampleSize id="texture_RealWorldScaleY"
+                    label=""
+                    rightlabel="Height"
+                    notifyImageOnChange="true"      
+                    min="0.01"
+                    type="scale"
+                    tooltip="Specifies the vertical scaling for this texture."/>
+        <ParamLock id="texture_ScaleLock"
+                   tooltip="Locks the aspect ratio of the map. When the height or width value is changed, the other value changes as needed to maintain the aspect ratio."
+                   topParamLock="texture_RealWorldScaleX"
+                   bottomParamLock="texture_RealWorldScaleY" />
+        <SampleSize id="bumpmap_Depth"
+                    label=""
+                    rightlabel="Depth"
+                    notifyImageOnChange="true"
+                    min="0.00" max="10.00"
+                    type="scale"
+                    tooltip="Depth Amount will specify the distance between valleys and peaks of the bump effect.">
+            <Dependency else="hidden"
+                        id="bump_amount_dep1" on="bumpmap_Type"
+                        requires="bumpmap_height_map"/>
+        </SampleSize>
+        <Float id="bumpmap_NormalScale"
+             label="Depth Amount"
+             labelid="surface_bump_amount_label"
+             precision="2"
+             min="0.00" max="5.00"
+             forcenumeric="slider"
+             tooltip="Adjusts the relative depth of the Bump pattern. Leave to 1.0 to use the exact amount defined by the Normal Map image.">
+          <Dependency else="hidden"
+                      id="bump_amount_dep2" on="bumpmap_Type"
+                      requires="bumpmap_normal_map"/>
+        </Float>
+      </StackPanel>
+      <StackPanel id="bumpmap_repeat_group" label="Repeat" orientation="vertical" expanded="true">
+        <Boolean id="texture_URepeat"
+                 label="Horizontal"
+                 tooltip="Adjusts the tiling of the map along the X axis. None controls the map to not be tiled within the material. Tile causes the map to be tiled within the material."
+                 usedropdown="true"
+                 onlabel="Tile"
+                 offlabel="None"/>
+        <Boolean id="texture_VRepeat"
+                 label="Vertical"
+                 tooltip="Adjusts the tiling of the map along the Y axis. None controls the map to not be tiled within the material. Tile causes the map to be tiled within the material."
+                 usedropdown="true"
+                 onlabel="Tile"
+                 offlabel="None"/>
+      </StackPanel>
+    </StackPanel>
+    <StackPanel id="bumpmap_advanced_group" label="Advanced" orientation="Vertical" expanded="true">
+      <ChooseList id="bumpmap_Type"
+                  label="Data Type"
+                  labelid="bumpmap_Bitmap_type_label"
+                  tooltip="Defines the type of image used to create the Relief (Bump) effect. The amplitude of the bump effect will be controlled by the Depth parameter in the Scale group.">
+        <Choice id="bumpmap_height_map" label="Height Map"/>
+        <Choice id="bumpmap_normal_map" label="Normal Map"/>
+      </ChooseList>
+    </StackPanel>
+</Fields>
+</adsui>

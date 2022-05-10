@@ -1,0 +1,9 @@
+<?xml version='1.0'?>
+
+<adsk_mentalray_options version='2.5'>
+    <options_user name='default'>
+        <option_block category='indirect illumination options'>
+            <option name='indirect and sky illumination'>off</option>
+        </option_block>
+    </options_user>
+</adsk_mentalray_options>
